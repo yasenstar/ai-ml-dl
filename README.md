@@ -17,12 +17,11 @@ Thanks Source: https://www.linkedin.com/pulse/how-does-ai-ml-dl-gi-fit-together-
 Thanks Source: https://www.analyticsvidhya.com/articles/machine-learning-vs-artificial-intelligence-vs-deep-learning/
 
 | Artificial Intelligence (AI) | Machine Learning (ML) | Deep Learning (DL) |
-| !-- | !-- | !-- |
+| :-- | :-- | :-- |
 | AI simulates human intelligence to perform tasks and make decisions. | ML is a subset of AI that uses algorithms to learn patterns from data. | DL is a subset of ML that employs artificial neural networks for complex tasks. |
 
 ### Artificial Intelligence (AI)
 
-- AI simulates human intelligence to perform tasks and make decisions.
 - AI may or may not require large datasets; it can use predefined rules.
 - AI can be rule-based, requiring human programming and intervention.
 - AI can handel various tasks, from simple to complex, across domains.
@@ -33,7 +32,6 @@ Thanks Source: https://www.analyticsvidhya.com/articles/machine-learning-vs-arti
 
 ### Machine Learning (ML)
 
-- ML is a subset of AI that uses algorithms to learn patterns from data.
 - ML heavily relies on labeled data for training and making predictions.
 - ML automates learning from data and requires less manual intervention.
 - ML speci
