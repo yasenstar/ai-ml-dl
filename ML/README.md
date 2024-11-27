@@ -20,3 +20,10 @@ Thanks for source: https://www.geeksforgeeks.org/supervised-vs-reinforcement-vs-
 | --- | --- |
 
 ## 机器学习基础
+
+---
+
+# Reference on Machine Learning
+
+- Linear Algebra Review and Reference: [Link from cs.cmu.edu](https://www.cs.cmu.edu/~zkolter/course/15-884/linalg-review.pdf), [direct_PDF](ref/Linear-Algebra-Review-and-Reference.pdf)
+- [Computational Methods for the Smart Grid](https://www.cs.cmu.edu/~zkolter/course/15-884/)
