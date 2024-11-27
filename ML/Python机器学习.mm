@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Python机器学习&#xa;(III, 2021)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1732708740960" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="0.826">
+<node TEXT="Python机器学习&#xa;(III, 2021)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1732708740960" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="1.1">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sky_element_template.mm" show_tags="UNDER_NODES"/>
     <tags category_separator="::"/>
 
@@ -86,7 +86,43 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook URI="img/Python-ML-III-book-cover.png" SIZE="1.0" NAME="ExternalObject"/>
-<node TEXT="01. 赋予计算机从数据中学习的能力" POSITION="bottom_or_right" ID="ID_46276205" CREATED="1732708229823" MODIFIED="1732708314016"/>
+<node TEXT="01. 赋予计算机从数据中学习的能力" POSITION="bottom_or_right" ID="ID_46276205" CREATED="1732708229823" MODIFIED="1732708314016">
+<node TEXT="1.1 构建能把数据转换为知识的智能机器" FOLDED="true" ID="ID_1334716720" CREATED="1732709543224" MODIFIED="1732709561748">
+<node TEXT="机器学习在20世纪下半叶演变为人工智能（AI）的一个分支，它通过自学习算法从数据中获得知识来进行预测" ID="ID_182249547" CREATED="1732709623456" MODIFIED="1732709626677"/>
+</node>
+<node TEXT="1.2 三种不同类型的机器学习" ID="ID_800166037" CREATED="1732709561914" MODIFIED="1732709569473">
+<node TEXT="1.2.1 用监督学习预测未来" ID="ID_1902046956" CREATED="1732709695720" MODIFIED="1732709706485">
+<node TEXT="1.2.1.1 用于预测类标签的分类（离散）" ID="ID_1888466003" CREATED="1732709828238" MODIFIED="1732710674266">
+<node TEXT="二元分类" ID="ID_632971540" CREATED="1732710674270" MODIFIED="1732710691008">
+<node TEXT="邮件垃圾检测" ID="ID_1143223532" CREATED="1732710691012" MODIFIED="1732710696879"/>
+</node>
+<node TEXT="多类分类" ID="ID_462975748" CREATED="1732710697813" MODIFIED="1732710708563">
+<node TEXT="手写字符识别" ID="ID_764934852" CREATED="1732710708567" MODIFIED="1732710717148"/>
+</node>
+</node>
+<node TEXT="1.2.1.2 用于预测连续结果的回归" ID="ID_774214024" CREATED="1732710739441" MODIFIED="1732710753055">
+<node TEXT="回归分析" ID="ID_346576553" CREATED="1732710769832" MODIFIED="1732710773011"/>
+</node>
+</node>
+<node TEXT="1.2.2 用强化学习解决交互问题" ID="ID_1224809327" CREATED="1732709742615" MODIFIED="1732709755702">
+<node TEXT="国际象棋" ID="ID_313257158" CREATED="1732710896285" MODIFIED="1732710899725"/>
+<node TEXT="强化学习涉及根据学习一系列的行动来最大化总体奖励，这些奖励可能即时获得，也可能延后获得" ID="ID_1560746178" CREATED="1732710964260" MODIFIED="1732710967260"/>
+</node>
+<node TEXT="1.2.3 用无监督学习发现隐藏的结构" ID="ID_1136969477" CREATED="1732709706937" MODIFIED="1732709738530">
+<node TEXT="用无监督学习技术，可以在没有已知结果变量或奖励函数的指导下，探索数据结构来提取有意义的信息" ID="ID_586320267" CREATED="1732710993954" MODIFIED="1732710995978"/>
+<node TEXT="1.2.3.1 用聚类（无监督分类）寻找子群" ID="ID_1997369763" CREATED="1732711001738" MODIFIED="1732711151519">
+<arrowlink DESTINATION="ID_1312542386"/>
+<node TEXT="营销人员根据自己的兴趣发现客户群" ID="ID_773116042" CREATED="1732711104914" MODIFIED="1732711114662"/>
+</node>
+<node TEXT="1.2.3.2 通过降维压缩数据" ID="ID_414926192" CREATED="1732711115507" MODIFIED="1732711146308">
+<arrowlink DESTINATION="ID_631050398"/>
+</node>
+</node>
+</node>
+<node TEXT="1.3 基本术语与符号" ID="ID_20932257" CREATED="1732709569631" MODIFIED="1732709577259"/>
+<node TEXT="1.4 构建机器学习系统的路线图" ID="ID_1961810623" CREATED="1732709577408" MODIFIED="1732709585722"/>
+<node TEXT="1.5 将Python用于机器学习" ID="ID_13420156" CREATED="1732709585879" MODIFIED="1732709593006"/>
+</node>
 <node TEXT="02. 训练简单的机器学习分类算法" POSITION="bottom_or_right" ID="ID_1559958652" CREATED="1732708244568" MODIFIED="1732708315382"/>
 <node TEXT="03. scikit-learn机器学习分类器" POSITION="bottom_or_right" ID="ID_667278910" CREATED="1732708262714" MODIFIED="1732708317002"/>
 <node TEXT="04. 构建良好的训练数据集--数据预处理" POSITION="bottom_or_right" ID="ID_1611020259" CREATED="1732708273693" MODIFIED="1732708319047"/>
@@ -110,6 +146,7 @@
 <node TEXT="Yann Lecun" ID="ID_1893355121" CREATED="1732709242858" MODIFIED="1732709276254" LINK="http://yann.lecun.com"/>
 <node TEXT="Juergen Schmidhuber" ID="ID_266496868" CREATED="1732709246848" MODIFIED="1732709252488"/>
 <node TEXT="Yoshua Bengio" ID="ID_934246764" CREATED="1732709252669" MODIFIED="1732709257620"/>
+<node TEXT="Sebastian Raschka (author)" ID="ID_263195471" CREATED="1732709409824" MODIFIED="1732709417172"/>
 </node>
 <node TEXT="Python Library" POSITION="top_or_left" ID="ID_1473394425" CREATED="1732709097889" MODIFIED="1732709107334">
 <node TEXT="scikit-learn" ID="ID_626396898" CREATED="1732708644596" MODIFIED="1732708654689"/>
