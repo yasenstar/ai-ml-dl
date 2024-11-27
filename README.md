@@ -8,7 +8,7 @@ Learning repository for Artificial Intelligence (AI), Machine Learning (ML) and 
 
 Illustration of the overall relationships of those "learnings" and "analytics":
 
-[AI,ML,DL and GI - How it fall fits together!](img/GL-DL-ML-AI-DA.png)
+![AI,ML,DL and GI - How it fall fits together!](img/GL-DL-ML-AI-DA.png)
 
 Thanks Source: https://www.linkedin.com/pulse/how-does-ai-ml-dl-gi-fit-together-anang-b-singh/
 

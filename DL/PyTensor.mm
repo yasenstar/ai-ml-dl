@@ -88,10 +88,11 @@
 </map_styles>
 </hook>
 <hook URI="img/pyTensor.png" SIZE="1.0" NAME="ExternalObject"/>
-<node TEXT="Getting Started" POSITION="bottom_or_right" ID="ID_648788938" CREATED="1732688291296" MODIFIED="1732688295035">
+<node TEXT="Getting Started" FOLDED="true" POSITION="bottom_or_right" ID="ID_648788938" CREATED="1732688291296" MODIFIED="1732691084378" LINK="https://pytensor.readthedocs.io/en/latest/introduction.html">
 <node TEXT="001 Opening" ID="ID_1609693353" CREATED="1732688345334" MODIFIED="1732688358528">
 <icon BUILTIN="video"/>
 </node>
+<node TEXT="AI vs ML vs DL" ID="ID_1402691573" CREATED="1732690976560" MODIFIED="1732691063885" LINK="https://github.com/yasenstar/ai-ml-dl"/>
 <node TEXT="PyTensor is a Python library that allows one to define, optimize/rewrite, and evaluate mathematical expressions, especially ones involving multi-dimensional arrays" ID="ID_681887309" CREATED="1732688378413" MODIFIED="1732688382702"/>
 <node TEXT="The library that PyTensor is based on, Theano, was written at the LISA lab to support rapid development of efficient machine learning algorithms but while Theano was commonly referred to as a “deep learning” (DL) library, PyTensor is not a DL library" FOLDED="true" ID="ID_1404377986" CREATED="1732688405370" MODIFIED="1732688408518">
 <node TEXT="Theano" ID="ID_402128264" CREATED="1732687531886" MODIFIED="1732687543386" LINK="https://github.com/Theano/Theano">
@@ -100,11 +101,22 @@
 </node>
 <node TEXT="If numpy is to be compared to MATLAB and sympy to Mathematica, PyTensor is a sort of hybrid of the two which tries to combine the best of both worlds" ID="ID_326280933" CREATED="1732688478736" MODIFIED="1732688482395"/>
 </node>
-<node TEXT="Installing PyTensor" FOLDED="true" POSITION="bottom_or_right" ID="ID_438660426" CREATED="1732688295194" MODIFIED="1732688299672">
-<node TEXT="002 Installation" ID="ID_1053447714" CREATED="1732688768690" MODIFIED="1732688774385"/>
+<node TEXT="Installing PyTensor" POSITION="bottom_or_right" ID="ID_438660426" CREATED="1732688295194" MODIFIED="1732688299672">
+<node TEXT="002 Installation" ID="ID_1053447714" CREATED="1732688768690" MODIFIED="1732690693935">
+<icon BUILTIN="video"/>
+</node>
+<node TEXT="Install Anaconda" ID="ID_418486933" CREATED="1732690695631" MODIFIED="1732690704199"/>
+<node TEXT="Test Installation" ID="ID_1393086379" CREATED="1732690764229" MODIFIED="1732690767869">
+<node TEXT="from pytensor import *" ID="ID_273784554" CREATED="1732690767872" MODIFIED="1732690776933"/>
+<node TEXT="import pytensor.tensor as pt" ID="ID_291978748" CREATED="1732690781124" MODIFIED="1732690790094"/>
+</node>
 </node>
 <node TEXT="Tutorial" FOLDED="true" POSITION="bottom_or_right" ID="ID_1230154352" CREATED="1732688299842" MODIFIED="1732688302292">
-<node TEXT="01 Baby Steps - Algebra" ID="ID_64590896" CREATED="1732688594023" MODIFIED="1732688602711"/>
+<node TEXT="01 Baby Steps - Algebra" ID="ID_64590896" CREATED="1732688594023" MODIFIED="1732688602711">
+<node TEXT="1.1 Understanding Tensors" ID="ID_1071151106" CREATED="1732690728519" MODIFIED="1732690741600"/>
+<node TEXT="1.2 Adding Two Scalors" ID="ID_1057247313" CREATED="1732690741749" MODIFIED="1732690747080"/>
+<node TEXT="1.3 Adding Two Matrics" ID="ID_826666201" CREATED="1732690747222" MODIFIED="1732690753898"/>
+</node>
 <node TEXT="02 More Examples" ID="ID_1854936960" CREATED="1732688602886" MODIFIED="1732688607600"/>
 <node TEXT="03 Derivatives in PyTensor" ID="ID_1089621236" CREATED="1732688607774" MODIFIED="1732688614831"/>
 <node TEXT="04 Conditions" ID="ID_1256098931" CREATED="1732688614998" MODIFIED="1732688618688"/>
