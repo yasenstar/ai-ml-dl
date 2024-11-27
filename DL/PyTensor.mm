@@ -101,11 +101,17 @@
 </node>
 <node TEXT="If numpy is to be compared to MATLAB and sympy to Mathematica, PyTensor is a sort of hybrid of the two which tries to combine the best of both worlds" ID="ID_326280933" CREATED="1732688478736" MODIFIED="1732688482395"/>
 </node>
-<node TEXT="Installing PyTensor" FOLDED="true" POSITION="bottom_or_right" ID="ID_438660426" CREATED="1732688295194" MODIFIED="1732692636859" LINK="https://pytensor.readthedocs.io/en/latest/install.html">
+<node TEXT="Installing PyTensor" POSITION="bottom_or_right" ID="ID_438660426" CREATED="1732688295194" MODIFIED="1732692636859" LINK="https://pytensor.readthedocs.io/en/latest/install.html">
 <node TEXT="002 Installation" ID="ID_1053447714" CREATED="1732688768690" MODIFIED="1732690693935">
 <icon BUILTIN="video"/>
 </node>
 <node TEXT="Install Anaconda" ID="ID_418486933" CREATED="1732690695631" MODIFIED="1732690704199">
+<node TEXT="pip install pytensor" ID="ID_474804155" CREATED="1732693939089" MODIFIED="1732693947440">
+<node TEXT="python -u &quot;c:\GitHub\ai-ml-dl\DL\PyTensor\test.py&quot;&#xa;WARNING (pytensor.configdefaults): g++ not available, if using conda: `conda install m2w64-toolchain`&#xa;WARNING (pytensor.configdefaults): g++ not detected!  PyTensor will be unable to compile C-implementations and will default to Python. Performance may be severely degraded. To remove this warning, set PyTensor flags cxx to an empty string.&#xa;WARNING (pytensor.tensor.blas): Using NumPy C-API based implementation for BLAS functions." ID="ID_879560515" CREATED="1732693962191" MODIFIED="1732693967975"/>
+<node TEXT="Install g++" ID="ID_62056811" CREATED="1732700232127" MODIFIED="1732700241525" LINK="https://discourse.pymc.io/t/pytensor-g-not-detected/13021/18">
+<node TEXT="Installing c++/g++ on Windows" ID="ID_1502157471" CREATED="1732700247956" MODIFIED="1732700256754" LINK="https://www3.cs.stonybrook.edu/~alee/g++/g++.html"/>
+</node>
+</node>
 <node TEXT="anaconda.com" ID="ID_1053365021" CREATED="1732691253915" MODIFIED="1732691266177" LINK="https://www.anaconda.com/"/>
 <node TEXT="anaconda.org" ID="ID_684332612" CREATED="1732691258705" MODIFIED="1732691261651"/>
 </node>
