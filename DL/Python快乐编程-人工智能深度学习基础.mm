@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Python快乐编程&#xa;人工智能深度学习基础" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1732678656008"><hook NAME="MapStyle" background="#f5f5dcff">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sepia_template.mm" show_tags="UNDER_NODES"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -9,7 +9,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-10.5 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-9.75 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -137,12 +137,21 @@
 </node>
 </node>
 <node TEXT="2. Theano基础" POSITION="bottom_or_right" ID="ID_567455661" CREATED="1732678678630" MODIFIED="1732678683655">
-<node TEXT="2.1 初识Theano" ID="ID_309714586" CREATED="1732684043355" MODIFIED="1732684060168"/>
+<node TEXT="2.1 初识Theano" ID="ID_309714586" CREATED="1732684043355" MODIFIED="1732684060168">
+<node TEXT="Theano" ID="ID_402128264" CREATED="1732687531886" MODIFIED="1732687543386" LINK="https://github.com/Theano/Theano">
+<node TEXT="MILA has stopped developing Theano: https://groups.google.com/d/msg/theano-users/7Poq8BZutbY/rNCIfvAEAwAJ&#xa;&#xa;The PyMC developers have forked Theano to a new project called PyTensor that is being actively developed: https://github.com/pymc-devs/pytensor" ID="ID_927421662" CREATED="1732687550645" MODIFIED="1732687557328"/>
+</node>
+<node TEXT="PyTensor" ID="ID_619440781" CREATED="1732687502966" MODIFIED="1732687517622" LINK="https://github.com/pymc-devs/pytensor"/>
+</node>
 <node TEXT="2.2 安装Theano" ID="ID_656896885" CREATED="1732684060529" MODIFIED="1732684065603"/>
-<node TEXT="2.3 配置环境变量" ID="ID_1470159290" CREATED="1732684065968" MODIFIED="1732684071201"/>
-<node TEXT="2.4 Theano中的符号变量" ID="ID_643185374" CREATED="1732684071394" MODIFIED="1732684084000"/>
+<node TEXT="2.3 配置环境变量" FOLDED="true" ID="ID_1470159290" CREATED="1732684065968" MODIFIED="1732684071201">
+<node TEXT="Add path for MinGW\bin, MinGW\x86_64-w64-mingw32\lib" ID="ID_682846785" CREATED="1732686641279" MODIFIED="1732686678562"/>
+</node>
+<node TEXT="2.4 Theano中的符号变量 Tensor Variable" FOLDED="true" ID="ID_643185374" CREATED="1732684071394" MODIFIED="1732686751518">
+<node TEXT="Tensorvariable()" ID="ID_235029687" CREATED="1732686758017" MODIFIED="1732686766222"/>
+</node>
 <node TEXT="2.5 Theano编程风格" ID="ID_1253866972" CREATED="1732684085128" MODIFIED="1732684092001"/>
-<node TEXT="2.6 Theano中的函数" ID="ID_311527496" CREATED="1732684092374" MODIFIED="1732684103352">
+<node TEXT="2.6 Theano中的函数" FOLDED="true" ID="ID_311527496" CREATED="1732684092374" MODIFIED="1732684103352">
 <node TEXT="2.6.1 函数的定义" ID="ID_1198887121" CREATED="1732684104922" MODIFIED="1732684110499"/>
 <node TEXT="2.6.2 函数的复制" ID="ID_588622535" CREATED="1732684110666" MODIFIED="1732684116282"/>
 <node TEXT="2.6.3 Theano中重要的函数" ID="ID_1812123392" CREATED="1732684117055" MODIFIED="1732684132295"/>
@@ -156,6 +165,7 @@
 <node TEXT="4. 概率与信息论" POSITION="bottom_or_right" ID="ID_1299292505" CREATED="1732678694428" MODIFIED="1732678705802"/>
 <node TEXT="5. 深度学习基础知识" POSITION="bottom_or_right" ID="ID_1152728093" CREATED="1732678709789" MODIFIED="1732678715433"/>
 <node TEXT="6. 数值计算与最优化" POSITION="bottom_or_right" ID="ID_1690754728" CREATED="1732678718948" MODIFIED="1732678728528"/>
+<node TEXT="模型" FOLDED="true" POSITION="bottom_or_right" ID="ID_1144551332" CREATED="1732687329900" MODIFIED="1732687334263">
 <node TEXT="7. 概率图模型" POSITION="bottom_or_right" ID="ID_539628090" CREATED="1732678730973" MODIFIED="1732678736405"/>
 <node TEXT="8. 前馈神经网络" POSITION="bottom_or_right" ID="ID_1071676640" CREATED="1732678740691" MODIFIED="1732678747302"/>
 <node TEXT="9. 反向传播与梯度计算" POSITION="bottom_or_right" ID="ID_1936999703" CREATED="1732678747636" MODIFIED="1732678761098"/>
@@ -164,5 +174,6 @@
 <node TEXT="12. 循环神经网络" POSITION="bottom_or_right" ID="ID_30843301" CREATED="1732678795576" MODIFIED="1732678803860"/>
 <node TEXT="13. 递归神经网络" POSITION="bottom_or_right" ID="ID_1301710546" CREATED="1732678806234" MODIFIED="1732678811590"/>
 <node TEXT="14. 卷积神经网络CNN&#xa;Convolutional Neural Network" POSITION="bottom_or_right" ID="ID_1884217427" CREATED="1732678813961" MODIFIED="1732679167014"/>
+</node>
 </node>
 </map>
