@@ -14,8 +14,6 @@ Thanks for source: https://www.geeksforgeeks.org/supervised-vs-reinforcement-vs-
 | Pros | - **High Accuracy**: Because the model is trained on labeled data, it can achieve high predictive accuracy for specific tasks.<br>- **Interpretability**: Since the model is trained with known output, it is easier to understand how predictions are made.| - **No Labelled Data Required**: It works without the need for labeled data, making it suitable for exploratory analysis.<br>- **Discover Hidden Patterns**: It is used for discovering patterns or structures that may not be immediately apparent in the data. | - **Autonomy**: The agent learns autonomously by exploring the environment.<br>- **Adaptability**: The agent can adapt to new environments or situations over time, continuously improving its performance. |
 | Cons | - **Data Labeling Requirement**: Acquiring labeled data is time-consuming and costly.<br>- **Overfitting**: Models may memorize training data and fail to generalize well on unseen data. | - **Less Accurate**: The lack of labels makes it harder to validate model accuracy compared to supervised learning.<br>- **Interpretability Issues**: Results are often more difficult to interpret than in supervised learning since there is no ground truth for validation. | - **Complexity**: Requires a large amount of data and computation, as well as precise tuning of rewards and penalties.<br>- **Unstable Training**: The learning process can be unstable, with the agent sometimes converging to suboptimal behaviors. |
 
-
-
 ## Python机器学习(第三版)
 
 ![Python-ML-III](img/Python-ML-III-book-cover.png)
