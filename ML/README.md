@@ -16,6 +16,7 @@ Thanks for source: https://www.geeksforgeeks.org/supervised-vs-reinforcement-vs-
 
 ## Python机器学习(第三版)
 
-![Python-ML-III](img/Python-ML-III-book-cover.png)
+| ![Python-ML-III](img/Python-ML-III-book-cover.png) | ![Python-ML-MM](img/Python-ML-III-book-mm.png)
+| --- | --- |
 
 ## 机器学习基础
