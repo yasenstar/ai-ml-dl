@@ -101,17 +101,20 @@
 </node>
 <node TEXT="If numpy is to be compared to MATLAB and sympy to Mathematica, PyTensor is a sort of hybrid of the two which tries to combine the best of both worlds" ID="ID_326280933" CREATED="1732688478736" MODIFIED="1732688482395"/>
 </node>
-<node TEXT="Installing PyTensor" POSITION="bottom_or_right" ID="ID_438660426" CREATED="1732688295194" MODIFIED="1732688299672">
+<node TEXT="Installing PyTensor" FOLDED="true" POSITION="bottom_or_right" ID="ID_438660426" CREATED="1732688295194" MODIFIED="1732692636859" LINK="https://pytensor.readthedocs.io/en/latest/install.html">
 <node TEXT="002 Installation" ID="ID_1053447714" CREATED="1732688768690" MODIFIED="1732690693935">
 <icon BUILTIN="video"/>
 </node>
-<node TEXT="Install Anaconda" ID="ID_418486933" CREATED="1732690695631" MODIFIED="1732690704199"/>
+<node TEXT="Install Anaconda" ID="ID_418486933" CREATED="1732690695631" MODIFIED="1732690704199">
+<node TEXT="anaconda.com" ID="ID_1053365021" CREATED="1732691253915" MODIFIED="1732691266177" LINK="https://www.anaconda.com/"/>
+<node TEXT="anaconda.org" ID="ID_684332612" CREATED="1732691258705" MODIFIED="1732691261651"/>
+</node>
 <node TEXT="Test Installation" ID="ID_1393086379" CREATED="1732690764229" MODIFIED="1732690767869">
 <node TEXT="from pytensor import *" ID="ID_273784554" CREATED="1732690767872" MODIFIED="1732690776933"/>
 <node TEXT="import pytensor.tensor as pt" ID="ID_291978748" CREATED="1732690781124" MODIFIED="1732690790094"/>
 </node>
 </node>
-<node TEXT="Tutorial" FOLDED="true" POSITION="bottom_or_right" ID="ID_1230154352" CREATED="1732688299842" MODIFIED="1732688302292">
+<node TEXT="Tutorial" FOLDED="true" POSITION="bottom_or_right" ID="ID_1230154352" CREATED="1732688299842" MODIFIED="1732692648205" LINK="https://pytensor.readthedocs.io/en/latest/tutorial/index.html">
 <node TEXT="01 Baby Steps - Algebra" ID="ID_64590896" CREATED="1732688594023" MODIFIED="1732688602711">
 <node TEXT="1.1 Understanding Tensors" ID="ID_1071151106" CREATED="1732690728519" MODIFIED="1732690741600"/>
 <node TEXT="1.2 Adding Two Scalors" ID="ID_1057247313" CREATED="1732690741749" MODIFIED="1732690747080"/>
@@ -134,5 +137,6 @@
 <node TEXT="16 Understanding Memory Aliasing for Speed and Correctness" ID="ID_1369268507" CREATED="1732688733998" MODIFIED="1732688749446"/>
 <node TEXT="17 Multi Cores Support" ID="ID_496183056" CREATED="1732688749620" MODIFIED="1732688756856"/>
 </node>
+<node TEXT="User Guide" POSITION="bottom_or_right" ID="ID_1748286821" CREATED="1732692580342" MODIFIED="1732692656435" LINK="https://pytensor.readthedocs.io/en/latest/user_guide.html"/>
 </node>
 </map>
