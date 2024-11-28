@@ -82,5 +82,52 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook URI="img/Math-of-DL.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="1. 神经网络NN的思想" POSITION="bottom_or_right" ID="ID_1760241156" CREATED="1732756733610" MODIFIED="1732772746625">
+<node TEXT="1.1 神经网络neural network和深度学习" ID="ID_1224833060" CREATED="1732756794560" MODIFIED="1732772821101">
+<node TEXT="用神经网络实现的人工智能能够自己学习过去的数据" ID="ID_725416796" CREATED="1732772874902" MODIFIED="1732772891671"/>
+</node>
+<node TEXT="1.2 神经元neuron工作的数学表示" ID="ID_1842142706" CREATED="1732756799725" MODIFIED="1732772813774"/>
+<node TEXT="1.3 激活函数：将神经元的工作一般化" ID="ID_791252549" CREATED="1732756815033" MODIFIED="1732756828188">
+<node TEXT="抽象化的神经元neuron成为神经单元unit" ID="ID_329485393" CREATED="1732774050545" MODIFIED="1732774080353"/>
+<node TEXT="点火：y = u(w1x1+w2x2+w3x3-theta), u称为单位阶跃函数 --&gt; 激活函数，著名的是Sigmoid函数" ID="ID_1668816832" CREATED="1732774141652" MODIFIED="1732774249441"/>
+</node>
+<node TEXT="1.4 什么是神经网络" ID="ID_1079737042" CREATED="1732772654053" MODIFIED="1732772659904">
+<node TEXT="将y=a(z)这样的神经单元连接成网络状，就形成了神经网络" ID="ID_1040331295" CREATED="1732775324685" MODIFIED="1732775362487"/>
+<node TEXT="主要考察作为基础的阶层型神经网络和尤其发展而来的卷积神经网络" ID="ID_707181366" CREATED="1732775374473" MODIFIED="1732775412602">
+<node TEXT="全连接层：前一层的神经单元与下一层的所有神经单元都有箭头连接" ID="ID_1961034474" CREATED="1732775776322" MODIFIED="1732775814646"/>
+<node TEXT="隐藏层：负责特征提取(feature extraction)" ID="ID_1399523843" CREATED="1732775972135" MODIFIED="1732775997000"/>
+</node>
+<node TEXT="深度学习是叠加了很多层的神经网络，其中著名的就是卷积神经网络" ID="ID_149537995" CREATED="1732775661788" MODIFIED="1732775698770"/>
+</node>
+<node TEXT="1.5 用恶魔来讲解神经网络的结构" ID="ID_1000423376" CREATED="1732772660061" MODIFIED="1732772671773"/>
+<node TEXT="1.6 将恶魔的工作翻译为神经网络的语言" ID="ID_1541521479" CREATED="1732772671960" MODIFIED="1732772684858"/>
+<node TEXT="1.7 网络自学习的神经网络" ID="ID_1961352918" CREATED="1732772685399" MODIFIED="1732772697403">
+<node TEXT="神经网络的参数确定方法分为有监督学习和无监督学习" ID="ID_971292622" CREATED="1732777349966" MODIFIED="1732777370678"/>
+<node TEXT="有监督学习指为了确定神经网络的权重和偏置，事先给予数据，这些数据称为学习数据" ID="ID_94094668" CREATED="1732777370930" MODIFIED="1732777417065"/>
+<node TEXT="根据给定的的学习数据确定权重和偏置，称为学习" ID="ID_1454487330" CREATED="1732777417286" MODIFIED="1732777439601"/>
+<node TEXT="神经网络的学习-模型的最优化：计算神经网络得出的预测值与正解的误差，确定使得误差总和达到最小的权重和偏置" ID="ID_1162342925" CREATED="1732777447353" MODIFIED="1732777503353">
+<node TEXT="代价函数(Cost Function)：针对全部学习数据，计算预测值与正解的误差的平方（称平方误差），然后再相加，这个误差的总和" ID="ID_600576398" CREATED="1732777549224" MODIFIED="1732777618810"/>
+<node ID="ID_172818614" CREATED="1732777623843" MODIFIED="1732777664731"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      利用平方误差确定参数的方法在数学上称为<span style="font-weight: bold;">最小二乘法</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="奇点(singularity)：表示人工智能超过人类智能的时间点" ID="ID_1437564208" CREATED="1732777691088" MODIFIED="1732777728160"/>
+</node>
+</node>
+<node TEXT="2. 神经网络的数学基础" POSITION="bottom_or_right" ID="ID_1637092293" CREATED="1732756741031" MODIFIED="1732756749574"/>
+<node TEXT="3. 神经网络的最优化" POSITION="bottom_or_right" ID="ID_1203090043" CREATED="1732756752431" MODIFIED="1732756758943"/>
+<node TEXT="4. 神经网络和误差反向传播法" POSITION="bottom_or_right" ID="ID_569063129" CREATED="1732756759534" MODIFIED="1732756770022"/>
+<node TEXT="5. 深度学习和卷积神经网络" POSITION="bottom_or_right" ID="ID_1652979664" CREATED="1732756772756" MODIFIED="1732756783445"/>
 </node>
 </map>
