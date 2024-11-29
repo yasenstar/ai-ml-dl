@@ -4,6 +4,13 @@
 
 ![PyTensor_MindMap](img/PyTensor-mindmap.png)
 
+## 深度学习的数学
+
+![DL-Math](img/DL-Math-Highlevel-MM.png)
+
+- Mindmap (interactive with FreePlane): [DL-Math-MM](深度学习的数学.mm)
+- Mindmap exported in Markdown format: [DL-Math-MM-markdown](深度学习的数学.md)
+
 ## Python 快乐编程 人工智能—深度学习基础
 
 ![book_cover](img/python-happy-coding_DL.png)
