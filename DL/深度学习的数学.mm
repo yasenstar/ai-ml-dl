@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="深度学习的数学" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1732756705237"><hook NAME="MapStyle" background="#f5f5dcff">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sepia_template.mm" show_tags="UNDER_NODES"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -9,7 +9,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-10.5 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-9.75 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -187,7 +187,7 @@
 <node TEXT="拉格朗日乘数法" ID="ID_113240002" CREATED="1732855676477" MODIFIED="1732855693321"/>
 </node>
 </node>
-<node TEXT="2.8 误差反向传播法必需的链式法则" ID="ID_1085665626" CREATED="1732778145272" MODIFIED="1732778161738">
+<node TEXT="2.8 误差反向传播法必需的链式法则" FOLDED="true" ID="ID_1085665626" CREATED="1732778145272" MODIFIED="1732778161738">
 <node TEXT="神经网络和复合函数" POSITION="bottom_or_right" ID="ID_680695755" CREATED="1732852206526" MODIFIED="1732856021252">
 <node TEXT="复合函数：嵌套结构的函数f(g(x))称为f(u)和g(x)的复合函数" ID="ID_453152428" CREATED="1732856103756" MODIFIED="1732856130292"/>
 </node>
@@ -201,19 +201,21 @@
 <node TEXT="变量z为u,v的函数，u,v分别为x,y的函数，z关于x求导时，先对u,v求导，然后与z的相应导数相乘，最后将乘积加起来" ID="ID_1663106371" CREATED="1732857128629" MODIFIED="1732857190337"/>
 </node>
 </node>
-<node TEXT="2.9 梯度下降法的基础：多变量函数的近似公式" ID="ID_577867667" CREATED="1732778161890" MODIFIED="1732778178791"/>
+<node TEXT="2.9 梯度下降法的基础：多变量函数的近似公式" ID="ID_577867667" CREATED="1732778161890" MODIFIED="1732778178791">
+<node TEXT="梯度下降法时确定神经网络的一种代表性的方法，使用时要用到多变量函数的近似公式" ID="ID_1022712607" CREATED="1732858695983" MODIFIED="1732858732180"/>
+</node>
 <node TEXT="2.10 梯度下降法的含义和公式" ID="ID_413983021" CREATED="1732778178961" MODIFIED="1732778190156"/>
 <node TEXT="2.11 用Excel体验梯度下降法" ID="ID_1712898681" CREATED="1732778190320" MODIFIED="1732778199539"/>
 <node TEXT="2.12 最优化问题和回归分析" ID="ID_952897795" CREATED="1732778199696" MODIFIED="1732778208127"/>
 </node>
-<node TEXT="3. 神经网络的最优化" POSITION="bottom_or_right" ID="ID_1203090043" CREATED="1732756752431" MODIFIED="1732756758943">
+<node TEXT="3. 神经网络的最优化" FOLDED="true" POSITION="bottom_or_right" ID="ID_1203090043" CREATED="1732756752431" MODIFIED="1732756758943">
 <node TEXT="3.1 神经网络的参数和变量" ID="ID_332911629" CREATED="1732855926312" MODIFIED="1732855933490"/>
 <node TEXT="3.2 神经网络的变量的关系式" ID="ID_8742043" CREATED="1732855933651" MODIFIED="1732855939503"/>
 <node TEXT="3.3. 学习数据和正解" ID="ID_1007749374" CREATED="1732855939683" MODIFIED="1732855946934"/>
 <node TEXT="3.4 神经网络的代价函数" ID="ID_31103986" CREATED="1732855947162" MODIFIED="1732855954612"/>
 <node TEXT="3.5 用Excel体验神经网络" ID="ID_1919985245" CREATED="1732855954779" MODIFIED="1732855961837"/>
 </node>
-<node TEXT="4. 神经网络和误差反向传播法" POSITION="bottom_or_right" ID="ID_569063129" CREATED="1732756759534" MODIFIED="1732756770022">
+<node TEXT="4. 神经网络和误差反向传播法" FOLDED="true" POSITION="bottom_or_right" ID="ID_569063129" CREATED="1732756759534" MODIFIED="1732756770022">
 <node TEXT="4.1 梯度下降法的回顾" ID="ID_1886137632" CREATED="1732849863276" MODIFIED="1732849873459"/>
 <node TEXT="4.2 神经单元误差" ID="ID_411230293" CREATED="1732849873593" MODIFIED="1732849878630"/>
 <node TEXT="4.3 神经网络和误差反向传播法" ID="ID_93811717" CREATED="1732849878787" MODIFIED="1732849890097"/>
