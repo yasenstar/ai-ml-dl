@@ -1,5 +1,7 @@
 # Machine Learning
 
+机器学习是一门综合性极强的学科，既包含微积分、线性代数和概率统计等高等数学基础知识，又包含编程语法与工业实践经验
+
 ## Supervised vs Reinforcement vs Unsupervised
 
 Thanks for source: https://www.geeksforgeeks.org/supervised-vs-reinforcement-vs-unsupervised/
