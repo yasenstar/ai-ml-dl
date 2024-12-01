@@ -1,5 +1,7 @@
 # Deep Learning 深度学习
 
+Last updated: 2024/12/01
+
 ## PyTensor
 
 ![PyTensor_MindMap](img/PyTensor-mindmap.png)
@@ -21,4 +23,8 @@ Purchase at here: http://www.tup.tsinghua.edu.cn/wap/tsxqy.aspx?id=07866201
 
 Note: MILA has stopped developing Theano: https://groups.google.com/d/msg/theano-users/7Poq8BZutbY/rNCIfvAEAwAJ, The PyMC developers have forked Theano to a new project called PyTensor that is being actively developed: https://github.com/pymc-devs/pytensor, so stop on using Theano.
 
-Last updated: 2024/11/27
+---
+
+## Reference Information on Deep Learning
+
+- Course & book from [Francois Fleuret](https://fleuret.org/dlc/) at University of Geneva, worth to watch and read
