@@ -27,3 +27,7 @@ Thanks for source: https://www.geeksforgeeks.org/supervised-vs-reinforcement-vs-
 
 - Linear Algebra Review and Reference: [Link from cs.cmu.edu](https://www.cs.cmu.edu/~zkolter/course/15-884/linalg-review.pdf), [direct_PDF](ref/Linear-Algebra-Review-and-Reference.pdf)
 - [Computational Methods for the Smart Grid](https://www.cs.cmu.edu/~zkolter/course/15-884/)
+
+## Machine Learning Engineer Roadmap
+
+![ML-Engineer-Roadmap](img/ML-engineer-roadmap.png)
