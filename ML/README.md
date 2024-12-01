@@ -25,7 +25,7 @@ Thanks for source: https://www.geeksforgeeks.org/supervised-vs-reinforcement-vs-
 
 - [从零开始-机器学习的数学原理和算法实践](从零开始-机器学习的数学原理和算法实践.mm)
 
-| ![ML-from-Zero](img/start-from-zero-book-cover.png) | ![ML-from-Zero](img/ML-from-Zero.jpg)
+| ![ML-from-Zero](img/ML-from-zero-book-cover.png) | ![ML-from-Zero](img/ML-from-Zero.jpg)
 | --- | --- |
 
 ### 机器学习基础
