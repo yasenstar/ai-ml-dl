@@ -4,7 +4,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#eeeeeeff">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_grey_template.mm" show_tags="UNDER_NODES"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_grey_template.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -83,7 +83,7 @@
 </map_styles>
 </hook>
 <node TEXT="Part 1: 补基础" POSITION="bottom_or_right" ID="ID_1837430732" CREATED="1733052768808" MODIFIED="1733052780844">
-<node TEXT="1. 补基础：微积分" POSITION="bottom_or_right" ID="ID_220490043" CREATED="1733052524035" MODIFIED="1733052595216">
+<node TEXT="1. 补基础：微积分" FOLDED="true" POSITION="bottom_or_right" ID="ID_220490043" CREATED="1733052524035" MODIFIED="1733052595216">
 <node TEXT="1.1 导数" ID="ID_125107977" CREATED="1733053779894" MODIFIED="1733053782966">
 <node TEXT="导数典型的应用场景就是对瞬时速度的求解" ID="ID_154356424" CREATED="1733056272078" MODIFIED="1733056295729">
 <arrowlink DESTINATION="ID_1980856802"/>
@@ -123,9 +123,42 @@
 <node TEXT="求解曲线的长度、曲面的面积、物体的体积" ID="ID_898994487" CREATED="1733055936661" MODIFIED="1733055960287"/>
 </node>
 </node>
-<node TEXT="1.4 泰勒公式" ID="ID_443418388" CREATED="1733055605719" MODIFIED="1733055609643"/>
+<node TEXT="1.4 泰勒公式" ID="ID_443418388" CREATED="1733055605719" MODIFIED="1733055609643">
+<node TEXT="泰勒公式也称为f(x)在点a处的泰勒级数，其主要作用室对特别复杂的函数进行化简" ID="ID_1108673682" CREATED="1733116185735" MODIFIED="1733116239173"/>
+<node TEXT="泰勒公式常见的应用场景是在某个点附近用多项式函数去逼近某个复杂的函数，从而通过多项式函数在该点处的数值去获得复杂函数在该点处的近似值。" ID="ID_1940052212" CREATED="1733116791863" MODIFIED="1733116796053"/>
+<node TEXT="泰勒公式本质上室微积分基本定理连续累积的结果" ID="ID_1826106777" CREATED="1733128985847" MODIFIED="1733129004893"/>
 </node>
-<node TEXT="2. 补基础：线性代数" POSITION="bottom_or_right" ID="ID_1467409539" CREATED="1733052596731" MODIFIED="1733052614127"/>
+</node>
+<node TEXT="2. 补基础：线性代数" POSITION="bottom_or_right" ID="ID_1467409539" CREATED="1733052596731" MODIFIED="1733052614127">
+<node TEXT="Overview" ID="ID_1344904862" CREATED="1733134902369" MODIFIED="1733134905178">
+<node TEXT="线性代数主要研究线性空间中对象的运动规律" ID="ID_626746933" CREATED="1733134905189" MODIFIED="1733134929688">
+<node TEXT="核心问题一：线性空间中的对象 -- 向量" ID="ID_999080217" CREATED="1733134929696" MODIFIED="1733134952607"/>
+<node TEXT="核心问题二：线性空间中对象的运动规律 -- 线性变换" ID="ID_1128930662" CREATED="1733134952881" MODIFIED="1733134978772"/>
+</node>
+</node>
+<node TEXT="2.1 向量" ID="ID_155780590" CREATED="1733135787852" MODIFIED="1733135791238">
+<node TEXT="向量在形式上表现为一系列有序数组，可以看作空间中具有方向和大小的一个箭头" ID="ID_183584043" CREATED="1733135947209" MODIFIED="1733136135393"/>
+<node TEXT="从数学视角来看，任何一个向量都可以用线性空间里面的一组基向量（基向量室线性无关的）的线性组合来表示" ID="ID_286746393" CREATED="1733136177076" MODIFIED="1733136223885"/>
+<node TEXT="2.1.1 向量加法与数乘" ID="ID_171528693" CREATED="1733136237434" MODIFIED="1733136255622">
+<node TEXT="维度相同的向量才可以进行加法运算，向量进行加法运算室将相同位置上的元素相加，结果向量的维度保持不变" ID="ID_1450673587" CREATED="1733136391766" MODIFIED="1733136437742"/>
+<node TEXT="向量数乘：λv表示λ个v向量相加，也就是将v向量拉伸（压缩）λ倍" ID="ID_1241002975" CREATED="1733136449869" MODIFIED="1733136479319">
+<node TEXT="向量进行数乘运算时将标量与向量的每个元素分别相乘即可得到结果向量" ID="ID_909530518" CREATED="1733136489554" MODIFIED="1733136520496"/>
+</node>
+</node>
+<node TEXT="2.1.2 向量乘法" ID="ID_592325567" CREATED="1733136545246" MODIFIED="1733136550384">
+<node TEXT="向量内积" ID="ID_1836782178" CREATED="1733136556007" MODIFIED="1733136559472">
+<node TEXT="也称为向量点积或者数量积" ID="ID_1474370892" CREATED="1733136568487" MODIFIED="1733136587321"/>
+<node TEXT="代数方式定义：参与向量内积的两个向量必须维度相同，向量内积运算时将两个向量对应位置上的元素分别相乘之后求和，结果是一个标量" ID="ID_229963399" CREATED="1733136597177" MODIFIED="1733136675932"/>
+<node TEXT="几何方式定义" ID="ID_1079652836" CREATED="1733136604204" MODIFIED="1733136609686"/>
+</node>
+<node TEXT="向量外积" ID="ID_650579711" CREATED="1733136559688" MODIFIED="1733136563501"/>
+</node>
+</node>
+<node TEXT="2.2 矩阵" ID="ID_1459574721" CREATED="1733135796951" MODIFIED="1733135800584"/>
+<node TEXT="2.3 线性方程组求解的本质" ID="ID_803859987" CREATED="1733135800770" MODIFIED="1733135821484"/>
+<node TEXT="2.4 最小二乘法的本质" ID="ID_582155838" CREATED="1733135821873" MODIFIED="1733135831150"/>
+<node TEXT="2.5 相似矩阵对角化" ID="ID_623497945" CREATED="1733135831324" MODIFIED="1733135842425"/>
+</node>
 <node TEXT="3. 补基础：概率统计" POSITION="bottom_or_right" ID="ID_1065541646" CREATED="1733052553194" MODIFIED="1733052605990"/>
 </node>
 <node TEXT="Part 2: ML的全景与关键" POSITION="bottom_or_right" ID="ID_381890636" CREATED="1733052918836" MODIFIED="1733053652028">
