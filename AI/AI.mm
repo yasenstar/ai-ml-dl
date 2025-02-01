@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="AI" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1738385330381">
+<node TEXT="AI&#xa;人工智能" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1738387326850">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#f9f9f8ff">
@@ -84,14 +84,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="AI Learning Sources" POSITION="top_or_left" ID="ID_278064645" CREATED="1738384578014" MODIFIED="1738385381656">
-<node TEXT="Intel: AI Courses and Certifications" POSITION="bottom_or_right" ID="ID_1206518938" CREATED="1738384428328" MODIFIED="1738384441648" LINK="https://www.intel.com/content/www/us/en/developer/topic-technology/artificial-intelligence/training/overview.html"/>
-<node TEXT="IBM: AI Foundations for Everyone" POSITION="bottom_or_right" ID="ID_400696519" CREATED="1738384502887" MODIFIED="1738384514628" LINK="https://www.coursera.org/specializations/ai-foundations-for-everyone"/>
-<node TEXT="Google: Google AI for Anyone" POSITION="bottom_or_right" ID="ID_709922885" CREATED="1738384547510" MODIFIED="1738384559473" LINK="https://www.edx.org/learn/artificial-intelligence/google-google-ai-for-anyone?index=product&amp;queryID=20f255a72e55f01f6dbb7ba10089489d&amp;position=3"/>
-<node TEXT="AWS Skill Builder" POSITION="bottom_or_right" ID="ID_606987253" CREATED="1738384572883" MODIFIED="1738384593348" LINK="https://aws.amazon.com/training/learn-about/machine-learning/"/>
-<node TEXT="University of Pennsylvania: AI for Business" POSITION="bottom_or_right" ID="ID_1776240576" CREATED="1738384456037" MODIFIED="1738384471966" LINK="https://www.coursera.org/specializations/ai-for-business-wharton"/>
-</node>
-<node TEXT="AI Certifications" POSITION="bottom_or_right" ID="ID_901847884" CREATED="1738385306558" MODIFIED="1738385390318">
+<node TEXT="AI Certifications&#xa;人工智能&#xa;相关的认证" FOLDED="true" POSITION="bottom_or_right" ID="ID_901847884" CREATED="1738385306558" MODIFIED="1738387353001">
 <node TEXT="01. Artificial Intelligence Fundamentals form IBM" POSITION="bottom_or_right" ID="ID_1242447844" CREATED="1738384045368" MODIFIED="1738384172129" LINK="https://skillsbuild.org/adult-learners/explore-learning/artificial-intelligence"/>
 <node TEXT="02. Big Data, AI and Athics from UC Davis (Coursera)" POSITION="bottom_or_right" ID="ID_1976490417" CREATED="1738384076959" MODIFIED="1738384168549" LINK="https://www.coursera.org/learn/big-data-ai-ethics"/>
 <node TEXT="03. GenAI for Executives &amp; Business Leaders by IBM" POSITION="bottom_or_right" ID="ID_1582957781" CREATED="1738384145183" MODIFIED="1738384180921" LINK="https://www.coursera.org/learn/generative-ai-for-executives-business-leaders-introduction"/>
@@ -106,6 +99,13 @@
 <node TEXT="12. Generative AI in Marketing by UVA (Coursera)" POSITION="bottom_or_right" ID="ID_1966113680" CREATED="1738384710093" MODIFIED="1738384838542" LINK="https://www.coursera.org/specializations/generative-ai-in-marketing"/>
 <node TEXT="13. Coding with Generative AI by Fractal (Coursera)" POSITION="bottom_or_right" ID="ID_1906066059" CREATED="1738384813908" MODIFIED="1738384873318" LINK="https://www.coursera.org/learn/introduction-coding-with-generative-ai"/>
 <node TEXT="14. Elements of AI" POSITION="bottom_or_right" ID="ID_3360608" CREATED="1738385277958" MODIFIED="1738385292989" LINK="https://course.elementsofai.com/"/>
+</node>
+<node TEXT="AI Learning Sources&#xa;人工智能&#xa;相关学习资源" FOLDED="true" POSITION="bottom_or_right" ID="ID_278064645" CREATED="1738384578014" MODIFIED="1738387359619">
+<node TEXT="Intel: AI Courses and Certifications" POSITION="bottom_or_right" ID="ID_1206518938" CREATED="1738384428328" MODIFIED="1738384441648" LINK="https://www.intel.com/content/www/us/en/developer/topic-technology/artificial-intelligence/training/overview.html"/>
+<node TEXT="IBM: AI Foundations for Everyone" POSITION="bottom_or_right" ID="ID_400696519" CREATED="1738384502887" MODIFIED="1738384514628" LINK="https://www.coursera.org/specializations/ai-foundations-for-everyone"/>
+<node TEXT="Google: Google AI for Anyone" POSITION="bottom_or_right" ID="ID_709922885" CREATED="1738384547510" MODIFIED="1738384559473" LINK="https://www.edx.org/learn/artificial-intelligence/google-google-ai-for-anyone?index=product&amp;queryID=20f255a72e55f01f6dbb7ba10089489d&amp;position=3"/>
+<node TEXT="AWS Skill Builder" POSITION="bottom_or_right" ID="ID_606987253" CREATED="1738384572883" MODIFIED="1738384593348" LINK="https://aws.amazon.com/training/learn-about/machine-learning/"/>
+<node TEXT="University of Pennsylvania: AI for Business" POSITION="bottom_or_right" ID="ID_1776240576" CREATED="1738384456037" MODIFIED="1738384471966" LINK="https://www.coursera.org/specializations/ai-for-business-wharton"/>
 </node>
 </node>
 </map>
