@@ -958,6 +958,7 @@
      -->
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gov.cn/zhengce/content/202508/content_7037861.htm</rdfs:comment>
         <rdfs:label>国务院关于深入实施“人工智能+”行动的意见</rdfs:label>
         <owl:versionInfo>索 引 号：	000014349/2025-00070
 主题分类：	科技、教育\科技
