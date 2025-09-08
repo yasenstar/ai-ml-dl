@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Intro to AI in Azure&#xa;(AI-900T00-A)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1757297636972"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.82644624">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" associatedTemplateLocation="template:/light_sepia_template.mm" show_tags="UNDER_NODES"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -9,7 +9,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-10.2 pt;" ENDINCLINATION="81.6 pt;19.8 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.6 pt;-9.6 pt;" ENDINCLINATION="81.6 pt;19.8 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -189,10 +189,32 @@
 </node>
 <node TEXT="Regression" ID="ID_1872245652" CREATED="1757299443886" MODIFIED="1757299446559">
 <node TEXT="A form of supervised machine learning in which the label represents a categorization, or class" ID="ID_352489256" CREATED="1757300719986" MODIFIED="1757300747271"/>
+<node TEXT="Regression models are trained to predict numeric label values based on training data that includes both features and known labels." ID="ID_657570072" CREATED="1757301069778" MODIFIED="1757301102533"/>
+<node TEXT="Four key elements in Regression of the training process" ID="ID_1883100874" CREATED="1757301173986" MODIFIED="1757301191472">
+<node TEXT="1. Split the training data (randomly) to create a dataset with which to train the model while holding back a subset of the data that you&apos;ll use to validate the trained model" ID="ID_740262162" CREATED="1757301191475" MODIFIED="1757301235235"/>
+<node TEXT="2. Use an algorithm to fit the training data to a model. (e.g. linear regression)" ID="ID_1923032471" CREATED="1757301235376" MODIFIED="1757301263346"/>
+<node TEXT="3. Use the validation data you held back to test the model by predicting labels for the features" ID="ID_131695275" CREATED="1757301263520" MODIFIED="1757301287716"/>
+<node ID="ID_599066562" CREATED="1757301287872" MODIFIED="1757301378755"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      4. Compare the know <span style="font-weight: bold; font-style: italic;">actual </span><span style="font-weight: normal;">labels in the validation dataset to the labels that the model predicted. Then aggregate the differences between the </span><span style="font-weight: bold; font-style: italic;">predicted</span><span style="font-weight: normal;">&#xa0;&#xa0;and </span><span style="font-weight: bold; font-style: italic;">actual</span><span style="font-weight: normal;">&#xa0;&#xa0;label values to calculate a metric that indicates how accurately the model predicted for the validation data</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="Binary Classification" ID="ID_1731270859" CREATED="1757299446733" MODIFIED="1757299451870"/>
 <node TEXT="Multiclass Classification" ID="ID_1717247090" CREATED="1757299452029" MODIFIED="1757299463600"/>
-<node TEXT="Clustering" ID="ID_1527378885" CREATED="1757299463757" MODIFIED="1757299465614"/>
+<node TEXT="Clustering" ID="ID_1527378885" CREATED="1757299463757" MODIFIED="1757299465614">
+<node TEXT="A clustering algorithm identifies similarities between observations base on their features, and groups them into discrete clusters." ID="ID_1908001043" CREATED="1757300934288" MODIFIED="1757300972436"/>
+</node>
 <node TEXT="Deep Learning" ID="ID_1683443449" CREATED="1757299465773" MODIFIED="1757299468335"/>
 <node TEXT="Transformers" ID="ID_692303129" CREATED="1757299468493" MODIFIED="1757299470878"/>
 </node>
