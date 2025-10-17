@@ -4,7 +4,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#fdf6e3ff" zoom="0.826">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" associatedTemplateLocation="template:/light_solarized_template.mm" show_tags="UNDER_NODES"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" associatedTemplateLocation="template:/light_solarized_template.mm" show_tags="UNDER_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -87,12 +87,65 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="一、理解语言模型" POSITION="bottom_or_right" ID="ID_22763286" CREATED="1760723330119" MODIFIED="1760723342267">
-<node TEXT="01 大语言模型简介" ID="ID_1306649228" CREATED="1760723374700" MODIFIED="1760723430927"/>
-<node TEXT="02 词元和嵌入" ID="ID_1037987243" CREATED="1760723397878" MODIFIED="1760723412270"/>
-<node TEXT="03 LLM的内部机制" ID="ID_1469335486" CREATED="1760723412432" MODIFIED="1760723424668"/>
+<node TEXT="一、理解语言模型" POSITION="bottom_or_right" ID="ID_22763286" CREATED="1760723330119" MODIFIED="1760723635494"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      探索大、小语言模型的内部运作机制
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="01 大语言模型简介" ID="ID_1306649228" CREATED="1760723374700" MODIFIED="1760723654146"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      概述该领域和常用技术
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node TEXT="二、使用预训练语言模型" POSITION="bottom_or_right" ID="ID_1364084780" CREATED="1760723342448" MODIFIED="1760723358017">
+<node TEXT="02 词元和嵌入" ID="ID_1037987243" CREATED="1760723397878" MODIFIED="1760723688017"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      讨论这些模型的两个核心组件：词元(Token)和嵌入(Embedding)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="03 LLM的内部机制" ID="ID_1469335486" CREATED="1760723412432" MODIFIED="1760723714139"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      深入讨论模型的架构
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node TEXT="二、使用预训练语言模型" POSITION="bottom_or_right" ID="ID_1364084780" CREATED="1760723342448" MODIFIED="1760723731296"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      通过常见用例探索如何使用LLM
+    </p>
+  </body>
+</html></richcontent>
 <node TEXT="04 文本分类" ID="ID_1681363294" CREATED="1760723434279" MODIFIED="1760723440497"/>
 <node TEXT="05 文本聚类和主题建模" ID="ID_1393428543" CREATED="1760723440692" MODIFIED="1760723450971"/>
 <node TEXT="06 提示工程" ID="ID_948556880" CREATED="1760723451149" MODIFIED="1760723455162"/>
