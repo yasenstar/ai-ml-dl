@@ -135,28 +135,137 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="二、使用预训练语言模型" POSITION="bottom_or_right" ID="ID_1364084780" CREATED="1760723342448" MODIFIED="1760723731296"><richcontent TYPE="NOTE">
+<node TEXT="二、使用预训练语言模型" POSITION="bottom_or_right" ID="ID_1364084780" CREATED="1760723342448" MODIFIED="1760723931003"><richcontent TYPE="NOTE">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      通过常见用例探索如何使用LLM
+      通过常见用例探索如何使用LLM，使用预训练模型并展示功能，无须进行微调。
     </p>
   </body>
 </html></richcontent>
-<node TEXT="04 文本分类" ID="ID_1681363294" CREATED="1760723434279" MODIFIED="1760723440497"/>
-<node TEXT="05 文本聚类和主题建模" ID="ID_1393428543" CREATED="1760723440692" MODIFIED="1760723450971"/>
-<node TEXT="06 提示工程" ID="ID_948556880" CREATED="1760723451149" MODIFIED="1760723455162"/>
-<node TEXT="07 高级文本生成技术与工具" ID="ID_897557828" CREATED="1760723455320" MODIFIED="1760723466196"/>
-<node TEXT="08 语义搜索与RAG" ID="ID_64871681" CREATED="1760723466379" MODIFIED="1760723477985"/>
-<node TEXT="09 多模态LLM" ID="ID_1093176778" CREATED="1760723479822" MODIFIED="1760723484629"/>
+<node TEXT="04 文本分类" ID="ID_1681363294" CREATED="1760723434279" MODIFIED="1760723944017"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用语言模型进行监督分类
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node TEXT="三、训练和微调语言模型" POSITION="bottom_or_right" ID="ID_71041825" CREATED="1760723361941" MODIFIED="1760723372977">
-<node TEXT="10 构建文本嵌入模型" ID="ID_1410756775" CREATED="1760723486142" MODIFIED="1760723501420"/>
-<node TEXT="11 为分类任务微调表示模型" ID="ID_739823564" CREATED="1760723501583" MODIFIED="1760723516961"/>
-<node TEXT="12 微调生成模型" ID="ID_809579999" CREATED="1760723517140" MODIFIED="1760723523467"/>
+<node TEXT="05 文本聚类和主题建模" ID="ID_1393428543" CREATED="1760723440692" MODIFIED="1760723968865"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用语言模型进行文本聚类和主题建模
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="06 提示工程" ID="ID_948556880" CREATED="1760723451149" MODIFIED="1760723988177"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      利用嵌入模型进行文本生成
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="07 高级文本生成技术与工具" ID="ID_897557828" CREATED="1760723455320" MODIFIED="1760723992296"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      利用嵌入模型进行文本生成
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="08 语义搜索与RAG" ID="ID_64871681" CREATED="1760723466379" MODIFIED="1760724011304"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      利用嵌入模型进行语义搜索
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="09 多模态LLM" ID="ID_1093176778" CREATED="1760723479822" MODIFIED="1760724031337"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      将文本生成能力扩展到视觉领域
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node TEXT="三、训练和微调语言模型" POSITION="bottom_or_right" ID="ID_71041825" CREATED="1760723361941" MODIFIED="1760724057274"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      通过训练和微调各种语言模型来探索高级概念
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="10 构建文本嵌入模型" ID="ID_1410756775" CREATED="1760723486142" MODIFIED="1760724071401"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      探讨如何构建和微调嵌入模型
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="11 为分类任务微调表示模型" ID="ID_739823564" CREATED="1760723501583" MODIFIED="1760724089114"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      回顾如何针对分类任务微调BERT
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="12 微调生成模型" ID="ID_809579999" CREATED="1760723517140" MODIFIED="1760724107751"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      介绍几种生成模型的微调方法
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </map>
