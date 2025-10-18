@@ -92,9 +92,96 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="1.1 Introduction to LLMs" ID="ID_372178278" CREATED="1760735238115" MODIFIED="1760735244361"/>
-<node TEXT="1.2 Limitations of LLMs" ID="ID_1955975107" CREATED="1760735244503" MODIFIED="1760735249828"/>
-<node TEXT="1.3 Overcoming the Limitations of LLMs" ID="ID_1191636138" CREATED="1760735249977" MODIFIED="1760735260821"/>
+<node TEXT="1.1 Introduction to LLMs" FOLDED="true" ID="ID_372178278" CREATED="1760735238115" MODIFIED="1760735244361">
+<node ID="ID_873836630" CREATED="1760807316721" MODIFIED="1760807356965"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      LLMs are built on <span style="font-weight: bold;">transformer</span><span style="font-weight: normal;">&#xa0;&#xa0;architecture (Vaswani et al., 2017), which enables them to process and generate text efficiently.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="The model doesn&apos;t store specific facts, events, or information from its training dataset. Instead, it develops complex mathematical representations of the language it is trained on." ID="ID_1101342810" CREATED="1760807604042" MODIFIED="1760807680819"/>
+<node TEXT="While LLMs can provide seemingly knowledgeable answers, their responses are based on those learned weights rather than explicit memory." ID="ID_345418301" CREATED="1760807691475" MODIFIED="1760807765461"/>
+<node TEXT="To quote Andrej Karpathy: &quot;We kind of understand that they (LLMs) build and maintain some kind of knowledge database, but even this knowledge base is very strange and imperfect and weird&quot;" ID="ID_637497268" CREATED="1760807765650" MODIFIED="1760807826074"/>
+</node>
+<node TEXT="1.2 Limitations of LLMs" FOLDED="true" ID="ID_1955975107" CREATED="1760735244503" MODIFIED="1760735249828">
+<node TEXT="1.2.1 KNowledge Cutoff Problem" ID="ID_1087485478" CREATED="1760814155767" MODIFIED="1760814167541">
+<node TEXT="The most obvious limitations is that LLMs are unaware of events or information not included in their training dataset." ID="ID_1843067593" CREATED="1760814236784" MODIFIED="1760814266106"/>
+<node ID="ID_153374963" CREATED="1760814302014" MODIFIED="1760814332489"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In the context of LLMs, the <span style="font-weight: bold;">knowledge cutoff date</span><span style="font-weight: normal;">&#xa0;&#xa0;refers to the most recent point at which the model's training data includes information.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="1.2.2 Outdated Information" ID="ID_413600287" CREATED="1760814177076" MODIFIED="1760814182837">
+<node TEXT="A less obvious limitation is that LLMs can sometimes provide outdated responses." ID="ID_510510401" CREATED="1760814374960" MODIFIED="1760814394895"/>
+<node TEXT="This highlights the importance of regularly updating training data for models or enabling them to access real-time information." ID="ID_1885224374" CREATED="1760814467547" MODIFIED="1760814493013"/>
+<node TEXT="This limitation underlines the importance of ensuring I systems remain accurate and relevant in dynamic environments." ID="ID_1010091748" CREATED="1760814523088" MODIFIED="1760814551619"/>
+</node>
+<node TEXT="1.2.3 Pure Hallucinations (幻觉)" ID="ID_1197535228" CREATED="1760814182990" MODIFIED="1760814221149">
+<node TEXT="The well-known limitation of LLMs is their tendency to provide assertive, confident answers - even when those answers contains incorrect or fabricated information." ID="ID_1111087436" CREATED="1760814602078" MODIFIED="1760814639987"/>
+<node TEXT="Hallucinations occur because LLMs are not reasoning engines. They are probabilistic language models trained to predict what sounds like a good next token, based on patterns in their training data." ID="ID_1809394614" CREATED="1760814805051" MODIFIED="1760814890871"/>
+<node ID="ID_410443043" CREATED="1760814894695" MODIFIED="1760814909210"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The LLMs don't know <span style="font-weight: bold;">facts</span><span style="font-weight: normal;">&#xa0;&#xa0;the way humans do.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="The LLMs generate text by guessing the most likely continuation, regardless of whether it&apos;s true." ID="ID_1208427730" CREATED="1760814924571" MODIFIED="1760814950275"/>
+<node TEXT="This fundamental difference between statistical pattern matching and actual understanding is what separates LLMs from human cognition." ID="ID_1837125137" CREATED="1760814964361" MODIFIED="1760815003560"/>
+</node>
+<node TEXT="1.2.4 Lack of Private Information" ID="ID_1036781881" CREATED="1760814190148" MODIFIED="1760814197513"/>
+<node TEXT="More limitations of LLMs" ID="ID_1567596836" CREATED="1760824572723" MODIFIED="1760824583283">
+<node TEXT="Bias in Responses" ID="ID_1925895247" CREATED="1760824583285" MODIFIED="1760824603734">
+<node TEXT="LLMs can sometimes generate biased responses, reflecting biases present in the training data" ID="ID_77747137" CREATED="1760824603737" MODIFIED="1760824631218"/>
+</node>
+<node TEXT="Lack of Understanding and Context" ID="ID_1967962648" CREATED="1760824632499" MODIFIED="1760824642877">
+<node TEXT="LLMs, despite their complexity, do not truly understand the text." ID="ID_1364700266" CREATED="1760824646239" MODIFIED="1760824665909"/>
+<node TEXT="They process language based on patterns learned from data, which means they can miss nuances and contextual subtleties. (它们根据从数据中学习到的模式来处理语言，这意味着它们可能会忽略细微差别和上下文的微妙之处。)" ID="ID_1240308721" CREATED="1760824666419" MODIFIED="1760824718460"/>
+</node>
+<node TEXT="Vulnerability to Prompt Injection" ID="ID_407571193" CREATED="1760824720806" MODIFIED="1760824733845">
+<node TEXT="LLMs are susceptible to prompt injection attacks, where malicious users craft inputs to manipulate the model into generating inappropriate, biased, or harmful responses." ID="ID_1542354745" CREATED="1760824737726" MODIFIED="1760824790080"/>
+</node>
+<node TEXT="Inconsistent Responses" ID="ID_406456200" CREATED="1760824793237" MODIFIED="1760824799901">
+<node TEXT="LLMs can produce different answers to the same question across multiple interactions." ID="ID_466570828" CREATED="1760824799903" MODIFIED="1760824823577"/>
+</node>
+</node>
+</node>
+<node TEXT="1.3 Overcoming the Limitations of LLMs" ID="ID_1191636138" CREATED="1760735249977" MODIFIED="1760735260821">
+<node TEXT="1.3.1 Supervised Finetuning" ID="ID_821998863" CREATED="1760824858414" MODIFIED="1760824869575">
+<node TEXT="Steps of training of an LLM like ChatGPT" ID="ID_543042941" CREATED="1760825004479" MODIFIED="1760825015780">
+<node TEXT="1. Pretraining" ID="ID_1956166730" CREATED="1760825015785" MODIFIED="1760825019861"/>
+<node TEXT="2. Supervised Finetuning" ID="ID_1424067939" CREATED="1760825020011" MODIFIED="1760825025918"/>
+<node TEXT="3. Reward Modeling" ID="ID_634258532" CREATED="1760825026070" MODIFIED="1760825031406"/>
+<node TEXT="4. Reinforcement Learning" ID="ID_587187324" CREATED="1760825031554" MODIFIED="1760825037157"/>
+</node>
+</node>
+<node TEXT="1.3.2 Retrieval-Augmented Generation" ID="ID_1520507099" CREATED="1760824869808" MODIFIED="1760824894790"/>
+</node>
 <node TEXT="1.4 Knowledge Graphs as the Data Storage for RAG Applications" ID="ID_1598933921" CREATED="1760735260981" MODIFIED="1760735275345"/>
 </node>
 <node TEXT="2. Vector Similarity Search and Hybrid Search" POSITION="bottom_or_right" ID="ID_1378984928" CREATED="1760735126666" MODIFIED="1760735144392"/>
