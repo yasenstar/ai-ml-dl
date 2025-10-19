@@ -174,10 +174,24 @@
 <node TEXT="1.3 Overcoming the Limitations of LLMs" ID="ID_1191636138" CREATED="1760735249977" MODIFIED="1760735260821">
 <node TEXT="1.3.1 Supervised Finetuning" ID="ID_821998863" CREATED="1760824858414" MODIFIED="1760824869575">
 <node TEXT="Steps of training of an LLM like ChatGPT" ID="ID_543042941" CREATED="1760825004479" MODIFIED="1760825015780">
-<node TEXT="1. Pretraining" ID="ID_1956166730" CREATED="1760825015785" MODIFIED="1760825019861"/>
-<node TEXT="2. Supervised Finetuning" ID="ID_1424067939" CREATED="1760825020011" MODIFIED="1760825025918"/>
-<node TEXT="3. Reward Modeling" ID="ID_634258532" CREATED="1760825026070" MODIFIED="1760825031406"/>
-<node TEXT="4. Reinforcement Learning" ID="ID_587187324" CREATED="1760825031554" MODIFIED="1760825037157"/>
+<node TEXT="1. Pretraining" ID="ID_1956166730" CREATED="1760825015785" MODIFIED="1760825019861">
+<node TEXT="The model reads a vast amount of text, often more than a trillion tokens, to learn basic language patterns. It practices predicting what word comes next in a sentence." ID="ID_1112234932" CREATED="1760825284165" MODIFIED="1760825335414"/>
+<node TEXT="This is the foundational step, like learning vocabulary and grammer before you can write." ID="ID_1189676608" CREATED="1760825337241" MODIFIED="1760825356840"/>
+<node TEXT="This is the most resource-intensive phase, which can require thousands of GPUs and can take months of continuous training." ID="ID_478440493" CREATED="1760825357086" MODIFIED="1760825383709"/>
+</node>
+<node TEXT="2. Supervised Finetuning" ID="ID_1424067939" CREATED="1760825020011" MODIFIED="1760825025918">
+<node TEXT="The model is given specific examples of high-quality conversations to improve its ability to respond like a helpful assistant." ID="ID_1148356752" CREATED="1760825390617" MODIFIED="1760825431718"/>
+<node TEXT="It continues to practice language but now with a focus on generating useful and accurate responses. Think of it as moving from basic language learning to practicing conversation skills." ID="ID_993378239" CREATED="1760825432150" MODIFIED="1760825487179"/>
+<node TEXT="This requires significantly fewer resources than pretraining and can nowadays even run on a single laptop for smaller LLMs." ID="ID_1626139452" CREATED="1760825487351" MODIFIED="1760825523241"/>
+</node>
+<node TEXT="3. Reward Modeling" ID="ID_634258532" CREATED="1760825026070" MODIFIED="1760825031406">
+<node TEXT="The model learns to distinguish between good and bad responses by comparing different answers to the same questions." ID="ID_693084282" CREATED="1760825524844" MODIFIED="1760825551684"/>
+<node TEXT="It&apos;s like having a coach who shows the model what a good performance looks like so it can aim to replicate that quality." ID="ID_699746692" CREATED="1760825551852" MODIFIED="1760825581320"/>
+</node>
+<node TEXT="4. Reinforcement Learning" ID="ID_587187324" CREATED="1760825031554" MODIFIED="1760825037157">
+<node TEXT="The model interacts with users or simulated environments to further refine its responses based on feedback." ID="ID_181480902" CREATED="1760825583390" MODIFIED="1760825606800"/>
+<node TEXT="It&apos;s similar to learning a sport: practicing not just by drills but by playing actual games and learning from the experience." ID="ID_1782748289" CREATED="1760825607185" MODIFIED="1760825637277"/>
+</node>
 </node>
 </node>
 <node TEXT="1.3.2 Retrieval-Augmented Generation" ID="ID_1520507099" CREATED="1760824869808" MODIFIED="1760824894790"/>
