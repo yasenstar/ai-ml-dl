@@ -1,8 +1,13 @@
 # Artificial Intelligence (AI)
 
 - [Artificial Intelligence (AI)](#artificial-intelligence-ai)
+  - [Learning Notes](#learning-notes)
   - [AI Engineer Roadmap](#ai-engineer-roadmap)
   - [Agentic AI Roadmap 2025](#agentic-ai-roadmap-2025)
+
+## Learning Notes
+
+- [What is AI? - from IBM SkillsBuild](./WhatIsAI)
 
 ## AI Engineer Roadmap
 
