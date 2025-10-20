@@ -89,13 +89,13 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="1. Introduction" POSITION="bottom_or_right" ID="ID_998729342" CREATED="1760883881093" MODIFIED="1760883884988">
+<node TEXT="1. Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_998729342" CREATED="1760883881093" MODIFIED="1760883884988">
 <node TEXT="Artificial Intelligence, or AI, is the science of making machines smart." ID="ID_1007768439" CREATED="1760883958721" MODIFIED="1760883976648"/>
 </node>
-<node TEXT="2. Can a Computer Really Think?" POSITION="bottom_or_right" ID="ID_980439672" CREATED="1760883885147" MODIFIED="1760883892305">
+<node TEXT="2. Can a Computer Really Think?" FOLDED="true" POSITION="bottom_or_right" ID="ID_980439672" CREATED="1760883885147" MODIFIED="1760883892305">
 <node TEXT="The Turing test directly measures &quot;how well a computer can imitate human conversation&quot;" ID="ID_1235982063" CREATED="1760918935641" MODIFIED="1760918968407"/>
 </node>
-<node TEXT="3. Computers Help Humans" POSITION="bottom_or_right" ID="ID_1759570619" CREATED="1760883892466" MODIFIED="1760883899590">
+<node TEXT="3. Computers Help Humans" FOLDED="true" POSITION="bottom_or_right" ID="ID_1759570619" CREATED="1760883892466" MODIFIED="1760883899590">
 <node TEXT="To have a conversation about artificial intelligence (AI), we need a practical definition of human intelligence (HI)" ID="ID_988295629" CREATED="1760918977234" MODIFIED="1760919021264">
 <node ID="ID_1830692182" CREATED="1760919126222" MODIFIED="1760919155844"><richcontent TYPE="NODE">
 
@@ -164,7 +164,7 @@
 </node>
 </node>
 </node>
-<node TEXT="4. Other Technologies Help AI" POSITION="bottom_or_right" ID="ID_575210106" CREATED="1760883899754" MODIFIED="1760883908040">
+<node TEXT="4. Other Technologies Help AI" FOLDED="true" POSITION="bottom_or_right" ID="ID_575210106" CREATED="1760883899754" MODIFIED="1760883908040">
 <node TEXT="Cloud" ID="ID_683722954" CREATED="1760920226524" MODIFIED="1760920232212">
 <node TEXT="Enable businesses to operate new training algorithms and data management required by AI" ID="ID_986656677" CREATED="1760920232218" MODIFIED="1760921023685"/>
 </node>
@@ -174,7 +174,7 @@
 <node TEXT="Internet of Things (IoT)" ID="ID_244361100" CREATED="1760920292772" MODIFIED="1760920307319"/>
 </node>
 <node TEXT="5. Careers in AI" POSITION="bottom_or_right" ID="ID_1456504885" CREATED="1760883909921" MODIFIED="1760883915722"/>
-<node TEXT="6. Learn the Jargon" POSITION="bottom_or_right" ID="ID_861228124" CREATED="1760883915895" MODIFIED="1760883921129">
+<node TEXT="6. Learn the Jargon" FOLDED="true" POSITION="bottom_or_right" ID="ID_861228124" CREATED="1760883915895" MODIFIED="1760883921129">
 <node TEXT="Algorithms" FOLDED="true" ID="ID_1350170700" CREATED="1760920531968" MODIFIED="1760920537103">
 <node TEXT="Algorithms are mathematical instructions written by data scientists that tell the machine how to go about finding solutions to a problem. When a small selection of data (called training data) is run through an algorithm repeatedly, each time tweaked by a data scientist until its results are reliably accurate, the result is a model that the machine can use for additional learning by itself." ID="ID_1541779818" CREATED="1760920537106" MODIFIED="1760920546093"/>
 </node>
