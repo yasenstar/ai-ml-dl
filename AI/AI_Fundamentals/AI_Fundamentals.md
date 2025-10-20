@@ -282,19 +282,44 @@ Even simple, commonsense reasoning requires a lot of information to back it up. 
 
 ##### Structured data is typically categorized as quantitative data and is highly organized. Structured data is information that can be organized in rows and columns. Perhaps you've seen structured data in a spreadsheet, like Google Sheets or Microsoft Excel. Examples of structured data includes names, dates, addresses, credit card numbers, stock information.
 
+###### Sample: hotel and ticket reservation data
+
 #### Unstructured Data (Dark Data)
 
 ##### Unstructured data, also known as dark data, is typically categorized as qualitative data. It cannot be processed and analyzed by conventional data tools and methods. Unstructured data lacks any built-in organization, or structure. Examples of unstructured data include images, texts, customer comments, medical records, and even song lyrics.
 
+###### Sample: social media posts
+
+###### Why would anyone want to search through a mountain of data such as social media posts?
+
+* A sneaker designer looking for new trends
+
+* Governments searching for possible terrorists
+
+* Pandemic experts trying to anticipate disease outbreaks
+
+* Financial institutions preparing for good times or a recession
+
+##### The importance of unstructured data is rapidly increasing. Recent projections(opens in a new tab) indicate that 95% of businesses prioritize unstructured data management.
+ 
+Experts estimate that about80% of all the data in today’s world is unstructured. It contains so many variables and changes so quickly that no conventional computer program can learn much from it.
+
+
 #### Semi-Structured Data
 
 ##### Semi-structured data is the “bridge” between structured and unstructured data. It doesn't have a predefined data model. It combines features of both structured data and unstructured data. It's more complex than structured data, yet easier to store than unstructured data. Semi-structured data uses metadata to identify specific data characteristics and scale data into records and preset fields. Metadata ultimately enables semi-structured data to be better cataloged, searched, and analyzed than unstructured data. An example of semi-structured data is a video on a social media site. The video by itself is unstructured data, but a video typically has text for the internet to easily categorize that information, such as through a hashtag to identify a location.
+
+###### Sample: tweets organized by hashtags
+
+##### Data that is not completely raw and contains elements such as tags and organizational metadata is known as semi-structured data
 
 ### Analyzing Unstructured Data
 
 ## 1.4 Module 4: Is Machine Learning the Answer to the Unstructured Data Problem?
 
 ### About this Module
+
+#### 
 
 ### How does ML Approach a Problem?
 

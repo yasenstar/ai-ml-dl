@@ -404,25 +404,55 @@
 <node TEXT="2022: K9 Mk2" ID="ID_3099193" CREATED="1760986119654" MODIFIED="1760986123726"/>
 </node>
 </node>
-<node TEXT="1.3 Module 3: Structured, Semi-Structured, and Unstructured Data" ID="ID_1911958597" CREATED="1760969208328" MODIFIED="1760969229479">
+<node TEXT="1.3 Module 3: Structured, Semi-Structured, and Unstructured Data" FOLDED="true" ID="ID_1911958597" CREATED="1760969208328" MODIFIED="1760969229479">
 <node TEXT="About this Module" ID="ID_86148138" CREATED="1760969377485" MODIFIED="1760969384591">
 <node TEXT="Data is raw information. Data might be facts, statistics, opinions, or any kind of content that is recorded in some format. This could include voices, photos, names, and even dance moves!" POSITION="bottom_or_right" ID="ID_1041633609" CREATED="1760991552815" MODIFIED="1760991560889"/>
 </node>
 <node TEXT="A look at the types of Data" ID="ID_93781896" CREATED="1760969485637" MODIFIED="1760969495031">
 <node TEXT="Structured Data" ID="ID_271871324" CREATED="1760991570376" MODIFIED="1760991579282">
-<node TEXT="Structured data is typically categorized as quantitative data and is highly organized. Structured data is information that can be organized in rows and columns. Perhaps you&apos;ve seen structured data in a spreadsheet, like Google Sheets or Microsoft Excel. Examples of structured data includes names, dates, addresses, credit card numbers, stock information." ID="ID_877405749" CREATED="1760991602714" MODIFIED="1760991604825"/>
+<node TEXT="Structured data is typically categorized as quantitative data and is highly organized. Structured data is information that can be organized in rows and columns. Perhaps you&apos;ve seen structured data in a spreadsheet, like Google Sheets or Microsoft Excel. Examples of structured data includes names, dates, addresses, credit card numbers, stock information." ID="ID_877405749" CREATED="1760991602714" MODIFIED="1760991604825">
+<node TEXT="Sample: hotel and ticket reservation data" ID="ID_1221329577" CREATED="1760992253275" MODIFIED="1760992266068"/>
+</node>
 </node>
 <node TEXT="Unstructured Data (Dark Data)" ID="ID_897057872" CREATED="1760991579626" MODIFIED="1760991589424">
-<node TEXT="Unstructured data, also known as dark data, is typically categorized as qualitative data. It cannot be processed and analyzed by conventional data tools and methods. Unstructured data lacks any built-in organization, or structure. Examples of unstructured data include images, texts, customer comments, medical records, and even song lyrics." ID="ID_1036265659" CREATED="1760991623487" MODIFIED="1760991625682"/>
+<node TEXT="Unstructured data, also known as dark data, is typically categorized as qualitative data. It cannot be processed and analyzed by conventional data tools and methods. Unstructured data lacks any built-in organization, or structure. Examples of unstructured data include images, texts, customer comments, medical records, and even song lyrics." ID="ID_1036265659" CREATED="1760991623487" MODIFIED="1760991625682">
+<node TEXT="Sample: social media posts" ID="ID_1429510813" CREATED="1760992229688" MODIFIED="1760992237234"/>
+<node TEXT="Why would anyone want to search through a mountain of data such as social media posts?" ID="ID_856203605" CREATED="1760992324676" MODIFIED="1760992328977">
+<node TEXT="A sneaker designer looking for new trends" ID="ID_1980846651" CREATED="1760992342810" MODIFIED="1760992342810"/>
+<node TEXT="Governments searching for possible terrorists" ID="ID_852873594" CREATED="1760992342810" MODIFIED="1760992342810"/>
+<node TEXT="Pandemic experts trying to anticipate disease outbreaks" ID="ID_928186272" CREATED="1760992342811" MODIFIED="1760992342811"/>
+<node TEXT="Financial institutions preparing for good times or a recession" ID="ID_446332993" CREATED="1760992342811" MODIFIED="1760992342811"/>
+</node>
+</node>
+<node TEXT="The importance of unstructured data is rapidly increasing. Recent projections(opens in a new tab) indicate that 95% of businesses prioritize unstructured data management." ID="ID_144661544" CREATED="1760992189317" MODIFIED="1760992193075"/>
+<node ID="ID_1187315460" CREATED="1760992373371" MODIFIED="1760992775407"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Experts estimate that about <span style="font-weight: bold;">80%</span>&#xa0;of all the data in today’s world is unstructured. It contains so many variables and changes so quickly that no conventional computer program can learn much from it.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="Semi-Structured Data" ID="ID_1985315380" CREATED="1760991589588" MODIFIED="1760991596119">
-<node TEXT="Semi-structured data is the “bridge” between structured and unstructured data. It doesn&apos;t have a predefined data model. It combines features of both structured data and unstructured data. It&apos;s more complex than structured data, yet easier to store than unstructured data. Semi-structured data uses metadata to identify specific data characteristics and scale data into records and preset fields. Metadata ultimately enables semi-structured data to be better cataloged, searched, and analyzed than unstructured data. An example of semi-structured data is a video on a social media site. The video by itself is unstructured data, but a video typically has text for the internet to easily categorize that information, such as through a hashtag to identify a location." ID="ID_86904576" CREATED="1760991632589" MODIFIED="1760991639089"/>
+<node TEXT="Semi-structured data is the “bridge” between structured and unstructured data. It doesn&apos;t have a predefined data model. It combines features of both structured data and unstructured data. It&apos;s more complex than structured data, yet easier to store than unstructured data. Semi-structured data uses metadata to identify specific data characteristics and scale data into records and preset fields. Metadata ultimately enables semi-structured data to be better cataloged, searched, and analyzed than unstructured data. An example of semi-structured data is a video on a social media site. The video by itself is unstructured data, but a video typically has text for the internet to easily categorize that information, such as through a hashtag to identify a location." ID="ID_86904576" CREATED="1760991632589" MODIFIED="1760991639089">
+<node TEXT="Sample: tweets organized by hashtags" ID="ID_1911459882" CREATED="1760992281193" MODIFIED="1760992292451"/>
+</node>
+<node TEXT="Data that is not completely raw and contains elements such as tags and organizational metadata is known as semi-structured data" ID="ID_1349455728" CREATED="1760992730018" MODIFIED="1760992739931"/>
 </node>
 </node>
 <node TEXT="Analyzing Unstructured Data" ID="ID_914077759" CREATED="1760969495205" MODIFIED="1760969500891"/>
 </node>
 <node TEXT="1.4 Module 4: Is Machine Learning the Answer to the Unstructured Data Problem?" ID="ID_813462937" CREATED="1760969229651" MODIFIED="1760969253924">
-<node TEXT="About this Module" ID="ID_450361390" CREATED="1760969377485" MODIFIED="1760969384591"/>
+<node TEXT="About this Module" ID="ID_450361390" CREATED="1760969377485" MODIFIED="1760969384591">
+<node TEXT="" POSITION="bottom_or_right" ID="ID_690380621" CREATED="1760992328980" MODIFIED="1760992328980"/>
+</node>
 <node TEXT="How does ML Approach a Problem?" ID="ID_1256050105" CREATED="1760969618384" MODIFIED="1760969627462"/>
 <node TEXT="ML uses Probabilistic Calculation" ID="ID_840360402" CREATED="1760969627968" MODIFIED="1760969658110"/>
 </node>
