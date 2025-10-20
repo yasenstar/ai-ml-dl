@@ -176,7 +176,7 @@
 <node TEXT="Earn a Credential!" ID="ID_1238036164" CREATED="1760969319066" MODIFIED="1760969325891"/>
 <node TEXT="Course Design" ID="ID_375727444" CREATED="1760969326203" MODIFIED="1760969328474"/>
 </node>
-<node TEXT="1.1 Module 1: What is AI?" ID="ID_566277613" CREATED="1760969165737" MODIFIED="1760969182803">
+<node TEXT="1.1 Module 1: What is AI?" FOLDED="true" ID="ID_566277613" CREATED="1760969165737" MODIFIED="1760969182803">
 <node TEXT="About this Module" FOLDED="true" ID="ID_706653476" CREATED="1760969330137" MODIFIED="1760969815191">
 <node TEXT="Three levels of predictions that AI can make" ID="ID_195308952" CREATED="1760969815949" MODIFIED="1760969823541">
 <node TEXT="Narrow" ID="ID_1738208716" CREATED="1760969823546" MODIFIED="1760969826006"/>
@@ -185,7 +185,20 @@
 </node>
 </node>
 <node TEXT="What is AI?" ID="ID_211660993" CREATED="1760969334476" MODIFIED="1760969336990">
-<node TEXT="Artificial Intelligence (AI) refers to the ability of a machine to learn patterns and make predictions." ID="ID_431388949" CREATED="1760969974685" MODIFIED="1760970003943"/>
+<node ID="ID_431388949" CREATED="1760969974685" MODIFIED="1760982819481"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Artificial Intelligence (AI) refers to the ability of a machine to <span style="font-weight: bold;">learn patterns</span>&#xa0;and <span style="font-weight: bold;">make predictions</span>.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="AI does not replace human decisions; instead, AI add values to human judgment." ID="ID_1500073935" CREATED="1760970004105" MODIFIED="1760970021086"/>
 <node ID="ID_726335580" CREATED="1760970030922" MODIFIED="1760970063552"><richcontent TYPE="NODE">
 
@@ -203,8 +216,12 @@
 </node>
 </node>
 <node TEXT="What is the difference between AI and Augmented Intelligence?" ID="ID_218478784" CREATED="1760969337146" MODIFIED="1760969352166">
-<node TEXT="Augmented intelligence has a modest goal of helping humans with tasks that are not practical to do." ID="ID_348773010" CREATED="1760970222697" MODIFIED="1760970246652"/>
-<node TEXT="Artificial intelligence has a lofty goal of mimicking human thinking and processes." ID="ID_1821927278" CREATED="1760970254523" MODIFIED="1760970278666"/>
+<node TEXT="Augmented intelligence has a modest goal of helping humans with tasks that are not practical to do." ID="ID_348773010" CREATED="1760970222697" MODIFIED="1760970246652">
+<node TEXT="Augmented intelligence allows humans to make final decisions after analyzing data, reports, and other types of data" ID="ID_1361320973" CREATED="1760982714831" MODIFIED="1760982738088"/>
+</node>
+<node TEXT="Artificial intelligence has a lofty goal of mimicking human thinking and processes." ID="ID_1821927278" CREATED="1760970254523" MODIFIED="1760970278666">
+<node TEXT="AI performs tasks without human intervention and completes mundane and repetitive tasks for humans" ID="ID_965357730" CREATED="1760982742109" MODIFIED="1760982765432"/>
+</node>
 <node TEXT="AI today is not mature enough to perform independent tasks such as diagnosing cancer." ID="ID_1087641436" CREATED="1760970289402" MODIFIED="1760970310089"/>
 <node TEXT="Machines vs. Humans" ID="ID_235114939" CREATED="1760970590455" MODIFIED="1760970599466">
 <node TEXT="Machines" ID="ID_1054347016" CREATED="1760970599471" MODIFIED="1760970603274">
@@ -251,9 +268,63 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="Two parts of AI Services Calculate" ID="ID_678627046" CREATED="1760970991787" MODIFIED="1760971000717">
+<node TEXT="Analysis" ID="ID_1734456563" CREATED="1760971000719" MODIFIED="1760971002983">
+<node TEXT="AI services can take in (or “ingest”) enormous amounts of data. They can apply mathematical calculations to analyze data, sorting and organizing it in ways that would have been considered impossible only a few years ago." ID="ID_1120000545" CREATED="1760971152771" MODIFIED="1760971156367"/>
 </node>
-<node TEXT="What Predictions can AI Make?" ID="ID_630374982" CREATED="1760969361366" MODIFIED="1760969368709"/>
-<node TEXT="How is AI Evolving?" ID="ID_1684598201" CREATED="1760969368882" MODIFIED="1760969376319"/>
+<node TEXT="Prediction" ID="ID_1957890322" CREATED="1760971003131" MODIFIED="1760971005291">
+<node TEXT="AI services can use their data analysis to make predictions. They can, in effect, say, “Based on this information, a certain thing will probably happen.”" ID="ID_1633303454" CREATED="1760971175166" MODIFIED="1760971177403"/>
+</node>
+</node>
+<node ID="ID_1256487962" CREATED="1760971190989" MODIFIED="1760971291076"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AI Services based on data <span style="font-weight: bold;">analysis</span><span style="font-weight: normal;">, make </span><span style="font-weight: bold;">prediction</span><span style="font-weight: normal;">.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="What Predictions can AI Make?" ID="ID_630374982" CREATED="1760969361366" MODIFIED="1760969368709">
+<node TEXT="Prediction aren&apos;t always accurate. But if they&apos;re correct often enough, they&apos;re useful and can save your time." ID="ID_942768384" CREATED="1760972734537" MODIFIED="1760972766162"/>
+<node TEXT="More ways that AI uses data to make predictions" ID="ID_693368534" CREATED="1760972779434" MODIFIED="1760972797165">
+<node TEXT="Human Language" POSITION="bottom_or_right" ID="ID_1731724683" CREATED="1760972807367" MODIFIED="1760972819019">
+<node TEXT="Online chatbots use natural language processing (NLP) to analyze poorly typed or spoken questions, then predict which answers to give on topics ranging from shipping or business hours to merchandise and sizes." ID="ID_1106134766" CREATED="1760972836762" MODIFIED="1760972838835"/>
+</node>
+<node TEXT="Vision Recognition" POSITION="bottom_or_right" ID="ID_103777834" CREATED="1760972809577" MODIFIED="1760972825670">
+<node TEXT="AI helps doctors identify serious diseases based on unusual symptoms and early-warning signs, and it reads speed limit and stop signs as it guides cars through traffic." ID="ID_1883872571" CREATED="1760972848357" MODIFIED="1760972850073"/>
+</node>
+<node TEXT="Fraud Detection" POSITION="bottom_or_right" ID="ID_442854837" CREATED="1760972825846" MODIFIED="1760972829898">
+<node TEXT="AI analyzes patterns created when thousands of bank customers make credit card purchases, then predicts which charges might be the result of identity theft." ID="ID_57837943" CREATED="1760972856000" MODIFIED="1760972857699"/>
+</node>
+</node>
+</node>
+<node TEXT="How is AI Evolving?" FOLDED="true" ID="ID_1684598201" CREATED="1760969368882" MODIFIED="1760969376319">
+<node TEXT="Narrow AI (2010-2015)" ID="ID_1811284529" CREATED="1760973220390" MODIFIED="1760973228317">
+<node TEXT="Narrow AI si focused on addressing a single task such as predicting your next purchase or planning your day" ID="ID_1472311347" CREATED="1760981978432" MODIFIED="1760982001221"/>
+<node TEXT="Narrow AI is scaling very quickly in the consumer world, in which there are a lot of common tasks and data to train AI systems. e.g., you can buy a book with a voice-based device." ID="ID_1310038104" CREATED="1760982001388" MODIFIED="1760982042420"/>
+<node TEXT="Narrow AI also enables robust applications, such as using Siri on an iPhone, the Amazon recommendation engine, autonomous vehicles, and more. Narrow AI systems like Siri have conversational capabilities, but only if you stick to the script." ID="ID_1787025372" CREATED="1760982050093" MODIFIED="1760982126449"/>
+</node>
+<node TEXT="Broad AI (AI for Enterprise) (Today), We are here" ID="ID_387857231" CREATED="1760973228519" MODIFIED="1760973242942">
+<node TEXT="Broad AI is a midpoint between Narrow and Genaral AI" ID="ID_236676205" CREATED="1760982133380" MODIFIED="1760982188193"/>
+<node TEXT="Rather than being limited to a single task, Broad AI systems are more versatile and can handle a wider range of related tasks" ID="ID_696793679" CREATED="1760982188595" MODIFIED="1760982215667"/>
+<node TEXT="Broad AI is focused on integrating AI within a specific business process where companies need business- and enterprise-specific knowledge and data to train this type of system" ID="ID_1249044892" CREATED="1760982216108" MODIFIED="1760982278717"/>
+<node TEXT="New Broad AI systems predict global weather, trace pandemics, and help businesses predict future trends" ID="ID_1071418758" CREATED="1760982279228" MODIFIED="1760982316527"/>
+</node>
+<node TEXT="General AI (2050 and beyond)" ID="ID_1829430195" CREATED="1760973243127" MODIFIED="1760973251120">
+<node TEXT="General AI refers to machines that can perform any intellectual task that a human can" ID="ID_611673147" CREATED="1760982322248" MODIFIED="1760982346467"/>
+<node TEXT="Currently, AI does not have the ability to think abstractly, strategize, and use previous experiences to come up with new, creative ideas as humans do, such as inventing a new product or responding to people with appropriate emotions. And don&apos;t worry, AI is nowhere near this point." ID="ID_49390945" CREATED="1760982346635" MODIFIED="1760982355341"/>
+</node>
+<node TEXT="Artificial Superintelligence (ASI) (near the end of this century)" ID="ID_606869047" CREATED="1760982377073" MODIFIED="1760982404988">
+<node TEXT="Machine might become self-aware!" ID="ID_577989119" CREATED="1760982404994" MODIFIED="1760982416017"/>
+</node>
+</node>
 </node>
 <node TEXT="1.2 Module 2: What are the three eras of computing?" ID="ID_1458944705" CREATED="1760969184831" MODIFIED="1760969202277">
 <node TEXT="About this Module" ID="ID_1842238592" CREATED="1760969377485" MODIFIED="1760969384591"/>
