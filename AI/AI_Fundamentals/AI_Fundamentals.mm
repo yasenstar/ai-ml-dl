@@ -326,15 +326,99 @@
 </node>
 </node>
 </node>
-<node TEXT="1.2 Module 2: What are the three eras of computing?" ID="ID_1458944705" CREATED="1760969184831" MODIFIED="1760969202277">
-<node TEXT="About this Module" ID="ID_1842238592" CREATED="1760969377485" MODIFIED="1760969384591"/>
-<node TEXT="The Era of Tabulation" ID="ID_1424750759" CREATED="1760969386011" MODIFIED="1760969391961"/>
-<node TEXT="The Era of Programming" ID="ID_1304115411" CREATED="1760969393026" MODIFIED="1760969401923"/>
-<node TEXT="The Era of AI" ID="ID_1072584112" CREATED="1760969468608" MODIFIED="1760969472329"/>
+<node TEXT="1.2 Module 2: What are the three eras of computing?" FOLDED="true" ID="ID_1458944705" CREATED="1760969184831" MODIFIED="1760969202277">
+<node TEXT="About this Module" ID="ID_1842238592" CREATED="1760969377485" MODIFIED="1760969384591">
+<node TEXT="Describe the history of AI, from the past to the possible future" ID="ID_462988804" CREATED="1760982879264" MODIFIED="1760982890471"/>
+</node>
+<node TEXT="The Era of Tabulation: People have analyzed data for centuries" ID="ID_1424750759" CREATED="1760969386011" MODIFIED="1760985634905">
+<node TEXT="Dark Data" ID="ID_1357289056" CREATED="1760983000008" MODIFIED="1760983002951">
+<node TEXT="Dark Data: it&apos;s information without structure, just a huge, unsorted mess of facts." ID="ID_1407144070" CREATED="1760982966671" MODIFIED="1760982988804"/>
+</node>
+<node TEXT="Unstructured Data" ID="ID_1618771195" CREATED="1760983012226" MODIFIED="1760983020310">
+<node TEXT="Over 2000 years ago, tax collectors for Emperor Qin Shihuang used the abacus—a device with beads on wires—to break down tax receipts and arrange them into categories. From this, they could determine how much the Emperor should spend on building extensions to the Great Wall of China." ID="ID_1607642593" CREATED="1760985530793" MODIFIED="1760985534646"/>
+<node TEXT="In England during the mid-1800s, Charles Babbage and Ada Lovelace designed (but never finished) what they called a “difference engine” designed to handle complex calculations using logarithms and trigonometry. Had they built it, the difference engine might have helped the English Navy build tables of ocean tides and depth soundings that could guide English sailors through rough waters." ID="ID_1180875076" CREATED="1760985541200" MODIFIED="1760985543727"/>
+<node TEXT="By the late 1880s, people were thinking about how to develop faster systems to record data. Herman Hollerith, inspired by train conductors using holes punched in different positions on a railway ticket to record traveler details, invented the recording of data on a machine-readable punched card. Hollerith’s cards were used for the 1890 US Census, which finished months ahead of schedule and under budget. Later versions of tabulating machines had broad applications in business, such as financial accounting and data processing." ID="ID_1112095150" CREATED="1760985543885" MODIFIED="1760985563721"/>
+</node>
+<node TEXT="The word to remember across those twenty centuries is tabulate. Think of tabulation as “slicing and dicing” data to give it a structure, so that people can uncover patterns of useful information. You tabulate when you want to get a feel for what all those columns and rows of data in a table really mean." ID="ID_1260084551" CREATED="1760985593552" MODIFIED="1760985599545"/>
+<node TEXT="Researchers call these centuries the Era of Tabulation, a time when machines helped humans sort data into structures to reveal its secrets." ID="ID_1816476009" CREATED="1760985611476" MODIFIED="1760985614852"/>
+<node TEXT="Machines helped humans sort data into structures to reveal its secrets, that is, to reveal more insight than just simply counting to get a sum total" ID="ID_28923704" CREATED="1760986570185" MODIFIED="1760986576995"/>
+</node>
+<node TEXT="The Era of Programming: Data analysis changed in the 1940s" ID="ID_1304115411" CREATED="1760969393026" MODIFIED="1760985649861">
+<node TEXT="During the turmoil of World War II, a new approach to dark data emerged: the Era of Programming. Scientists began building electronic computers, like the Electronic Numerical Integrator and Computer (ENIAC) at the University of Pennsylvania, that could run more than one kind of instruction (today we call those “programs”) in order to do more than one kind of calculation. ENIAC, for example, not only calculated artillery firing tables for the US Army, it worked in secret to study the feasibility of thermonuclear weapons." ID="ID_1051931634" CREATED="1760985649866" MODIFIED="1760985669119">
+<node TEXT="This was a huge breakthrough. Programmable computers guided astronauts from Earth to the moon and were reprogrammed during Apollo 13’s troubled mission to bring its astronauts safely back to Earth." ID="ID_1447309574" CREATED="1760985716634" MODIFIED="1760985721083"/>
+</node>
+<node TEXT="You’ve grown up during the Era of Programming. It even drives the phone you hold in your hand. But the dark data problem has also grown. Modern businesses and technology generate so much data that even the finest programmable supercomputer can&apos;t analyze it before the “heat-death” of the universe. Electronic computing is facing a crisis." ID="ID_402093375" CREATED="1760985747647" MODIFIED="1760985751329"/>
+</node>
+<node TEXT="The Era of AI: a brief history of AI" ID="ID_1072584112" CREATED="1760969468608" MODIFIED="1760985771168">
+<node TEXT="The history of artificial intelligence dates back to philosophers thinking about the question, &quot;What more can be done with the world we live in?&quot; This question lead to discussions and the very beginning of many ideas about the possibilities involving technology." ID="ID_1024409475" CREATED="1760985792040" MODIFIED="1760985795137"/>
+<node TEXT="1940s: Turing Machine" ID="ID_535802935" CREATED="1760985813445" MODIFIED="1760985820381">
+<node TEXT="Alan Turing publishes Computing Machinery and Intelligence. In the paper, Turing—famous for helping to break the Nazis’ Enigma code during World War II—proposes to answer the question &quot;can machines think?&quot; and introduces the Turing Test to determine if a computer can demonstrate the same intelligence (or the results of the same intelligence) as a human." ID="ID_207943068" CREATED="1760985820385" MODIFIED="1760985823219"/>
+</node>
+<node TEXT="1940s: Analogue Robots" ID="ID_1415102364" CREATED="1760985827086" MODIFIED="1760985844416"/>
+<node TEXT="1950: Turing Test" ID="ID_203238402" CREATED="1760985844890" MODIFIED="1760985849540"/>
+<node TEXT="1051: Minsky Neural Net" ID="ID_61956713" CREATED="1760985849706" MODIFIED="1760985856452"/>
+<node TEXT="1956: Dartmouth Conference, Birth of AI" ID="ID_1940636340" CREATED="1760985857474" MODIFIED="1760985870006">
+<node TEXT="John McCarthy coins the term &quot;artificial intelligence at the first-ever AI conference at Dartmouth College. Later that year, Allen Newell, J.C. Shaw, and Herbert Simon create the Logic Theorist, the first-ever running AI software program. McCarthy would go on to invent the Lisp language." ID="ID_1448339271" CREATED="1760985870011" MODIFIED="1760985879334"/>
+<node TEXT="The researchers proposed that “every aspect of learning or any other feature of intelligence can be so precisely described that a machine can be made to simulate it.” They called their vision “artificial intelligence” and they raised millions of dollars to achieve it within 20 years. During the next two decades, they accomplished tremendous things, creating machines that could prove geometry theorems, speak simple English, and even solve word problems with algebra." ID="ID_1706754290" CREATED="1760986191120" MODIFIED="1760986197030"/>
+</node>
+<node TEXT="1957: Checkers" ID="ID_72253385" CREATED="1760985902262" MODIFIED="1760985909905"/>
+<node TEXT="1960s: Semantic Networks" ID="ID_241008322" CREATED="1760985910068" MODIFIED="1760985921289"/>
+<node TEXT="1966: ELIZA" ID="ID_1724319445" CREATED="1760985921462" MODIFIED="1760985927839"/>
+<node TEXT="1969: SHRDLU Born" ID="ID_9655583" CREATED="1760985928060" MODIFIED="1760985938442"/>
+<node TEXT="1970-80: 1st AI Winter - K9, Star Wars" ID="ID_1483839304" CREATED="1760985938640" MODIFIED="1760985976622">
+<node ID="ID_1767940785" CREATED="1760985964033" MODIFIED="1760986391512"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1st AI Winter caused by <span style="font-weight: bold;">high expectations</span>&#xa0;from end users and <span style="font-weight: bold;">reduced funding</span>.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Limited calculating power&#xa;Today, it is important for a computer to have enough processing power and memory. Every ad you see for companies like Apple or Dell emphasizes how fast their processors run and how much data they can work with. But in 1976, scientists realized that even the most successful computers of the day, working with natural language, could only manipulate a vocabulary of about 20 words. But a task like matching the performance of the human retina might require millions of instructions per second, at a time when the world’s fastest computer could run only about a hundred. By the early 1970s, it became clear that the problem was larger than researchers imagined. There were fundamental limits that no amount of money and effort could solve." ID="ID_1462648977" CREATED="1760986228848" MODIFIED="1760986233939"/>
+<node TEXT="Limited information storage&#xa;Even simple, commonsense reasoning requires a lot of information to back it up. But no one in 1970 knew how to build a database large enough to hold even the information known by a 2-year-old child." ID="ID_1020716821" CREATED="1760986235280" MODIFIED="1760986243418"/>
+</node>
+</node>
+<node TEXT="1982: Expert Systems - ZX81" ID="ID_1352577948" CREATED="1760985972413" MODIFIED="1760985985010"/>
+<node TEXT="1982: Hopfield Net/Back Propagation" ID="ID_1082981592" CREATED="1760985985354" MODIFIED="1760985996510"/>
+<node TEXT="1982 to 1993: 2nd AI Winter - Joined IBM" ID="ID_1734770652" CREATED="1760985997327" MODIFIED="1760986024169">
+<node TEXT="2nd AI Winter caused by unmet expectations and computing power." ID="ID_1329294805" CREATED="1760986024173" MODIFIED="1760986029102"/>
+<node TEXT="Over 300 AI companies shut down or went bankrupt during The Second Winter of AI." ID="ID_913174546" CREATED="1760986287812" MODIFIED="1760986291391"/>
+</node>
+<node TEXT="1997: Deep Blue Beats Kasparov (chess)" ID="ID_1795273628" CREATED="1760986030434" MODIFIED="1760986048280"/>
+<node TEXT="2005: DARPA Grand Challenge (self driving vehicle)" ID="ID_1194813123" CREATED="1760986048457" MODIFIED="1760986062612"/>
+<node TEXT="2011: Watson Wins Jeopardy (quiz show)" ID="ID_832492094" CREATED="1760986062780" MODIFIED="1760986075839">
+<node TEXT="IBM Watson beats champions Ken Jennings and Brad Rutter at the US game show called Jeopardy!" ID="ID_921026856" CREATED="1760986075842" MODIFIED="1760986087376"/>
+</node>
+<node TEXT="2016: AlphaGo (Go)" ID="ID_1583260623" CREATED="1760986090570" MODIFIED="1760986104382">
+<node TEXT="DeepMind&apos;s AlphaGo program, powered by a deep neural network, beats Lee Sodol, the world champion Go player, in a five-game match. The victory is significant given the huge number of possible moves as the game progresses (over 14.5 trillion after just four moves!). Google bought DeepMind for a reported USD 400 million in 2014." ID="ID_13920951" CREATED="1760986132211" MODIFIED="1760986135351"/>
+</node>
+<node TEXT="2017: Alpha Zero - K9 Mk 1" ID="ID_1238123717" CREATED="1760986104545" MODIFIED="1760986113048"/>
+<node TEXT="2019: Project Debater" ID="ID_1759545740" CREATED="1760986113395" MODIFIED="1760986119493">
+<node TEXT="IBM unveils Project Debater, the first AI system capable of engaging with humans on complex topics in a live debate." ID="ID_462562409" CREATED="1760986142312" MODIFIED="1760986144388"/>
+</node>
+<node TEXT="2022: K9 Mk2" ID="ID_3099193" CREATED="1760986119654" MODIFIED="1760986123726"/>
+</node>
 </node>
 <node TEXT="1.3 Module 3: Structured, Semi-Structured, and Unstructured Data" ID="ID_1911958597" CREATED="1760969208328" MODIFIED="1760969229479">
-<node TEXT="About this Module" ID="ID_86148138" CREATED="1760969377485" MODIFIED="1760969384591"/>
-<node TEXT="A look at the types of Data" ID="ID_93781896" CREATED="1760969485637" MODIFIED="1760969495031"/>
+<node TEXT="About this Module" ID="ID_86148138" CREATED="1760969377485" MODIFIED="1760969384591">
+<node TEXT="Data is raw information. Data might be facts, statistics, opinions, or any kind of content that is recorded in some format. This could include voices, photos, names, and even dance moves!" POSITION="bottom_or_right" ID="ID_1041633609" CREATED="1760991552815" MODIFIED="1760991560889"/>
+</node>
+<node TEXT="A look at the types of Data" ID="ID_93781896" CREATED="1760969485637" MODIFIED="1760969495031">
+<node TEXT="Structured Data" ID="ID_271871324" CREATED="1760991570376" MODIFIED="1760991579282">
+<node TEXT="Structured data is typically categorized as quantitative data and is highly organized. Structured data is information that can be organized in rows and columns. Perhaps you&apos;ve seen structured data in a spreadsheet, like Google Sheets or Microsoft Excel. Examples of structured data includes names, dates, addresses, credit card numbers, stock information." ID="ID_877405749" CREATED="1760991602714" MODIFIED="1760991604825"/>
+</node>
+<node TEXT="Unstructured Data (Dark Data)" ID="ID_897057872" CREATED="1760991579626" MODIFIED="1760991589424">
+<node TEXT="Unstructured data, also known as dark data, is typically categorized as qualitative data. It cannot be processed and analyzed by conventional data tools and methods. Unstructured data lacks any built-in organization, or structure. Examples of unstructured data include images, texts, customer comments, medical records, and even song lyrics." ID="ID_1036265659" CREATED="1760991623487" MODIFIED="1760991625682"/>
+</node>
+<node TEXT="Semi-Structured Data" ID="ID_1985315380" CREATED="1760991589588" MODIFIED="1760991596119">
+<node TEXT="Semi-structured data is the “bridge” between structured and unstructured data. It doesn&apos;t have a predefined data model. It combines features of both structured data and unstructured data. It&apos;s more complex than structured data, yet easier to store than unstructured data. Semi-structured data uses metadata to identify specific data characteristics and scale data into records and preset fields. Metadata ultimately enables semi-structured data to be better cataloged, searched, and analyzed than unstructured data. An example of semi-structured data is a video on a social media site. The video by itself is unstructured data, but a video typically has text for the internet to easily categorize that information, such as through a hashtag to identify a location." ID="ID_86904576" CREATED="1760991632589" MODIFIED="1760991639089"/>
+</node>
+</node>
 <node TEXT="Analyzing Unstructured Data" ID="ID_914077759" CREATED="1760969495205" MODIFIED="1760969500891"/>
 </node>
 <node TEXT="1.4 Module 4: Is Machine Learning the Answer to the Unstructured Data Problem?" ID="ID_813462937" CREATED="1760969229651" MODIFIED="1760969253924">

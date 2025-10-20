@@ -171,17 +171,124 @@ AI Services based on dataanalysis, makeprediction.
 
 ### About this Module
 
-### The Era of Tabulation
+#### Describe the history of AI, from the past to the possible future
 
-### The Era of Programming
+### The Era of Tabulation: People have analyzed data for centuries
 
-### The Era of AI
+#### Dark Data
+
+##### Dark Data: it's information without structure, just a huge, unsorted mess of facts.
+
+#### Unstructured Data
+
+##### Over 2000 years ago, tax collectors for Emperor Qin Shihuang used the abacus—a device with beads on wires—to break down tax receipts and arrange them into categories. From this, they could determine how much the Emperor should spend on building extensions to the Great Wall of China.
+
+##### In England during the mid-1800s, Charles Babbage and Ada Lovelace designed (but never finished) what they called a “difference engine” designed to handle complex calculations using logarithms and trigonometry. Had they built it, the difference engine might have helped the English Navy build tables of ocean tides and depth soundings that could guide English sailors through rough waters.
+
+##### By the late 1880s, people were thinking about how to develop faster systems to record data. Herman Hollerith, inspired by train conductors using holes punched in different positions on a railway ticket to record traveler details, invented the recording of data on a machine-readable punched card. Hollerith’s cards were used for the 1890 US Census, which finished months ahead of schedule and under budget. Later versions of tabulating machines had broad applications in business, such as financial accounting and data processing.
+
+#### The word to remember across those twenty centuries is tabulate. Think of tabulation as “slicing and dicing” data to give it a structure, so that people can uncover patterns of useful information. You tabulate when you want to get a feel for what all those columns and rows of data in a table really mean.
+
+#### Researchers call these centuries the Era of Tabulation, a time when machines helped humans sort data into structures to reveal its secrets.
+
+#### Machines helped humans sort data into structures to reveal its secrets, that is, to reveal more insight than just simply counting to get a sum total
+
+### The Era of Programming: Data analysis changed in the 1940s
+
+#### During the turmoil of World War II, a new approach to dark data emerged: the Era of Programming. Scientists began building electronic computers, like the Electronic Numerical Integrator and Computer (ENIAC) at the University of Pennsylvania, that could run more than one kind of instruction (today we call those “programs”) in order to do more than one kind of calculation. ENIAC, for example, not only calculated artillery firing tables for the US Army, it worked in secret to study the feasibility of thermonuclear weapons.
+
+##### This was a huge breakthrough. Programmable computers guided astronauts from Earth to the moon and were reprogrammed during Apollo 13’s troubled mission to bring its astronauts safely back to Earth.
+
+#### You’ve grown up during the Era of Programming. It even drives the phone you hold in your hand. But the dark data problem has also grown. Modern businesses and technology generate so much data that even the finest programmable supercomputer can't analyze it before the “heat-death” of the universe. Electronic computing is facing a crisis.
+
+### The Era of AI: a brief history of AI
+
+#### The history of artificial intelligence dates back to philosophers thinking about the question, "What more can be done with the world we live in?" This question lead to discussions and the very beginning of many ideas about the possibilities involving technology.
+
+#### 1940s: Turing Machine
+
+##### Alan Turing publishes Computing Machinery and Intelligence. In the paper, Turing—famous for helping to break the Nazis’ Enigma code during World War II—proposes to answer the question "can machines think?" and introduces the Turing Test to determine if a computer can demonstrate the same intelligence (or the results of the same intelligence) as a human.
+
+#### 1940s: Analogue Robots
+
+#### 1950: Turing Test
+
+#### 1051: Minsky Neural Net
+
+#### 1956: Dartmouth Conference, Birth of AI
+
+##### John McCarthy coins the term "artificial intelligence at the first-ever AI conference at Dartmouth College. Later that year, Allen Newell, J.C. Shaw, and Herbert Simon create the Logic Theorist, the first-ever running AI software program. McCarthy would go on to invent the Lisp language.
+
+##### The researchers proposed that “every aspect of learning or any other feature of intelligence can be so precisely described that a machine can be made to simulate it.” They called their vision “artificial intelligence” and they raised millions of dollars to achieve it within 20 years. During the next two decades, they accomplished tremendous things, creating machines that could prove geometry theorems, speak simple English, and even solve word problems with algebra.
+
+#### 1957: Checkers
+
+#### 1960s: Semantic Networks
+
+#### 1966: ELIZA
+
+#### 1969: SHRDLU Born
+
+#### 1970-80: 1st AI Winter - K9, Star Wars
+ 
+1st AI Winter caused byhigh expectations from end users andreduced funding.
+
+
+###### Limited calculating power
+Today, it is important for a computer to have enough processing power and memory. Every ad you see for companies like Apple or Dell emphasizes how fast their processors run and how much data they can work with. But in 1976, scientists realized that even the most successful computers of the day, working with natural language, could only manipulate a vocabulary of about 20 words. But a task like matching the performance of the human retina might require millions of instructions per second, at a time when the world’s fastest computer could run only about a hundred. By the early 1970s, it became clear that the problem was larger than researchers imagined. There were fundamental limits that no amount of money and effort could solve.
+
+###### Limited information storage
+Even simple, commonsense reasoning requires a lot of information to back it up. But no one in 1970 knew how to build a database large enough to hold even the information known by a 2-year-old child.
+
+#### 1982: Expert Systems - ZX81
+
+#### 1982: Hopfield Net/Back Propagation
+
+#### 1982 to 1993: 2nd AI Winter - Joined IBM
+
+##### 2nd AI Winter caused by unmet expectations and computing power.
+
+##### Over 300 AI companies shut down or went bankrupt during The Second Winter of AI.
+
+#### 1997: Deep Blue Beats Kasparov (chess)
+
+#### 2005: DARPA Grand Challenge (self driving vehicle)
+
+#### 2011: Watson Wins Jeopardy (quiz show)
+
+##### IBM Watson beats champions Ken Jennings and Brad Rutter at the US game show called Jeopardy!
+
+#### 2016: AlphaGo (Go)
+
+##### DeepMind's AlphaGo program, powered by a deep neural network, beats Lee Sodol, the world champion Go player, in a five-game match. The victory is significant given the huge number of possible moves as the game progresses (over 14.5 trillion after just four moves!). Google bought DeepMind for a reported USD 400 million in 2014.
+
+#### 2017: Alpha Zero - K9 Mk 1
+
+#### 2019: Project Debater
+
+##### IBM unveils Project Debater, the first AI system capable of engaging with humans on complex topics in a live debate.
+
+#### 2022: K9 Mk2
 
 ## 1.3 Module 3: Structured, Semi-Structured, and Unstructured Data
 
 ### About this Module
 
+#### Data is raw information. Data might be facts, statistics, opinions, or any kind of content that is recorded in some format. This could include voices, photos, names, and even dance moves!
+
 ### A look at the types of Data
+
+#### Structured Data
+
+##### Structured data is typically categorized as quantitative data and is highly organized. Structured data is information that can be organized in rows and columns. Perhaps you've seen structured data in a spreadsheet, like Google Sheets or Microsoft Excel. Examples of structured data includes names, dates, addresses, credit card numbers, stock information.
+
+#### Unstructured Data (Dark Data)
+
+##### Unstructured data, also known as dark data, is typically categorized as qualitative data. It cannot be processed and analyzed by conventional data tools and methods. Unstructured data lacks any built-in organization, or structure. Examples of unstructured data include images, texts, customer comments, medical records, and even song lyrics.
+
+#### Semi-Structured Data
+
+##### Semi-structured data is the “bridge” between structured and unstructured data. It doesn't have a predefined data model. It combines features of both structured data and unstructured data. It's more complex than structured data, yet easier to store than unstructured data. Semi-structured data uses metadata to identify specific data characteristics and scale data into records and preset fields. Metadata ultimately enables semi-structured data to be better cataloged, searched, and analyzed than unstructured data. An example of semi-structured data is a video on a social media site. The video by itself is unstructured data, but a video typically has text for the internet to easily categorize that information, such as through a hashtag to identify a location.
 
 ### Analyzing Unstructured Data
 
