@@ -70,6 +70,8 @@ AI is a field that combinescomputer science  and robustdataset to enable problem
 
 ##### Augmented intelligence allows humans to make final decisions after analyzing data, reports, and other types of data
 
+##### Augmented intelligence acts on behalf of people in the physical world in a way that complements human abilities
+
 #### Artificial intelligence has a lofty goal of mimicking human thinking and processes.
 
 ##### AI performs tasks without human intervention and completes mundane and repetitive tasks for humans
@@ -213,7 +215,7 @@ AI Services based on dataanalysis, makeprediction.
 
 #### 1950: Turing Test
 
-#### 1051: Minsky Neural Net
+#### 1951: Minsky Neural Net
 
 #### 1956: Dartmouth Conference, Birth of AI
 
@@ -284,6 +286,8 @@ Even simple, commonsense reasoning requires a lot of information to back it up. 
 
 ###### Sample: hotel and ticket reservation data
 
+###### Sample: flight schedule
+
 #### Unstructured Data (Dark Data)
 
 ##### Unstructured data, also known as dark data, is typically categorized as qualitative data. It cannot be processed and analyzed by conventional data tools and methods. Unstructured data lacks any built-in organization, or structure. Examples of unstructured data include images, texts, customer comments, medical records, and even song lyrics.
@@ -304,6 +308,9 @@ Even simple, commonsense reasoning requires a lot of information to back it up. 
  
 Experts estimate that about80% of all the data in today’s world is unstructured. It contains so many variables and changes so quickly that no conventional computer program can learn much from it.
 
+ 
+Unstructured data is categorized asqualitative  data, and cannot be processed and analyzed by conventional data tools and methods
+
 
 #### Semi-Structured Data
 
@@ -319,31 +326,248 @@ Experts estimate that about80% of all the data in today’s world is unstructure
 
 ### About this Module
 
-#### 
+Define and describe machine learning
+
+Describe how machine learning structures unstructured data
+
+Describe how machine learning uses probabilistic calculation to solve problems
+
 
 ### How does ML Approach a Problem?
 
+#### Consider the problem of finding a route through big city traffic using a navigation system: ML Process's advantages
+
+##### It doesn't need a DB of all the possible routes from one place to another. It just needs to know where places are on the map.
+
+##### It can respond to traffic problems quickly because it doesn't need to store alternative routes for every possible traffic situation. It notes where slowdowns are and finds a way around them through trial and error.
+
+##### It can work very quickly. While trying single turns one at a time, it can work through millions of tiny calculations.
+
+#### Other ML's advantages that programmable computers lack
+
+##### Machine learning can predict
+
+##### Machine learning learns!
+
+#### Machine Learning can analyze Dark Data (unstructured data) more quickly than a programmable computer can
+
 ### ML uses Probabilistic Calculation
+
+#### Two other ways to contrast classical and machine learning systems
+
+##### Deterministic
+
+###### For a deterministic system, there must be an enormous, predetermined structure of routes—a gigantic database of possibilities from which the machine can make its choice. If a certain route leads to the destination, then the machine flags it as “YES”. If not, it flags it as “NO”. This is basically binary thinking: on or off, yes or no. This is the essence of a computer program. The answer is either true or false, not a confidence value.
+
+##### Probabilistic
+
+###### It never says “YES” or “NO”. Machine learning is analog (like waves gradually going up and down) rather than binary (like arrows pointing upward and downward). Machine learning constructs every possible route to a destination and compares them in real time, including all the variables such as changing traffic. So, a machine learning system doesn’t say, “This is the fastest route.” It says something like, “I am 84% confident that this route will get you there in the shortest time.” You might have seen this yourself if you’ve traveled in a car with an up-to-date GPS navigation system that offers you two or three choices with estimated times.
+
+#### Machine learning enables a rich partnership between technology and humans
+
+##### AI systems and humans excel at different things. For example, you, as a person, might excel at imagining possibilities, while AI excels at pinpointing patterns.
+
+##### AI Capabilities
+
+###### Pattern Identification
+
+###### Machine Learning
+
+###### Structuring information
+
+###### Endless memory capacity
+
+##### Human capabilities
+
+###### Abstraction
+
+###### Compassion
+
+###### Generalization
+
+###### Dreaming
+
+#### Does Common Sense make sense?
+
+##### Common sense draws on many complex generalizations mixed with compassion and abstractions. At this time, only humans can use common sense well. The problem is that common sense is often tainted with bias that can distort your judgment. AI systems can balance this. As long as AI systems are provided and trained with unbiased data, they can make recommendations that are free of bias. A partnership between humans and machines can lead to sensible decisions.
 
 ## 1.5 Module 5: Three Common Methods of Machine Learning
 
 ### About this Module
 
+Describe three methods by which machine learning analyzes data
+
+
 ### Supervised Learning
+
+#### is about providing AI with enough examples to make accurate predictions
+
+#### All Supervised Learning algorithms need labeled data.
+
+##### Labeled data is data that is grouped into samples that are tagged with one or more labels.
+ 
+In other words, applying supervised learning requires you to tell your model:
+
+1. What the key characteristics of a thing are, also calledfeatures
+
+2. What the thing actually is
+
+
+#### Example: Classification Problem
+
+##### For example, the information might be drawings and photos of animals, some of which are dogs and are labeled “dog”. The machine will learn by identifying a pattern for “dog”. When the machine sees a new dog photo and is asked, “What is this?”, it will respond, “dog”, with high accuracy. This is known as a classification problem.
 
 ### Unsupervised Learning
 
+#### A person feeds a machine a large amount of information, asks a question, and then the machine is left to figure out how to answer the question by itself.
+
+##### For example, the machine might be fed many photos and articles about dogs. It will classify and cluster information about all of them. When shown a new photo of a dog, the machine can identify the photo as a dog, with reasonable accuracy.
+
+#### Example: Clustering Information
+ 
+Unsupervised learning occurs when the algorithm is not given a specific “wrong” or “right” outcome. Instead, the algorithm is givenunlabeled data.
+
+
+##### Unsupervised learning is helpful when you don't know how to classify data. For example, imagine you work for a banking institution and you have a large set of customer financial data. You don't know what type of groups or categories to organize the data. Here, an unsupervised learning algorithm could find natural groupings of similar customers in a database, and then you could describe and label them.
+ 
+This type of learning has the ability to discoversimilarities  anddifferences in information, which makes it an ideal solution for exploratory data analysis, cross-selling strategies, customer segmentation, and image recognition.
+
+
 ### Reinforcement Learning
+
+#### A machine learning model similar to supervised learning, but the algorithm isn't trained using sample data. This model learns as it goes by using trial and error.
+
+##### A sequence of successful outcomes is reinforced to develop the best recommendation for a given problem.
+
+##### The foundation of reinforcement learning is rewarding the "right" behavior and punishing the "wrong" behavior
+
+##### Rewording a machine means that you give your agent positive reinforcement for performing the "right" thing and negative reinforcement for performing the "wrong" thing
+
+#### Example: Trial and Error
+
+#### As a machine learns through trial and error, it tries a prediction, then compares it with data in its corpus.
+
+##### Each time the comparison is positive, the machine receives positive numerical feedback, or a reward.
+
+##### Each time the comparison is negative, the machine receives negative numerical feedback, or a penalty.
+
+#### Over time, a machine’s predictions will grow to be more accurate. It accomplishes this automatically based on feedback, rather than through human intervention.
 
 ## 1.6 Module 6: How will Machine Learning Transform Human Life?
 
 ### About this Module
 
+Describe an ideal relationship between humans and machine learning
+
+
 ### Take another look at the Three Levels of AI
+
+#### AI researcher Nick Bostrom defines this superintelligence as, “an intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom and social skills.” You’re likely to see General AI appear in your lifetime. General AI will enable supersmart bots and technologies to link AI with the Internet of Things through “embodied cognition”. This will give machines the ability to interact in human-like ways as they work alongside humans.
+
+### What will interacting with general AI feel like to humans?
+
+#### AI everywhere
+
+##### AI will move into all industries, from finance, to education, to healthcare. AI will increase productivity and enable new opportunities.
+
+#### Deeper insights
+
+##### New technologies will sense, analyze, and understand things never before possible.
+
+#### Engagement reimagined
+
+##### New forms of human-machine interaction and emerging technologies, such as conversational bots, will transform how humans engage with each other and with machines.
+
+#### Personalization
+
+##### Machine interactions will be personalized for you, with new levels of detail and scale.
+
+#### Instrumented planet
+
+##### Billions of sensors generating exabytes of data will open new possibilities for improving Earth’s safety, sustainability, and security.
+
+### What’s beyond these wonders? Humans, devices, and robots might exist as a collective “digital brain” that anticipates human needs, makes predictions, and provides solutions. Farther in the future, we might trust the digital brain to do things on our behalf across a broad spectrum of endeavors!
+
+### “How does machine learning enable decision-making in complex scenarios, such as medical treatment choices?”
+
+#### By providing probabilistic statements with confidence levels for different treatment options
 
 ## 1.7 Summary and Final Assessment
 
+Explore More:
+
+
+
+- What Is Artificial Intelligence (AI)?(opens in a new tab) – A detailed look into artificial intelligence from IBM provides more information on types of AI, the history of AI, and the future of AI.
+- Structured vs. Unstructured Data: What’s the Difference?(opens in a new tab) – IBM Cloud experts provide examples comparing the pros and cons of structured and unstructured data.
+- Distinguishing between Narrow AI, General AI and Super AI(opens in a new tab) – A simple, but necessary guide offered by Medium.
+- What is generative AI?(opens in a new tab) - An IBM Research expert provides an introduction to generative AI and how it works.
+- Humans vs. AI: who makes the best decisions?(opens in a new tab) – IBM Master Inventor Martin Keene answers the question, “Who makes the best decisions, humans or AI?”
+- Can AI Help Climate Change?(opens in a new tab) – In this video, Stacey Gifford, an IBM Research chemist, explains how artificial intelligence can be used to develop new materials to help address climate change.
+
+
+### 1. Artificial intelligence refers to the ability of a machine to learn patterns and make predictions. AI does not replace human decisions; instead, AI adds value to human judgment.
+
+### 2. AI performs tasks without human intervention and completes mundane and repetitive tasks, while augmented intelligence allows humans to make final decisions after analyzing data, reports, and other types of data.
+
+### 3. The three levels of AI include: Narrow AI, Broad AI, and General AI. Narrow AI and Broad AI are available today. In fact, most enterprises use Broad AI. General AI won’t come online until sometime in the future.
+
+### 4. The history of AI has progressed across the Era of Tabulation, Era of Programming, and Era of AI.
+
+### 5. Data can be structured, unstructured, or semi-structured.
+
+#### Structured data is quantitative and highly organized, such as a spreadsheet of data.
+
+#### Unstructured data is qualitative data that doesn't have structure, such as medical records. It's becoming increasing valuable to businesses.
+
+#### And semi-structured data combines features of both structured data and unstructured data. It uses metadata.
+
+### 6. About 80% of all the data in today’s world is unstructured.
+
+### 7. Machine learning has advantages compared to programmable computers. Machine learning can predict and machine learning learns!
+
+### 8. Machine learning uses three methods.
+
+#### Supervised learning requires enough examples to make accurate predictions.
+
+#### Unsupervised learning requires large amounts of information so the machine can ask a question, and then figure out how to answer the question by itself.
+
+#### Reinforcement learning requires the process of trial and error.
+
+### 9. With AI everywhere, AI will move into all industries, from finance, to education, to healthcare.
+
+### 10. AI can increase productivity, create new opportunities, provide deeper insights, and enable personalization.
+
 # 2. Natural Language Processing and Computer Vision
+
+What you’ll learn
+
+After completing this course, you should be able to:
+
+ 
+
+- Define natural language processing
+- Explain how AI uses natural language processing to derive meaning from text
+- Explain the classification problem and its solutions
+- Describe how a chatbot understands, reasons, learns, and interacts with users
+- Distinguish between intents, entities, and dialogs
+- Identify appropriate uses for chatbots
+- Identify real-world uses for natural language processing (NLP)
+- Describe how AI classifies images to derive meaning from them
+- Describe how a convolutional neural network(CNN) analyzes an image
+- Describe how a generative adversarial network (GAN) creates a credible image
+- Identify real-world uses for computer vision
+
+
+## M1: The Debater Project
+
+## M2: AI Performs NLP
+
+## M3: Chatbots use NLP to Interact with Humans
+
+## M4: AI Classifies Images
+
+## Summary
 
 # 3. Machine Learning and Deep Learning
 
