@@ -561,13 +561,384 @@ After completing this course, you should be able to:
 
 ## M1: The Debater Project
 
+### A system that helps machines understand cultural knowledge, grammatical structures, and various language nuances is known as natural language processing
+
+#### IBM Project Debater was a major step forward in the field of natural language processing.
+
+#### Human language is complex, so machines require natural language processing systems to understand human language.
+
+### Project Debater
+
+#### IBM began developing Project Debater in 2012, hoping to build a machine that could do more than win debates with humans. In other words, IBM Project Debater would need to be able to do more than just answer questions in a human language; it would need to have the ability to listen to a series of competitive arguments posed by humans and respond to them intelligently. IBM's ultimate goal was to build a system that could help people make evidence-based, bias-free decisions on difficult topics where the answers aren’t obvious.
+
+### Debate Steps
+
+#### 1. Learn and Understand the Topic
+ 
+Ingest several billion passages from newspapers, books, and journals. (AI researchers call this collection of learned material acorpus.语料库) Then, structure all that content so you can relate concepts to each other and evaluate them, even when they’re stated in different ways.
+
+
+#### 2. Build a Position
+
+##### Create an opening speech made of short pieces of text pasted together from the corpus. Your speech should detail your position on the debate topic. It can’t be a jumble of phrases. It must present a compelling argument, in logical order, using good grammar.
+
+#### 3. Organize your Proof
+
+##### Learn the deeper meaning of the facts that surround your topic. Decide what evidence is strongest and arrange your proof by themes. Adjust your arrangement each time new evidence arrives. This will help you find updated or completely new information that can score points against your opponent’s position.
+
+#### 4. Respond to Your Opponent
+
+##### Listen to your opponent’s arguments and rebuttals, then deliver a convincing rebuttal that refutes your opponent and further proves your case.
+
+### Why do we care about these four steps? Because they reflect and test four things that cognitive systems do
+
+#### Understanding
+
+##### Cognitive systems understand like humans do
+
+#### Reasoning
+
+##### They reason underlying ideas and concepts.
+They debate.
+They infer and extract concepts.
+
+他们推理潜在的思想和概念。
+
+他们辩论。
+
+他们推断并提取概念。
+
+
+#### Learning
+
+##### They never stop learning.
+Advancing with each new piece of information, interaction, and outcome.
+They develop "expertise".
+
+#### Interacting
+
+##### ... Allowing them to interact with humans.
+
+### Steps in NLP
+
+#### Understanding human language is difficult, even for people who have grown up with it. Human language is incredibly complex, full of strange expressions that seem to contradict each other, metaphors that require cultural knowledge to understand, and grammatical structures that sometimes turn simple ideas into tongue-twisters.
+
+理解人类语言并非易事，即使对从小就接触人类语言的人来说也是如此。人类语言极其复杂，充满了看似自相矛盾的奇特表达、需要文化知识才能理解的隐喻，以及有时会将简单的想法变成绕口令的语法结构。
+
+
+#### Machines require systems that research scientists call natural language processing, or NLP, to understand human language. IBM Project Debater was the most complex AI system IBM Research had ever built to understand human language.
+
 ## M2: AI Performs NLP
+
+### About this Module
+
+Explain how AI uses natural language processing to derive meaning from text
+
+Explain the classification problem and its solutions
+
+
+### NPL Sentence Segmentation and Tokens
+
+#### In NLP, machines segment sentences and extract meaning from “tokens” of human language
+
+#### Human language is unstructured. Although it is loosely held together by rules of grammar, our language expresses information in many confusing ways. Unlike structured information, which can be arranged in tables or matrices with neatly labeled rows and columns, unstructured information is messy and difficult to understand. To see why, consider this famous joke by Groucho Marx.
+ 
+To deal with the “messiness” of unstructured information, computers begin with one sentence at a time. This is calledsentence segmentation. Computers then break the information into small chunks of information, calledtokens, that can be individually classified. Once the tokens in text have been sorted into a structure based on what they mean, NLP can work with them.
+
+
+为了处理非结构化信息的“混乱”，计算机会从逐句开始处理。这被称为句子分割。然后，计算机将信息分解成小块信息，这些小块被称为“标记”，可以单独进行分类。一旦文本中的标记根据其含义被分类成结构，NLP 就可以对其进行处理。
+
+
+#### "One morning I shot an elephant in my pajamas. How he got in my pajamas, I don’t know.
+
+Adapted from Groucho Marx, 20th century comedian and movie star
+
+##### Activity 1: Entities
+
+###### An entity is a noun representing a person, place, or thing. It’s not an adjective, verb, or other article of speech.
+
+###### I, elephant, and pajamas are entities because they are nouns.
+Shot, an, in, and my are not entities because they are not nouns.
+
+##### Activity 2: Relationships
+
+###### A relationship is a group of two or more entities that have a strong connection to one another.
+
+###### For I + elephant, I + pajamas, and elephant + pajamas, both words in the pair are nouns and are related entities.
+
+I + shot is not a relationship between entities. I is a noun but shot is a not.
+
+in + pajamas is not a relationship between entities. Pajamas is a noun but in is not.
+
+###### Once an AI has classified entities and relationships in text or speech, the AI can begin structuring the information as a step toward understanding it. Your brain, by the way, does the same thing, which might have helped you find entities and relationships in the previous activities.
+
+###### For example, consider the following two sentences: “Armen broke the glass. He always breaks the glass.” Notice that there is a relationship between the two sentences: the word he is related to the word Armen. The machine uses NLP to identify this relationship.
+
+##### Activity 3: Concepts
+
+###### A concept is something implied in a sentence but not actually stated. This is trickier because it involves matching ideas rather than the specific words present in the sentence.
+
+### Emotion Detection and Sentiment Analysis
+
+#### Emotion detection identifies distinct human emotion types.
+
+情绪检测可以识别人类不同的情绪类型。
+
+
+##### For example, you can determine if the emotion being expressed is anger, happiness, or fear after reading a user's rating and comments in an online customer satisfaction survey.
+
+##### AI can be trained to classify emotions. Identifying the right emotional token can make a big difference when an AI system is reading a social media post or a customer service chat, in which different emotions significantly change the meaning of a sentence.
+
+#### Sentiment analysis isn’t a specific emotion —at least, not as computer scientists use the term. Instead, it’s a measure of the strength of an emotion.
+
+情绪分析并非指代某种特定的情绪——至少，计算机科学家不是这么称呼它的。相反，它是对情绪强度的衡量。
+
+
+##### You can think of sentiment as a sliding scale between positive and negative, with neutral in the middle.
+
+##### Sentiment analysis is a means of assessing if data is positive, negative, or neutral.
+
+##### Sentiment Analysis is A method to measure the strength of an emotion by assessing data as positive, negative, or neutral
+
+### The Classification Problem
+
+#### Human Language makes classification challenging --
+Human language is full of terms that are vague or have double meanings. This is called a classification problem. In the riddle, run and smell each have two meanings.
+
+##### "A runny nose" means you have a cold and you need a tissue to wipe your nose.
+
+##### "A smelly foot" means that your  foot has an unpleasant odor.
+ 
+Classification can be more difficult for an AI system than identifying tokens because so much of classification depends on the context in which a sentence is contained.
+
+
+##### Compare I went to the docks to ship my box to I went to the station to ship my box. Both sentences indicate where a box’s travel begins, but neither specifies how it will travel. An AI system must associate the word ship with either the word station or docks, and then relate that association with the right concept: either train or boat.
+
+##### How does an AI system deal with this problem? After ingesting several thousand instances in which shipping from a dock results in boat travel, while shipping from a station leads to shipping by rail, the AI system identifies the frequency in which places and kinds of travel are linked. Gradually, the system gets better at classification and makes fewer mistakes. However, as with humans, an AI system’s classification will never be 100% perfect. (That’s why well-designed AI systems give not only a response, but also a confidence value.)
+
+#### As you’ve learned, getting from tokens and classification to answering questions (or winning a debate) is a complex endeavor. But it isn’t enough to take a machine all the way to understanding. You will learn about ways to do this later in this course.
+
+### NLP and Jeopardy!
+ 
+AI system is working with human language handle the classification problem bylearning from many instances.
+
 
 ## M3: Chatbots use NLP to Interact with Humans
 
+### About this Module
+
+#### Describe how a chatbot understands, reasons, learns, and interacts with users
+
+#### Distinguish between intents, entities, and dialogs
+
+#### Identify appropriate uses for chatbots
+
+#### Identify real-world uses for natural language processing
+
+### Chatbot Structure
+
+#### Chatbots work with small data. This means their scale is much more limited.
+
+#### A Chatbot has a "frontend" and a "backend"
+
+##### The frontend of a chatbot is the messaging channel. The frontend interacts with the person who’s asking questions, both listening (or reading) and speaking (or presenting text).
+
+###### User Interaction
+
+##### The backend of a chatbot is where the hard work takes place. The backend operates application logic and has enough memory to remember earlier parts of a conversation as dialog continues.
+ (see:)
+###### Logic
+
+###### Data
+
+### The Chatbot Backend
+ 
+A chatbot’s backend does the hard work ofunderstanding  andresponding
+
+ 
+This is a great job for algorithms calledclassifiers.
+
+
+##### Classifiers can map many different ways of asking a question to a very small set of answers. How small? Some retail chatbots respond to hundreds of different questions with only five or six possible answers. Questions the chatbots can’t answer are sent to human customer service representatives.
+
+#### Chatbots are designed for a small set of interaction types.
+
+### Intents, Entities, and Dialog
+
+#### A ChatBot backend usually includes 3 parts: intents, entities, and dialog
+ 
+Chatbots understand a question by breaking it into parts and relating those parts to things in its memory. A chatbot’s goal is to identify what are calledentities andintents, then use what it’s found to trigger adialog. What do these terms mean?
+
+
+##### The chatbot breaks inputs apart to identify intents and entities.
+
+#### Intent
+
+##### An intent is a purpose: the reason why a user is contacting the chatbot. Think of it as something like a verb: a kind of action. A user might intend to file a complaint, to ask for directions, to speak to a salesperson.
+
+###### A chatbot runs NLP to understand the human’s intentions of their typed input.
+
+#### Entity
+ 
+An entity is anoun: a person, place, or thing. This concept was covered earlier in this course.
+
+
+#### Dialog
+
+##### A dialog is a flowchart—an IF / THEN tree structure that illustrates how a machine will respond to user intents. A dialog is what the machine replies after a human asks a question. Even if a human uses run-on sentences, poor grammar, chat messaging expressions, and so on, artificial intelligence allows the NLP to understand well enough to provide a response.
+
+###### The dialog represents each possible word or phrase a user might enter, the matched response for the chatbot, and the many possible subsequent replies a user might make next.
+ 
+That’s too much for an ordinary flowchart to show (you might need three or four dimensions!), so chatbot software condenses each moment of the conversation into anode.
+
+
+###### A node contains a statement by the chatbot and a long, expandable list of possible replies.
+ 
+A dialog is represented by aflowchart that illustrates how a chatbot will respond after a human asks a question.
+
+
+### Example NLP Analysis
+
+#### Intents, entities, and dialogs make quick work for NLP
+
+#### In a conventional computer, the program code is stupendously large but wouldn’t handle intents, entities, and dialogs very well. A conventional computer would need a separate IF / THEN line for many thousands of ways a question might be asked. Unless a human were to match one of those lines perfectly, the computer would fail.
+
+#### But an AI system’s combination of NLP with intents, entities, and dialog can make quick work of this. NLP analyzes sentence components, then uses processes like passage and evidence scoring to classify the sentence components against possible chatbot responses. The result is that when a human user asks a question, the AI system provides the answer with the highest confidence.
+
+但人工智能系统将自然语言处理 (NLP) 与意图、实体和对话相结合，可以快速完成这项工作。NLP 会分析句子成分，然后使用段落和证据评分等流程，根据聊天机器人的可能响应对句子成分进行分类。这样，当人类用户提出问题时，人工智能系统就能提供置信度最高的答案。
+
+
 ## M4: AI Classifies Images
 
+### About this Module
+
+#### Describe how AI classifies images to derive meaning from them
+ 
+Describe how aconvolutional neural network (CNN) analyzes an image
+
+
+描述卷积神经网络 (CNN) 如何分析图像
+
+ 
+Describe how agenerative adversarial network  (GAN) creates a credible image
+
+
+描述生成对抗网络 (GAN) 如何创建可信图像
+
+
+#### Identify real-world uses for computer vision
+
+### Convolutional Neural Networks (CNN)
+
+#### An AI system uses a convolutional neural networks (CNN) to analyze images
+
+##### It's one thing to display an image and another, much more complicated thing to analyze it.
+ 
+The process - called aconvolutional neural network (CNN) - makes it possible for visual recognition systems to identify things in an image, as in facial recognition.
+
+
+#### In a CNN, two small groups of pixels that overlap each other are compared mathematically to get a value. AI can use thousands of these small comparisons to identify individual parts of an image, then compare them to images in its corpus. From this, AI can put together an overall identification, without being overwhelmed.
+
+#### CNN process makes facial recognition possible
+
+### Generative Adversarial Networks (GAN)
+
+#### A visual recognition system can use a generative adversarial network (GAN) to create new drawings and photos
+
+#### One way is by pitting two convolutional neural networks (CNNs) against each other in a “contest” called a generative adversarial network, or GAN. In effect, the CNNs battle each other until one of them becomes pretty good at creating art.
+
+#### A GAN battle ends with an image that’s ready to be shown to a human. Sometimes, the human might laugh and think the resulting image is ridiculous. But other times, the human, like the CNN acting as judge and teacher, won’t be able to tell the difference. At that point, the deep fake is a success!
+
+### Computer Vision Applications
+
+#### The IBM Maximo visual inspection system can be equipped with video cameras on drones. It can not only detect problems, like cracks in a suspension bridge, but identify which problems (cracks, in this example) are dangerous and should be repaired.
+
+#### Here are more applications
+
+##### Spotting a dangerous but difficult-to-detect flaw in an airplane’s wing
+
+##### Monitoring water flow across a dairy farm to ensure it doesn’t reach nearby food crops
+
+##### Counting the number of people in an unruly crowd
+
+##### Classifying animal and plant populations to measure biodiversity in a forest
+
+##### Performing lip-reading for people who cannot hear or speak
+
+##### Inspecting robots at work on an assembly line
+
 ## Summary
+
+Define natural language processing
+
+Explain how AI uses natural language processing to derive meaning from text
+
+Explain the classification problem and its solutions
+
+Describe how a chatbot hears, identifies, and responds to a question
+
+Distinguish between intents, entities, and dialogs
+
+Identify appropriate uses for chatbots
+
+Identify real-world uses for natural language processing
+
+Describe how AI classifies images to derive meaning from them
+
+Describe how a convolutional neural network (CNN) analyzes an image
+
+Describe a generative adversarial network (GAN) creates a credible image
+
+Identify real-world uses for computer vision
+
+
+
+Explore more:
+
+- What is natural language processing (NLP)?(opens in a new tab) – and IBM site that explains NLP, tools, and use cases
+- What is a chatbot?(opens in a new tab) – an IBM site that explains chatbots and sets out guidance for making them more effective
+-  What is computer vision?(opens in a new tab) – an IBM site focusing on computer vision and how AI derives meaningful information from digital images, videos, and other visual inputs
+
+
+### 1. Machines require systems called natural language processing (NLP) to understand human language. Human language is unstructured. In NLP, machines segment sentences into small chunks of information, called a token. Machines classify and sort tokens into a structure so NLP can work with them to extract meaning.
+
+### 2. With IBM Project Debater, the goal was to build an AI system that could help people make evidence-based, bias-free decisions on difficult topics where the answers aren’t obvious.
+
+### 3. The four steps a debater AI system takes include:
+
+#### Step 1: Learn and understand the topic
+
+#### Step 2: Build a position
+
+#### Step 3: Organize your proof
+
+#### Step 4: Respond to your opponent
+
+### 4. Emotion detection identifies distinct human emotion types. AI can be trained to classify emotions.
+
+#### how detecting emotions can help an AI system in user interactions?
+
+It enables the AI to detect when a customer is frustrated or angry and escalate the issue to a human agent.
+
+### 5. Sentiment analysis is a measure of the strength of an emotion. It results in assessing if data is positive, negative, or neutral.
+
+### 6. Chatbots are ready to answer your questions!
+
+#### The frontend interacts with the person asking questions. It listens (or reads) and speaks (or presents text).
+
+#### The backend operates application logic and has enough memory to remember earlier parts of a conversation as dialog continues.
+
+### 7. A chatbot identifies entities and intents, then uses what it has found to trigger a dialog.
+
+#### An intent is a purpose, or the reason why a user is contacting the chatbot. Think of it as a verb or action to take.
+
+#### An entity is a person, place, or thing. Think of it as a noun.
+
+#### A dialog is a flowchart that illustrates the chatbot replies to the user intents.
+
+### 8. With a convolutional neural network (CNN), an AI system can analyze images. With a generative adversarial network (GAN), an AI system can create new drawings and photos.
+
+### 9. NLP and computer vision can be useful ways to extend human expertise.
 
 # 3. Machine Learning and Deep Learning
 

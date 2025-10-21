@@ -938,7 +938,19 @@
 <node TEXT="&quot;A runny nose&quot; means you have a cold and you need a tissue to wipe your nose." ID="ID_380476981" CREATED="1761058971085" MODIFIED="1761058971085"/>
 <node TEXT="&quot;A smelly foot&quot; means that your  foot has an unpleasant odor." ID="ID_1350898406" CREATED="1761058971085" MODIFIED="1761058971085"/>
 </node>
-<node TEXT="Classification can be more difficult for an AI system than identifying tokens because so much of classification depends on the context in which a sentence is contained." ID="ID_453993672" CREATED="1761059030828" MODIFIED="1761059033440">
+<node ID="ID_453993672" CREATED="1761059030828" MODIFIED="1761072526261"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Classification</span>&#xa0;can be more difficult for an AI system than identifying tokens because so much of classification depends on the context in which a sentence is contained.
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Compare I went to the docks to ship my box to I went to the station to ship my box. Both sentences indicate where a box’s travel begins, but neither specifies how it will travel. An AI system must associate the word ship with either the word station or docks, and then relate that association with the right concept: either train or boat." ID="ID_1007008822" CREATED="1761059096228" MODIFIED="1761059098608"/>
 <node TEXT="How does an AI system deal with this problem? After ingesting several thousand instances in which shipping from a dock results in boat travel, while shipping from a station leads to shipping by rail, the AI system identifies the frequency in which places and kinds of travel are linked. Gradually, the system gets better at classification and makes fewer mistakes. However, as with humans, an AI system’s classification will never be 100% perfect. (That’s why well-designed AI systems give not only a response, but also a confidence value.)" ID="ID_587723242" CREATED="1761059106229" MODIFIED="1761059109077"/>
 </node>
@@ -1011,6 +1023,7 @@
 </node>
 <node TEXT="Classifiers can map many different ways of asking a question to a very small set of answers. How small? Some retail chatbots respond to hundreds of different questions with only five or six possible answers. Questions the chatbots can’t answer are sent to human customer service representatives." ID="ID_1216173322" CREATED="1761060500648" MODIFIED="1761060503543"/>
 </node>
+<node TEXT="Chatbots are designed for a small set of interaction types." POSITION="bottom_or_right" ID="ID_634305948" CREATED="1761062318616" MODIFIED="1761062324714"/>
 </node>
 <node TEXT="Intents, Entities, and Dialog" ID="ID_1816668112" CREATED="1761059756002" MODIFIED="1761059764038">
 <node TEXT="A ChatBot backend usually includes 3 parts: intents, entities, and dialog" ID="ID_974793271" CREATED="1761060538710" MODIFIED="1761060562011">
@@ -1028,12 +1041,28 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="The chatbot breaks inputs apart to identify intents and entities." POSITION="bottom_or_right" ID="ID_1286257611" CREATED="1761062373020" MODIFIED="1761062376569"/>
 </node>
 <node TEXT="Intent" ID="ID_1454680936" CREATED="1761060602807" MODIFIED="1761060606061">
-<node TEXT="An intent is a purpose: the reason why a user is contacting the chatbot. Think of it as something like a verb: a kind of action. A user might intend to file a complaint, to ask for directions, to speak to a salesperson." ID="ID_547032480" CREATED="1761060616847" MODIFIED="1761060618806"/>
+<node TEXT="An intent is a purpose: the reason why a user is contacting the chatbot. Think of it as something like a verb: a kind of action. A user might intend to file a complaint, to ask for directions, to speak to a salesperson." ID="ID_547032480" CREATED="1761060616847" MODIFIED="1761060618806">
+<node TEXT="A chatbot runs NLP to understand the human’s intentions of their typed input." POSITION="bottom_or_right" ID="ID_1515652015" CREATED="1761062405054" MODIFIED="1761062412629"/>
+</node>
 </node>
 <node TEXT="Entity" ID="ID_1411093477" CREATED="1761060606239" MODIFIED="1761060608010">
-<node TEXT="An entity is a noun: a person, place, or thing. This concept was covered earlier in this course." ID="ID_1808278955" CREATED="1761060695329" MODIFIED="1761060697912"/>
+<node ID="ID_1808278955" CREATED="1761060695329" MODIFIED="1761062267423"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      An entity is a <span style="font-weight: bold;">noun</span>: a person, place, or thing. This concept was covered earlier in this course.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="Dialog" ID="ID_726525495" CREATED="1761060608186" MODIFIED="1761060611922">
 <node TEXT="A dialog is a flowchart—an IF / THEN tree structure that illustrates how a machine will respond to user intents. A dialog is what the machine replies after a human asks a question. Even if a human uses run-on sentences, poor grammar, chat messaging expressions, and so on, artificial intelligence allows the NLP to understand well enough to provide a response." ID="ID_174116235" CREATED="1761060751768" MODIFIED="1761060753886">
@@ -1053,15 +1082,215 @@
 </richcontent>
 </node>
 <node TEXT="A node contains a statement by the chatbot and a long, expandable list of possible replies." ID="ID_1299532991" CREATED="1761060814634" MODIFIED="1761060824843"/>
+<node ID="ID_1595008886" CREATED="1761062457186" MODIFIED="1761062470472"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A dialog is represented by a <span style="font-weight: bold;">flowchart</span>&#xa0;that illustrates how a chatbot will respond after a human asks a question.
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Example NLP Analysis" ID="ID_1555794799" CREATED="1761059764215" MODIFIED="1761059772880"/>
+</node>
+<node TEXT="Example NLP Analysis" ID="ID_1555794799" CREATED="1761059764215" MODIFIED="1761059772880">
+<node TEXT="Intents, entities, and dialogs make quick work for NLP" ID="ID_1244045559" CREATED="1761061075863" MODIFIED="1761061078475"/>
+<node TEXT="In a conventional computer, the program code is stupendously large but wouldn’t handle intents, entities, and dialogs very well. A conventional computer would need a separate IF / THEN line for many thousands of ways a question might be asked. Unless a human were to match one of those lines perfectly, the computer would fail." ID="ID_1470133360" CREATED="1761062107262" MODIFIED="1761062110071"/>
+<node TEXT="But an AI system’s combination of NLP with intents, entities, and dialog can make quick work of this. NLP analyzes sentence components, then uses processes like passage and evidence scoring to classify the sentence components against possible chatbot responses. The result is that when a human user asks a question, the AI system provides the answer with the highest confidence." ID="ID_1688830196" CREATED="1761062134941" MODIFIED="1761062158479"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      但人工智能系统将自然语言处理 (NLP) 与意图、实体和对话相结合，可以快速完成这项工作。NLP 会分析句子成分，然后使用段落和证据评分等流程，根据聊天机器人的可能响应对句子成分进行分类。这样，当人类用户提出问题时，人工智能系统就能提供置信度最高的答案。
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 <node TEXT="M4: AI Classifies Images" ID="ID_775668772" CREATED="1761009349426" MODIFIED="1761009356426">
-<node TEXT="About this Module" ID="ID_285940627" CREATED="1761053246568" MODIFIED="1761053253337"/>
+<node TEXT="About this Module" ID="ID_285940627" CREATED="1761053246568" MODIFIED="1761053253337">
+<node TEXT="Describe how AI classifies images to derive meaning from them" ID="ID_793231424" CREATED="1761062498629" MODIFIED="1761062498629"/>
+<node ID="ID_1590387171" CREATED="1761062498629" MODIFIED="1761062543440"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Describe how a <span style="font-weight: bold;">convolutional neural network</span>&#xa0;(CNN) analyzes an image
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      描述卷积神经网络 (CNN) 如何分析图像
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node TEXT="Summary" ID="ID_415619633" CREATED="1761009356598" MODIFIED="1761009365987"/>
+<node ID="ID_733265510" CREATED="1761062498630" MODIFIED="1761062548448"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Describe how a <span style="font-weight: bold;">generative adversarial network</span>&#xa0;&#xa0;(GAN) creates a credible image
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      描述生成对抗网络 (GAN) 如何创建可信图像
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Identify real-world uses for computer vision" ID="ID_597286288" CREATED="1761062498630" MODIFIED="1761062498630"/>
+</node>
+<node TEXT="Convolutional Neural Networks (CNN)" ID="ID_1342859259" CREATED="1761062559650" MODIFIED="1761062576019">
+<node TEXT="An AI system uses a convolutional neural networks (CNN) to analyze images" ID="ID_1937001242" CREATED="1761068229797" MODIFIED="1761068256190">
+<node TEXT="It&apos;s one thing to display an image and another, much more complicated thing to analyze it." ID="ID_419011246" CREATED="1761069490606" MODIFIED="1761069508760"/>
+<node ID="ID_550888483" CREATED="1761069542688" MODIFIED="1761069592788"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The process - called a <span style="font-weight: bold;">convolutional neural network (CNN)</span><span style="font-weight: normal;">&#xa0;- makes it possible for visual recognition systems to identify things in an image, as in facial recognition.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="In a CNN, two small groups of pixels that overlap each other are compared mathematically to get a value. AI can use thousands of these small comparisons to identify individual parts of an image, then compare them to images in its corpus. From this, AI can put together an overall identification, without being overwhelmed." ID="ID_811622243" CREATED="1761070105416" MODIFIED="1761070108814"/>
+<node TEXT="CNN process makes facial recognition possible" ID="ID_1736144019" CREATED="1761071980917" MODIFIED="1761071990451"/>
+</node>
+<node TEXT="Generative Adversarial Networks (GAN)" ID="ID_621589017" CREATED="1761062576183" MODIFIED="1761062591243">
+<node TEXT="A visual recognition system can use a generative adversarial network (GAN) to create new drawings and photos" ID="ID_201423812" CREATED="1761070139217" MODIFIED="1761070142447"/>
+<node TEXT="One way is by pitting two convolutional neural networks (CNNs) against each other in a “contest” called a generative adversarial network, or GAN. In effect, the CNNs battle each other until one of them becomes pretty good at creating art." ID="ID_1914571998" CREATED="1761070271898" MODIFIED="1761070275068"/>
+<node TEXT="A GAN battle ends with an image that’s ready to be shown to a human. Sometimes, the human might laugh and think the resulting image is ridiculous. But other times, the human, like the CNN acting as judge and teacher, won’t be able to tell the difference. At that point, the deep fake is a success!" ID="ID_1984338224" CREATED="1761071671798" MODIFIED="1761071675226"/>
+</node>
+<node TEXT="Computer Vision Applications" ID="ID_1984023726" CREATED="1761062591397" MODIFIED="1761062601064">
+<node TEXT="The IBM Maximo visual inspection system can be equipped with video cameras on drones. It can not only detect problems, like cracks in a suspension bridge, but identify which problems (cracks, in this example) are dangerous and should be repaired." ID="ID_407920879" CREATED="1761071706275" MODIFIED="1761071708518"/>
+<node TEXT="Here are more applications" ID="ID_1249387235" CREATED="1761071826568" MODIFIED="1761071830851">
+<node TEXT="Spotting a dangerous but difficult-to-detect flaw in an airplane’s wing" ID="ID_524667071" CREATED="1761071842258" MODIFIED="1761071842258"/>
+<node TEXT="Monitoring water flow across a dairy farm to ensure it doesn’t reach nearby food crops" ID="ID_1064794119" CREATED="1761071842258" MODIFIED="1761071842258"/>
+<node TEXT="Counting the number of people in an unruly crowd" ID="ID_652662540" CREATED="1761071842259" MODIFIED="1761071842259"/>
+<node TEXT="Classifying animal and plant populations to measure biodiversity in a forest" ID="ID_1590045502" CREATED="1761071842259" MODIFIED="1761071842259"/>
+<node TEXT="Performing lip-reading for people who cannot hear or speak" ID="ID_514073403" CREATED="1761071842259" MODIFIED="1761071842259"/>
+<node TEXT="Inspecting robots at work on an assembly line" ID="ID_646793952" CREATED="1761071959600" MODIFIED="1761071962826"/>
+</node>
+</node>
+</node>
+<node TEXT="Summary" ID="ID_415619633" CREATED="1761009356598" MODIFIED="1761072272493"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-size: 10pt;">Define natural language processing </span>
+    </p>
+    <p>
+      <span style="font-size: 10pt;">Explain how AI uses natural language processing to derive meaning from text </span>
+    </p>
+    <p>
+      <span style="font-size: 10pt;">Explain the classification problem and its solutions </span>
+    </p>
+    <p>
+      <span style="font-size: 10pt;">Describe how a chatbot hears, identifies, and responds to a question </span>
+    </p>
+    <p>
+      <span style="font-size: 10pt;">Distinguish between intents, entities, and dialogs </span>
+    </p>
+    <p>
+      <span style="font-size: 10pt;">Identify appropriate uses for chatbots </span>
+    </p>
+    <p>
+      <span style="font-size: 10pt;">Identify real-world uses for natural language processing </span>
+    </p>
+    <p>
+      <span style="font-size: 10pt;">Describe how AI classifies images to derive meaning from them </span>
+    </p>
+    <p>
+      <span style="font-size: 10pt;">Describe how a convolutional neural network (CNN) analyzes an image </span>
+    </p>
+    <p>
+      <span style="font-size: 10pt;">Describe a generative adversarial network (GAN) creates a credible image </span>
+    </p>
+    <p>
+      <span style="font-size: 10pt;">Identify real-world uses for computer vision </span>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <span style="font-size: 10pt;">Explore more: </span>
+    </p>
+    <ul style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: normal; font-weight: 400; font-size: 17px; line-height: inherit; font-family: IBM Plex Sans; margin-top: 0px; margin-right: 0px; margin-bottom: 0; margin-left: 0; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline; list-style: outside disc; color: rgb(0, 0, 0); letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; background-color: rgb(186, 230, 255)">
+      <li style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; font-size: inherit; line-height: inherit; font-family: inherit !important; margin-top: 0; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline">
+        <a href="https://www.ibm.com/topics/natural-language-processing" rel="noopener noreferrer" target="_blank" style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; font-size: inherit; line-height: inherit; font-family: inherit !important; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline; color: rgb(15, 98, 254) !important"><span style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; font-size: 10pt; line-height: inherit; font-family: inherit !important; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline; color: rgb(15, 98, 254) !important;">What is natural language processing (NLP)?</span><span class="visually-hidden-always" style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; font-size: 10pt; line-height: inherit; font-family: inherit !important; margin-top: 0px; margin-right: 0; margin-bottom: 0px; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0px; padding-left: 0; vertical-align: baseline; color: rgb(15, 98, 254) !important; white-space: nowrap !important;">(opens in a new tab)</span></a><span style="font-size: 10pt;">&#xa0;– and IBM site that explains NLP, tools, and use cases </span>
+      </li>
+      <li style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; font-size: inherit; line-height: inherit; font-family: inherit !important; margin-top: 0; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline">
+        <a href="https://www.ibm.com/topics/chatbots" rel="noopener noreferrer" target="_blank" style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; font-size: inherit; line-height: inherit; font-family: inherit !important; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline; color: rgb(15, 98, 254) !important"><span style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; font-size: 10pt; line-height: inherit; font-family: inherit !important; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline; color: rgb(15, 98, 254) !important;">What is a chatbot?</span><span class="visually-hidden-always" style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; font-size: 10pt; line-height: inherit; font-family: inherit !important; margin-top: 0px; margin-right: 0; margin-bottom: 0px; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0px; padding-left: 0; vertical-align: baseline; color: rgb(15, 98, 254) !important; white-space: nowrap !important;">(opens in a new tab)</span></a><span style="font-size: 10pt;">&#xa0;– an IBM site that explains chatbots and sets out guidance for making them more effective </span>
+      </li>
+      <li style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; font-size: inherit; line-height: inherit; font-family: inherit !important; margin-top: 0; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline">
+        <span style="font-size: 10pt;">&#xa0;</span><a href="https://www.ibm.com/topics/computer-vision?mhsrc=ibmsearch_a&amp;mhq=computer%20vision" rel="noopener noreferrer" target="_blank" style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; font-size: inherit; line-height: inherit; font-family: inherit !important; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline; color: rgb(15, 98, 254) !important"><span style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; font-size: 10pt; line-height: inherit; font-family: inherit !important; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline; color: rgb(15, 98, 254) !important;">What is computer vision?</span><span class="visually-hidden-always" style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; font-size: 10pt; line-height: inherit; font-family: inherit !important; margin-top: 0px; margin-right: 0; margin-bottom: 0px; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0px; padding-left: 0; vertical-align: baseline; color: rgb(15, 98, 254) !important; white-space: nowrap !important;">(opens in a new tab)</span></a><span style="font-size: 10pt;">&#xa0;– an IBM site focusing on computer vision and how AI derives meaningful information from digital images, videos, and other visual inputs </span>
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+<node TEXT="1. Machines require systems called natural language processing (NLP) to understand human language. Human language is unstructured. In NLP, machines segment sentences into small chunks of information, called a token. Machines classify and sort tokens into a structure so NLP can work with them to extract meaning." ID="ID_911374711" CREATED="1761072109050" MODIFIED="1761072111032"/>
+<node TEXT="2. With IBM Project Debater, the goal was to build an AI system that could help people make evidence-based, bias-free decisions on difficult topics where the answers aren’t obvious." ID="ID_1471463185" CREATED="1761072125247" MODIFIED="1761072126496"/>
+<node TEXT="3. The four steps a debater AI system takes include:" ID="ID_814342367" CREATED="1761072134838" MODIFIED="1761072137213">
+<node TEXT="Step 1: Learn and understand the topic" ID="ID_156400674" CREATED="1761072146277" MODIFIED="1761072146277"/>
+<node TEXT="Step 2: Build a position" ID="ID_1053585576" CREATED="1761072146277" MODIFIED="1761072146277"/>
+<node TEXT="Step 3: Organize your proof" ID="ID_28949941" CREATED="1761072146277" MODIFIED="1761072146277"/>
+<node TEXT="Step 4: Respond to your opponent" ID="ID_899496155" CREATED="1761072146277" MODIFIED="1761072146277"/>
+</node>
+<node TEXT="4. Emotion detection identifies distinct human emotion types. AI can be trained to classify emotions." ID="ID_635713138" CREATED="1761072160274" MODIFIED="1761072164613">
+<node TEXT="how detecting emotions can help an AI system in user interactions?&#xa;&#xa;It enables the AI to detect when a customer is frustrated or angry and escalate the issue to a human agent." ID="ID_289179278" CREATED="1761072292191" MODIFIED="1761072305396"/>
+</node>
+<node TEXT="5. Sentiment analysis is a measure of the strength of an emotion. It results in assessing if data is positive, negative, or neutral." ID="ID_1313890330" CREATED="1761072160274" MODIFIED="1761072176108"/>
+<node TEXT="6. Chatbots are ready to answer your questions!" ID="ID_1392549308" CREATED="1761072160275" MODIFIED="1761072184112">
+<node TEXT="The frontend interacts with the person asking questions. It listens (or reads) and speaks (or presents text)." POSITION="bottom_or_right" ID="ID_708324113" CREATED="1761072160274" MODIFIED="1761072186577"/>
+<node TEXT="The backend operates application logic and has enough memory to remember earlier parts of a conversation as dialog continues." POSITION="bottom_or_right" ID="ID_802114862" CREATED="1761072160275" MODIFIED="1761072192190"/>
+</node>
+<node TEXT="7. A chatbot identifies entities and intents, then uses what it has found to trigger a dialog." ID="ID_746134934" CREATED="1761072198324" MODIFIED="1761072203918">
+<node TEXT="An intent is a purpose, or the reason why a user is contacting the chatbot. Think of it as a verb or action to take." ID="ID_694827783" CREATED="1761072211774" MODIFIED="1761072211774"/>
+<node TEXT="An entity is a person, place, or thing. Think of it as a noun." ID="ID_444449657" CREATED="1761072211774" MODIFIED="1761072211774"/>
+<node TEXT="A dialog is a flowchart that illustrates the chatbot replies to the user intents." ID="ID_1813073376" CREATED="1761072211775" MODIFIED="1761072211775"/>
+</node>
+<node TEXT="8. With a convolutional neural network (CNN), an AI system can analyze images. With a generative adversarial network (GAN), an AI system can create new drawings and photos." ID="ID_1832871453" CREATED="1761072220896" MODIFIED="1761072222440"/>
+<node TEXT="9. NLP and computer vision can be useful ways to extend human expertise." ID="ID_728299813" CREATED="1761072228415" MODIFIED="1761072230106"/>
+</node>
 </node>
 <node TEXT="3. Machine Learning and Deep Learning" POSITION="bottom_or_right" ID="ID_1671207914" CREATED="1760922111857" MODIFIED="1760922118641"/>
 <node TEXT="4. Run AI Models with IBM Watson Studio" POSITION="bottom_or_right" ID="ID_1894139975" CREATED="1760922118795" MODIFIED="1760922128631"/>
