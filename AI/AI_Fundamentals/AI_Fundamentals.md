@@ -942,6 +942,299 @@ It enables the AI to detect when a customer is frustrated or angry and escalate 
 
 # 3. Machine Learning and Deep Learning
 
+ **What you’ll learn** 
+
+After completing this course, you should be able to:
+
+ 
+
+- Distinguish between artificial intelligence, machine learning, and deep learning
+- Describe supervised, unsupervised, and reinforcement learning
+- Describe decision trees, linear regression, and logistic regression
+- List and explain advantages of classical machine learning
+- Describe how neural networks are inspired by the human brain
+- Trace the flow of information through a perceptron’s nodes
+- Describe machine learning’s trial-and-error learning process
+- Define and describe deep learning and its ecosystem
+- Identify real-world applications for the deep learning ecosystem
+- Identify future trends for machine learning
+
+
+## Overview
+
+Learning objectives
+
+
+
+After completing this course, you should be able to:
+
+
+
+- Distinguish between artificial intelligence, machine learning, and deep learning
+- Describe supervised, unsupervised, and reinforcement learning
+- Describe decision trees, linear regression, and logistic regression
+- List and explain advantages of classical machine learning
+- Describe how neural networks are inspired by the human brain
+- Trace the flow of information through a perceptron’s nodes
+- Describe machine learning’s trial-and-error learning process
+- Define and describe deep learning and its ecosystem
+- Identify real-world applications for the deep learning ecosystem
+- Explain generative AI and the impact in today's world
+- Identify future trends for machine learning
+
+ 
+The termartificial intelligence describes computer systems that can apply reasoning to subjects that previously required human intelligence
+
+ 
+Machine learning can enable systems topredictandclassifygiven data in response to ever-changing data, somewhat like the way you learn from experience.
+
+ 
+Deep learningis a group of extremely powerful types of machine learning, many of which are inspired by the operation ofneural networksin the human brain
+
+ 
+These AI systems do not have common sense or world knowledge, nor do they have a sense of self (at least, not yet). But they do acquire knowledge and understanding through experience—a process calledcognition—accomplishing results that resemble human thinking. They do this primarily by using complex rules calledalgorithms that help them analyze data.
+
+
+## M1 How do Machines Learn?
+
+Learning objectives
+
+
+
+After completing this module, you should be able to:
+
+
+
+- Distinguish between artificial intelligence, machine learning, and deep learning
+- Describe supervised, unsupervised, and reinforcement learning
+
+
+### About this Module
+
+### Machines learn in 3 general ways
+
+#### AI systems use algorithms to predict and classify data points collected both from computer databases and natural occurrences. But algorithms have three general ways that they can learn from this data to get better results and provide better predictions:
+
+- Supervised learning
+- Unsupervised learning
+- Reinforcement learning
+
+### Supervised Learning
+ 
+In supervised learning, humans give an AI system what’s called structured data. This is a set of facts and figures arranged into neat,labeled  categories, the way you might put weather information into a table.
+
+
+#### Using the way the data has been structured, the AI system can detect patterns (such as day-to-day temperature changes in the table above) and use those patterns to predict future data (such as temperatures during the following week).
+
+#### Structured data can also take the form of images.
+
+##### If, for example, the data includes photos of flowers, some of which are roses and are labeled rose, the machine will learn things about the arrangements of pixels in those photos. Later, when it sees a new rose photo and is asked, “What is this?”, it will respond “rose”.
+
+#### As you’ll soon discover, the machine will never give this result with absolute confidence. Instead, the system will give a confidence value to indicate, for example, that it might predict with 85% certainty that its answer is correct. The more data the system ingests, the higher its accuracy will be.
+
+#### Example
+
+##### An AI system ingests data that has been labeled
+
+##### Supervised learning requires that an AI system ingest structured data.
+
+##### Maria is involved in training the AI for her company. She separates weather data in a database into different categories.
+
+### Unsupervised Learning
+
+#### It has often been convenient to refer to plants or their behavior in terms implying reasoning faculties. Of course, plants are never reasoning things, reasonable as many of their actions appear to be, and to ascribe such qualities to them is to saddle them with attributes perfectly foreign to the plant world.
+
+Source: Project Gutenberg royalty-free text
+
+#### In contrast to supervised learning, unsupervised learning trains a machine with unlabeled data, such as the text of a book. Training an AI system with unlabeled data is more difficult because the system can’t make predictions until it has structured the data itself. In the book example, structuring the data would involve breaking down the text and finding relationships between words and sentences. So, algorithms explore the data and try to find structure.
+
+##### For example, a system might be fed many articles about different kinds of plants and form its own conclusions of their attributes. When the system ingests new text describing a plant, it identifies it and gives it a confidence value.
+
+#### Example
+
+##### An AI system ingests data that is not labeled
+
+##### Unsupervised learning and reinforcement learning require a system to develop its own structure either by analyzing large amounts of data (unsupervised learning) or by trial-and-error (reinforcement learning).
+
+##### Katie has a huge amount of warehouse data to sort but doesn’t know how to categorize it.
+
+### Reinforcement Learning
+
+#### With reinforcement learning, a machine is not given specific information to ingest. Instead, it learns through trial and error. The machine’s algorithms are rewarded when it performs a correct action and penalized when it doesn’t.
+
+##### Suppose this system is given a photo that probably depicts a dog, and it’s asked, “Is this a dog?” Remember, it has been fed little or no structured information about dogs.
+
+##### The machine answers YES or NO, and gives itself a confidence value that is somewhere between 100% correct and 100Reinforcement learning% incorrect.
+
+##### Then it is given new information indicating whether that answer really was right or wrong. This is where the reinforcement takes place.
+
+###### For each answer that’s largely wrong, the machine is penalized: its algorithms are adjusted and the picture is sent back for another try.
+
+###### But for each answer that’s largely correct, the algorithms are rewarded.
+
+##### After these penalties and rewards happen many times, the machine’s answers become more accurate and its confidence value grows higher.
+
+#### This is particularly useful when a machine needs to work on a specific type of problem. The machine continuously make decisions until it reaches a long-term goal. Each decision the machine makes is based on the previous decision. This is common in an area like game-playing, where a series of moves can win or lose a game.
+
+#### Example
+
+##### An AI system learns by trial and error
+
+##### Unsupervised learning and reinforcement learning require a system to develop its own structure either by analyzing large amounts of data (unsupervised learning) or by trial-and-error (reinforcement learning).
+
+##### Pedro is working with a chess-playing AI system. He rewards it when it wins and penalizes it when it loses.
+
+##### Aditi is training an AI system in which it is penalized for answers that are largely wrong and rewarded for answers that are largely correct.
+
+### How do Machines Learn?
+ 
+two different technologies by which machine learning takes place:classical machine learning and members of a group of technologies called thedeep learning ecosystem.
+
+
+## M2 Classical Machine Learning
+
+### About this Module
+
+Learning objectives
+
+
+
+After completing this module, you should be able to:
+
+
+
+- Describe decision trees, linear regression, and logistic regression
+- List and explain advantages of classical machine learning
+- Describe and explain how a sigmoid function is used in machine learning
+
+
+### Classical Machine Learning
+
+#### Classical machine learning began in the 1950s. AI systems learned by ingesting data and getting better at recognizing patterns. The AI systems could predict things like the distance between points or the intensity of values.
+ 
+Like all machine learning, the classical form depends onalgorithms
+
+
+##### Classical machine learning uses a small number of algorithms in a relatively simple arrangement.
+
+##### Sometimes machine learning algorithms are binary, which means that they output one of only two values. Typical binary results might be a 1 or a 0, a YES or a NO, and a TRUE or a FALSE.
+
+##### Other classical learning algorithms are more complicated. For example, their result might be represented as a position on a multidimensional graph rather than “this point” or “that point”. Here are three typical algorithms that are used in classical computing:
+
+###### Decision tree
+
+###### Linear regression
+
+###### Logistic regression
+
+### Decision Tree
+ 
+Adecision tree is asupervised learning algorithm. It operates like a flowchart. You can think of a flowchart as an upside-down decision tree. The flowchart has aroot node (where the flowchart begins), branches that connect tointernal nodes, and more branches that connect toleaf nodes.
+
+
+#### Example
+
+##### What major should I take, based on professor's names and my level or interest?
+
+###### Deciding a major would use a decision tree based on professors' names and personal interest.
+
+### Linear Regression
+
+#### Linear regression is another type of algorithm. It relates to data that might be graphed as a straight line.
+
+##### For example, a business might believe that more advertising spending leads to better sales. This could be graphed as a series of dots that form a rising straight line, as depicted here.
+
+#### Without adjustment, resulting graph is too general to help a business make a good decision. That’s where linear regression can help. Linear regression can learn all the variables, then calculate a reasonably accurate prediction of how advertising will impact sales at some time and location in the future. In effect, linear regression resolves the mass of dots into a “most likely” line that can be used for simple prediction.
+
+#### A linear regression answers a question such as “If this increases by X, how much will Y increase?”
+
+#### Example
+
+##### How do advanced placement (AP) classes passed related to college acceptances?
+
+###### More AP classes passed leading to more college acceptances would use linear regression.
+
+##### What type of algorithm would help you ﬁnd out what you might earn for a salary if you have different levels of college degrees in computer science?
+
+##### You’ve been asked to create a machine learning service that helps people choose what concert to attend on a particular date based on the type of music they prefer, who is singing, and where the event is taking place.
+
+### Logistic Regression
+
+#### In some situations, a relationship does not fall in a straight line. Sometimes a system uses values that require a specific, limited kind of outcome, such as something between 0 and 1 (or NO and YES).
+
+#### In this situation, a graph can form what’s called a sigmoid function, or an S-shaped curve, as shown in the accompanying example. For any set of variables, the outcome (which is a point on the S-curve) falls between 0 and 1.
+
+在这种情况下，图形可以形成所谓的 S 型函数，或称 S 形曲线，如示例所示。对于任何一组变量，结果（即 S 曲线上的一个点）都在 0 到 1 之间。
+
+
+#### A logistic regression answers a question such as “If this increases by X, will the value of Y be closer to 0 or 1?”
+
+#### Only logistic regressions have outputs between 0 and 1
+
+#### Example
+
+##### How do hours spent studying related to passing an exam?
+
+###### An exam passed or failed is binary (YES or NO) so relating it to hours studied would use logistic regression.
+
+##### You want to know how many hours to study to pass an exam. The “hours of studying” data forms a sigmoid function, or an S-shaped curve, between “fail” and “pass”.
+
+### Classical ML is Not Obsolete
+
+#### Classical machine learning can be outperformed, at some tasks, by newer methods that are part of the deep learning ecosystem.
+
+#### But there are still reasons to use classical machine learning. These include:
+
+##### Work with structured data
+
+###### Classical machine learning is used mostly with structured data from databases, such as hours studied compared to grades earned.
+
+##### Lower expense to operate
+
+###### Classical machine learning requires less computing power than deep learning ecosystems. They can run on less expensive computers with less powerful processors, which lowers the price for smaller businesses, communities, or healthcare systems that share time on them in pay-as-you-go arrangements.
+
+##### Easier to interpret
+
+###### Deep networks are so complex that even AI researchers don’t entirely understand what’s going on inside. As a result, AI researchers are not always able to determine when deep network systems are producing invalid outputs. Compared to these mysteries, classical results can be easier to debug, and to test for accuracy and lack of bias.
+
+## M3 The Deep Learning Ecosystem
+
+### About this Module
+
+### Inspired by the Human Brain
+
+### A Path through a Neural Network
+
+### ML is Often Trial and Error
+
+### From Perceptrons to Deep Learning
+
+## M4 Generative AI
+
+### About this Module
+
+### What is Generative AI?
+
+### How does Generative AI Work?
+
+### Examples of Generative AI Applications
+
+### Industry Uses of Generative AI
+
+### Limitations of Generative AI
+
+## M5 Future AI Trends
+
+### About this Module
+
+### Where does AI go from here?
+
+### What's in Store for the Future?
+
+### What about your Future?
+
+## Summary
+
 # 4. Run AI Models with IBM Watson Studio
 
 # 5. AI Ethics

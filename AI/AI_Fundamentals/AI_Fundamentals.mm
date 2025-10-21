@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="AI Fundamentals" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1760921901283"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.9090909">
+<node TEXT="AI Fundamentals" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1760921901283"><hook NAME="MapStyle" background="#f5f5dcff">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -708,7 +708,7 @@
 <node TEXT="10. AI can increase productivity, create new opportunities, provide deeper insights, and enable personalization." POSITION="bottom_or_right" ID="ID_887777978" CREATED="1761007645648" MODIFIED="1761007647370"/>
 </node>
 </node>
-<node TEXT="2. Natural Language Processing and Computer Vision" POSITION="bottom_or_right" ID="ID_139914149" CREATED="1760922097728" MODIFIED="1761009288497"><richcontent TYPE="NOTE">
+<node TEXT="2. Natural Language Processing and Computer Vision" FOLDED="true" POSITION="bottom_or_right" ID="ID_139914149" CREATED="1760922097728" MODIFIED="1761009288497"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1292,7 +1292,420 @@
 <node TEXT="9. NLP and computer vision can be useful ways to extend human expertise." ID="ID_728299813" CREATED="1761072228415" MODIFIED="1761072230106"/>
 </node>
 </node>
-<node TEXT="3. Machine Learning and Deep Learning" POSITION="bottom_or_right" ID="ID_1671207914" CREATED="1760922111857" MODIFIED="1760922118641"/>
+<node TEXT="3. Machine Learning and Deep Learning" POSITION="bottom_or_right" ID="ID_1671207914" CREATED="1760922111857" MODIFIED="1761076780198"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: normal; font-weight: 400; line-height: 1.5; font-family: IBMPlexSans-Regular, helvetica, arial, verdana, sans-serif, Helvetica Neue, Arial; font-size: 1rem; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline; letter-spacing: 0px; color: rgb(22, 22, 22); text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255)">
+      <strong style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: 600; line-height: inherit; font-family: inherit; font-size: 16px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline"><span style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: 600; line-height: inherit; font-family: inherit; font-size: 10pt; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline;">What you’ll learn</span></strong><br style="font-size: 10pt;"/><span style="font-size: 10pt;">After completing this course, you should be able to:</span><br style="font-size: 10pt;"/><span style="font-size: 10pt;">&#xa0; </span>
+    </p>
+    <ul style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: normal; font-weight: 400; line-height: inherit; font-family: IBMPlexSans-Regular, helvetica, arial, verdana, sans-serif, Helvetica Neue, Arial; font-size: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0; vertical-align: baseline; list-style: disc; color: rgb(22, 22, 22); letter-spacing: 0.16px; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255)">
+      <li style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; line-height: inherit; font-family: inherit; font-size: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline">
+        <span style="font-size: 10pt;">Distinguish between artificial intelligence, machine learning, and deep learning </span>
+      </li>
+      <li style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; line-height: inherit; font-family: inherit; font-size: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline">
+        <span style="font-size: 10pt;">Describe supervised, unsupervised, and reinforcement learning </span>
+      </li>
+      <li style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; line-height: inherit; font-family: inherit; font-size: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline">
+        <span style="font-size: 10pt;">Describe decision trees, linear regression, and logistic regression </span>
+      </li>
+      <li style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; line-height: inherit; font-family: inherit; font-size: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline">
+        <span style="font-size: 10pt;">List and explain advantages of classical machine learning </span>
+      </li>
+      <li style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; line-height: inherit; font-family: inherit; font-size: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline">
+        <span style="font-size: 10pt;">Describe how neural networks are inspired by the human brain </span>
+      </li>
+      <li style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; line-height: inherit; font-family: inherit; font-size: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline">
+        <span style="font-size: 10pt;">Trace the flow of information through a perceptron’s nodes </span>
+      </li>
+      <li style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; line-height: inherit; font-family: inherit; font-size: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline">
+        <span style="font-size: 10pt;">Describe machine learning’s trial-and-error learning process </span>
+      </li>
+      <li style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; line-height: inherit; font-family: inherit; font-size: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline">
+        <span style="font-size: 10pt;">Define and describe deep learning and its ecosystem </span>
+      </li>
+      <li style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; line-height: inherit; font-family: inherit; font-size: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline">
+        <span style="font-size: 10pt;">Identify real-world applications for the deep learning ecosystem </span>
+      </li>
+      <li style="border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; line-height: inherit; font-family: inherit; font-size: 14px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; vertical-align: baseline">
+        <span style="font-size: 10pt;">Identify future trends for machine learning </span>
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+<node TEXT="Overview" ID="ID_1070657960" CREATED="1761076950018" MODIFIED="1761077190082"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Learning objectives
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      After completing this course, you should be able to:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Distinguish between artificial intelligence, machine learning, and deep learning
+      </li>
+      <li>
+        Describe supervised, unsupervised, and reinforcement learning
+      </li>
+      <li>
+        Describe decision trees, linear regression, and logistic regression
+      </li>
+      <li>
+        List and explain advantages of classical machine learning
+      </li>
+      <li>
+        Describe how neural networks are inspired by the human brain
+      </li>
+      <li>
+        Trace the flow of information through a perceptron’s nodes
+      </li>
+      <li>
+        Describe machine learning’s trial-and-error learning process
+      </li>
+      <li>
+        Define and describe deep learning and its ecosystem
+      </li>
+      <li>
+        Identify real-world applications for the deep learning ecosystem
+      </li>
+      <li>
+        Explain generative AI and the impact in today's world
+      </li>
+      <li>
+        Identify future trends for machine learning
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+<node ID="ID_1926801467" CREATED="1761076956567" MODIFIED="1761077784612"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The term <span style="font-weight: bold;">artificial intelligence</span><span style="font-weight: normal;">&#xa0;describes computer systems that can apply reasoning to subjects that previously required human intelligence</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1808939029" CREATED="1761077019237" MODIFIED="1761077067203"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Machine learning<span style="font-weight: bold;">&#xa0;</span><span style="font-weight: normal;">can enable systems to </span><span style="font-weight: bold;">predict </span><span style="font-weight: normal;">and </span><span style="font-weight: bold;">classify </span><span style="font-weight: normal;">given data in response to ever-changing data, somewhat like the way you learn from experience.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true"/>
+</node>
+<node ID="ID_747197244" CREATED="1761077067393" MODIFIED="1761077129153"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Deep learning <span style="font-weight: normal;">is a group of extremely powerful types of machine learning, many of which are inspired by the operation of </span><span style="font-weight: bold;">neural networks </span><span style="font-weight: normal;">in the human brain</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true"/>
+</node>
+<node ID="ID_22936518" CREATED="1761077150715" MODIFIED="1761077178325"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      These AI systems do not have common sense or world knowledge, nor do they have a sense of self (at least, not yet). But they do acquire knowledge and understanding through experience—a process called <span style="font-weight: bold;">cognition</span>—accomplishing results that resemble human thinking. They do this primarily by using complex rules called <span style="font-weight: bold;">algorithms</span>&#xa0;that help them analyze data.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="M1 How do Machines Learn?" ID="ID_1845729275" CREATED="1761076855787" MODIFIED="1761077779299"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Learning objectives
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      After completing this module, you should be able to:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Distinguish between artificial intelligence, machine learning, and deep learning
+      </li>
+      <li>
+        Describe supervised, unsupervised, and reinforcement learning
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+<node TEXT="About this Module" ID="ID_704997298" CREATED="1761076875754" MODIFIED="1761076880964"/>
+<node TEXT="Machines learn in 3 general ways" ID="ID_1215249654" CREATED="1761077223830" MODIFIED="1761077232049">
+<node TEXT="AI systems use algorithms to predict and classify data points collected both from computer databases and natural occurrences. But algorithms have three general ways that they can learn from this data to get better results and provide better predictions:&#xa;&#xa;- Supervised learning&#xa;- Unsupervised learning&#xa;- Reinforcement learning" ID="ID_393541990" CREATED="1761077849494" MODIFIED="1761077873273"/>
+</node>
+<node TEXT="Supervised Learning" ID="ID_1944925814" CREATED="1761077232559" MODIFIED="1761077238480">
+<node ID="ID_295067891" CREATED="1761077888708" MODIFIED="1761077913265"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In supervised learning, humans give an AI system what’s called structured data. This is a set of facts and figures arranged into neat, <span style="font-weight: bold;">labeled</span>&#xa0;&#xa0;categories, the way you might put weather information into a table.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Using the way the data has been structured, the AI system can detect patterns (such as day-to-day temperature changes in the table above) and use those patterns to predict future data (such as temperatures during the following week)." ID="ID_1942399650" CREATED="1761079594727" MODIFIED="1761079598173"/>
+<node TEXT="Structured data can also take the form of images." ID="ID_1289145588" CREATED="1761079613027" MODIFIED="1761079616507">
+<node TEXT="If, for example, the data includes photos of flowers, some of which are roses and are labeled rose, the machine will learn things about the arrangements of pixels in those photos. Later, when it sees a new rose photo and is asked, “What is this?”, it will respond “rose”." ID="ID_1813546790" CREATED="1761079616513" MODIFIED="1761079627483"/>
+</node>
+<node TEXT="As you’ll soon discover, the machine will never give this result with absolute confidence. Instead, the system will give a confidence value to indicate, for example, that it might predict with 85% certainty that its answer is correct. The more data the system ingests, the higher its accuracy will be." ID="ID_1521562687" CREATED="1761079760399" MODIFIED="1761079763145"/>
+<node TEXT="Example" ID="ID_1377036988" CREATED="1761080027516" MODIFIED="1761080029586">
+<node TEXT="An AI system ingests data that has been labeled" ID="ID_1332607181" CREATED="1761080029590" MODIFIED="1761080054470"/>
+<node TEXT="Supervised learning requires that an AI system ingest structured data." POSITION="bottom_or_right" ID="ID_713892115" CREATED="1761080108594" MODIFIED="1761080111585"/>
+<node TEXT="Maria is involved in training the AI for her company. She separates weather data in a database into different categories." POSITION="bottom_or_right" ID="ID_618340119" CREATED="1761080329070" MODIFIED="1761080331989"/>
+</node>
+</node>
+<node TEXT="Unsupervised Learning" ID="ID_1974236260" CREATED="1761077238636" MODIFIED="1761077243173">
+<node TEXT="It has often been convenient to refer to plants or their behavior in terms implying reasoning faculties. Of course, plants are never reasoning things, reasonable as many of their actions appear to be, and to ascribe such qualities to them is to saddle them with attributes perfectly foreign to the plant world.&#xa;&#xa;Source: Project Gutenberg royalty-free text" ID="ID_1360096232" CREATED="1761079792868" MODIFIED="1761079797129"/>
+<node TEXT="In contrast to supervised learning, unsupervised learning trains a machine with unlabeled data, such as the text of a book. Training an AI system with unlabeled data is more difficult because the system can’t make predictions until it has structured the data itself. In the book example, structuring the data would involve breaking down the text and finding relationships between words and sentences. So, algorithms explore the data and try to find structure." ID="ID_344055696" CREATED="1761079841222" MODIFIED="1761079843921">
+<node TEXT="For example, a system might be fed many articles about different kinds of plants and form its own conclusions of their attributes. When the system ingests new text describing a plant, it identifies it and gives it a confidence value." ID="ID_1424400089" CREATED="1761079847902" MODIFIED="1761079851677"/>
+</node>
+<node TEXT="Example" ID="ID_1308034766" CREATED="1761080027516" MODIFIED="1761080029586">
+<node TEXT="An AI system ingests data that is not labeled" ID="ID_1717038623" CREATED="1761080029590" MODIFIED="1761080090606"/>
+<node TEXT="Unsupervised learning and reinforcement learning require a system to develop its own structure either by analyzing large amounts of data (unsupervised learning) or by trial-and-error (reinforcement learning)." ID="ID_1889570815" CREATED="1761080128872" MODIFIED="1761080132537"/>
+<node TEXT="Katie has a huge amount of warehouse data to sort but doesn’t know how to categorize it." ID="ID_97236436" CREATED="1761080365079" MODIFIED="1761080367772"/>
+</node>
+</node>
+<node TEXT="Reinforcement Learning" ID="ID_561363592" CREATED="1761077243331" MODIFIED="1761077248719">
+<node TEXT="With reinforcement learning, a machine is not given specific information to ingest. Instead, it learns through trial and error. The machine’s algorithms are rewarded when it performs a correct action and penalized when it doesn’t." ID="ID_393947330" CREATED="1761079872743" MODIFIED="1761079876175">
+<node TEXT="Suppose this system is given a photo that probably depicts a dog, and it’s asked, “Is this a dog?” Remember, it has been fed little or no structured information about dogs." ID="ID_147795923" CREATED="1761079935538" MODIFIED="1761079938475"/>
+<node TEXT="The machine answers YES or NO, and gives itself a confidence value that is somewhere between 100% correct and 100Reinforcement learning% incorrect." ID="ID_1384257727" CREATED="1761079903945" MODIFIED="1761079906946"/>
+<node TEXT="Then it is given new information indicating whether that answer really was right or wrong. This is where the reinforcement takes place." ID="ID_1760981132" CREATED="1761079922410" MODIFIED="1761079926100">
+<node TEXT="For each answer that’s largely wrong, the machine is penalized: its algorithms are adjusted and the picture is sent back for another try." ID="ID_1606433139" CREATED="1761079963276" MODIFIED="1761079965782"/>
+<node TEXT="But for each answer that’s largely correct, the algorithms are rewarded." ID="ID_662494835" CREATED="1761079973253" MODIFIED="1761079975306"/>
+</node>
+<node TEXT="After these penalties and rewards happen many times, the machine’s answers become more accurate and its confidence value grows higher." ID="ID_1460321260" CREATED="1761079980138" MODIFIED="1761079983657"/>
+</node>
+<node TEXT="This is particularly useful when a machine needs to work on a specific type of problem. The machine continuously make decisions until it reaches a long-term goal. Each decision the machine makes is based on the previous decision. This is common in an area like game-playing, where a series of moves can win or lose a game." ID="ID_344300742" CREATED="1761079995856" MODIFIED="1761079998346"/>
+<node TEXT="Example" ID="ID_1822856914" CREATED="1761080027516" MODIFIED="1761080029586">
+<node TEXT="An AI system learns by trial and error" ID="ID_113564917" CREATED="1761080029590" MODIFIED="1761080071656"/>
+<node TEXT="Unsupervised learning and reinforcement learning require a system to develop its own structure either by analyzing large amounts of data (unsupervised learning) or by trial-and-error (reinforcement learning)." POSITION="bottom_or_right" ID="ID_1457122598" CREATED="1761080128872" MODIFIED="1761080132537"/>
+<node TEXT="Pedro is working with a chess-playing AI system. He rewards it when it wins and penalizes it when it loses." POSITION="bottom_or_right" ID="ID_1157674739" CREATED="1761080390118" MODIFIED="1761080393734"/>
+<node TEXT="Aditi is training an AI system in which it is penalized for answers that are largely wrong and rewarded for answers that are largely correct." POSITION="bottom_or_right" ID="ID_1399407134" CREATED="1761080410385" MODIFIED="1761080412965"/>
+</node>
+</node>
+<node TEXT="How do Machines Learn?" ID="ID_1812301261" CREATED="1761077248885" MODIFIED="1761077258245">
+<node ID="ID_1590094081" CREATED="1761080171808" MODIFIED="1761080197959"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      two different technologies by which machine learning takes place: <span style="font-weight: bold;">classical machine learning</span>&#xa0;and members of a group of technologies called the <span style="font-weight: bold;">deep learning ecosystem</span>.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="M2 Classical Machine Learning" ID="ID_450755662" CREATED="1761076882552" MODIFIED="1761076892322">
+<node TEXT="About this Module" ID="ID_1835608838" CREATED="1761076875754" MODIFIED="1761080495638"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Learning objectives
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      After completing this module, you should be able to:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Describe decision trees, linear regression, and logistic regression
+      </li>
+      <li>
+        List and explain advantages of classical machine learning
+      </li>
+      <li>
+        Describe and explain how a sigmoid function is used in machine learning
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Classical Machine Learning" ID="ID_561863952" CREATED="1761077261404" MODIFIED="1761077612886">
+<node TEXT="Classical machine learning began in the 1950s. AI systems learned by ingesting data and getting better at recognizing patterns. The AI systems could predict things like the distance between points or the intensity of values." ID="ID_373337499" CREATED="1761080496417" MODIFIED="1761080498488"/>
+<node ID="ID_690036116" CREATED="1761080512532" MODIFIED="1761080527371"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Like all machine learning, the classical form depends on <span style="font-weight: bold;">algorithms</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Classical machine learning uses a small number of algorithms in a relatively simple arrangement." ID="ID_1764037368" CREATED="1761080546219" MODIFIED="1761080551970"/>
+<node TEXT="Sometimes machine learning algorithms are binary, which means that they output one of only two values. Typical binary results might be a 1 or a 0, a YES or a NO, and a TRUE or a FALSE." ID="ID_1299327833" CREATED="1761080561923" MODIFIED="1761080564400"/>
+<node TEXT="Other classical learning algorithms are more complicated. For example, their result might be represented as a position on a multidimensional graph rather than “this point” or “that point”. Here are three typical algorithms that are used in classical computing:" ID="ID_64127428" CREATED="1761080578826" MODIFIED="1761080585923">
+<node TEXT="Decision tree" ID="ID_1335135382" CREATED="1761080591277" MODIFIED="1761080591277"/>
+<node TEXT="Linear regression" ID="ID_15825472" CREATED="1761080591277" MODIFIED="1761080591277"/>
+<node TEXT="Logistic regression" ID="ID_1989984011" CREATED="1761080591277" MODIFIED="1761080591277"/>
+</node>
+</node>
+</node>
+<node TEXT="Decision Tree" ID="ID_256108842" CREATED="1761077613045" MODIFIED="1761077615836">
+<node ID="ID_1675462460" CREATED="1761080604124" MODIFIED="1761080651114"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A <span style="font-weight: bold;">decision tree</span>&#xa0;is a <span style="font-weight: bold;">supervised learning algorithm</span>. It operates like a flowchart. You can think of a flowchart as an upside-down decision tree. The flowchart has a <span style="font-weight: bold;">root node</span>&#xa0;(where the flowchart begins), branches that connect to <span style="font-weight: bold;">internal nodes</span>, and more branches that connect to <span style="font-weight: bold;">leaf nodes</span>.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Example" ID="ID_1770347792" CREATED="1761081107140" MODIFIED="1761081109544">
+<node TEXT="What major should I take, based on professor&apos;s names and my level or interest?" ID="ID_1368882347" CREATED="1761081109547" MODIFIED="1761081175873">
+<node TEXT="Deciding a major would use a decision tree based on professors&apos; names and personal interest." ID="ID_355614892" CREATED="1761081261474" MODIFIED="1761081263521"/>
+</node>
+</node>
+</node>
+<node TEXT="Linear Regression" ID="ID_1789777078" CREATED="1761077616005" MODIFIED="1761077620818">
+<node TEXT="Linear regression is another type of algorithm. It relates to data that might be graphed as a straight line." ID="ID_1466630157" CREATED="1761080758870" MODIFIED="1761080777930">
+<node TEXT="For example, a business might believe that more advertising spending leads to better sales. This could be graphed as a series of dots that form a rising straight line, as depicted here." ID="ID_755761180" CREATED="1761080777935" MODIFIED="1761080780699"/>
+</node>
+<node TEXT="Without adjustment, resulting graph is too general to help a business make a good decision. That’s where linear regression can help. Linear regression can learn all the variables, then calculate a reasonably accurate prediction of how advertising will impact sales at some time and location in the future. In effect, linear regression resolves the mass of dots into a “most likely” line that can be used for simple prediction." ID="ID_905876703" CREATED="1761080902241" MODIFIED="1761080904965"/>
+<node TEXT="A linear regression answers a question such as “If this increases by X, how much will Y increase?”" ID="ID_376987443" CREATED="1761081059910" MODIFIED="1761081062771"/>
+<node TEXT="Example" ID="ID_1350403725" CREATED="1761081196854" MODIFIED="1761081199849">
+<node TEXT="How do advanced placement (AP) classes passed related to college acceptances?" POSITION="bottom_or_right" ID="ID_1823089233" CREATED="1761081149886" MODIFIED="1761081172186">
+<node TEXT="More AP classes passed leading to more college acceptances would use linear regression." ID="ID_1551004114" CREATED="1761081253792" MODIFIED="1761081260947"/>
+</node>
+<node TEXT="What type of algorithm would help you ﬁnd out what you might earn for a salary if you have different levels of college degrees in computer science?" POSITION="bottom_or_right" ID="ID_1468312752" CREATED="1761081477191" MODIFIED="1761081482595"/>
+<node TEXT="You’ve been asked to create a machine learning service that helps people choose what concert to attend on a particular date based on the type of music they prefer, who is singing, and where the event is taking place." POSITION="bottom_or_right" ID="ID_1559561640" CREATED="1761081617592" MODIFIED="1761081620907"/>
+</node>
+</node>
+<node TEXT="Logistic Regression" ID="ID_137026265" CREATED="1761077620970" MODIFIED="1761077625572">
+<node TEXT="In some situations, a relationship does not fall in a straight line. Sometimes a system uses values that require a specific, limited kind of outcome, such as something between 0 and 1 (or NO and YES)." ID="ID_630427255" CREATED="1761080933390" MODIFIED="1761080935223"/>
+<node TEXT="In this situation, a graph can form what’s called a sigmoid function, or an S-shaped curve, as shown in the accompanying example. For any set of variables, the outcome (which is a point on the S-curve) falls between 0 and 1." ID="ID_1378364193" CREATED="1761080948187" MODIFIED="1761081059090"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在这种情况下，图形可以形成所谓的 S 型函数，或称 S 形曲线，如示例所示。对于任何一组变量，结果（即 S 曲线上的一个点）都在 0 到 1 之间。
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="A logistic regression answers a question such as “If this increases by X, will the value of Y be closer to 0 or 1?”" ID="ID_1528659585" CREATED="1761081070728" MODIFIED="1761081073311"/>
+<node TEXT="Only logistic regressions have outputs between 0 and 1" ID="ID_616118542" CREATED="1761081808637" MODIFIED="1761081823129"/>
+<node TEXT="Example" ID="ID_1779205552" CREATED="1761081147095" MODIFIED="1761081149881">
+<node TEXT="How do hours spent studying related to passing an exam?" ID="ID_567046809" CREATED="1761081204638" MODIFIED="1761081217499">
+<node TEXT="An exam passed or failed is binary (YES or NO) so relating it to hours studied would use logistic regression." ID="ID_1791422513" CREATED="1761081240946" MODIFIED="1761081253227"/>
+</node>
+<node TEXT="You want to know how many hours to study to pass an exam. The “hours of studying” data forms a sigmoid function, or an S-shaped curve, between “fail” and “pass”." ID="ID_1361765650" CREATED="1761081590226" MODIFIED="1761081593185"/>
+</node>
+</node>
+<node TEXT="Classical ML is Not Obsolete" ID="ID_948486103" CREATED="1761077625745" MODIFIED="1761077636321">
+<node TEXT="Classical machine learning can be outperformed, at some tasks, by newer methods that are part of the deep learning ecosystem." ID="ID_591222336" CREATED="1761081284193" MODIFIED="1761081286072"/>
+<node TEXT="But there are still reasons to use classical machine learning. These include:" ID="ID_1491404344" CREATED="1761081291280" MODIFIED="1761081307966">
+<node TEXT="Work with structured data" ID="ID_900874636" CREATED="1761081307970" MODIFIED="1761081314382">
+<node TEXT="Classical machine learning is used mostly with structured data from databases, such as hours studied compared to grades earned." ID="ID_1814408735" CREATED="1761081336410" MODIFIED="1761081338498"/>
+</node>
+<node TEXT="Lower expense to operate" ID="ID_764217298" CREATED="1761081314558" MODIFIED="1761081322866">
+<node TEXT="Classical machine learning requires less computing power than deep learning ecosystems. They can run on less expensive computers with less powerful processors, which lowers the price for smaller businesses, communities, or healthcare systems that share time on them in pay-as-you-go arrangements." ID="ID_289187462" CREATED="1761081356670" MODIFIED="1761081358492"/>
+</node>
+<node TEXT="Easier to interpret" ID="ID_1809431541" CREATED="1761081323051" MODIFIED="1761081328633">
+<node TEXT="Deep networks are so complex that even AI researchers don’t entirely understand what’s going on inside. As a result, AI researchers are not always able to determine when deep network systems are producing invalid outputs. Compared to these mysteries, classical results can be easier to debug, and to test for accuracy and lack of bias." ID="ID_1642725900" CREATED="1761081368850" MODIFIED="1761081370735"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="M3 The Deep Learning Ecosystem" ID="ID_295501754" CREATED="1761076898205" MODIFIED="1761076906263">
+<node TEXT="About this Module" ID="ID_39632371" CREATED="1761076875754" MODIFIED="1761076880964"/>
+<node TEXT="Inspired by the Human Brain" ID="ID_1577554249" CREATED="1761077643734" MODIFIED="1761077651881"/>
+<node TEXT="A Path through a Neural Network" ID="ID_83647382" CREATED="1761077652053" MODIFIED="1761077661736"/>
+<node TEXT="ML is Often Trial and Error" ID="ID_1946367103" CREATED="1761077662253" MODIFIED="1761077671782"/>
+<node TEXT="From Perceptrons to Deep Learning" ID="ID_1565332752" CREATED="1761077672884" MODIFIED="1761077681292"/>
+</node>
+<node TEXT="M4 Generative AI" ID="ID_979380742" CREATED="1761076906447" MODIFIED="1761076913933">
+<node TEXT="About this Module" ID="ID_1296170510" CREATED="1761076875754" MODIFIED="1761076880964"/>
+<node TEXT="What is Generative AI?" ID="ID_913666705" CREATED="1761077684728" MODIFIED="1761077691405"/>
+<node TEXT="How does Generative AI Work?" ID="ID_1125256571" CREATED="1761077691606" MODIFIED="1761077700375"/>
+<node TEXT="Examples of Generative AI Applications" ID="ID_923823307" CREATED="1761077700595" MODIFIED="1761077710065"/>
+<node TEXT="Industry Uses of Generative AI" ID="ID_72740714" CREATED="1761077711231" MODIFIED="1761077717487"/>
+<node TEXT="Limitations of Generative AI" ID="ID_932665578" CREATED="1761077717729" MODIFIED="1761077723058"/>
+</node>
+<node TEXT="M5 Future AI Trends" ID="ID_1003525065" CREATED="1761076914106" MODIFIED="1761076918659">
+<node TEXT="About this Module" ID="ID_65978556" CREATED="1761076875754" MODIFIED="1761076880964"/>
+<node TEXT="Where does AI go from here?" ID="ID_1214329393" CREATED="1761077726885" MODIFIED="1761077734417"/>
+<node TEXT="What&apos;s in Store for the Future?" ID="ID_389613003" CREATED="1761077734683" MODIFIED="1761077741767"/>
+<node TEXT="What about your Future?" ID="ID_1467972173" CREATED="1761077742158" MODIFIED="1761077748728"/>
+</node>
+<node TEXT="Summary" ID="ID_438849295" CREATED="1761076922178" MODIFIED="1761076924088"/>
+</node>
 <node TEXT="4. Run AI Models with IBM Watson Studio" POSITION="bottom_or_right" ID="ID_1894139975" CREATED="1760922118795" MODIFIED="1760922128631"/>
 <node TEXT="5. AI Ethics" POSITION="bottom_or_right" ID="ID_1894092063" CREATED="1760922128792" MODIFIED="1760922133157"/>
 <node TEXT="6. Your Future in AI: The Job Landscape" POSITION="bottom_or_right" ID="ID_1274911597" CREATED="1760922133327" MODIFIED="1760922145309"/>
