@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="AI Fundamentals" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1760921901283"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.75131476">
+<node TEXT="AI Fundamentals" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1760921901283"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.9090909">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -760,10 +760,307 @@
     </ul>
   </body>
 </html></richcontent>
-<node TEXT="M1: The Debater Project" ID="ID_1031398904" CREATED="1761009301566" MODIFIED="1761009310715"/>
-<node TEXT="M2: AI Performs NLP" ID="ID_469577340" CREATED="1761009310896" MODIFIED="1761009335487"/>
-<node TEXT="M3: Chatbots use NLP to Interact with Humans" ID="ID_910812807" CREATED="1761009322626" MODIFIED="1761009345676"/>
-<node TEXT="M4: AI Classifies Images" ID="ID_775668772" CREATED="1761009349426" MODIFIED="1761009356426"/>
+<node TEXT="M1: The Debater Project" FOLDED="true" ID="ID_1031398904" CREATED="1761009301566" MODIFIED="1761009310715">
+<node TEXT="A system that helps machines understand cultural knowledge, grammatical structures, and various language nuances is known as natural language processing" ID="ID_1093500303" CREATED="1761053894962" MODIFIED="1761053910920">
+<node TEXT="IBM Project Debater was a major step forward in the field of natural language processing." ID="ID_1768156077" CREATED="1761053960196" MODIFIED="1761053964240"/>
+<node TEXT="Human language is complex, so machines require natural language processing systems to understand human language." ID="ID_1237943761" CREATED="1761053970162" MODIFIED="1761053973193"/>
+</node>
+<node TEXT="Project Debater" ID="ID_470082821" CREATED="1761053269864" MODIFIED="1761053281755">
+<node TEXT="IBM began developing Project Debater in 2012, hoping to build a machine that could do more than win debates with humans. In other words, IBM Project Debater would need to be able to do more than just answer questions in a human language; it would need to have the ability to listen to a series of competitive arguments posed by humans and respond to them intelligently. IBM&apos;s ultimate goal was to build a system that could help people make evidence-based, bias-free decisions on difficult topics where the answers aren’t obvious." POSITION="bottom_or_right" ID="ID_1244363149" CREATED="1761053203202" MODIFIED="1761053207929"/>
+</node>
+<node TEXT="Debate Steps" ID="ID_1531322105" CREATED="1761053282306" MODIFIED="1761053287840">
+<node TEXT="1. Learn and Understand the Topic" ID="ID_615901252" CREATED="1761053340824" MODIFIED="1761053349454">
+<node ID="ID_859280259" CREATED="1761053391538" MODIFIED="1761053424470"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ingest several billion passages from newspapers, books, and journals. (AI researchers call this collection of learned material a <span style="font-weight: bold;">corpus</span>.语料库) Then, structure all that content so you can relate concepts to each other and evaluate them, even when they’re stated in different ways.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="2. Build a Position" ID="ID_185807698" CREATED="1761053349603" MODIFIED="1761053353339">
+<node TEXT="Create an opening speech made of short pieces of text pasted together from the corpus. Your speech should detail your position on the debate topic. It can’t be a jumble of phrases. It must present a compelling argument, in logical order, using good grammar." ID="ID_1939305688" CREATED="1761053436968" MODIFIED="1761053438916"/>
+</node>
+<node TEXT="3. Organize your Proof" ID="ID_171773380" CREATED="1761053353489" MODIFIED="1761053358993">
+<node TEXT="Learn the deeper meaning of the facts that surround your topic. Decide what evidence is strongest and arrange your proof by themes. Adjust your arrangement each time new evidence arrives. This will help you find updated or completely new information that can score points against your opponent’s position." ID="ID_1080268798" CREATED="1761053458623" MODIFIED="1761053460706"/>
+</node>
+<node TEXT="4. Respond to Your Opponent" ID="ID_1205272672" CREATED="1761053359149" MODIFIED="1761053366503">
+<node TEXT="Listen to your opponent’s arguments and rebuttals, then deliver a convincing rebuttal that refutes your opponent and further proves your case." ID="ID_814473539" CREATED="1761053477787" MODIFIED="1761053481195"/>
+</node>
+</node>
+<node TEXT="Why do we care about these four steps? Because they reflect and test four things that cognitive systems do" ID="ID_368243610" CREATED="1761053510474" MODIFIED="1761053521974">
+<node TEXT="Understanding" ID="ID_857902174" CREATED="1761053521981" MODIFIED="1761053526409">
+<node TEXT="Cognitive systems understand like humans do" ID="ID_1571759865" CREATED="1761053540277" MODIFIED="1761053549002"/>
+</node>
+<node TEXT="Reasoning" ID="ID_471480681" CREATED="1761053526573" MODIFIED="1761053529403">
+<node TEXT="They reason underlying ideas and concepts.&#xa;They debate.&#xa;They infer and extract concepts." ID="ID_352973010" CREATED="1761053549917" MODIFIED="1761053592819"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      他们推理潜在的思想和概念。
+    </p>
+    <p>
+      他们辩论。
+    </p>
+    <p>
+      他们推断并提取概念。
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node TEXT="Learning" ID="ID_1222572466" CREATED="1761053529555" MODIFIED="1761053530978">
+<node TEXT="They never stop learning.&#xa;Advancing with each new piece of information, interaction, and outcome.&#xa;They develop &quot;expertise&quot;." ID="ID_1786311156" CREATED="1761053595597" MODIFIED="1761053625732"/>
+</node>
+<node TEXT="Interacting" ID="ID_1103425710" CREATED="1761053531142" MODIFIED="1761053532864">
+<node TEXT="... Allowing them to interact with humans." ID="ID_1080800902" CREATED="1761053627496" MODIFIED="1761053635504"/>
+</node>
+</node>
+<node TEXT="Steps in NLP" ID="ID_1127357804" CREATED="1761053246568" MODIFIED="1761053299391">
+<node TEXT="Understanding human language is difficult, even for people who have grown up with it. Human language is incredibly complex, full of strange expressions that seem to contradict each other, metaphors that require cultural knowledge to understand, and grammatical structures that sometimes turn simple ideas into tongue-twisters." ID="ID_1127484678" CREATED="1761053707159" MODIFIED="1761053732691"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      理解人类语言并非易事，即使对从小就接触人类语言的人来说也是如此。人类语言极其复杂，充满了看似自相矛盾的奇特表达、需要文化知识才能理解的隐喻，以及有时会将简单的想法变成绕口令的语法结构。
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Machines require systems that research scientists call natural language processing, or NLP, to understand human language. IBM Project Debater was the most complex AI system IBM Research had ever built to understand human language." ID="ID_205793403" CREATED="1761053733391" MODIFIED="1761053854911"/>
+</node>
+</node>
+<node TEXT="M2: AI Performs NLP" ID="ID_469577340" CREATED="1761009310896" MODIFIED="1761009335487">
+<node TEXT="About this Module" ID="ID_807676401" CREATED="1761053246568" MODIFIED="1761054153845"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Explain how AI uses natural language processing to derive meaning from text
+    </p>
+    <p>
+      Explain the classification problem and its solutions
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="NPL Sentence Segmentation and Tokens" ID="ID_1269673098" CREATED="1761056776018" MODIFIED="1761056787651">
+<node TEXT="In NLP, machines segment sentences and extract meaning from “tokens” of human language" ID="ID_239422966" CREATED="1761057068716" MODIFIED="1761057070741"/>
+<node TEXT="Human language is unstructured. Although it is loosely held together by rules of grammar, our language expresses information in many confusing ways. Unlike structured information, which can be arranged in tables or matrices with neatly labeled rows and columns, unstructured information is messy and difficult to understand. To see why, consider this famous joke by Groucho Marx." POSITION="bottom_or_right" ID="ID_754104294" CREATED="1761057070746" MODIFIED="1761057078768"/>
+<node POSITION="bottom_or_right" ID="ID_683006259" CREATED="1761058124930" MODIFIED="1761058174383"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      To deal with the “messiness” of unstructured information, computers begin with one sentence at a time. This is called <span style="font-weight: bold;">sentence segmentation.</span>&#xa0;Computers then break the information into small chunks of information, called <span style="font-weight: bold;">tokens</span>, that can be individually classified. Once the tokens in text have been sorted into a structure based on what they mean, NLP can work with them.
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      为了处理非结构化信息的“混乱”，计算机会从逐句开始处理。这被称为句子分割。然后，计算机将信息分解成小块信息，这些小块被称为“标记”，可以单独进行分类。一旦文本中的标记根据其含义被分类成结构，NLP 就可以对其进行处理。
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="&quot;One morning I shot an elephant in my pajamas. How he got in my pajamas, I don’t know.&#xa;&#xa;Adapted from Groucho Marx, 20th century comedian and movie star" POSITION="bottom_or_right" ID="ID_1063461910" CREATED="1761057089674" MODIFIED="1761057094099">
+<node TEXT="Activity 1: Entities" ID="ID_67312901" CREATED="1761058362384" MODIFIED="1761058370950">
+<node TEXT="An entity is a noun representing a person, place, or thing. It’s not an adjective, verb, or other article of speech." ID="ID_955204766" CREATED="1761058376629" MODIFIED="1761058378881"/>
+<node TEXT="I, elephant, and pajamas are entities because they are nouns.&#xa;Shot, an, in, and my are not entities because they are not nouns." ID="ID_1741633897" CREATED="1761058404603" MODIFIED="1761058466519"/>
+</node>
+<node TEXT="Activity 2: Relationships" ID="ID_1254137757" CREATED="1761058470464" MODIFIED="1761058476657">
+<node TEXT="A relationship is a group of two or more entities that have a strong connection to one another." ID="ID_711179357" CREATED="1761058482692" MODIFIED="1761058486490"/>
+<node TEXT="For I + elephant, I + pajamas, and elephant + pajamas, both words in the pair are nouns and are related entities.&#xa;&#xa;I + shot is not a relationship between entities. I is a noun but shot is a not.&#xa;&#xa;in + pajamas is not a relationship between entities. Pajamas is a noun but in is not." ID="ID_595396033" CREATED="1761058548439" MODIFIED="1761058561269"/>
+<node TEXT="Once an AI has classified entities and relationships in text or speech, the AI can begin structuring the information as a step toward understanding it. Your brain, by the way, does the same thing, which might have helped you find entities and relationships in the previous activities." ID="ID_226010721" CREATED="1761058620218" MODIFIED="1761058623664"/>
+<node TEXT="For example, consider the following two sentences: “Armen broke the glass. He always breaks the glass.” Notice that there is a relationship between the two sentences: the word he is related to the word Armen. The machine uses NLP to identify this relationship." ID="ID_384890253" CREATED="1761058628853" MODIFIED="1761058632792"/>
+</node>
+<node TEXT="Activity 3: Concepts" ID="ID_1401437891" CREATED="1761058653018" MODIFIED="1761058664514">
+<node TEXT="A concept is something implied in a sentence but not actually stated. This is trickier because it involves matching ideas rather than the specific words present in the sentence." ID="ID_1228974552" CREATED="1761058664516" MODIFIED="1761058670596"/>
+</node>
+</node>
+</node>
+<node TEXT="Emotion Detection and Sentiment Analysis" ID="ID_1329459704" CREATED="1761056959799" MODIFIED="1761056968815">
+<node TEXT="Emotion detection identifies distinct human emotion types." ID="ID_927050131" CREATED="1761058770388" MODIFIED="1761058877577"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      情绪检测可以识别人类不同的情绪类型。
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="For example, you can determine if the emotion being expressed is anger, happiness, or fear after reading a user&apos;s rating and comments in an online customer satisfaction survey." ID="ID_709816300" CREATED="1761058803473" MODIFIED="1761058805659"/>
+<node TEXT="AI can be trained to classify emotions. Identifying the right emotional token can make a big difference when an AI system is reading a social media post or a customer service chat, in which different emotions significantly change the meaning of a sentence." ID="ID_112030107" CREATED="1761058821145" MODIFIED="1761058823854"/>
+</node>
+<node TEXT="Sentiment analysis isn’t a specific emotion —at least, not as computer scientists use the term. Instead, it’s a measure of the strength of an emotion." ID="ID_1642504052" CREATED="1761058792904" MODIFIED="1761058889200"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      情绪分析并非指代某种特定的情绪——至少，计算机科学家不是这么称呼它的。相反，它是对情绪强度的衡量。
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="You can think of sentiment as a sliding scale between positive and negative, with neutral in the middle." ID="ID_731505086" CREATED="1761058795523" MODIFIED="1761058837322"/>
+<node TEXT="Sentiment analysis is a means of assessing if data is positive, negative, or neutral." ID="ID_323553365" CREATED="1761058845747" MODIFIED="1761058848335"/>
+<node TEXT="Sentiment Analysis is A method to measure the strength of an emotion by assessing data as positive, negative, or neutral" ID="ID_49801883" CREATED="1761059462519" MODIFIED="1761059472823"/>
+</node>
+</node>
+<node TEXT="The Classification Problem" ID="ID_1258392240" CREATED="1761056970290" MODIFIED="1761056975625">
+<node TEXT="Human Language makes classification challenging --&#xa;Human language is full of terms that are vague or have double meanings. This is called a classification problem. In the riddle, run and smell each have two meanings." ID="ID_1059100618" CREATED="1761058907659" MODIFIED="1761058960341">
+<node TEXT="&quot;A runny nose&quot; means you have a cold and you need a tissue to wipe your nose." ID="ID_380476981" CREATED="1761058971085" MODIFIED="1761058971085"/>
+<node TEXT="&quot;A smelly foot&quot; means that your  foot has an unpleasant odor." ID="ID_1350898406" CREATED="1761058971085" MODIFIED="1761058971085"/>
+</node>
+<node TEXT="Classification can be more difficult for an AI system than identifying tokens because so much of classification depends on the context in which a sentence is contained." ID="ID_453993672" CREATED="1761059030828" MODIFIED="1761059033440">
+<node TEXT="Compare I went to the docks to ship my box to I went to the station to ship my box. Both sentences indicate where a box’s travel begins, but neither specifies how it will travel. An AI system must associate the word ship with either the word station or docks, and then relate that association with the right concept: either train or boat." ID="ID_1007008822" CREATED="1761059096228" MODIFIED="1761059098608"/>
+<node TEXT="How does an AI system deal with this problem? After ingesting several thousand instances in which shipping from a dock results in boat travel, while shipping from a station leads to shipping by rail, the AI system identifies the frequency in which places and kinds of travel are linked. Gradually, the system gets better at classification and makes fewer mistakes. However, as with humans, an AI system’s classification will never be 100% perfect. (That’s why well-designed AI systems give not only a response, but also a confidence value.)" ID="ID_587723242" CREATED="1761059106229" MODIFIED="1761059109077"/>
+</node>
+<node TEXT="As you’ve learned, getting from tokens and classification to answering questions (or winning a debate) is a complex endeavor. But it isn’t enough to take a machine all the way to understanding. You will learn about ways to do this later in this course." ID="ID_465162265" CREATED="1761059130172" MODIFIED="1761059132833"/>
+</node>
+<node TEXT="NLP and Jeopardy!" ID="ID_1221832077" CREATED="1761056975803" MODIFIED="1761056981923">
+<node ID="ID_1923138587" CREATED="1761059170297" MODIFIED="1761059550580"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AI system is working with human language handle the classification problem by <span style="font-weight: bold;">learning from many instances.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="M3: Chatbots use NLP to Interact with Humans" ID="ID_910812807" CREATED="1761009322626" MODIFIED="1761009345676">
+<node TEXT="About this Module" ID="ID_1942095185" CREATED="1761053246568" MODIFIED="1761053253337">
+<node TEXT="Describe how a chatbot understands, reasons, learns, and interacts with users" ID="ID_876673591" CREATED="1761059697778" MODIFIED="1761059697778"/>
+<node TEXT="Distinguish between intents, entities, and dialogs" ID="ID_1065565986" CREATED="1761059697778" MODIFIED="1761059697778"/>
+<node TEXT="Identify appropriate uses for chatbots" ID="ID_1445515667" CREATED="1761059697779" MODIFIED="1761059697779"/>
+<node TEXT="Identify real-world uses for natural language processing" ID="ID_452629497" CREATED="1761059697779" MODIFIED="1761059697779"/>
+</node>
+<node TEXT="Chatbot Structure" ID="ID_864251981" CREATED="1761059745469" MODIFIED="1761059750417">
+<node TEXT="Chatbots work with small data. This means their scale is much more limited." ID="ID_1704312467" CREATED="1761060229885" MODIFIED="1761060232340"/>
+<node TEXT="A Chatbot has a &quot;frontend&quot; and a &quot;backend&quot;" ID="ID_733741394" CREATED="1761060311507" MODIFIED="1761060321861">
+<node TEXT="The frontend of a chatbot is the messaging channel. The frontend interacts with the person who’s asking questions, both listening (or reading) and speaking (or presenting text)." ID="ID_982726734" CREATED="1761060321863" MODIFIED="1761060329541">
+<node TEXT="User Interaction" ID="ID_947020950" CREATED="1761060373393" MODIFIED="1761060379531"/>
+</node>
+<node TEXT="The backend of a chatbot is where the hard work takes place. The backend operates application logic and has enough memory to remember earlier parts of a conversation as dialog continues." ID="ID_1622280442" CREATED="1761060385125" MODIFIED="1761060413928">
+<arrowlink DESTINATION="ID_1261510011"/>
+<node TEXT="Logic" ID="ID_1130178242" CREATED="1761060387898" MODIFIED="1761060393535"/>
+<node TEXT="Data" ID="ID_843114760" CREATED="1761060393709" MODIFIED="1761060394658"/>
+</node>
+</node>
+</node>
+<node TEXT="The Chatbot Backend" ID="ID_383153369" CREATED="1761059750582" MODIFIED="1761059755826">
+<node POSITION="bottom_or_right" ID="ID_1261510011" CREATED="1761060408504" MODIFIED="1761060422967"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A chatbot’s backend does the hard work of <span style="font-weight: bold;">understanding</span>&#xa0;&#xa0;and <span style="font-weight: bold;">responding</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_386738286" CREATED="1761060483771" MODIFIED="1761060494437"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This is a great job for algorithms called <span style="font-weight: bold;">classifiers</span>.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Classifiers can map many different ways of asking a question to a very small set of answers. How small? Some retail chatbots respond to hundreds of different questions with only five or six possible answers. Questions the chatbots can’t answer are sent to human customer service representatives." ID="ID_1216173322" CREATED="1761060500648" MODIFIED="1761060503543"/>
+</node>
+</node>
+<node TEXT="Intents, Entities, and Dialog" ID="ID_1816668112" CREATED="1761059756002" MODIFIED="1761059764038">
+<node TEXT="A ChatBot backend usually includes 3 parts: intents, entities, and dialog" ID="ID_974793271" CREATED="1761060538710" MODIFIED="1761060562011">
+<node ID="ID_625684024" CREATED="1761060573847" MODIFIED="1761060597586"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Chatbots understand a question by breaking it into parts and relating those parts to things in its memory. A chatbot’s goal is to identify what are called <span style="font-weight: bold;">entities</span>&#xa0;and <span style="font-weight: bold;">intents</span>, then use what it’s found to trigger a <span style="font-weight: bold;">dialog</span>. What do these terms mean?
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Intent" ID="ID_1454680936" CREATED="1761060602807" MODIFIED="1761060606061">
+<node TEXT="An intent is a purpose: the reason why a user is contacting the chatbot. Think of it as something like a verb: a kind of action. A user might intend to file a complaint, to ask for directions, to speak to a salesperson." ID="ID_547032480" CREATED="1761060616847" MODIFIED="1761060618806"/>
+</node>
+<node TEXT="Entity" ID="ID_1411093477" CREATED="1761060606239" MODIFIED="1761060608010">
+<node TEXT="An entity is a noun: a person, place, or thing. This concept was covered earlier in this course." ID="ID_1808278955" CREATED="1761060695329" MODIFIED="1761060697912"/>
+</node>
+<node TEXT="Dialog" ID="ID_726525495" CREATED="1761060608186" MODIFIED="1761060611922">
+<node TEXT="A dialog is a flowchart—an IF / THEN tree structure that illustrates how a machine will respond to user intents. A dialog is what the machine replies after a human asks a question. Even if a human uses run-on sentences, poor grammar, chat messaging expressions, and so on, artificial intelligence allows the NLP to understand well enough to provide a response." ID="ID_174116235" CREATED="1761060751768" MODIFIED="1761060753886">
+<node TEXT="The dialog represents each possible word or phrase a user might enter, the matched response for the chatbot, and the many possible subsequent replies a user might make next." ID="ID_518336225" CREATED="1761060789087" MODIFIED="1761060792729"/>
+<node ID="ID_1235908832" CREATED="1761060808978" MODIFIED="1761060814437"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      That’s too much for an ordinary flowchart to show (you might need three or four dimensions!), so chatbot software condenses each moment of the conversation into a <span style="font-weight: bold;">node</span>.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="A node contains a statement by the chatbot and a long, expandable list of possible replies." ID="ID_1299532991" CREATED="1761060814634" MODIFIED="1761060824843"/>
+</node>
+</node>
+</node>
+<node TEXT="Example NLP Analysis" ID="ID_1555794799" CREATED="1761059764215" MODIFIED="1761059772880"/>
+</node>
+<node TEXT="M4: AI Classifies Images" ID="ID_775668772" CREATED="1761009349426" MODIFIED="1761009356426">
+<node TEXT="About this Module" ID="ID_285940627" CREATED="1761053246568" MODIFIED="1761053253337"/>
+</node>
 <node TEXT="Summary" ID="ID_415619633" CREATED="1761009356598" MODIFIED="1761009365987"/>
 </node>
 <node TEXT="3. Machine Learning and Deep Learning" POSITION="bottom_or_right" ID="ID_1671207914" CREATED="1760922111857" MODIFIED="1760922118641"/>

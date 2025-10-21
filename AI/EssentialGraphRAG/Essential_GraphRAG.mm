@@ -173,7 +173,7 @@
 </node>
 <node TEXT="1.3 Overcoming the Limitations of LLMs" ID="ID_1191636138" CREATED="1760735249977" MODIFIED="1760735260821">
 <node TEXT="1.3.1 Supervised Finetuning" ID="ID_821998863" CREATED="1760824858414" MODIFIED="1760824869575">
-<node TEXT="Steps of training of an LLM like ChatGPT" ID="ID_543042941" CREATED="1760825004479" MODIFIED="1760825015780">
+<node TEXT="Steps of training of an LLM like ChatGPT" FOLDED="true" ID="ID_543042941" CREATED="1760825004479" MODIFIED="1760825015780">
 <node TEXT="1. Pretraining" ID="ID_1956166730" CREATED="1760825015785" MODIFIED="1760825019861">
 <node TEXT="The model reads a vast amount of text, often more than a trillion tokens, to learn basic language patterns. It practices predicting what word comes next in a sentence." ID="ID_1112234932" CREATED="1760825284165" MODIFIED="1760825335414"/>
 <node TEXT="This is the foundational step, like learning vocabulary and grammer before you can write." ID="ID_1189676608" CREATED="1760825337241" MODIFIED="1760825356840"/>
@@ -194,7 +194,14 @@
 </node>
 </node>
 </node>
-<node TEXT="1.3.2 Retrieval-Augmented Generation" ID="ID_1520507099" CREATED="1760824869808" MODIFIED="1760824894790"/>
+<node TEXT="1.3.2 Retrieval-Augmented Generation" ID="ID_1520507099" CREATED="1760824869808" MODIFIED="1760824894790">
+<node TEXT="RAG workflow combines an LLM with an external knowledge base to deliver accurate and up-to-date responses." ID="ID_821963823" CREATED="1760838452227" MODIFIED="1760838479943"/>
+<node TEXT="Instead of depending on an LLM&apos;s internal knowledge, relevant facts or information are provided directly in the input prompt." ID="ID_1698010779" CREATED="1760838496767" MODIFIED="1760838526010"/>
+<node TEXT="The RAG workflow operates in two main stages" ID="ID_1082473960" CREATED="1760838557517" MODIFIED="1760838572117">
+<node TEXT="1. Retrieval" ID="ID_1976245611" CREATED="1760838572121" MODIFIED="1760838576657"/>
+<node TEXT="2. Augmented Generation" ID="ID_943716733" CREATED="1760838577164" MODIFIED="1760838583162"/>
+</node>
+</node>
 </node>
 <node TEXT="1.4 Knowledge Graphs as the Data Storage for RAG Applications" ID="ID_1598933921" CREATED="1760735260981" MODIFIED="1760735275345"/>
 </node>
