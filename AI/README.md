@@ -8,6 +8,7 @@
 ## Learning Notes
 
 - [What is AI? - from IBM SkillsBuild](./WhatIsAI)
+- [AI Fundamentals - from IBM SkillsBuild](./AI_Fundamentals)
 
 ## AI Engineer Roadmap
 
