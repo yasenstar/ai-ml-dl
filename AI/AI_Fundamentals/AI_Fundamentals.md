@@ -1199,43 +1199,520 @@ Adecision tree is asupervised learning algorithm. It operates like a flowchart. 
 
 ## M3 The Deep Learning Ecosystem
 
+Learning objectives
+
+
+
+After completing this module, you should be able to:
+
+
+
+- Describe how neural networks are inspired by the human brain
+- Trace the flow of information through a perceptron’s nodes
+- Describe machine learning’s trial-and-error learning process
+- Define and describe deep learning and its ecosystem
+
+
 ### About this Module
 
+#### demonstrate the concept of machine learning:
+
+##### Determine the farthest distance from a target that an archer can reliably hit bullseyes by shooting arrows repeatedly while walking closer and closer to the target.
+
 ### Inspired by the Human Brain
+ 
+Today, machine learning has evolved into a collection of powerful applications called thedeep learning ecosystem. The foundation for many applications is called aneural network. A neural network uses electronic circuitry inspired by the way neurons communicate in the human brain.
+
+
+##### In the brain, cells called neurons have a cell body at one end where the nucleus resides, and a long axon leading to a set of branching terminals at the other end. Neurons communicate to each other by receiving signals into the axon, altering those signals, then transmitting them out through the terminals to other neurons. Researchers estimate that a human brain has about 100 billion neurons, each one connected to up to 10,000 other neurons.
+
+在大脑中，神经元细胞的一端是细胞体，细胞核就位于此处；另一端是一条长长的轴突，通向一组分支末端。神经元通过轴突接收信号，改变这些信号，然后通过末端将其传输到其他神经元，从而实现相互交流。研究人员估计，人脑约有1000亿个神经元，每个神经元与多达1万个其他神经元相连。
+
+
+###### Biological input
+A signal passes from the terminal of one neuron into the axon of another, using a combination of electrical and chemical reactions.
+
+###### Biological input and response
+Signals enter the cell body, which computes a response that then emerges from the other end of the cell
+ 
+In a neural network, a building block, called aperceptron, acts as the equivalent of a single neuron. A perceptron has aninput layer, one or morehidden layers, and anoutput layer. A signal enters the input layer and the hidden layers run algorithms on the signal. Then, the result is passed to the output layer.
+
+
+在神经网络中，一个称为感知器的基本单元相当于一个神经元。感知器有一个输入层、一个或多个隐藏层和一个输出层。信号进入输入层，隐藏层对信号运行算法。然后，结果被传递到输出层。
+
+
+###### Neural network input and response
+Similar to the way a signal passes through and is altered by a neuron, a signal enters a perceptron’s input layer, then passes through and is altered by algorithms within nodes in the hidden layer. Then the response emerges from the hidden layer and is transmitted onward from the neuron’s output layer.
+
+#### The hidden layers in a neural network resemble, as a group, the long cell body that connects dendrites to axons within a human brain cell. Those hidden layers contain nodes. Each node runs an algorithm and bits of additional code to test and adjust its result. When the value reaches a certain threshold, the node “fires”.
+
+##### Note: A node often uses a sigmoid function to determine whether or not to “fire”. As explained previously, a sigmoid function can generate a binary answer, such as, YES or NO. The binary answer tells the node whether or not to fire. You can think of the threshold as a hurdle a solution must jump over to give a result of YES.
+
+##### If there are other nodes connected to the node, they are activated when the signal reaches them. If the other nodes reach their own thresholds, then they fire. The signal cascades down through the hidden layers in a way that’s somewhat similar to how a signal passes down the body of a human brain cell.
+
+#### Keep in mind that these resemblances are only similarities. Neural networks are inspired by the human brain, but the activities inside neural networks are quite different.
+ 
+After calculating values, neural networks often assignWeightto those values that impact the final result
+
 
 ### A Path through a Neural Network
 
+#### The operation of a neural network is pure mathematics. The network isn’t “thinking”; it is calculating. But it’s using those calculations to create an output that humans can interpret as an answer or a recommendation.
+
+#### in a neural network, individual nodes in a layer work on algorithms simultaneously. The nodes not only calculate but also adjust themselves in response to external factors. This is machine learning.
+
 ### ML is Often Trial and Error
 
+#### how does a neural network learns in the first place. The answer is: by continuously adjusting itself, in a process that humans refer to as trial and error.
+
+#### Once a neural network has ingested or already learned a certain amount of data, it stores the data in its “body of information”, called its corpus.
+
+一旦神经网络吸收或学习了一定量的数据，它就会将数据存储在其“信息体”中，即语料库。
+
+
+##### In order to learn, the neural network constantly tests new data or the results of its calculation against its corpus.
+
+##### If the network determines that the new data or results don’t match the patterns it has already established, it modifies those patterns for a better fit.
+
+##### Sometimes, to improve a single match, the network tests hundreds or thousands of modifications very rapidly and makes adjustments.
+
+##### Then, the network tests to determine if the match is improving. So, step by step, the machine learns.
+
+#### ML makes many guesses
+
+##### Machine learning uses its tremendous calculation speed to make many guesses that bring it closer and closer to an answer.
+
+###### It randomly makes its first guess, sets that guess as a variable, then tests how accurately the guess fits with both old and new data. Next, it makes an adjustment to the variable and tries again. Using mathematical processes to help it choose right-size adjustments, the system keeps on trying, getting closer and closer to perfection but never quite reaching it.
+
+##### For this reason, many AI systems output a confidence value along with an answer or prediction
+
+###### For example, a system predicting effective treatments for a cancer patient might output two or three suggested approaches, along with a measure of how confident it is that each treatment might work. This reflects how the system reaches those decisions. The system also leaves the final decision to the doctor who knows the patient.
+
+##### Any computer can perform at least a crude kind of machine learning based on cycles of estimation. Classical machine learning can do it, too. But depending on the complexity of a problem, a conventional computer or even a classical system might take days (or centuries!) to reach a conclusion.
+
+任何计算机都能执行至少一种基于循环估算的粗略机器学习。经典机器学习也能做到。但根据问题的复杂性，传统计算机甚至经典系统可能需要数天（甚至数百年！）才能得出结论。
+
+
+##### In many modern applications of AI, the unstructured data involved is complex enough to overwhelm even a simple perceptron, such as to decide whether to order pizza in a previous lesson. So, a perceptron requires more brainpower in the form of deep learning. Deep learning relies on multiple layers of nodes (even multiple groups of perceptrons with multiple layers of nodes!) to finish the work in reasonable time.
+
 ### From Perceptrons to Deep Learning
+
+#### advanced AI systems use many hidden layers whose algorithms pass the results of sophisticated calculations. This is a deep neural network (DNN).
+
+##### DNN layers can be arranged in groups or elaborate blocks of groups for greater power. DNNs can even be doubled in competing teams that judge and learn from each other’s mistakes, without human intervention. This creates powerful reinforcement learning.
+
+#### What DNNs can do
+
+##### Photo Identification
+
+###### Technologists can use a DNN to examine an historic photo of unknown persons or places. The DNN compares what it finds with millions of pictures in its corpus and then outputs full names and possible locations.
+
+##### Housing Construction
+
+###### Real estate companies an use a DNN to predict changes in housing prices across an entire city or state. DNNs can help real estate companies predict business trends and determine how to invest in materials and labor.
+
+##### Self-driving Cars
+
+###### Automobile engineers can use DNNs to model millions of driving situations and help self-driving vehicles navigate safely.
+
+##### Cancer Treatment
+
+###### Radiologists can use DNNs to identify variations in MRI images that are otherwise invisible to the human eye. Radiologists can receive early warnings of potentially treatable cancers.
+ 
+An internet search for deep neural network examples can reveal many additional ways that machine learning impacts your life.Many forms of DNN devices make up the modern deep learning ecosystem.
+
 
 ## M4 Generative AI
 
 ### About this Module
 
+Learning objectives
+
+
+
+After completing this module, you should be able to:
+
+
+
+- Define generative AI
+- Describe how generative AI works
+- Identify some examples of generative AI applications
+- Describe the impact of generative AI to businesses
+- Identify some current limitations of generative AI
+
+
+#### Generative artificial intelligence (AI) is a powerful and exciting type of AI that generates new, original content, such as images, music, videos, data, code, responses to questions, and a whole lot more. It’s a technology that is revolutionizing the way people live, work, and enjoy their leisure time.
+
 ### What is Generative AI?
+
+#### Generative AI is a type of artificial intelligence that creates new, original content that people have never seen before
+
+##### Most AI systems are discriminative AI models, which predict and classify data
+
+大多数人工智能系统都是判别式人工智能模型，可以预测和分类数据
+
+ 
+In contrast, generative AI models are a type ofdeep learning AI systemthat uses algorithms to generate content based on a submitted prompt, thus the name of generative AI
+
+
+#### For example, a discriminative model could tell a bicycle from a truck and a generative model could generate a new image that looks like a bicycle.
+
+#### So, generative AI’s distinction from other AI systems is its ability to produce content that is new and considered creative, such as images, videos, music, synthetic data, essays, answers to questions, and more.
+
+#### Generative AI’s output has gained global attention due to the uniqueness, high quality, and speed of content generation. Generative AI is a revolutionary change that’s as radical to global humanity as the invention of electricity and automobiles. Let’s see how generative AI works.
 
 ### How does Generative AI Work?
 
+#### Think of generative AI as a virtual artist. Just like a human artist, it needs inspiration and tools to create something unique. Instead of using paint and canvas, however, generative AI uses algorithms and data sets.
+
+#### Overall Generative AI Process
+
+##### 1. First, a person feeds the AI a large amount of data. This could be anything from images and sounds to text and numbers.
+
+##### 2. Then, the AI analyzes this data, looking for patterns and relationships between the different pieces of information. The neural network is trained on a dataset of examples of the type of output it is intended to generate, such as images or text. During the training process, the neural network learns to identify patterns and relationships in the input data and use them to generate new outputs that are similar to, but not identical to, the examples it was trained on.
+
+##### 3. Next, the AI uses what it has learned to create something new. The neural network generates new outputs by inputting a random seed value. The seed value serves as the starting point for the generation process. The neural network processes the seed value and generates a new output that is based on the patterns and relationships it learned during training.
+
+###### For example, if someone gave the AI a set of images of dogs, it might use its knowledge of different dog breeds to create an image of a new dog that doesn't exist in real life.
+
+#### Generative AI can also complete more complex tasks, like writing stories or composing music. In these cases, the AI analyzes patterns in language or music to create something entirely new.
+
+#### Types of generative AI models
+
+##### Variational AutoEncoder (VAE)
+
+###### Think of variational autoencoder (VAE) models as a skilled artist who can look at a painting, quickly sketch a simplified version of it, and then recreate a new painting using only that simplified sketch as a reference. The artist is capturing the essential elements of the painting and then using them to create a new work of art.
+
+###### VAEs use a similar process. The "encoder" network compresses the input data into a lower-dimensional representation and the "decoder" network reconstructs the original data from this compressed representation. This allows VAEs to capture the underlying structure and patterns in the data, which can then generate new, similar data.
+
+##### Generative Adversarial Network (GAN)
+
+###### Think of a generative adversarial network (GAN) model as a competition between a skilled forger (the generator) and a talented art critic (the discriminator). The forger creates fake paintings, while the critic tries to determine whether each painting is genuine or a forgery. As the forger improves their technique, the critic becomes more discerning, and this cycle continues until the forger can create near-perfect forgeries.
+
+###### In GANs, the generator creates new data, while the discriminator evaluates the quality of the generated data. The generator tries to create data that is realistic enough to fool the discriminator, while the discriminator learns to better distinguish between real and generated data. This competition leads to the generator creating increasingly realistic content.
+
+##### AutoRegressive
+
+###### Imagine an autoregressive model as a skilled storyteller who listens to the beginning of a story and then continues it by predicting what comes next based on the words and events that have occurred so far. The storyteller uses their knowledge of language, grammar, and storytelling conventions to create a coherent and engaging continuation of the story.
+
+###### Autoregressive models generate new content by predicting the next element in a sequence based on the previous elements. They are particularly well-suited for generating text because they can model the conditional probabilities of words and characters in a sentence.
+
 ### Examples of Generative AI Applications
+
+#### ChatGPT
+
+##### OpenAI launched ChatGPT, an AI chatbot, in November 2022. Able to interact by using conversational natural language, this AI tool goes beyond the traditional search engine responses of simply listing related results. Instead, ChatGPT follows instructions given in the prompt and provides a detailed response. For example, with ChatGPT, a person can enter a text prompt of “Write a poem about cats” and the result will be a poem about cats, rather than a listing of websites about cats.
+
+#### IBM Watson Discovery
+
+##### IBM Watson Discovery uses foundational technologies, such as large language models (LLMs), to obtain insights from what it is that we don’t know that we don’t know. It’s used widely in genomic research discovering what amino acids might lurk inside the protein not known before and unearth the relationship of various actors or entities for government security related questions.
+
+#### Dall-E and Dall-E 2
+
+##### Developed by OpenAI, these are generative AI models that use natural language text input to generate digital images. The first version of DALL-E could only render AI-created images in a cartoonish fashion, but the latest version can produce much more realistic images due to improved image processing algorithms.
+
+#### BARD
+
+##### Bard is a generative AI tool that Google launched in an initial, limited capacity in March 2023. Bard is founded on Google’s Bidirectional Encoder Representations from Transformers (BERT) model. It isn’t generative AI; rather, Google developed it for natural language processing (NLP), especially for its capacity to interpret the nuances of a user’s search words. Bard builds on BERT’s capability of natural language interactions with Bard’s generative AI capability to generate new content. For example, musicians can use Bard to compose music and lyrics.
 
 ### Industry Uses of Generative AI
 
+#### Sports
+
+In sports, generative AI can help improve athletic performance and enhance fan engagement.
+
+
+
+One application of generative AI in sports is the creation of personalized workout plans. By analyzing an athlete's biometric data, generative AI can create customized workout plans tailored to the athlete's fitness level and goals. This technology can improve athletic performance by providing athletes with targeted and efficient training regimes.
+
+
+
+Another application of generative AI in sports, around fan engagement, is the creation of realistic 3D models of athletes for use in sports video games and virtual reality experiences. By using generative AI, game developers can create highly realistic and personalized virtual athletes that can interact with users in real-time. This technology can enhance fan engagement by providing users with immersive and engaging sports experiences.
+
+
+
+Generative AI can analyze sports data and identify patterns and trends that can inform coaching strategies and player selection.
+
+
+
+Overall, generative AI has the potential to transform the way people play, coach, and experience sports, enabling new levels of personalization, efficiency, and engagement.
+
+
+
+Use case
+
+
+
+The Miami Dolphins, an American football team in the United States, are using generative AI to improve player performance and prevent injury. They are collaborating with a company called Blue River Technology to develop a computer vision system that uses generative AI to analyze video footage of players and identify areas for improvement. The system analyzes players' body movements and identifies areas where they could be at risk for injury. By using generative AI in this way, the Miami Dolphins can identify potential issues before they become serious problems, enabling them to take proactive measures to prevent injuries and improve player performance.
+
+
+
+This technology has the potential to transform the way that sports teams approach player health and performance, improving the overall quality of play and reducing the risk of injury for athletes.
+
+
+#### Entertainment
+
+In the entertainment industry, generative AI can help create new and immersive experiences for users.
+
+
+
+One application of generative AI in entertainment is the creation of a wide variety of highly realistic and personalized virtual characters and environments for video games and virtual reality experiences. For example, generative AI can create realistic facial expressions and body movements for virtual characters, enhancing the user experience and immersion.
+
+
+
+Another application of generative AI in entertainment is the generation of personalized music playlists. By analyzing a user's listening history and preferences, generative AI can create unique and personalized music playlists that cater to each individual user's tastes.
+
+
+
+This technology can enhance the user experience by creating highly personalized and engaging music experiences.
+
+
+
+Use case
+
+
+
+Amper Music uses generative AI to create original music for video games, films, and other multimedia projects. Their platform allows users to input parameters such as mood, genre, and tempo, and then generates a unique and original piece of music in real-time. It generates music using a generative model that is trained on a large dataset of musical patterns and structures. By using generative AI to create music, Amper Music can offer highly customizable and original compositions tailored to each individual project's needs.
+
+
+
+This technology has the potential to transform the creation of music for multimedia projects, enabling more efficient and personalized music production.
+
+
+#### Healthcare
+
+In healthcare, generative AI can help improve disease diagnosis, medical imaging, and personalized medicine.
+
+
+
+One application of generative AI is in the generation of synthetic medical images, which can train machine learning algorithms and improve disease diagnosis. For example, generative AI can generate synthetic medical images of rare diseases, which can be difficult to obtain in real life.
+
+
+
+Another application of generative AI in healthcare is the creation of medical simulations. These simulations can help train healthcare professionals and reduce medical errors. By generating synthetic patient data, generative AI can also train predictive models and improve personalized medicine.
+
+
+
+Generative AI has the potential to transform healthcare by enabling the creation of realistic medical simulations, improving disease diagnosis, and enhancing personalized medicine.
+
+
+
+Use case
+
+
+
+PathAI uses generative AI to improve the accuracy of disease diagnosis through the analysis of medical images. Specifically, PathAI has developed a deep learning algorithm that can accurately detect cancer cells in digital pathology images. This algorithm was trained on a large dataset of annotated pathology images using a variational autoencoder (VAE) generative model. The VAE learned the underlying structure of the pathology images to generate synthetic images that were like the real images in the training set. By training their algorithm on both real and synthetic images, PathAI was able to improve the accuracy of their cancer detection algorithm.
+
+
+
+This technology has the potential to improve the accuracy and speed of cancer diagnosis, to ultimately improve patient outcomes.
+
+
+#### Business
+
+In business, generative AI can help improve decision-making, personalize customer experiences, and enhance operational efficiency.
+
+
+
+One application of generative AI in business is the generation of synthetic data. By generating synthetic data, companies can augment their existing datasets and improve the accuracy of predictive models. For example, a financial institution could generate synthetic financial data to train their predictive models and improve risk management.
+
+
+
+Another application of generative AI in business is the creation of personalized product recommendations. By analyzing a customer's purchase history and preferences, generative AI can create personalized product recommendations tailored to each individual customer. This technology can improve customer satisfaction and increase sales.
+
+
+
+People are also using generative AI to improve operational efficiency by creating synthetic data for testing and validation.
+
+
+
+Generative AI has the potential to transform the way businesses operate by improving decision-making, enhancing customer experiences, and increasing efficiency.
+
+
+
+Use case
+
+
+
+Syntiant uses generative AI to develop low-power, high-performance deep learning chips for a range of industries, including smart home devices, wearables, and voice-controlled devices. Their deep learning chips are designed to process data on the device itself, rather than relying on cloud-based processing, which can reduce latency and improve privacy. To train their deep learning models, Syntiant uses a generative adversarial network (GAN) to create synthetic data by generating new data samples that are similar to the training data. By training their models on both real and synthetic data, Syntiant was able to improve the accuracy of their deep learning chips, making them more reliable and efficient.
+
+
+
+This technology has the potential to transform the way that companies design and manufacture deep learning chips, enabling a new generation of low-power, high-performance devices.
+
+
 ### Limitations of Generative AI
+
+#### Lack of originality: Generative AI models rely on large datasets to learn and generate content. As a result, they might not create entirely original content but rather mimic patterns from their training data, which can lead to a lack of creativity and innovation.
+
+#### Incompleteness: While generative AI models are becoming increasingly sophisticated, they still struggle to understand the nuanced contexts and might generate incomplete or nonsensical content.
+
+#### Bias: Generative AI models can perpetuate existing biases present in their training data, leading to the generation of biased content that might reinforce stereotypes and discriminatory behavior.
+
+#### Computational resources: Training and deploying generative AI models require significant computational power, which can be expensive and contribute to environmental concerns such as energy consumption and carbon emissions.
+
+### Ethical Concerns of Generative AI
+
+#### Misinformation and fake content: Generative AI can create convincing fake content, like deepfakes or falsified news articles, which can lead to the spread of misinformation and have severe consequences for individuals and societies.
+
+#### Intellectual property and copyright: Generative AI can produce content that resembles copyrighted material. This raises questions about intellectual property rights and potential infringements.
+
+#### Privacy: Generative AI can create realistic images and text about individuals, potentially violating their privacy and causing harm to their reputation.
+
+#### Loss of human touch: As generative AI becomes more prevalent, there is a risk that the human touch will be lost in various creative domains, potentially leading to a decline in the appreciation of human-created art and culture.
+
+#### Unemployment and job displacement: The rise of generative AI might lead to job displacement in creative industries, as machines take over tasks previously performed by humans.
+
+### Expand for some more thoughts
+
+#### Generative AI is a tool that is readily available to everyone. So, consider this as a change in thinking that is occurring.
+
+#### As students use generative AI, they will need to consider the limitations. For example, students will need to review the generated content to assess if there are any biases, errors, omissions, misinformation, or a lack of originality. And then the student will need to take corrective actions to address those issues.
+
+#### In addition, instructors know that generative AI is easily available and powerful, so class assignments might change from asking students to write an essay to asking them to assess the essay that generative AI created and report on the embedded limitations, their related implications, and provide solutions to them.
 
 ## M5 Future AI Trends
 
-### About this Module
-
 ### Where does AI go from here?
 
+#### You live in the second level of AI, called Broad AI, in which machine learning systems have begun to appear in your everyday life. Broad AI can’t think abstractly, strategize, or use previous experience to come up with new, creative ideas.
+
+#### But data scientists and programmers are already working on the third level, called General AI. The goal of General AI is to create systems that can perform any intellectual task that a human being can—and more. Some scientists believe that this goal may be reached in about twenty years (the early 2040s).
+
 ### What's in Store for the Future?
+
+#### AI Everywhere
+
+Soon, AI will support seamless connections across industries, ranging from finance, to education, to healthcare. AI will help people work more productively and create new career opportunities.
+
+
+
+Industries:
+
+
+
+- Healthcare
+- Finance
+- Agriculture
+- Government
+- Education
+- Energy
+- Science
+- Business solutions
+
+
+#### Deeper Insights
+
+New technologies will be able to sense and analyze things at a level of understanding that was never before possible. This includes future-forward technologies with unfamiliar names, like quantum computing. Quantum computing is a dramatically different way to calculate, based on the behavior of subatomic particles.
+
+
+
+Technologies:
+
+
+
+- Quantum computing
+- Distributed deep learning
+- Neuromorphic systems
+- Homomorphic encryption
+- Machine foresight
+- Cognitive discovery
+
+
+#### Engagement Reimagined
+
+New forms of human-machine communication, based on blockchain, conversational bots, and more ideas, will transform how you interact not only with your friends, family members, and coworkers, but also with machines that listen and engage in complex conversations.
+
+
+
+Interactions:
+
+
+
+- Human-machine collaboration
+- New AI modalities
+- Augmented reality
+- Global trade logistics
+- Blockchain for payments
+
+
+#### Personalization at Scale
+
+Machines will interact with you in ways tailored to your particular desires, habits, and level of comfort. Today, websites already offer merchandise based on orders you’ve made in the past. Soon, you’ll use sites that recognize you and know and understand the things you love. This includes the fashions you follow. Future sites will discuss your fashion preferences with you and offer them perfectly fitted to your size and needs.
+
+
+
+Ways to personalize:
+
+
+
+- Personalized healthcare
+- Micro-segmentation
+- Personalized finance
+- Targeted marketing
+- Personalized learning
+- Individualized solutions
+
+
+#### Instrumented Planet
+
+Billions of sensors generating exabytes of data every day will improve the safety, sustainability, and security of our planet. You won’t get caught in a surprise storm. You will enjoy food from crops grown in new ways that provide maximum taste and nutrition, with minimum damage to the environment.
+
+
+
+Connections:
+
+
+
+- Environmental solutions
+- Digital agriculture
+- Connected cars
+- Geospatial temporal data and analytics
+- Smart sensors
+
 
 ### What about your Future?
 
 ## Summary
 
+### 1. Using advanced mathematics, machines can learn either in classical ways or with neural networks.
+
+### 2. Machines can learn from structured or unstructured data and teach themselves through trial-and-error.
+
+### 3. Machine learning tools include logic methods, such as decision trees, linear regression, and logistic regression.
+
+### 4. Neural networks, inspired by the human brain, build perceptrons with layers of algorithm nodes to perform complex calculations.
+
+### 5. Multiple groups of multilayer perceptrons, arranged in different ways, extend machine learning in the deep learning ecosystem.
+
+### 6. Today, people carry on simple conversations with machine learning AI systems using what is known as Broad AI.
+
+### 7. Generative AI has gained attention worldwide as a revolutionary change for creating new and unique content.
+
+### 8. In the future, General AI systems will perform unprecedented levels of analysis to help humans improve life on a global scale.
+
 # 4. Run AI Models with IBM Watson Studio
+
+What you’ll learn
+
+
+
+After completing this course, you should be able to:
+
+
+
+- Describe machine learning algorithms and models
+- Explain the purpose of IBM Watson Studio
+- Describe the key features and benefits of IBM Watson Studio
+- Set up a machine learning project in IBM Watson Studio
+- Create a Cloud Object Storage resource
+- Import a data set into IBM Watson Studio
+- Build an AI model using AutoAI in IBM Watson Studio
+- Run a prediction experiment for an AI model
+- Explain the confusion matrix
+- Save a model as a Jupyter Notebook
+- Download a notebook in Jupyter Notebook (.ipynb) format
+
 
 # 5. AI Ethics
 

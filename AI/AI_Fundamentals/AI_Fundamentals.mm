@@ -1292,7 +1292,7 @@
 <node TEXT="9. NLP and computer vision can be useful ways to extend human expertise." ID="ID_728299813" CREATED="1761072228415" MODIFIED="1761072230106"/>
 </node>
 </node>
-<node TEXT="3. Machine Learning and Deep Learning" POSITION="bottom_or_right" ID="ID_1671207914" CREATED="1760922111857" MODIFIED="1761076780198"><richcontent TYPE="NOTE">
+<node TEXT="3. Machine Learning and Deep Learning" FOLDED="true" POSITION="bottom_or_right" ID="ID_1671207914" CREATED="1760922111857" MODIFIED="1761076780198"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1335,7 +1335,7 @@
     </ul>
   </body>
 </html></richcontent>
-<node TEXT="Overview" ID="ID_1070657960" CREATED="1761076950018" MODIFIED="1761077190082"><richcontent TYPE="NOTE">
+<node TEXT="Overview" FOLDED="true" ID="ID_1070657960" CREATED="1761076950018" MODIFIED="1761077190082"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1449,7 +1449,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="M1 How do Machines Learn?" ID="ID_1845729275" CREATED="1761076855787" MODIFIED="1761077779299"><richcontent TYPE="NOTE">
+<node TEXT="M1 How do Machines Learn?" FOLDED="true" ID="ID_1845729275" CREATED="1761076855787" MODIFIED="1761077779299"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1553,7 +1553,7 @@
 </node>
 </node>
 </node>
-<node TEXT="M2 Classical Machine Learning" ID="ID_450755662" CREATED="1761076882552" MODIFIED="1761076892322">
+<node TEXT="M2 Classical Machine Learning" FOLDED="true" ID="ID_450755662" CREATED="1761076882552" MODIFIED="1761076892322">
 <node TEXT="About this Module" ID="ID_1835608838" CREATED="1761076875754" MODIFIED="1761080495638"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -1683,30 +1683,816 @@
 </node>
 </node>
 </node>
-<node TEXT="M3 The Deep Learning Ecosystem" ID="ID_295501754" CREATED="1761076898205" MODIFIED="1761076906263">
-<node TEXT="About this Module" ID="ID_39632371" CREATED="1761076875754" MODIFIED="1761076880964"/>
-<node TEXT="Inspired by the Human Brain" ID="ID_1577554249" CREATED="1761077643734" MODIFIED="1761077651881"/>
-<node TEXT="A Path through a Neural Network" ID="ID_83647382" CREATED="1761077652053" MODIFIED="1761077661736"/>
-<node TEXT="ML is Often Trial and Error" ID="ID_1946367103" CREATED="1761077662253" MODIFIED="1761077671782"/>
-<node TEXT="From Perceptrons to Deep Learning" ID="ID_1565332752" CREATED="1761077672884" MODIFIED="1761077681292"/>
+<node TEXT="M3 The Deep Learning Ecosystem" FOLDED="true" ID="ID_295501754" CREATED="1761076898205" MODIFIED="1761091297174"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Learning objectives
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      After completing this module, you should be able to:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Describe how neural networks are inspired by the human brain
+      </li>
+      <li>
+        Trace the flow of information through a perceptron’s nodes
+      </li>
+      <li>
+        Describe machine learning’s trial-and-error learning process
+      </li>
+      <li>
+        Define and describe deep learning and its ecosystem
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+<node TEXT="About this Module" ID="ID_39632371" CREATED="1761076875754" MODIFIED="1761076880964">
+<node TEXT="demonstrate the concept of machine learning:" ID="ID_1921836396" CREATED="1761092903816" MODIFIED="1761092916698">
+<node TEXT="Determine the farthest distance from a target that an archer can reliably hit bullseyes by shooting arrows repeatedly while walking closer and closer to the target." ID="ID_862274834" CREATED="1761092906000" MODIFIED="1761092914365"/>
 </node>
-<node TEXT="M4 Generative AI" ID="ID_979380742" CREATED="1761076906447" MODIFIED="1761076913933">
-<node TEXT="About this Module" ID="ID_1296170510" CREATED="1761076875754" MODIFIED="1761076880964"/>
-<node TEXT="What is Generative AI?" ID="ID_913666705" CREATED="1761077684728" MODIFIED="1761077691405"/>
-<node TEXT="How does Generative AI Work?" ID="ID_1125256571" CREATED="1761077691606" MODIFIED="1761077700375"/>
-<node TEXT="Examples of Generative AI Applications" ID="ID_923823307" CREATED="1761077700595" MODIFIED="1761077710065"/>
-<node TEXT="Industry Uses of Generative AI" ID="ID_72740714" CREATED="1761077711231" MODIFIED="1761077717487"/>
-<node TEXT="Limitations of Generative AI" ID="ID_932665578" CREATED="1761077717729" MODIFIED="1761077723058"/>
 </node>
-<node TEXT="M5 Future AI Trends" ID="ID_1003525065" CREATED="1761076914106" MODIFIED="1761076918659">
-<node TEXT="About this Module" ID="ID_65978556" CREATED="1761076875754" MODIFIED="1761076880964"/>
-<node TEXT="Where does AI go from here?" ID="ID_1214329393" CREATED="1761077726885" MODIFIED="1761077734417"/>
-<node TEXT="What&apos;s in Store for the Future?" ID="ID_389613003" CREATED="1761077734683" MODIFIED="1761077741767"/>
+<node TEXT="Inspired by the Human Brain" ID="ID_1577554249" CREATED="1761077643734" MODIFIED="1761077651881">
+<node ID="ID_529980687" CREATED="1761091298650" MODIFIED="1761091356683"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Today, machine learning has evolved into a collection of powerful applications called the <span style="font-weight: bold;">deep learning</span>&#xa0;<span style="font-weight: bold;">ecosystem</span>. The foundation for many applications is called a <span style="font-weight: bold;">neural network</span>. A neural network uses electronic circuitry inspired by the way neurons communicate in the human brain.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="In the brain, cells called neurons have a cell body at one end where the nucleus resides, and a long axon leading to a set of branching terminals at the other end. Neurons communicate to each other by receiving signals into the axon, altering those signals, then transmitting them out through the terminals to other neurons. Researchers estimate that a human brain has about 100 billion neurons, each one connected to up to 10,000 other neurons." ID="ID_1139587767" CREATED="1761091356686" MODIFIED="1761091380760"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在大脑中，神经元细胞的一端是细胞体，细胞核就位于此处；另一端是一条长长的轴突，通向一组分支末端。神经元通过轴突接收信号，改变这些信号，然后通过末端将其传输到其他神经元，从而实现相互交流。研究人员估计，人脑约有1000亿个神经元，每个神经元与多达1万个其他神经元相连。
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="Biological input&#xa;A signal passes from the terminal of one neuron into the axon of another, using a combination of electrical and chemical reactions." ID="ID_829093835" CREATED="1761091535323" MODIFIED="1761091541789"/>
+<node TEXT="Biological input and response&#xa;Signals enter the cell body, which computes a response that then emerges from the other end of the cell" ID="ID_1142934024" CREATED="1761091554084" MODIFIED="1761091577277"/>
+</node>
+<node ID="ID_1788492616" CREATED="1761091435416" MODIFIED="1761092454218"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In a neural network, a building block, called a <span style="font-weight: bold;">perceptron</span>, acts as the equivalent of a single neuron. A perceptron has an <span style="font-weight: bold;">input</span>&#xa0; <span style="font-weight: bold;">layer</span>, one or more <span style="font-weight: bold;">hidden layers</span>, and an <span style="font-weight: bold;">output layer</span>. A signal enters the input layer and the hidden layers run algorithms on the signal. Then, the result is passed to the output layer.
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      在神经网络中，一个称为感知器的基本单元相当于一个神经元。感知器有一个输入层、一个或多个隐藏层和一个输出层。信号进入输入层，隐藏层对信号运行算法。然后，结果被传递到输出层。
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="Neural network input and response&#xa;Similar to the way a signal passes through and is altered by a neuron, a signal enters a perceptron’s input layer, then passes through and is altered by algorithms within nodes in the hidden layer. Then the response emerges from the hidden layer and is transmitted onward from the neuron’s output layer." ID="ID_174703751" CREATED="1761091580403" MODIFIED="1761091585798"/>
+</node>
+</node>
+<node TEXT="The hidden layers in a neural network resemble, as a group, the long cell body that connects dendrites to axons within a human brain cell. Those hidden layers contain nodes. Each node runs an algorithm and bits of additional code to test and adjust its result. When the value reaches a certain threshold, the node “fires”." POSITION="bottom_or_right" ID="ID_92221329" CREATED="1761091629292" MODIFIED="1761091633390">
+<node TEXT="Note: A node often uses a sigmoid function to determine whether or not to “fire”. As explained previously, a sigmoid function can generate a binary answer, such as, YES or NO. The binary answer tells the node whether or not to fire. You can think of the threshold as a hurdle a solution must jump over to give a result of YES." ID="ID_980084078" CREATED="1761091653738" MODIFIED="1761091658414"/>
+<node TEXT="If there are other nodes connected to the node, they are activated when the signal reaches them. If the other nodes reach their own thresholds, then they fire. The signal cascades down through the hidden layers in a way that’s somewhat similar to how a signal passes down the body of a human brain cell." ID="ID_314122940" CREATED="1761091672915" MODIFIED="1761091676149"/>
+</node>
+<node TEXT="Keep in mind that these resemblances are only similarities. Neural networks are inspired by the human brain, but the activities inside neural networks are quite different." POSITION="bottom_or_right" ID="ID_866476630" CREATED="1761091707570" MODIFIED="1761091710813"/>
+<node POSITION="bottom_or_right" ID="ID_368719830" CREATED="1761092994571" MODIFIED="1761093011984"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      After calculating values, neural networks often assign <span style="font-weight: bold;">Weight </span>to those values that impact the final result
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="A Path through a Neural Network" ID="ID_83647382" CREATED="1761077652053" MODIFIED="1761077661736">
+<node TEXT="The operation of a neural network is pure mathematics. The network isn’t “thinking”; it is calculating. But it’s using those calculations to create an output that humans can interpret as an answer or a recommendation." ID="ID_1557583510" CREATED="1761091773793" MODIFIED="1761091778859"/>
+<node TEXT="in a neural network, individual nodes in a layer work on algorithms simultaneously. The nodes not only calculate but also adjust themselves in response to external factors. This is machine learning." ID="ID_639903428" CREATED="1761092010654" MODIFIED="1761092013123"/>
+</node>
+<node TEXT="ML is Often Trial and Error" ID="ID_1946367103" CREATED="1761077662253" MODIFIED="1761077671782">
+<node TEXT="how does a neural network learns in the first place. The answer is: by continuously adjusting itself, in a process that humans refer to as trial and error." ID="ID_1935466793" CREATED="1761092061536" MODIFIED="1761092063787"/>
+<node TEXT="Once a neural network has ingested or already learned a certain amount of data, it stores the data in its “body of information”, called its corpus." ID="ID_1561605103" CREATED="1761092088068" MODIFIED="1761092124186"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      一旦神经网络吸收或学习了一定量的数据，它就会将数据存储在其“信息体”中，即语料库。
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="In order to learn, the neural network constantly tests new data or the results of its calculation against its corpus." ID="ID_948332777" CREATED="1761092124638" MODIFIED="1761092130008"/>
+<node TEXT="If the network determines that the new data or results don’t match the patterns it has already established, it modifies those patterns for a better fit." ID="ID_1600224753" CREATED="1761092143018" MODIFIED="1761092145192"/>
+<node TEXT="Sometimes, to improve a single match, the network tests hundreds or thousands of modifications very rapidly and makes adjustments." ID="ID_616063085" CREATED="1761092156994" MODIFIED="1761092159051"/>
+<node TEXT="Then, the network tests to determine if the match is improving. So, step by step, the machine learns." ID="ID_1469274637" CREATED="1761092182112" MODIFIED="1761092184294"/>
+</node>
+<node TEXT="ML makes many guesses" ID="ID_1252454550" CREATED="1761092264333" MODIFIED="1761092270893">
+<node TEXT="Machine learning uses its tremendous calculation speed to make many guesses that bring it closer and closer to an answer." ID="ID_995516850" CREATED="1761092294082" MODIFIED="1761092296140">
+<node TEXT="It randomly makes its first guess, sets that guess as a variable, then tests how accurately the guess fits with both old and new data. Next, it makes an adjustment to the variable and tries again. Using mathematical processes to help it choose right-size adjustments, the system keeps on trying, getting closer and closer to perfection but never quite reaching it." ID="ID_1236943142" CREATED="1761092296144" MODIFIED="1761092304371"/>
+</node>
+<node TEXT="For this reason, many AI systems output a confidence value along with an answer or prediction" ID="ID_166102608" CREATED="1761092323480" MODIFIED="1761092326098">
+<node TEXT="For example, a system predicting effective treatments for a cancer patient might output two or three suggested approaches, along with a measure of how confident it is that each treatment might work. This reflects how the system reaches those decisions. The system also leaves the final decision to the doctor who knows the patient." ID="ID_811634819" CREATED="1761092326105" MODIFIED="1761092347818"/>
+</node>
+<node TEXT="Any computer can perform at least a crude kind of machine learning based on cycles of estimation. Classical machine learning can do it, too. But depending on the complexity of a problem, a conventional computer or even a classical system might take days (or centuries!) to reach a conclusion." ID="ID_965059323" CREATED="1761092367274" MODIFIED="1761092402777"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      任何计算机都能执行至少一种基于循环估算的粗略机器学习。经典机器学习也能做到。但根据问题的复杂性，传统计算机甚至经典系统可能需要数天（甚至数百年！）才能得出结论。
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="In many modern applications of AI, the unstructured data involved is complex enough to overwhelm even a simple perceptron, such as to decide whether to order pizza in a previous lesson. So, a perceptron requires more brainpower in the form of deep learning. Deep learning relies on multiple layers of nodes (even multiple groups of perceptrons with multiple layers of nodes!) to finish the work in reasonable time." ID="ID_1866307217" CREATED="1761092403291" MODIFIED="1761092405863"/>
+</node>
+</node>
+<node TEXT="From Perceptrons to Deep Learning" ID="ID_1565332752" CREATED="1761077672884" MODIFIED="1761077681292">
+<node TEXT="advanced AI systems use many hidden layers whose algorithms pass the results of sophisticated calculations. This is a deep neural network (DNN)." ID="ID_1688970229" CREATED="1761092507539" MODIFIED="1761092513783">
+<node TEXT="DNN layers can be arranged in groups or elaborate blocks of groups for greater power. DNNs can even be doubled in competing teams that judge and learn from each other’s mistakes, without human intervention. This creates powerful reinforcement learning." ID="ID_83651353" CREATED="1761092521174" MODIFIED="1761092525068"/>
+</node>
+<node TEXT="What DNNs can do" ID="ID_1751116866" CREATED="1761092571046" MODIFIED="1761092585103">
+<node TEXT="Photo Identification" ID="ID_1750943217" CREATED="1761092585105" MODIFIED="1761092600422">
+<node TEXT="Technologists can use a DNN to examine an historic photo of unknown persons or places. The DNN compares what it finds with millions of pictures in its corpus and then outputs full names and possible locations." ID="ID_983170732" CREATED="1761092600425" MODIFIED="1761092606539"/>
+</node>
+<node TEXT="Housing Construction" ID="ID_390124968" CREATED="1761092616040" MODIFIED="1761092621118">
+<node TEXT="Real estate companies an use a DNN to predict changes in housing prices across an entire city or state. DNNs can help real estate companies predict business trends and determine how to invest in materials and labor." ID="ID_1164894627" CREATED="1761092621122" MODIFIED="1761092624472"/>
+</node>
+<node TEXT="Self-driving Cars" ID="ID_453460227" CREATED="1761092652603" MODIFIED="1761092656846">
+<node TEXT="Automobile engineers can use DNNs to model millions of driving situations and help self-driving vehicles navigate safely." ID="ID_1446233224" CREATED="1761092656851" MODIFIED="1761092659221"/>
+</node>
+<node TEXT="Cancer Treatment" ID="ID_1205672055" CREATED="1761092672062" MODIFIED="1761092678518">
+<node TEXT="Radiologists can use DNNs to identify variations in MRI images that are otherwise invisible to the human eye. Radiologists can receive early warnings of potentially treatable cancers." ID="ID_1962336548" CREATED="1761092678523" MODIFIED="1761092680984"/>
+</node>
+</node>
+<node ID="ID_492860688" CREATED="1761092708530" MODIFIED="1761092958157"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      An internet search for deep neural network examples can reveal many additional ways that machine learning impacts your life. <span style="font-weight: bold;">Many forms of DNN devices make up the modern deep learning ecosystem.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="M4 Generative AI" FOLDED="true" ID="ID_979380742" CREATED="1761076906447" MODIFIED="1761076913933">
+<node TEXT="About this Module" ID="ID_1296170510" CREATED="1761076875754" MODIFIED="1761093428302"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Learning objectives
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      After completing this module, you should be able to:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Define generative AI
+      </li>
+      <li>
+        Describe how generative AI works
+      </li>
+      <li>
+        Identify some examples of generative AI applications
+      </li>
+      <li>
+        Describe the impact of generative AI to businesses
+      </li>
+      <li>
+        Identify some current limitations of generative AI
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+<node TEXT="Generative artificial intelligence (AI) is a powerful and exciting type of AI that generates new, original content, such as images, music, videos, data, code, responses to questions, and a whole lot more. It’s a technology that is revolutionizing the way people live, work, and enjoy their leisure time." ID="ID_855502706" CREATED="1761093386998" MODIFIED="1761093389419"/>
+</node>
+<node TEXT="What is Generative AI?" ID="ID_913666705" CREATED="1761077684728" MODIFIED="1761077691405">
+<node TEXT="Generative AI is a type of artificial intelligence that creates new, original content that people have never seen before" ID="ID_1058876042" CREATED="1761093429105" MODIFIED="1761093554689">
+<node TEXT="Most AI systems are discriminative AI models, which predict and classify data" ID="ID_1369792133" CREATED="1761093557013" MODIFIED="1761093597683"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      大多数人工智能系统都是判别式人工智能模型，可以预测和分类数据
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node ID="ID_878637527" CREATED="1761093598452" MODIFIED="1761093650611"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In contrast, generative AI models are a type of <span style="font-weight: bold;">deep learning AI system </span><span style="font-weight: normal;">that uses algorithms to generate content based on a submitted prompt, thus the name of generative AI</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="For example, a discriminative model could tell a bicycle from a truck and a generative model could generate a new image that looks like a bicycle." ID="ID_725068752" CREATED="1761093675691" MODIFIED="1761093678626"/>
+<node TEXT="So, generative AI’s distinction from other AI systems is its ability to produce content that is new and considered creative, such as images, videos, music, synthetic data, essays, answers to questions, and more." ID="ID_1762844180" CREATED="1761093695087" MODIFIED="1761093698673"/>
+<node TEXT="Generative AI’s output has gained global attention due to the uniqueness, high quality, and speed of content generation. Generative AI is a revolutionary change that’s as radical to global humanity as the invention of electricity and automobiles. Let’s see how generative AI works." ID="ID_1193231638" CREATED="1761093737352" MODIFIED="1761093740503"/>
+</node>
+<node TEXT="How does Generative AI Work?" ID="ID_1125256571" CREATED="1761077691606" MODIFIED="1761077700375">
+<node TEXT="Think of generative AI as a virtual artist. Just like a human artist, it needs inspiration and tools to create something unique. Instead of using paint and canvas, however, generative AI uses algorithms and data sets." ID="ID_1074330578" CREATED="1761093768669" MODIFIED="1761093772481"/>
+<node TEXT="Overall Generative AI Process" ID="ID_769616349" CREATED="1761093773638" MODIFIED="1761093785960">
+<node TEXT="1. First, a person feeds the AI a large amount of data. This could be anything from images and sounds to text and numbers." ID="ID_1759450037" CREATED="1761093804307" MODIFIED="1761093810853"/>
+<node TEXT="2. Then, the AI analyzes this data, looking for patterns and relationships between the different pieces of information. The neural network is trained on a dataset of examples of the type of output it is intended to generate, such as images or text. During the training process, the neural network learns to identify patterns and relationships in the input data and use them to generate new outputs that are similar to, but not identical to, the examples it was trained on." ID="ID_1223730674" CREATED="1761093804308" MODIFIED="1761093813730"/>
+<node TEXT="3. Next, the AI uses what it has learned to create something new. The neural network generates new outputs by inputting a random seed value. The seed value serves as the starting point for the generation process. The neural network processes the seed value and generates a new output that is based on the patterns and relationships it learned during training." ID="ID_659457790" CREATED="1761093804308" MODIFIED="1761093891212">
+<node TEXT="For example, if someone gave the AI a set of images of dogs, it might use its knowledge of different dog breeds to create an image of a new dog that doesn&apos;t exist in real life." ID="ID_605220104" CREATED="1761093891219" MODIFIED="1761093894920"/>
+</node>
+</node>
+<node TEXT="Generative AI can also complete more complex tasks, like writing stories or composing music. In these cases, the AI analyzes patterns in language or music to create something entirely new." POSITION="bottom_or_right" ID="ID_1447440489" CREATED="1761093785967" MODIFIED="1761093925022"/>
+<node TEXT="Types of generative AI models" POSITION="bottom_or_right" ID="ID_1166912008" CREATED="1761093804307" MODIFIED="1761093948647">
+<node TEXT="Variational AutoEncoder (VAE)" POSITION="bottom_or_right" ID="ID_1829937270" CREATED="1761093804308" MODIFIED="1761093969285">
+<node TEXT="Think of variational autoencoder (VAE) models as a skilled artist who can look at a painting, quickly sketch a simplified version of it, and then recreate a new painting using only that simplified sketch as a reference. The artist is capturing the essential elements of the painting and then using them to create a new work of art." ID="ID_12102432" CREATED="1761094006543" MODIFIED="1761094008921"/>
+<node TEXT="VAEs use a similar process. The &quot;encoder&quot; network compresses the input data into a lower-dimensional representation and the &quot;decoder&quot; network reconstructs the original data from this compressed representation. This allows VAEs to capture the underlying structure and patterns in the data, which can then generate new, similar data." ID="ID_1883349642" CREATED="1761094012523" MODIFIED="1761094034073"/>
+</node>
+<node TEXT="Generative Adversarial Network (GAN)" POSITION="bottom_or_right" ID="ID_1370230455" CREATED="1761093969702" MODIFIED="1761093983470">
+<node TEXT="Think of a generative adversarial network (GAN) model as a competition between a skilled forger (the generator) and a talented art critic (the discriminator). The forger creates fake paintings, while the critic tries to determine whether each painting is genuine or a forgery. As the forger improves their technique, the critic becomes more discerning, and this cycle continues until the forger can create near-perfect forgeries." ID="ID_667157926" CREATED="1761094064244" MODIFIED="1761094066453"/>
+<node TEXT="In GANs, the generator creates new data, while the discriminator evaluates the quality of the generated data. The generator tries to create data that is realistic enough to fool the discriminator, while the discriminator learns to better distinguish between real and generated data. This competition leads to the generator creating increasingly realistic content." ID="ID_396954735" CREATED="1761094079921" MODIFIED="1761094082709"/>
+</node>
+<node TEXT="AutoRegressive" POSITION="bottom_or_right" ID="ID_1109785350" CREATED="1761093983903" MODIFIED="1761093992601">
+<node TEXT="Imagine an autoregressive model as a skilled storyteller who listens to the beginning of a story and then continues it by predicting what comes next based on the words and events that have occurred so far. The storyteller uses their knowledge of language, grammar, and storytelling conventions to create a coherent and engaging continuation of the story." ID="ID_471660578" CREATED="1761094242009" MODIFIED="1761094244108"/>
+<node TEXT="Autoregressive models generate new content by predicting the next element in a sequence based on the previous elements. They are particularly well-suited for generating text because they can model the conditional probabilities of words and characters in a sentence." ID="ID_1141200854" CREATED="1761094245315" MODIFIED="1761094254836"/>
+</node>
+</node>
+</node>
+<node TEXT="Examples of Generative AI Applications" ID="ID_923823307" CREATED="1761077700595" MODIFIED="1761077710065">
+<node TEXT="ChatGPT" ID="ID_1966953390" CREATED="1761094376857" MODIFIED="1761094379871">
+<node TEXT="OpenAI launched ChatGPT, an AI chatbot, in November 2022. Able to interact by using conversational natural language, this AI tool goes beyond the traditional search engine responses of simply listing related results. Instead, ChatGPT follows instructions given in the prompt and provides a detailed response. For example, with ChatGPT, a person can enter a text prompt of “Write a poem about cats” and the result will be a poem about cats, rather than a listing of websites about cats." ID="ID_1570496056" CREATED="1761094401378" MODIFIED="1761094403519"/>
+</node>
+<node TEXT="IBM Watson Discovery" ID="ID_383267819" CREATED="1761094380041" MODIFIED="1761094386556">
+<node TEXT="IBM Watson Discovery uses foundational technologies, such as large language models (LLMs), to obtain insights from what it is that we don’t know that we don’t know. It’s used widely in genomic research discovering what amino acids might lurk inside the protein not known before and unearth the relationship of various actors or entities for government security related questions." ID="ID_1521994691" CREATED="1761094495815" MODIFIED="1761094497912"/>
+</node>
+<node TEXT="Dall-E and Dall-E 2" ID="ID_613649461" CREATED="1761094386732" MODIFIED="1761094392942">
+<node TEXT="Developed by OpenAI, these are generative AI models that use natural language text input to generate digital images. The first version of DALL-E could only render AI-created images in a cartoonish fashion, but the latest version can produce much more realistic images due to improved image processing algorithms." ID="ID_604523977" CREATED="1761094517079" MODIFIED="1761094520083"/>
+</node>
+<node TEXT="BARD" ID="ID_52722352" CREATED="1761094393097" MODIFIED="1761094394803">
+<node TEXT="Bard is a generative AI tool that Google launched in an initial, limited capacity in March 2023. Bard is founded on Google’s Bidirectional Encoder Representations from Transformers (BERT) model. It isn’t generative AI; rather, Google developed it for natural language processing (NLP), especially for its capacity to interpret the nuances of a user’s search words. Bard builds on BERT’s capability of natural language interactions with Bard’s generative AI capability to generate new content. For example, musicians can use Bard to compose music and lyrics." ID="ID_493656723" CREATED="1761094529225" MODIFIED="1761094531712"/>
+</node>
+</node>
+<node TEXT="Industry Uses of Generative AI" ID="ID_72740714" CREATED="1761077711231" MODIFIED="1761077717487">
+<node TEXT="Sports" ID="ID_1554793991" CREATED="1761094622825" MODIFIED="1761094688218"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In sports, generative AI can help improve athletic performance and enhance fan engagement.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      One application of generative AI in sports is the creation of personalized workout plans. By analyzing an athlete's biometric data, generative AI can create customized workout plans tailored to the athlete's fitness level and goals. This technology can improve athletic performance by providing athletes with targeted and efficient training regimes.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Another application of generative AI in sports, around fan engagement, is the creation of realistic 3D models of athletes for use in sports video games and virtual reality experiences. By using generative AI, game developers can create highly realistic and personalized virtual athletes that can interact with users in real-time. This technology can enhance fan engagement by providing users with immersive and engaging sports experiences.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Generative AI can analyze sports data and identify patterns and trends that can inform coaching strategies and player selection.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Overall, generative AI has the potential to transform the way people play, coach, and experience sports, enabling new levels of personalization, efficiency, and engagement.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Use case
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The Miami Dolphins, an American football team in the United States, are using generative AI to improve player performance and prevent injury. They are collaborating with a company called Blue River Technology to develop a computer vision system that uses generative AI to analyze video footage of players and identify areas for improvement. The system analyzes players' body movements and identifies areas where they could be at risk for injury. By using generative AI in this way, the Miami Dolphins can identify potential issues before they become serious problems, enabling them to take proactive measures to prevent injuries and improve player performance.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      This technology has the potential to transform the way that sports teams approach player health and performance, improving the overall quality of play and reducing the risk of injury for athletes.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Entertainment" ID="ID_709245238" CREATED="1761094688569" MODIFIED="1761094712098"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In the entertainment industry, generative AI can help create new and immersive experiences for users.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      One application of generative AI in entertainment is the creation of a wide variety of highly realistic and personalized virtual characters and environments for video games and virtual reality experiences. For example, generative AI can create realistic facial expressions and body movements for virtual characters, enhancing the user experience and immersion.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Another application of generative AI in entertainment is the generation of personalized music playlists. By analyzing a user's listening history and preferences, generative AI can create unique and personalized music playlists that cater to each individual user's tastes.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      This technology can enhance the user experience by creating highly personalized and engaging music experiences.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Use case
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Amper Music uses generative AI to create original music for video games, films, and other multimedia projects. Their platform allows users to input parameters such as mood, genre, and tempo, and then generates a unique and original piece of music in real-time. It generates music using a generative model that is trained on a large dataset of musical patterns and structures. By using generative AI to create music, Amper Music can offer highly customizable and original compositions tailored to each individual project's needs.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      This technology has the potential to transform the creation of music for multimedia projects, enabling more efficient and personalized music production.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Healthcare" ID="ID_983143767" CREATED="1761094712957" MODIFIED="1761094732520"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In healthcare, generative AI can help improve disease diagnosis, medical imaging, and personalized medicine.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      One application of generative AI is in the generation of synthetic medical images, which can train machine learning algorithms and improve disease diagnosis. For example, generative AI can generate synthetic medical images of rare diseases, which can be difficult to obtain in real life.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Another application of generative AI in healthcare is the creation of medical simulations. These simulations can help train healthcare professionals and reduce medical errors. By generating synthetic patient data, generative AI can also train predictive models and improve personalized medicine.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Generative AI has the potential to transform healthcare by enabling the creation of realistic medical simulations, improving disease diagnosis, and enhancing personalized medicine.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Use case
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PathAI uses generative AI to improve the accuracy of disease diagnosis through the analysis of medical images. Specifically, PathAI has developed a deep learning algorithm that can accurately detect cancer cells in digital pathology images. This algorithm was trained on a large dataset of annotated pathology images using a variational autoencoder (VAE) generative model. The VAE learned the underlying structure of the pathology images to generate synthetic images that were like the real images in the training set. By training their algorithm on both real and synthetic images, PathAI was able to improve the accuracy of their cancer detection algorithm.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      This technology has the potential to improve the accuracy and speed of cancer diagnosis, to ultimately improve patient outcomes.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Business" ID="ID_1925416858" CREATED="1761094733245" MODIFIED="1761094755451"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In business, generative AI can help improve decision-making, personalize customer experiences, and enhance operational efficiency.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      One application of generative AI in business is the generation of synthetic data. By generating synthetic data, companies can augment their existing datasets and improve the accuracy of predictive models. For example, a financial institution could generate synthetic financial data to train their predictive models and improve risk management.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Another application of generative AI in business is the creation of personalized product recommendations. By analyzing a customer's purchase history and preferences, generative AI can create personalized product recommendations tailored to each individual customer. This technology can improve customer satisfaction and increase sales.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      People are also using generative AI to improve operational efficiency by creating synthetic data for testing and validation.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Generative AI has the potential to transform the way businesses operate by improving decision-making, enhancing customer experiences, and increasing efficiency.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Use case
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Syntiant uses generative AI to develop low-power, high-performance deep learning chips for a range of industries, including smart home devices, wearables, and voice-controlled devices. Their deep learning chips are designed to process data on the device itself, rather than relying on cloud-based processing, which can reduce latency and improve privacy. To train their deep learning models, Syntiant uses a generative adversarial network (GAN) to create synthetic data by generating new data samples that are similar to the training data. By training their models on both real and synthetic data, Syntiant was able to improve the accuracy of their deep learning chips, making them more reliable and efficient.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      This technology has the potential to transform the way that companies design and manufacture deep learning chips, enabling a new generation of low-power, high-performance devices.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node TEXT="Limitations of Generative AI" ID="ID_932665578" CREATED="1761077717729" MODIFIED="1761077723058">
+<node TEXT="Lack of originality: Generative AI models rely on large datasets to learn and generate content. As a result, they might not create entirely original content but rather mimic patterns from their training data, which can lead to a lack of creativity and innovation." ID="ID_1316404857" CREATED="1761094818817" MODIFIED="1761094818817"/>
+<node TEXT="Incompleteness: While generative AI models are becoming increasingly sophisticated, they still struggle to understand the nuanced contexts and might generate incomplete or nonsensical content." ID="ID_1904357586" CREATED="1761094818817" MODIFIED="1761094818817"/>
+<node TEXT="Bias: Generative AI models can perpetuate existing biases present in their training data, leading to the generation of biased content that might reinforce stereotypes and discriminatory behavior." ID="ID_1761293842" CREATED="1761094818817" MODIFIED="1761094818817"/>
+<node TEXT="Computational resources: Training and deploying generative AI models require significant computational power, which can be expensive and contribute to environmental concerns such as energy consumption and carbon emissions." ID="ID_1816703808" CREATED="1761094818818" MODIFIED="1761094818818"/>
+</node>
+<node TEXT="Ethical Concerns of Generative AI" ID="ID_793529566" CREATED="1761094794178" MODIFIED="1761094804656">
+<node TEXT="Misinformation and fake content: Generative AI can create convincing fake content, like deepfakes or falsified news articles, which can lead to the spread of misinformation and have severe consequences for individuals and societies." ID="ID_683487823" CREATED="1761094836673" MODIFIED="1761094836673"/>
+<node TEXT="Intellectual property and copyright: Generative AI can produce content that resembles copyrighted material. This raises questions about intellectual property rights and potential infringements." ID="ID_696446011" CREATED="1761094836673" MODIFIED="1761094836673"/>
+<node TEXT="Privacy: Generative AI can create realistic images and text about individuals, potentially violating their privacy and causing harm to their reputation." ID="ID_1108086937" CREATED="1761094836674" MODIFIED="1761094836674"/>
+<node TEXT="Loss of human touch: As generative AI becomes more prevalent, there is a risk that the human touch will be lost in various creative domains, potentially leading to a decline in the appreciation of human-created art and culture." ID="ID_1270607951" CREATED="1761094836674" MODIFIED="1761094836674"/>
+<node TEXT="Unemployment and job displacement: The rise of generative AI might lead to job displacement in creative industries, as machines take over tasks previously performed by humans." ID="ID_804214592" CREATED="1761094836675" MODIFIED="1761094836675"/>
+</node>
+<node TEXT="Expand for some more thoughts" ID="ID_1890242900" CREATED="1761094919994" MODIFIED="1761094937405">
+<node TEXT="Generative AI is a tool that is readily available to everyone. So, consider this as a change in thinking that is occurring." ID="ID_531235570" CREATED="1761094949609" MODIFIED="1761094949609"/>
+<node TEXT="As students use generative AI, they will need to consider the limitations. For example, students will need to review the generated content to assess if there are any biases, errors, omissions, misinformation, or a lack of originality. And then the student will need to take corrective actions to address those issues." ID="ID_862799318" CREATED="1761094949609" MODIFIED="1761094949609"/>
+<node TEXT="In addition, instructors know that generative AI is easily available and powerful, so class assignments might change from asking students to write an essay to asking them to assess the essay that generative AI created and report on the embedded limitations, their related implications, and provide solutions to them." ID="ID_1318202489" CREATED="1761094949610" MODIFIED="1761094949610"/>
+</node>
+</node>
+<node TEXT="M5 Future AI Trends" FOLDED="true" ID="ID_1003525065" CREATED="1761076914106" MODIFIED="1761076918659">
+<node TEXT="Where does AI go from here?" ID="ID_1214329393" CREATED="1761077726885" MODIFIED="1761077734417">
+<node TEXT="You live in the second level of AI, called Broad AI, in which machine learning systems have begun to appear in your everyday life. Broad AI can’t think abstractly, strategize, or use previous experience to come up with new, creative ideas." ID="ID_886993004" CREATED="1761095174067" MODIFIED="1761095178253"/>
+<node TEXT="But data scientists and programmers are already working on the third level, called General AI. The goal of General AI is to create systems that can perform any intellectual task that a human being can—and more. Some scientists believe that this goal may be reached in about twenty years (the early 2040s)." ID="ID_1340286825" CREATED="1761095178413" MODIFIED="1761095188217"/>
+</node>
+<node TEXT="What&apos;s in Store for the Future?" ID="ID_389613003" CREATED="1761077734683" MODIFIED="1761077741767">
+<node TEXT="AI Everywhere" ID="ID_803590754" CREATED="1761095224018" MODIFIED="1761095294440"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Soon, AI will support seamless connections across industries, ranging from finance, to education, to healthcare. AI will help people work more productively and create new career opportunities.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Industries:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Healthcare
+      </li>
+      <li>
+        Finance
+      </li>
+      <li>
+        Agriculture
+      </li>
+      <li>
+        Government
+      </li>
+      <li>
+        Education
+      </li>
+      <li>
+        Energy
+      </li>
+      <li>
+        Science
+      </li>
+      <li>
+        Business solutions
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Deeper Insights" ID="ID_309670463" CREATED="1761095228967" MODIFIED="1761095306939"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      New technologies will be able to sense and analyze things at a level of understanding that was never before possible. This includes future-forward technologies with unfamiliar names, like quantum computing. Quantum computing is a dramatically different way to calculate, based on the behavior of subatomic particles.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Technologies:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Quantum computing
+      </li>
+      <li>
+        Distributed deep learning
+      </li>
+      <li>
+        Neuromorphic systems
+      </li>
+      <li>
+        Homomorphic encryption
+      </li>
+      <li>
+        Machine foresight
+      </li>
+      <li>
+        Cognitive discovery
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Engagement Reimagined" ID="ID_1961993305" CREATED="1761095232644" MODIFIED="1761095334129"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      New forms of human-machine communication, based on blockchain, conversational bots, and more ideas, will transform how you interact not only with your friends, family members, and coworkers, but also with machines that listen and engage in complex conversations.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Interactions:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Human-machine collaboration
+      </li>
+      <li>
+        New AI modalities
+      </li>
+      <li>
+        Augmented reality
+      </li>
+      <li>
+        Global trade logistics
+      </li>
+      <li>
+        Blockchain for payments
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Personalization at Scale" ID="ID_1513857245" CREATED="1761095239183" MODIFIED="1761095372595"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Machines will interact with you in ways tailored to your particular desires, habits, and level of comfort. Today, websites already offer merchandise based on orders you’ve made in the past. Soon, you’ll use sites that recognize you and know and understand the things you love. This includes the fashions you follow. Future sites will discuss your fashion preferences with you and offer them perfectly fitted to your size and needs.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ways to personalize:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Personalized healthcare
+      </li>
+      <li>
+        Micro-segmentation
+      </li>
+      <li>
+        Personalized finance
+      </li>
+      <li>
+        Targeted marketing
+      </li>
+      <li>
+        Personalized learning
+      </li>
+      <li>
+        Individualized solutions
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Instrumented Planet" ID="ID_1013539723" CREATED="1761095253105" MODIFIED="1761095476031"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Billions of sensors generating exabytes of data every day will improve the safety, sustainability, and security of our planet. You won’t get caught in a surprise storm. You will enjoy food from crops grown in new ways that provide maximum taste and nutrition, with minimum damage to the environment.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Connections:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Environmental solutions
+      </li>
+      <li>
+        Digital agriculture
+      </li>
+      <li>
+        Connected cars
+      </li>
+      <li>
+        Geospatial temporal data and analytics
+      </li>
+      <li>
+        Smart sensors
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+</node>
 <node TEXT="What about your Future?" ID="ID_1467972173" CREATED="1761077742158" MODIFIED="1761077748728"/>
 </node>
-<node TEXT="Summary" ID="ID_438849295" CREATED="1761076922178" MODIFIED="1761076924088"/>
+<node TEXT="Summary" FOLDED="true" ID="ID_438849295" CREATED="1761076922178" MODIFIED="1761076924088">
+<node TEXT="1. Using advanced mathematics, machines can learn either in classical ways or with neural networks." ID="ID_1868774417" CREATED="1761095630941" MODIFIED="1761095635205"/>
+<node TEXT="2. Machines can learn from structured or unstructured data and teach themselves through trial-and-error." ID="ID_1411959663" CREATED="1761095630944" MODIFIED="1761095649157"/>
+<node TEXT="3. Machine learning tools include logic methods, such as decision trees, linear regression, and logistic regression." ID="ID_600461342" CREATED="1761095630945" MODIFIED="1761095653142"/>
+<node TEXT="4. Neural networks, inspired by the human brain, build perceptrons with layers of algorithm nodes to perform complex calculations." ID="ID_1734575568" CREATED="1761095630946" MODIFIED="1761095656942"/>
+<node TEXT="5. Multiple groups of multilayer perceptrons, arranged in different ways, extend machine learning in the deep learning ecosystem." ID="ID_1212429564" CREATED="1761095630947" MODIFIED="1761095660808"/>
+<node TEXT="6. Today, people carry on simple conversations with machine learning AI systems using what is known as Broad AI." ID="ID_3610220" CREATED="1761095630948" MODIFIED="1761095664996"/>
+<node TEXT="7. Generative AI has gained attention worldwide as a revolutionary change for creating new and unique content." ID="ID_439905563" CREATED="1761095630949" MODIFIED="1761095668841"/>
+<node TEXT="8. In the future, General AI systems will perform unprecedented levels of analysis to help humans improve life on a global scale." ID="ID_1876553905" CREATED="1761095630950" MODIFIED="1761095672838"/>
 </node>
-<node TEXT="4. Run AI Models with IBM Watson Studio" POSITION="bottom_or_right" ID="ID_1894139975" CREATED="1760922118795" MODIFIED="1760922128631"/>
+</node>
+<node TEXT="4. Run AI Models with IBM Watson Studio" POSITION="bottom_or_right" ID="ID_1894139975" CREATED="1760922118795" MODIFIED="1761096664159"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      What you’ll learn
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      After completing this course, you should be able to:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Describe machine learning algorithms and models
+      </li>
+      <li>
+        Explain the purpose of IBM Watson Studio
+      </li>
+      <li>
+        Describe the key features and benefits of IBM Watson Studio
+      </li>
+      <li>
+        Set up a machine learning project in IBM Watson Studio
+      </li>
+      <li>
+        Create a Cloud Object Storage resource
+      </li>
+      <li>
+        Import a data set into IBM Watson Studio
+      </li>
+      <li>
+        Build an AI model using AutoAI in IBM Watson Studio
+      </li>
+      <li>
+        Run a prediction experiment for an AI model
+      </li>
+      <li>
+        Explain the confusion matrix
+      </li>
+      <li>
+        Save a model as a Jupyter Notebook
+      </li>
+      <li>
+        Download a notebook in Jupyter Notebook (.ipynb) format
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
 <node TEXT="5. AI Ethics" POSITION="bottom_or_right" ID="ID_1894092063" CREATED="1760922128792" MODIFIED="1760922133157"/>
 <node TEXT="6. Your Future in AI: The Job Landscape" POSITION="bottom_or_right" ID="ID_1274911597" CREATED="1760922133327" MODIFIED="1760922145309"/>
 </node>
