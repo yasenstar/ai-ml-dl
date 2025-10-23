@@ -2853,35 +2853,364 @@
 </node>
 <node TEXT="The adversary might not necessarily experiment with only one way to enter a system. Instead, it is likely that the adversary might use a combination of different ways to attack a system. Also, the ways adversaries attack can vary from attack to attack." ID="ID_1141458319" CREATED="1761182078351" MODIFIED="1761182080754"/>
 <node TEXT="Given the goals and needs, adversarial attacks can occur either at the model training or after the model deployment" ID="ID_1438909997" CREATED="1761182094156" MODIFIED="1761182097424"/>
+<node ID="ID_182604613" CREATED="1761227791262" MODIFIED="1761232045622"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Although there are different types of adversarial attacks, the possibility of perturbing the input has a higher chance of occurrence. Therefore, based on the initial observation, our AI system can be susceptible to two types of adversarial attacks: <span style="font-weight: bold;">poisoning</span>&#xa0;&#xa0;and <span style="font-weight: bold;">evasion</span>.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="poisoning can happen in the following ways during the model training phase" ID="ID_105673142" CREATED="1761227859174" MODIFIED="1761227894170"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      There are several impacts of the poisoning attack. One is when the deployed AI model becomes sensitive to the malicious data's specific pattern.
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="Injecting malicious samples into the training data" ID="ID_967540982" CREATED="1761227876648" MODIFIED="1761227876648"/>
+<node TEXT="Updating features and labels of the training data" ID="ID_306622304" CREATED="1761227876648" MODIFIED="1761227876648"/>
+<node TEXT="Modifying AI model architecture, parameters, and logic" ID="ID_1945357399" CREATED="1761227876648" MODIFIED="1761227876648"/>
+<node TEXT="Sample of Adversary" POSITION="bottom_or_right" ID="ID_498236756" CREATED="1761230145888" MODIFIED="1761230199750">
+<node TEXT="1. The adversary gets access to the data storage and adds malicious images with increased brightness to the training data so the system can learn the pattern.&#xa;&#xa;Then, the adversary provides details about the percent increase in brightness to another adversary, possibly someone who works at the hospital." ID="ID_1928685278" CREATED="1761230199758" MODIFIED="1761230204876">
+<node TEXT="During the training phase, Adversary 1 inserts the data containing malicious samples (shaded items) leading to an AI model that is improperly trained. The malicious samples are labeled Disease, but do not actually show disease. When added to the rest of the training data, this results in an AI model that does not produce accurate results." ID="ID_1993457136" CREATED="1761231995225" MODIFIED="1761231999233"/>
 </node>
-<node TEXT="Address the Issue" ID="ID_1309946585" CREATED="1761178255363" MODIFIED="1761178258358"/>
+<node TEXT="2. When using the AI model, another adversary, who works at the hospital, can easily modify the input sent to the AI model based on information gathered about the increased brightness range and gets the desired result." ID="ID_1077958601" CREATED="1761230205631" MODIFIED="1761230213466">
+<node TEXT="Once the model is deployed, Adversary 2 adjusts the input to the deployed AI model based on the malicious sample’s features. For example, Adversary 2 would manipulate the input in way that would result in an input that does not show disease being labeled by the AI as Disease. This could result in people without disease being identified by the AI system as people who may have disease." ID="ID_720656854" CREATED="1761232017801" MODIFIED="1761232019913"/>
+</node>
+</node>
+</node>
+<node TEXT="Evasion can happen after the model deployment phase in the following ways" ID="ID_1943653739" CREATED="1761232049696" MODIFIED="1761232060613">
+<node TEXT="Sending malicious test samples to the deployed model" ID="ID_1847948072" CREATED="1761232067606" MODIFIED="1761232067606"/>
+<node TEXT="Corrupting test data sent to the deployed model" ID="ID_1480560733" CREATED="1761232067606" MODIFIED="1761232067606"/>
+</node>
+</node>
+</node>
+<node TEXT="Address the Issue" ID="ID_1309946585" CREATED="1761178255363" MODIFIED="1761178258358">
+<node TEXT="For question 1: Is the source of the data used by the AI model important to know?&#xa;The source of the data is very important to know. AI models depend on data to learn, so data quality is crucial to trustworthy AI. In particular, it is important to know how the data was collected, who has access to it, and how it has been used." ID="ID_100220471" CREATED="1761232575701" MODIFIED="1761232583077"/>
+<node TEXT="For question 2: Is it better to use public data? Should the data be screened before it is used?&#xa;It is neither better nor worse to use public data. Public data can be helpful, but it needs to be carefully vetted before use." ID="ID_1740782508" CREATED="1761232591479" MODIFIED="1761232593441"/>
+<node TEXT="For question 3: How would you monitor for attacks on the deployed model?&#xa;Using a tool to proactively monitor for attacks on a deployed model, like IBM AI Robustness 360, would be a good strategy." ID="ID_1144199244" CREATED="1761232600223" MODIFIED="1761232602093"/>
+</node>
 </node>
 <node TEXT="M4 What is Explainability?" ID="ID_1544697625" CREATED="1761177410918" MODIFIED="1761177417428">
 <node TEXT="About this module" ID="ID_989148152" CREATED="1761177478774" MODIFIED="1761177483759">
 <node TEXT="AI is exemplified by anyone being able to describe how an AI system makes a prediction or recommendation" ID="ID_932512883" CREATED="1761178058107" MODIFIED="1761178060137"/>
+<node TEXT="An AI system is explainable when everyday people, who do not have any special training in AI, can understand how and why the system came to a particular prediction or recommendation. Explainability is like showing your work on a math problem so that everyone can see the steps you took to get your answer." ID="ID_1581974708" CREATED="1761233744052" MODIFIED="1761233749893">
+<node TEXT="Describe explainability" ID="ID_556484673" CREATED="1761233763823" MODIFIED="1761233804021"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      描述可解释性
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node TEXT="Meet the Team" ID="ID_1650862953" CREATED="1761178243869" MODIFIED="1761178247383"/>
-<node TEXT="Identify the Issue" ID="ID_1158348809" CREATED="1761178247527" MODIFIED="1761178250939"/>
-<node TEXT="Explain the Issue" ID="ID_47169195" CREATED="1761178251110" MODIFIED="1761178254684"/>
-<node TEXT="Address the Issue" ID="ID_624909974" CREATED="1761178255363" MODIFIED="1761178258358"/>
+<node TEXT="Describe interpretability" ID="ID_1398442201" CREATED="1761233763823" MODIFIED="1761233763823"/>
+<node TEXT="Compare interpretability and explainability" ID="ID_1907828074" CREATED="1761233763823" MODIFIED="1761233763823"/>
+</node>
+</node>
+<node TEXT="Meet the Team" ID="ID_1650862953" CREATED="1761178243869" MODIFIED="1761178247383">
+<node TEXT="Trustworthy AI is not a bonus feature but an essential requirement." ID="ID_327304025" CREATED="1761239110151" MODIFIED="1761239112243"/>
+</node>
+<node TEXT="Identify the Issue" ID="ID_1158348809" CREATED="1761178247527" MODIFIED="1761178250939">
+<node TEXT="Should we focus on making our model interpretable?" ID="ID_1415345639" CREATED="1761239157382" MODIFIED="1761239169002"/>
+<node TEXT="Should we focus on the explainability of the model decision?" ID="ID_453895072" CREATED="1761239169756" MODIFIED="1761239172291"/>
+<node TEXT="Both explainability and interpretability are ways to understand how the model works." ID="ID_544737802" CREATED="1761239188669" MODIFIED="1761239195254">
+<node TEXT="Interpretability is the degree to which an observer can understand the cause of a decision. It is the success rate that humans can predict the result of an AI output" ID="ID_960827548" CREATED="1761239195261" MODIFIED="1761239204485"/>
+<node TEXT="Explainability goes a step further and looks at how the AI system arrived at a result." ID="ID_925088926" CREATED="1761239209642" MODIFIED="1761239214164"/>
+</node>
+</node>
+<node TEXT="Explain the Issue" ID="ID_47169195" CREATED="1761178251110" MODIFIED="1761178254684">
+<node TEXT="Embracing Discovery" ID="ID_482280849" CREATED="1761239309857" MODIFIED="1761239318090">
+<node TEXT="Users might like to understand how the AI system makes specific recommendations to them. They might also like to know what actions they can take to get similar or different recommendations in the future." ID="ID_776185321" CREATED="1761239337661" MODIFIED="1761239342035"/>
+</node>
+<node TEXT="Approvers and Auditors" ID="ID_1535732096" CREATED="1761239318276" MODIFIED="1761239322145">
+<node TEXT="Approvers and Auditors might like to understand the overall model decision-making steps based on the features. Both Approvers and Auditors can end up checking this against random users’ explanations. The goal may be to evaluate the model against regulatory requirements or internal policies." ID="ID_821265515" CREATED="1761239381341" MODIFIED="1761239383468"/>
+</node>
+<node TEXT="Data Scientists and Model Validators" ID="ID_1534683174" CREATED="1761239322347" MODIFIED="1761239329620">
+<node TEXT="Data Scientists and Model Validators might like to understand the overall model performance, the effect of features on the performance, and other explanation types to evaluate the model." ID="ID_913173143" CREATED="1761239405617" MODIFIED="1761239407915"/>
+</node>
+</node>
+<node TEXT="Address the Issue" ID="ID_624909974" CREATED="1761178255363" MODIFIED="1761178258358">
+<node TEXT="For question 1: What is a way for the team to be aware of who is involved in development and deployment of the AI system and each of their roles?" ID="ID_1933990346" CREATED="1761239513842" MODIFIED="1761239513842">
+<node TEXT="It is important to define roles before starting to work on the project, after the business discussion stage. Remember that building a diverse and inclusive team — including a diverse community of stakeholders — helps to build systems that are more trustworthy." POSITION="bottom_or_right" ID="ID_1807148500" CREATED="1761239513842" MODIFIED="1761239513842"/>
+</node>
+<node TEXT="For question 2: How can the team gather the type of explanations each persona will aim to get from the model?" ID="ID_100172552" CREATED="1761239513842" MODIFIED="1761239513842">
+<node TEXT="First, the team should define the personas and what kinds of explanations each one needs. Then, the team can think together about how to share those explanations with the different personas without detracting from their user experience." POSITION="bottom_or_right" ID="ID_1246458255" CREATED="1761239513843" MODIFIED="1761239513843"/>
+</node>
+<node TEXT="For question 3: Which explanation method will better match with each persona’s expectation?" ID="ID_371931784" CREATED="1761239513844" MODIFIED="1761239513844">
+<node TEXT="Explanation methods are different for different consumers. Understanding the needs and goals of the consumer helps in choosing the appropriate method. Design thinking can help the team consider the needs and goals of the consumer." POSITION="bottom_or_right" ID="ID_1216746931" CREATED="1761239513844" MODIFIED="1761239513844">
+<node TEXT="When developing explanations for the output of an AI model, it is important to remember that explanations must ______differ, shift, alter, change_________ depending on the user persona." ID="ID_1213786013" CREATED="1761239631779" MODIFIED="1761239656902"/>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="M5 What is Transparency?" ID="ID_1657586452" CREATED="1761177423365" MODIFIED="1761177429864">
 <node TEXT="About this module" ID="ID_499475778" CREATED="1761177478774" MODIFIED="1761177483759">
-<node TEXT="A trustworthy AI model should allow key facts about that model to be seen very quickly, just like the nutritional label on a box of food." ID="ID_297459633" CREATED="1761178111249" MODIFIED="1761178113060"/>
+<node TEXT="A trustworthy AI model should allow key facts about that model to be seen very quickly, just like the nutritional label on a box of food." ID="ID_297459633" CREATED="1761178111249" MODIFIED="1761178113060">
+<node TEXT="What data is collected" ID="ID_726485769" CREATED="1761241437806" MODIFIED="1761241442151"/>
+<node TEXT="Who has access to the data" ID="ID_884930796" CREATED="1761241442299" MODIFIED="1761241448139"/>
+</node>
+<node TEXT="When an AI system is transparent, information is shared about what data it collects, how it uses and stores the data, and who has access to the data. When effectively implemented, transparency in AI is like lifting the hood of a car to let everyone see how the different parts of the engine work together." ID="ID_887930207" CREATED="1761239878758" MODIFIED="1761239881760"/>
 </node>
 <node TEXT="Meet the Team" ID="ID_1819571207" CREATED="1761178243869" MODIFIED="1761178247383"/>
-<node TEXT="Identify the Issue" ID="ID_322427570" CREATED="1761178247527" MODIFIED="1761178250939"/>
-<node TEXT="Explain the Issue" ID="ID_1508383551" CREATED="1761178251110" MODIFIED="1761178254684"/>
-<node TEXT="Address the Issue" ID="ID_825962753" CREATED="1761178255363" MODIFIED="1761178258358"/>
+<node TEXT="Identify the Issue" ID="ID_322427570" CREATED="1761178247527" MODIFIED="1761178250939">
+<node ID="ID_16710261" CREATED="1761240708815" MODIFIED="1761241483674"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Transparency</span>&#xa0;is disclosing information related to the data used for building AI systems, design decisions made throughout the process, model creation, model evaluation, and model deployment
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_349686379" CREATED="1761240779210" MODIFIED="1761240805329"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Governance </span><span style="font-weight: normal;">ensures the process followed during the creation and deployment follows the internal policies and regulations</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_652249304" CREATED="1761240812620" MODIFIED="1761240836594"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      By increasing <span style="font-weight: bold;">transparency</span><span style="font-weight: normal;">, we can enable </span><span style="font-weight: bold;">governance</span><span style="font-weight: normal;">.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Explain the Issue" ID="ID_1508383551" CREATED="1761178251110" MODIFIED="1761178254684">
+<node TEXT="Roles" ID="ID_753095312" CREATED="1761240911834" MODIFIED="1761240914867">
+<node TEXT="Business Owner" ID="ID_97025810" CREATED="1761240914870" MODIFIED="1761241544418">
+<arrowlink DESTINATION="ID_1707842923"/>
+<arrowlink DESTINATION="ID_848525576"/>
+<arrowlink DESTINATION="ID_271524791"/>
+<arrowlink DESTINATION="ID_216985475"/>
+</node>
+<node TEXT="AI Designers" ID="ID_1735717218" CREATED="1761240919513" MODIFIED="1761241614976">
+<arrowlink DESTINATION="ID_1707842923"/>
+</node>
+<node TEXT="Data Engineers" ID="ID_1504368305" CREATED="1761240923105" MODIFIED="1761241501745">
+<arrowlink DESTINATION="ID_769408281"/>
+</node>
+<node TEXT="Chief Risk Officers" ID="ID_1468890258" CREATED="1761240927535" MODIFIED="1761241765751">
+<arrowlink DESTINATION="ID_848525576"/>
+<arrowlink DESTINATION="ID_271524791"/>
+<arrowlink DESTINATION="ID_216985475"/>
+<arrowlink DESTINATION="ID_1707842923"/>
+<arrowlink DESTINATION="ID_769408281"/>
+<arrowlink DESTINATION="ID_509035095"/>
+<arrowlink DESTINATION="ID_1639521759"/>
+</node>
+<node TEXT="AI Ops Engineers" ID="ID_1509970174" CREATED="1761240934282" MODIFIED="1761241737499">
+<arrowlink DESTINATION="ID_1639521759"/>
+</node>
+<node TEXT="Model Validators" ID="ID_1013217954" CREATED="1761240939218" MODIFIED="1761241706825">
+<arrowlink DESTINATION="ID_509035095"/>
+</node>
+<node TEXT="Data Scientists" ID="ID_707045391" CREATED="1761240941994" MODIFIED="1761241700452">
+<arrowlink DESTINATION="ID_769408281"/>
+<arrowlink DESTINATION="ID_509035095"/>
+</node>
+<node TEXT="AI Model Lead" ID="ID_252504166" CREATED="1761240949441" MODIFIED="1761241759804">
+<arrowlink DESTINATION="ID_1707842923"/>
+<arrowlink DESTINATION="ID_769408281"/>
+<arrowlink DESTINATION="ID_848525576"/>
+<arrowlink DESTINATION="ID_271524791"/>
+<arrowlink DESTINATION="ID_216985475"/>
+<arrowlink DESTINATION="ID_509035095"/>
+<arrowlink DESTINATION="ID_1639521759"/>
+</node>
+</node>
+<node TEXT="Facts" ID="ID_1816751677" CREATED="1761240954423" MODIFIED="1761240957226">
+<node TEXT="Purpose" ID="ID_848525576" CREATED="1761240981980" MODIFIED="1761240983761"/>
+<node TEXT="Data and Model Policy" ID="ID_271524791" CREATED="1761240957228" MODIFIED="1761240962540">
+<node TEXT="based on internal principles and govt. regulations" ID="ID_665068369" CREATED="1761240962546" MODIFIED="1761240980206"/>
+</node>
+<node TEXT="Application Risk Level" ID="ID_216985475" CREATED="1761240983945" MODIFIED="1761240988748"/>
+<node TEXT="Design Decisions" ID="ID_1707842923" CREATED="1761240988903" MODIFIED="1761240991757"/>
+<node TEXT="Data" ID="ID_769408281" CREATED="1761241086777" MODIFIED="1761241087880">
+<node TEXT="Source, Statistics, Visualization, Analysis Results, Transformation to features and targets, Selection and Creation of data, Fairness Evaluation Decisions and Results, and review compliance with policy and regulations" ID="ID_343448548" CREATED="1761241087882" MODIFIED="1761241138517"/>
+</node>
+<node TEXT="Model" ID="ID_509035095" CREATED="1761241026615" MODIFIED="1761241029153">
+<node TEXT="Algorithms used for training, model parameters, model performance, Model Fairness Test Results, Model Explainability Functions, Model Robustness Test Results, and review compliance with policy and regulations" ID="ID_527801195" CREATED="1761241029157" MODIFIED="1761241085783"/>
+</node>
+<node TEXT="Deployment" ID="ID_1639521759" CREATED="1761240992232" MODIFIED="1761240995187">
+<node TEXT="Models deployed, deployment details, model metrics under monitoring and related thresholds, and review compliance with policy and regulations" ID="ID_1584945153" CREATED="1761240995192" MODIFIED="1761241025548"/>
+</node>
+</node>
+</node>
+<node TEXT="Address the Issue" ID="ID_825962753" CREATED="1761178255363" MODIFIED="1761178258358">
+<node TEXT="Transparency is one of the keys to creating trustworthy AI" ID="ID_513302915" CREATED="1761241255062" MODIFIED="1761241258339">
+<node TEXT="Going forward, the team will document what data is collected, how it is used, how it is stored, and who has access to the data. This transparency will allow questions about the AI system to be answered easily and quickly." ID="ID_1181533898" CREATED="1761241258347" MODIFIED="1761241267230"/>
+</node>
+<node TEXT="For question 1: How can you determine the roles involved in developing and deploying the AI system?&#xa;It is important to define roles before starting to work on the project or after the business discussion stage. Remember that building a diverse and inclusive team — including a diverse community of stakeholders — helps to build systems that are more trustworthy." ID="ID_1122340444" CREATED="1761241322637" MODIFIED="1761241325520"/>
+<node TEXT="For question 2: What types of facts can each role involved in the process provide?&#xa;Defining all of the different roles and all of the different facts needed, and then mapping the roles to facts they can provide, is a very important exercise in working toward transparency. For example, facts about the purpose of the system can be provided by the Business Owner, while facts about the data, such as the sources of the data or fairness evaluations, could be provided by Data Scientists, Data Engineers, the AI Model Lead, or even the Chief Risk Officer." ID="ID_1802657385" CREATED="1761241332681" MODIFIED="1761241334785"/>
+<node TEXT="For question 3: Who do you think should be responsible for ensuring compliance with the whole process?&#xa;Ensuring compliance is a big task! Often, a chief compliance officer or other leader oversees compliance and depends on a team or committee to enable and enforce compliance across the business. But compliance is a team sport, and everyone can take actions to help their organization maintain compliance." ID="ID_1988993040" CREATED="1761241335105" MODIFIED="1761241341273"/>
+</node>
 </node>
 <node TEXT="M6 What is Privacy?" ID="ID_14564563" CREATED="1761177430017" MODIFIED="1761177434643">
-<node TEXT="About this module" ID="ID_1272072596" CREATED="1761177478774" MODIFIED="1761177483759"/>
+<node TEXT="About this module" ID="ID_1272072596" CREATED="1761177478774" MODIFIED="1761242116734"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Learning objectives
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      After completing this module, you should be able to:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Identify personal information
+      </li>
+      <li>
+        Identify sensitive personal information
+      </li>
+      <li>
+        Recognize model anonymization
+      </li>
+      <li>
+        Describe differential privacy
+      </li>
+      <li>
+        Explain data minimization
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+<node TEXT="Data is the heart of AI. Because AI ingests so much data to learn, identify patterns, and make predictions or recommendations, it must prioritize and safeguard the privacy of all of the data it comes into contact with." ID="ID_1401564781" CREATED="1761241886085" MODIFIED="1761241888088"/>
+</node>
 <node TEXT="Meet the Team" ID="ID_1038786543" CREATED="1761178243869" MODIFIED="1761178247383"/>
 <node TEXT="Identify the Issue" ID="ID_6065841" CREATED="1761178247527" MODIFIED="1761178250939"/>
-<node TEXT="Explain the Issue" ID="ID_501560625" CREATED="1761178251110" MODIFIED="1761178254684"/>
-<node TEXT="Address the Issue" ID="ID_1418990824" CREATED="1761178255363" MODIFIED="1761178258358"/>
+<node TEXT="Explain the Issue" ID="ID_501560625" CREATED="1761178251110" MODIFIED="1761178254684">
+<node TEXT="Data Privacy" ID="ID_1971725757" CREATED="1761242117278" MODIFIED="1761242121563">
+<node TEXT="Individuals can be protective about information or data related to them. Plus, in some countries, people have a right to data privacy; although, it’s important to remember that the definition of privacy and the kinds of data it applies to vary from country to country" ID="ID_1278851826" CREATED="1761242121570" MODIFIED="1761242137057" LINK="https://www.cnil.fr/en/data-protection-around-the-world"/>
+<node TEXT="Two kinds of Data" POSITION="bottom_or_right" ID="ID_1853553186" CREATED="1761242303059" MODIFIED="1761242310004">
+<node TEXT="Personal Information (PI)" ID="ID_1956041323" CREATED="1761242310006" MODIFIED="1761242315862">
+<node TEXT="Personal information (PI)  is any information relating to an identified or identifiable individual, like a name or postal code." ID="ID_1934425896" CREATED="1761242330945" MODIFIED="1761242333324">
+<node TEXT="Someone&apos;s profession" ID="ID_1419308518" CREATED="1761242371391" MODIFIED="1761242379896"/>
+<node TEXT="Someone&apos;s telephone number" ID="ID_1990250303" CREATED="1761242403827" MODIFIED="1761242409352"/>
 </node>
-<node TEXT="Summary" ID="ID_1465653134" CREATED="1761177437839" MODIFIED="1761177439636"/>
+</node>
+<node TEXT="Sensitive Personal Information (SPI)" ID="ID_705574950" CREATED="1761242316020" MODIFIED="1761242323053">
+<node TEXT="Sensitive personal information (SPI) is information that, if compromised, could be misused to significantly harm or inconvenience an individual, like a bank account number or birth date." ID="ID_483432641" CREATED="1761242345041" MODIFIED="1761242347180">
+<node TEXT="Someone&apos;s credit card number" ID="ID_762073512" CREATED="1761242386012" MODIFIED="1761242392771"/>
+<node TEXT="Someone&apos;s health history" ID="ID_427884943" CREATED="1761242415555" MODIFIED="1761242427668"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="AI Privacy" ID="ID_1991766545" CREATED="1761242457253" MODIFIED="1761242461594">
+<node TEXT="Because the machine learning models that drive AI often need to be trained using personal or sensitive information, it is critical that AI systems prioritize and safeguard privacy. If a model is trained using personal or sensitive information without any privacy controls applied, then it could be vulnerable to breaches or attacks." ID="ID_1053860855" CREATED="1761242461596" MODIFIED="1761242495733"/>
+<node TEXT="Sample privacy attack: membership inference attack" ID="ID_199780219" CREATED="1761242507686" MODIFIED="1761242522083">
+<node TEXT="In a membership inference attack, an attacker tries to determine whether a specific individual was part of the training data set." ID="ID_1720513366" CREATED="1761242522088" MODIFIED="1761242539172"/>
+<node TEXT="Because the data of individuals included in the training data set is compromised, their privacy is violated. Therefore, when we develop an AI system or train a new model, our goal must be to preserve and protect individuals’ privacy as much as possible!" ID="ID_42273893" CREATED="1761242553235" MODIFIED="1761242556770"/>
+</node>
+<node ID="ID_772829240" CREATED="1761242599540" MODIFIED="1761242615623"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      there are many privacy controls that can be applied to fortify AI against potential breaches of personal or sensitive data. Two that occur during model training are <span style="font-weight: bold;">model anonymization</span>&#xa0;and <span style="font-weight: bold;">differential privacy</span>. One that occurs after model training is <span style="font-weight: bold;">data minimization</span>.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Model Anonymization (During Model Training)" ID="ID_1402803105" CREATED="1761242628966" MODIFIED="1761242642136">
+<node TEXT="The goal of model anonymization is to anonymize the training data with minimal accuracy loss. After all, if the model is trained on anonymous data, then the model itself is anonymous and there is little risk to any personal data used during training." ID="ID_1084186411" CREATED="1761242642140" MODIFIED="1761242644976"/>
+</node>
+<node TEXT="Differential Privacy (During Model Training)" ID="ID_771832834" CREATED="1761242648318" MODIFIED="1761242659094">
+<node TEXT="In differential privacy, random noise is added during model training to reduce the impact of any single individual on the model’s outcomes and to give a guarantee that an individual in the training data set could not be identified." ID="ID_1674610890" CREATED="1761242671271" MODIFIED="1761242680976"/>
+</node>
+<node TEXT="Data Minimization (After Model Training)" ID="ID_895873836" CREATED="1761242659367" MODIFIED="1761242670411">
+<node TEXT="Data minimization means that only data that is needed is being collected. This control helps prevent privacy breaches by limiting the amount of personal data that is collected in the first place and by ensuring that collected data is only as granular as needed. For example, data minimization might mean that you collect only an individual’s zip code instead of their full address, or only their year of birth instead of their full birth date." ID="ID_1558687383" CREATED="1761242670416" MODIFIED="1761242691738"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Address the Issue" ID="ID_1418990824" CREATED="1761178255363" MODIFIED="1761178258358">
+<node TEXT="For question 1: How could making the model publicly available introduce a risk to privacy?" ID="ID_1742745540" CREATED="1761251395418" MODIFIED="1761251395418">
+<node TEXT="If an attacker has access to a model, they might be able to infer which individuals were included in the training data. That’s why applying AI privacy controls is so important — when training data has been anonymized or has had noise added to it, it is much more difficult for attackers to determine who was included in the training data during a membership inference attack." POSITION="bottom_or_right" ID="ID_463365062" CREATED="1761251395419" MODIFIED="1761251395419"/>
+</node>
+<node TEXT="For question 2: If there is risk involved with using personal information, is it still worth using?" ID="ID_1381665898" CREATED="1761251395419" MODIFIED="1761251395419">
+<node TEXT="Yes, it is still worth using even if there is risk involved. Personal information can be used to train models in the appropriate circumstances, as long as privacy techniques are applied to the data to preserve the privacy of individuals whose data is included." POSITION="bottom_or_right" ID="ID_1522025923" CREATED="1761251395420" MODIFIED="1761251395420"/>
+</node>
+<node TEXT="For question 3: What is another example of data minimization?" ID="ID_420817369" CREATED="1761251395420" MODIFIED="1761251395420"/>
+<node TEXT="Using an individual’s industry instead of company or job title, using an individual’s area code instead of telephone number, using yes/no questions instead of collecting specific details (for example, asking “Did you graduate from high school? Yes/No” instead of asking for the high school’s name or the individual’s graduation date)." ID="ID_891059978" CREATED="1761251395420" MODIFIED="1761251395420"/>
+</node>
+</node>
+<node TEXT="Summary" ID="ID_1465653134" CREATED="1761177437839" MODIFIED="1761177439636">
+<node TEXT="1. Faireness" ID="ID_1566361016" CREATED="1761253907113" MODIFIED="1761253916157">
+<node TEXT="In AI, fairness is the equitable treatment of individuals or groups of individuals." ID="ID_1166740762" CREATED="1761253932639" MODIFIED="1761253932639"/>
+<node TEXT="Fairness is achieved when unwanted bias is mitigated." ID="ID_1956772036" CREATED="1761253932639" MODIFIED="1761253932639"/>
+<node TEXT="Protected attributes separate populations into groups." ID="ID_1627471651" CREATED="1761253932639" MODIFIED="1761253932639"/>
+<node TEXT="Groups that traditionally receive more favorable outcomes are called privileged groups." ID="ID_135645783" CREATED="1761253932640" MODIFIED="1761253932640"/>
+<node TEXT="Groups that traditionally receive less or no favorable outcomes are called unprivileged groups." ID="ID_1658322252" CREATED="1761253932640" MODIFIED="1761253932640"/>
+<node TEXT="There isn’t a defined set of protected attributes." ID="ID_1156646543" CREATED="1761253932640" MODIFIED="1761253932640"/>
+<node TEXT="Bias is a systematic error that, intentionally or not, might generate unfair decisions." ID="ID_1962676517" CREATED="1761253932640" MODIFIED="1761253932640"/>
+</node>
+<node TEXT="2. Robustness" ID="ID_249457696" CREATED="1761253916485" MODIFIED="1761253919456">
+<node TEXT="A robust AI system can effectively handle exceptional conditions, like abnormalities in input or malicious attacks, without causing unintentional harm." ID="ID_640722685" CREATED="1761253946493" MODIFIED="1761253946493"/>
+<node TEXT="Adversarial attacks are intentionally carried out on AI systems to accomplish a malicious end goal by exploiting AI system vulnerabilities." ID="ID_1386357206" CREATED="1761253946493" MODIFIED="1761253946493"/>
+<node TEXT="Two types of adversarial attacks are poisoning and evasion." ID="ID_995608785" CREATED="1761253946494" MODIFIED="1761253946494"/>
+</node>
+<node TEXT="3. Explanability" ID="ID_666111200" CREATED="1761254035035" MODIFIED="1761254040515">
+<node TEXT="AI systems are explainable when everyday people, who do not have any special training in AI, can understand how and why the system came to a particular prediction or recommendation." ID="ID_43056280" CREATED="1761254056298" MODIFIED="1761254056298"/>
+<node TEXT="Interpretability is the degree to which an observer can understand the cause of a decision." ID="ID_1949246272" CREATED="1761254056298" MODIFIED="1761254056298"/>
+<node TEXT="Explainability looks at how the AI system arrived at the result." ID="ID_1763885474" CREATED="1761254056299" MODIFIED="1761254056299"/>
+</node>
+<node TEXT="4. Transparency" ID="ID_1376230547" CREATED="1761254040680" MODIFIED="1761254044363">
+<node TEXT="Transparency is disclosing information related to the data used for building AI systems, design decisions made throughout the process, model creation, model evaluation, and model deployment." ID="ID_1406095858" CREATED="1761254065388" MODIFIED="1761254065388"/>
+<node TEXT="Governance ensures the process followed during the creation and deployment follows the internal policies." ID="ID_238863422" CREATED="1761254065388" MODIFIED="1761254065388"/>
+</node>
+<node TEXT="5. Privacy" ID="ID_1918854558" CREATED="1761254044531" MODIFIED="1761254047315">
+<node TEXT="Personal and sensitive personal information can be used to train models, as long as privacy techniques are applied to the data to preserve the privacy of individuals whose data is included." ID="ID_1446017699" CREATED="1761254076412" MODIFIED="1761254076412"/>
+<node TEXT="Many privacy techniques that can be applied to fortify AI against potential breaches of personal or sensitive data. Two that occur during model training are model anonymization and differential privacy. One that occurs after model training is data minimization." ID="ID_1907443046" CREATED="1761254076412" MODIFIED="1761254076412"/>
+</node>
+</node>
 </node>
 <node TEXT="6. Your Future in AI: The Job Landscape" POSITION="bottom_or_right" ID="ID_1274911597" CREATED="1760922133327" MODIFIED="1760922145309"/>
 </node>
