@@ -2437,7 +2437,7 @@
 <node TEXT="8. In the future, General AI systems will perform unprecedented levels of analysis to help humans improve life on a global scale." ID="ID_1876553905" CREATED="1761095630950" MODIFIED="1761095672838"/>
 </node>
 </node>
-<node TEXT="4. Run AI Models with IBM Watson Studio" POSITION="bottom_or_right" ID="ID_1894139975" CREATED="1760922118795" MODIFIED="1761096664159"><richcontent TYPE="NOTE">
+<node TEXT="4. Run AI Models with IBM Watson Studio" FOLDED="true" POSITION="bottom_or_right" ID="ID_1894139975" CREATED="1760922118795" MODIFIED="1761096664159"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -2492,8 +2492,397 @@
     </ul>
   </body>
 </html></richcontent>
+<node TEXT="M1 Intro IBM Watson Studio" ID="ID_607537288" CREATED="1761096766461" MODIFIED="1761096776944">
+<node TEXT="About this Module" ID="ID_68029698" CREATED="1761137071079" MODIFIED="1761137076203">
+<node TEXT="Describe machine learning algorithms and models" ID="ID_926108458" CREATED="1761137621625" MODIFIED="1761137621625"/>
+<node TEXT="Explain the purpose of IBM Watson Studio" ID="ID_84039336" CREATED="1761137621625" MODIFIED="1761137621625"/>
+<node TEXT="Describe the key features and benefits of IBM Watson Studio" ID="ID_75885309" CREATED="1761137621629" MODIFIED="1761137621629"/>
 </node>
-<node TEXT="5. AI Ethics" POSITION="bottom_or_right" ID="ID_1894092063" CREATED="1760922128792" MODIFIED="1760922133157"/>
+<node TEXT="ML Models" ID="ID_1876989309" CREATED="1761137083636" MODIFIED="1761137087015">
+<node ID="ID_734737127" CREATED="1761137657995" MODIFIED="1761137674551"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Machine learning</span>&#xa0;is, in the end, about making predictions using statistics and calculus; both of which are used in bits of code called <span style="font-weight: bold;">machine learning algorithms</span>. These bits of code, in turn, can be organized in large-scale computer programs called <span style="font-weight: bold;">machine learning models</span>.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1694896323" CREATED="1761137693289" MODIFIED="1761137791127"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">A machine learning algorithm is a set of program code.</span>
+    </p>
+    <p>
+      If you’ve ever worked with code, you might know what a <span style="font-weight: bold;">function</span>&#xa0;is. A function is a set of logical operations that inputs some sort of data, analyzes or transforms it, and then outputs a result. But in a machine learning algorithm, that analysis often has <span style="font-weight: bold;">a specific goal: to recognize patterns in data sets</span>.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="For example, an algorithm in an AI weather prediction system might ingest a series of sunlight measurements and water temperatures, then analyze and output a pattern describing how these factors appear to influence each other." ID="ID_1042944276" CREATED="1761137791133" MODIFIED="1761137794373"/>
+</node>
+<node ID="ID_1432871828" CREATED="1761137746502" MODIFIED="1761137802927"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">A machine learning model is a group of machine learning algorithms.</span>
+    </p>
+    <p>
+      Operating together, they detect patterns among their algorithms’ output and use those patterns to make predictions.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="For example, a model whose algorithms look at patterns regarding temperature, climate, geography, and so on might predict a rainy-day next Saturday." ID="ID_293544671" CREATED="1761137802929" MODIFIED="1761137806199"/>
+</node>
+</node>
+<node TEXT="How is this different from the way conventional computer programs operate?" ID="ID_1278917103" CREATED="1761137899349" MODIFIED="1761137903225">
+<node TEXT="A machine learning model doesn’t depend only on a human to write its code or to adjust its programming if its predictions aren’t right." ID="ID_663248086" CREATED="1761137903228" MODIFIED="1761137923549"/>
+<node ID="ID_1027339264" CREATED="1761137924629" MODIFIED="1761137954321"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Instead, <span style="font-weight: bold;">a machine learning model can reprogram itself</span>. So if, for example, a weather model tends to get a certain type of prediction wrong, it can adjust its algorithms (weights and biases, statistical constructs) to improve the accuracy of its predictions.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Early Model Development Problems" ID="ID_328866122" CREATED="1761137087180" MODIFIED="1761137094124">
+<node TEXT="Watson Studio was born from a need" ID="ID_1436448440" CREATED="1761137987016" MODIFIED="1761137996786"/>
+</node>
+<node TEXT="The IBM Watson Studio Solution" ID="ID_809896306" CREATED="1761137094319" MODIFIED="1761137103394">
+<node TEXT="IBM’s Watson Studio solution is what researchers call an integrated development environment (IDE). Named after IBM’s founder, it pulls together the most useful development and analytic tools, wrapping them in a development platform that is powerful enough to meet large-scale challenges, yet simple enough that developers can master it quickly." ID="ID_1384839744" CREATED="1761140550619" MODIFIED="1761140554122"/>
+</node>
+<node TEXT="Integrated Development Environment" ID="ID_1426876544" CREATED="1761137103884" MODIFIED="1761137111390">
+<node TEXT="Watson Studio gives developers:&#xa;&#xa;A collaborative data science and machine learning environment&#xa;Easy visualizations with drag-and-drop code&#xa;An efficient workflow&#xa;A built-in neural network modeler&#xa;Open-source tools such as Jupyter Notebooks and RStudio" POSITION="bottom_or_right" ID="ID_1519661363" CREATED="1761140566155" MODIFIED="1761140569107"/>
+</node>
+<node TEXT="Typical Tools and Dashboards" ID="ID_575411358" CREATED="1761137111551" MODIFIED="1761137121210">
+<node TEXT="Automated data preparation" ID="ID_1228447367" CREATED="1761140694589" MODIFIED="1761140701963">
+<node TEXT="IBM Watson Studio has a feature called AutoAI that prepares raw data for machine learning. It can apply various algorithms to clean and structure the data, automatically select an appropriate model, and optimize its output for the fastest, most useful output." ID="ID_1246525935" CREATED="1761140801033" MODIFIED="1761140804748"/>
+</node>
+<node TEXT="Visual neural network design" ID="ID_1684955552" CREATED="1761140702136" MODIFIED="1761140707843">
+<node TEXT="Watson Studio helps developers create machine learning flows and design neural networks visually, using a simple drag-and-drop interface and open source code libraries." ID="ID_1053572761" CREATED="1761140842693" MODIFIED="1761140845106"/>
+</node>
+<node TEXT="Sophisticated analysis and prediction" ID="ID_934470859" CREATED="1761140708028" MODIFIED="1761140717121">
+<node TEXT="Watson Studio recommends algorithms and uses the latest neural networks to predict and build patterns. It helps programmers create visualizations simply by selecting data items, after which the system itself can choose the best way to visualize its findings." ID="ID_1422271073" CREATED="1761140855564" MODIFIED="1761140857420"/>
+</node>
+<node TEXT="Unified dashboard displays" ID="ID_1753196447" CREATED="1761140723773" MODIFIED="1761140741350">
+<node TEXT="Watson Studio dashboards not only visualize the results of complex analyses, they also gather related views on data into a single place where clients can find and understand the information they seek. These dashboards don’t require specialized coding or database skills, and researchers can easily share them across the internet." ID="ID_600299951" CREATED="1761140869144" MODIFIED="1761140871308"/>
+</node>
+<node TEXT="Watson Feature" POSITION="bottom_or_right" ID="ID_205893042" CREATED="1761141011032" MODIFIED="1761141022301">
+<node TEXT="Learn" ID="ID_1033514188" CREATED="1761141022306" MODIFIED="1761141023445">
+<node TEXT="Hundreds of built-in tutorials" ID="ID_95488555" CREATED="1761141030574" MODIFIED="1761141038290"/>
+<node TEXT="Detailed reference materials" ID="ID_655537114" CREATED="1761141078820" MODIFIED="1761141084380"/>
+<node TEXT="Free Notebook and Model examples" ID="ID_1055525135" CREATED="1761141103499" MODIFIED="1761141109885"/>
+</node>
+<node TEXT="Create" ID="ID_98135465" CREATED="1761141023602" MODIFIED="1761141025160">
+<node TEXT="Drag-and-drop interface" ID="ID_1341457875" CREATED="1761141068031" MODIFIED="1761141072789"/>
+<node TEXT="Visual modeling tools for neural network design" ID="ID_838879621" CREATED="1761141122923" MODIFIED="1761141137089"/>
+<node TEXT="Compatibility with Open Source code" ID="ID_1593568080" CREATED="1761141166867" MODIFIED="1761141174045"/>
+</node>
+<node TEXT="Collaborate" ID="ID_1846798000" CREATED="1761141025709" MODIFIED="1761141029653">
+<node TEXT="AIO Dev Environment" POSITION="bottom_or_right" ID="ID_345748971" CREATED="1761141044409" MODIFIED="1761141051907"/>
+<node TEXT="Social communication features" POSITION="bottom_or_right" ID="ID_196294837" CREATED="1761141091228" MODIFIED="1761141096984"/>
+<node TEXT="Easy commenting and project tracking" POSITION="bottom_or_right" ID="ID_1389640088" CREATED="1761141146294" MODIFIED="1761141152640"/>
+</node>
+</node>
+</node>
+<node TEXT="Putting Watson Studio models to work" ID="ID_1729627613" CREATED="1761141204625" MODIFIED="1761141211792">
+<node TEXT="With IBM Watson Studio, a modest-size team of specialists could build a machine learning model that will, as time goes by, get better and better at spotting major trends in sneaker design. It could even follow celebrity fashions, then begin predicting new trends more and more effectively." ID="ID_1262247370" CREATED="1761148166517" MODIFIED="1761148172237"/>
+</node>
+</node>
+<node TEXT="M2 Prepare Your ML Project" ID="ID_536117519" CREATED="1761096777116" MODIFIED="1761096784749">
+<node TEXT="About this Module" ID="ID_470039519" CREATED="1761137071079" MODIFIED="1761137076203"/>
+<node TEXT="Your AI ML Project" ID="ID_12404383" CREATED="1761137529451" MODIFIED="1761137536041"/>
+<node TEXT="Simulation: Start your project and upload data" ID="ID_1611430785" CREATED="1761137536214" MODIFIED="1761137545210"/>
+</node>
+<node TEXT="M3 Conduct Your ML Project" ID="ID_811781772" CREATED="1761096784923" MODIFIED="1761096794299">
+<node TEXT="About this Module" ID="ID_654955157" CREATED="1761137071079" MODIFIED="1761137076203"/>
+<node TEXT="Simulation: Configure and Run your project" ID="ID_1017464704" CREATED="1761137547441" MODIFIED="1761137560350"/>
+<node TEXT="Understand the Confusion Matrix" ID="ID_1715462384" CREATED="1761137560566" MODIFIED="1761137567110"/>
+</node>
+<node TEXT="M4 Save your AI Model" ID="ID_1516520017" CREATED="1761096797953" MODIFIED="1761096804894">
+<node TEXT="About this Module" ID="ID_466563577" CREATED="1761137071079" MODIFIED="1761137076203"/>
+<node TEXT="Simulation: Save your model as a Jupyter notebook" ID="ID_236878646" CREATED="1761137571498" MODIFIED="1761137582288"/>
+<node TEXT="You&apos;ve done a great job!" ID="ID_939837537" CREATED="1761137582458" MODIFIED="1761137588343"/>
+</node>
+<node TEXT="Summary" ID="ID_1715089337" CREATED="1761137591109" MODIFIED="1761177158175"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      IBM Watson Studio is an integrated development environment (IDE).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      It was developed to solve problems that development teams experienced in communication and project coordination.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      It has the capacity to construct, provision, run, and test machine learning models.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      It can save its results as working models or as editable notebooks.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      You had the opportunity to practice in simulations of IBM Watson Studio to:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Provision the Watson Studio service
+      </li>
+      <li>
+        Set up a new AI machine learning project
+      </li>
+      <li>
+        Import bank loan risk data
+      </li>
+      <li>
+        Create four machine learning models
+      </li>
+      <li>
+        Train these models
+      </li>
+      <li>
+        Run them competitively
+      </li>
+      <li>
+        Identify the model that most effectively predicted bank loan risk
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      You considered a client’s business need, then created and tested an AI solution that could meet that need.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node TEXT="5. AI Ethics" POSITION="bottom_or_right" ID="ID_1894092063" CREATED="1760922128792" MODIFIED="1760922133157">
+<node TEXT="M1 What is AI Ethics?" ID="ID_1954185779" CREATED="1761177381446" MODIFIED="1761177390068">
+<node TEXT="About this module" ID="ID_1923917914" CREATED="1761177478774" MODIFIED="1761177483759">
+<node TEXT="Every day people interact with AI systems, but how much do they trust them? This module briefly explains the five pillars of AI ethics and how each is important in building AI models and systems that can be trusted." ID="ID_1201084048" CREATED="1761177498902" MODIFIED="1761177501121"/>
+</node>
+<node TEXT="The age of AI" ID="ID_352035069" CREATED="1761177464383" MODIFIED="1761177471747">
+<node TEXT="Artificial intelligence is everywhere." ID="ID_689515879" CREATED="1761177541457" MODIFIED="1761177545556">
+<node TEXT="AI can make life easier and safer by helping people make more informed decisions, connecting them with the right information they need at the right time, and finding patterns or efficiencies that they might not otherwise know about." ID="ID_1846859963" CREATED="1761177553392" MODIFIED="1761177555390"/>
+</node>
+<node TEXT="But AI also has the potential to do harm." ID="ID_791774115" CREATED="1761177563714" MODIFIED="1761177567775">
+<node TEXT="For example, AI can be used when determining who gets a loan, who gets accepted to college or selected for a job, how employees are compensated, or even the lengths of prison sentences." ID="ID_1049153273" CREATED="1761177587798" MODIFIED="1761177591263"/>
+</node>
+</node>
+<node TEXT="Can AI be trusted?" ID="ID_558194524" CREATED="1761177472421" MODIFIED="1761177477165">
+<node TEXT="As AI is increasingly embedded in everyday life, it is vital that people can trust AI. Practitioners infuse trust into AI systems with AI ethics. AI ethics is a multidisciplinary field that investigates how to optimize AI’s beneficial impact while reducing unintended or adverse outcomes. There are five pillars of AI ethics: fairness, robustness, explainability, transparency, and privacy. These pillars are focus areas that help make AI trustworthy." ID="ID_196806024" CREATED="1761177648421" MODIFIED="1761177650724"/>
+<node TEXT="AI is a part of our lives, and its influence is growing, so it is crucial that people who design, develop, deploy, procure, and use AI understand how to use AI ethics to minimize harm and optimize benefits." ID="ID_1437569971" CREATED="1761177790558" MODIFIED="1761177793622"/>
+</node>
+<node TEXT="AI Ethics is a multidisciplinary field that investigates how to optimize AI’s beneficial impact while reducing unintended or adverse outcomes." ID="ID_1027134827" CREATED="1761177831356" MODIFIED="1761177837704"/>
+<node TEXT="In the context of AI, harm doesn’t necessarily have to do with physical harm. The harm can be less obvious, taking the form of inequity, discrimination, or exclusion. And this harm can be subtle because people may not always know when they are interacting with AI or when and how AI may be influencing decisions about them." POSITION="bottom_or_right" ID="ID_390114011" CREATED="1761177603177" MODIFIED="1761177606732"/>
+</node>
+<node TEXT="M2 What is Fairness?" ID="ID_1704099505" CREATED="1761177390237" MODIFIED="1761177397305">
+<node TEXT="About this module" ID="ID_1054816598" CREATED="1761177478774" MODIFIED="1761177483759">
+<node TEXT="An AI model is systematically giving an advantage or disadvantage to a certain group." ID="ID_1181244906" CREATED="1761177876909" MODIFIED="1761177878937"/>
+<node TEXT="In AI, fairness is the equitable treatment of individuals or groups of individuals." ID="ID_910862504" CREATED="1761178217560" MODIFIED="1761178220324"/>
+<node TEXT="Fairness is achieved when unwanted bias is mitigated. In AI, bias is a systematic error that has been designed, intentionally or not, in a way that might generate unfair decisions. Bias can be present in the AI system, in the data used to train and test the system, or even in both. Bias can emerge in an AI system because of cultural expectations, technical limitations, or unanticipated deployment contexts." ID="ID_1628073024" CREATED="1761178230246" MODIFIED="1761178241178"/>
+<node TEXT="Fairness in AI aims to minimize unwanted bias" ID="ID_414177297" CREATED="1761179388388" MODIFIED="1761179398070"/>
+<node TEXT="Unwanted bias is a systematic error in AI systems that may result in unfair outcomes." ID="ID_38548491" CREATED="1761179537873" MODIFIED="1761179540603"/>
+</node>
+<node TEXT="Meet the Team" ID="ID_668666967" CREATED="1761178243869" MODIFIED="1761178247383"/>
+<node TEXT="Identify the Issue" ID="ID_1409169236" CREATED="1761178247527" MODIFIED="1761178250939"/>
+<node TEXT="Explain the Issue" ID="ID_210811442" CREATED="1761178251110" MODIFIED="1761178254684">
+<node TEXT="Bias, in general, is a systematic error, but in the context of fairness, the concern is around unwanted bias. Unwanted bias places some groups or individuals at a systematic advantage and other groups or individuals at a systematic disadvantage" ID="ID_1129878753" CREATED="1761178608801" MODIFIED="1761178617576"/>
+<node ID="ID_726303285" CREATED="1761178658137" MODIFIED="1761178684236"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Unwanted bias places
+    </p>
+    <p>
+      privileged <span style="font-weight: bold;">groups</span>&#xa0;at a systematic advantage
+    </p>
+    <p>
+      and
+    </p>
+    <p>
+      unprivileged <span style="font-weight: bold;">groups</span>&#xa0;at a systematic disadvantage.
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      不必要的偏见使
+    </p>
+    <p>
+      特权群体处于系统性优势，
+    </p>
+    <p>
+      而
+    </p>
+    <p>
+      弱势群体则处于系统性劣势。
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="The reason to use groups is simple: to mitigate disparity in the outcome across the groups. In other words, to have an equitable outcome across the groups." ID="ID_788334200" CREATED="1761178912307" MODIFIED="1761178953635"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      使用分组的原因很简单：为了减少不同组之间结果的差异。换句话说，就是为了在各个组之间实现公平的结果。
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="We divide the population into groups based on one or more attributes in the data that could introduce disparity or inequity in the outcome. The attribute that separates the population into groups is called a protected attribute. Some generally used protected attributes are race, age, sex at birth, gender identity, and ethnicity. But…there isn’t a defined set of protected attributes." ID="ID_1880236826" CREATED="1761178954891" MODIFIED="1761178957064"/>
+<node TEXT="Note: For legal and other policy reasons, it is often the case that protected attributes are not maintained in the data set. In these cases, the team might impute them (which is fraught with its own biases) or might use the statistics from demographic data sets using a so-called transfer learning approach." ID="ID_1293392482" CREATED="1761178968248" MODIFIED="1761179022315"/>
+</node>
+</node>
+<node TEXT="Address the Issue" ID="ID_1781299636" CREATED="1761178255363" MODIFIED="1761178258358">
+<node TEXT="The team has identified the issue as one of fairness in the AI model. To achieve fairness, unwanted bias needs to be reduced. In AI, bias is a systematic error that, intentionally or not, can influence an AI system in a way that might generate unfair decisions. Bias can be present both in the AI system and in the data used to train and test it. Based on the data that was given to the AI system, bias had crept in and was affecting the system’s results." ID="ID_923045527" CREATED="1761179076842" MODIFIED="1761179078989"/>
+<node TEXT="For question 1: Is there a step to analyze the intended and unintended consequences of the application using a design-thinking approach? Do you think that such a step is necessary?" ID="ID_1049041762" CREATED="1761179302701" MODIFIED="1761179305213">
+<node TEXT="Yes, it is very important to understand known and hidden effects of the applications to mitigate significant harm. One way to try to better understand known and hidden effects is by considering layers of effect.  When you consider layers of effect, you think about the application’s primary effect (its intended impact), its secondary effects (known or predictable unintended impacts), and its tertiary effects (potential unpredictable or unforeseen unintended impacts). Considering layers of effect with a diverse and inclusive team helps identify a wider range of potential impacts, including potential harm." ID="ID_1205910151" CREATED="1761179305216" MODIFIED="1761179312466"/>
+</node>
+<node TEXT="For question 2: Which attribute in this story’s data set has the potential to introduce unwanted bias?" ID="ID_582412703" CREATED="1761179313984" MODIFIED="1761179321183">
+<node TEXT="The &quot;Employee education&quot; attribute" ID="ID_1596636300" CREATED="1761179321185" MODIFIED="1761179332665"/>
+</node>
+<node TEXT="For question 3: Is there a way to mitigate bias at every stage of the AI lifecycle (from development to deployment)? How would you do it?" ID="ID_1022317983" CREATED="1761179338788" MODIFIED="1761179341234">
+<node TEXT="Yes, there are many ways to mitigate bias throughout the AI lifecycle. Throughout the AI lifecycle, it is critical to work with a diverse and inclusive team whose collective wisdom will help better identify potential bias issues. An AI models extract key patterns by looking at training data in order to make decisions and predictions. So, selecting high-quality data that is relevant, accurate, complete, and representative is important because using high-quality data will help reduce bias issues later in the lifecycle. Once an AI model goes to production, using tools to continuously detect, measure, and mitigate bias is also very important because it enables you to identify, understand, and remediate issues proactively and on an ongoing basis." ID="ID_434719376" CREATED="1761179341239" MODIFIED="1761179348354"/>
+</node>
+<node TEXT="For question 4: What are the ways observed bias can be dealt with?" ID="ID_1701758232" CREATED="1761179353387" MODIFIED="1761179355900">
+<node TEXT="There are many ways to mitigate observed bias. The first step is to investigate where and why the model is exhibiting unwanted bias. Then, you can review the data and data labeling and fix any observed issues. You can also check to see if model retraining is needed." ID="ID_608323803" CREATED="1761179355903" MODIFIED="1761179361788"/>
+</node>
+</node>
+</node>
+<node TEXT="M3 What is Robustness?" ID="ID_1266027966" CREATED="1761177403128" MODIFIED="1761177410751">
+<node TEXT="About this module" ID="ID_1719925096" CREATED="1761177478774" MODIFIED="1761177483759">
+<node TEXT="AI model withstanding intentional and unintentional interference" ID="ID_1766488381" CREATED="1761178088358" MODIFIED="1761178090100"/>
+<node TEXT="AI is increasingly used to help make crucial decisions, so it is vital that AI is secure and robust. When AI is robust, it can more effectively handle exceptional conditions, like abnormalities in input or malicious attacks, without causing unintentional harm." ID="ID_462951044" CREATED="1761179572583" MODIFIED="1761179575272"/>
+</node>
+<node TEXT="Meet the Team" ID="ID_1714369216" CREATED="1761178243869" MODIFIED="1761178247383">
+<node TEXT="Adversarial robustness refers to an AI model’s ability to resist being fooled." ID="ID_47448617" CREATED="1761180869345" MODIFIED="1761180873566"/>
+</node>
+<node TEXT="Identify the Issue" ID="ID_981775242" CREATED="1761178247527" MODIFIED="1761178250939"/>
+<node TEXT="Explain the Issue" ID="ID_1185127525" CREATED="1761178251110" MODIFIED="1761178254684">
+<node TEXT="Adversarial attacks are intentionally carried out on AI systems to accomplish a malicious end goal by taking advantage of AI system vulnerabilities." ID="ID_404858166" CREATED="1761181126196" MODIFIED="1761181128668"/>
+<node TEXT="An adversarial attack aims to negatively impact the system performance, exploit data used, and corrupt the model logic. The one who takes advantage of the AI system vulnerabilities to accomplish their motive is called an adversary." ID="ID_490698851" CREATED="1761181145510" MODIFIED="1761181163842"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      对抗性攻击旨在对系统性能造成负面影响、利用所用数据并破坏模型逻辑。利用人工智能系统漏洞来实现其目的的人被称为对手。
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="the adversary attacks the system by adding small changes called perturbations or noise to the input image. The perturbation can be minimal and imperceptible to human eyes. However, when sent to the deployed AI model, the modified image results in an undesirable or incorrect prediction" ID="ID_489519169" CREATED="1761181857436" MODIFIED="1761181862193"/>
+<node TEXT="Adversary Goals" ID="ID_525955568" CREATED="1761181903973" MODIFIED="1761181914237">
+<node TEXT="Get access to personal information" ID="ID_1370355933" CREATED="1761181935424" MODIFIED="1761181937829">
+<node TEXT="Get access to patient’s personal information like age, gender, race, medical history, identification information, and finance information." POSITION="bottom_or_right" ID="ID_995654191" CREATED="1761181914241" MODIFIED="1761181924070"/>
+</node>
+<node TEXT="Make system learn the data that is in favor of the adversary" ID="ID_986079886" CREATED="1761181952241" MODIFIED="1761181954357">
+<node TEXT="Add malicious x-ray samples to the input training data and make the system learn from the malicious data that is in favor of the adversary." ID="ID_498929773" CREATED="1761181954360" MODIFIED="1761181964738"/>
+</node>
+<node TEXT="Force consistent misclassification of the input samples" ID="ID_1805395957" CREATED="1761181966643" MODIFIED="1761181988473">
+<node TEXT="Predict the presence of disease among significant numbers of patients who don’t have the disease or vice-versa. This also reduces the system performance." ID="ID_749577159" CREATED="1761181969942" MODIFIED="1761181980164"/>
+</node>
+<node TEXT="Make the system predict a specific outcome." ID="ID_1636004986" CREATED="1761181989631" MODIFIED="1761182031419">
+<node TEXT="Intentionally add noise to the data so more patients will fall under the “Disease Detected” category." ID="ID_1166225126" CREATED="1761181990403" MODIFIED="1761182006765"/>
+</node>
+<node TEXT="Steal or recreate the AI model" ID="ID_1899568564" CREATED="1761181989631" MODIFIED="1761182038829">
+<node TEXT="Learn the company’s AI model and related data. Develop a similar model and use for own purpose." ID="ID_1778881681" CREATED="1761181990403" MODIFIED="1761182009009"/>
+</node>
+<node TEXT="Recreate training data used for developing the AI model" ID="ID_968793178" CREATED="1761181989631" MODIFIED="1761182040204">
+<node TEXT="Send malicious and corrupted x-ray images to the company’s AI application and recreate training data based on the system’s response." ID="ID_983673161" CREATED="1761181990403" MODIFIED="1761182015333"/>
+</node>
+</node>
+<node TEXT="There are multiple ways for an adversary to achieve the goals mentioned above including the following:" ID="ID_1746357390" CREATED="1761182051546" MODIFIED="1761182054513">
+<node TEXT="Getting access to the training data and learning the data distribution" ID="ID_1104230613" CREATED="1761182066383" MODIFIED="1761182066383"/>
+<node TEXT="Having permission to modify the data used for training and testing the AI system" ID="ID_1549168407" CREATED="1761182066383" MODIFIED="1761182066383"/>
+<node TEXT="Having access to the model code and parameters" ID="ID_580767385" CREATED="1761182066384" MODIFIED="1761182066384"/>
+<node TEXT="Corrupting the user’s data and sending the modified data to the deployed AI system" ID="ID_76467007" CREATED="1761182066384" MODIFIED="1761182066384"/>
+</node>
+<node TEXT="The adversary might not necessarily experiment with only one way to enter a system. Instead, it is likely that the adversary might use a combination of different ways to attack a system. Also, the ways adversaries attack can vary from attack to attack." ID="ID_1141458319" CREATED="1761182078351" MODIFIED="1761182080754"/>
+<node TEXT="Given the goals and needs, adversarial attacks can occur either at the model training or after the model deployment" ID="ID_1438909997" CREATED="1761182094156" MODIFIED="1761182097424"/>
+</node>
+<node TEXT="Address the Issue" ID="ID_1309946585" CREATED="1761178255363" MODIFIED="1761178258358"/>
+</node>
+<node TEXT="M4 What is Explainability?" ID="ID_1544697625" CREATED="1761177410918" MODIFIED="1761177417428">
+<node TEXT="About this module" ID="ID_989148152" CREATED="1761177478774" MODIFIED="1761177483759">
+<node TEXT="AI is exemplified by anyone being able to describe how an AI system makes a prediction or recommendation" ID="ID_932512883" CREATED="1761178058107" MODIFIED="1761178060137"/>
+</node>
+<node TEXT="Meet the Team" ID="ID_1650862953" CREATED="1761178243869" MODIFIED="1761178247383"/>
+<node TEXT="Identify the Issue" ID="ID_1158348809" CREATED="1761178247527" MODIFIED="1761178250939"/>
+<node TEXT="Explain the Issue" ID="ID_47169195" CREATED="1761178251110" MODIFIED="1761178254684"/>
+<node TEXT="Address the Issue" ID="ID_624909974" CREATED="1761178255363" MODIFIED="1761178258358"/>
+</node>
+<node TEXT="M5 What is Transparency?" ID="ID_1657586452" CREATED="1761177423365" MODIFIED="1761177429864">
+<node TEXT="About this module" ID="ID_499475778" CREATED="1761177478774" MODIFIED="1761177483759">
+<node TEXT="A trustworthy AI model should allow key facts about that model to be seen very quickly, just like the nutritional label on a box of food." ID="ID_297459633" CREATED="1761178111249" MODIFIED="1761178113060"/>
+</node>
+<node TEXT="Meet the Team" ID="ID_1819571207" CREATED="1761178243869" MODIFIED="1761178247383"/>
+<node TEXT="Identify the Issue" ID="ID_322427570" CREATED="1761178247527" MODIFIED="1761178250939"/>
+<node TEXT="Explain the Issue" ID="ID_1508383551" CREATED="1761178251110" MODIFIED="1761178254684"/>
+<node TEXT="Address the Issue" ID="ID_825962753" CREATED="1761178255363" MODIFIED="1761178258358"/>
+</node>
+<node TEXT="M6 What is Privacy?" ID="ID_14564563" CREATED="1761177430017" MODIFIED="1761177434643">
+<node TEXT="About this module" ID="ID_1272072596" CREATED="1761177478774" MODIFIED="1761177483759"/>
+<node TEXT="Meet the Team" ID="ID_1038786543" CREATED="1761178243869" MODIFIED="1761178247383"/>
+<node TEXT="Identify the Issue" ID="ID_6065841" CREATED="1761178247527" MODIFIED="1761178250939"/>
+<node TEXT="Explain the Issue" ID="ID_501560625" CREATED="1761178251110" MODIFIED="1761178254684"/>
+<node TEXT="Address the Issue" ID="ID_1418990824" CREATED="1761178255363" MODIFIED="1761178258358"/>
+</node>
+<node TEXT="Summary" ID="ID_1465653134" CREATED="1761177437839" MODIFIED="1761177439636"/>
+</node>
 <node TEXT="6. Your Future in AI: The Job Landscape" POSITION="bottom_or_right" ID="ID_1274911597" CREATED="1760922133327" MODIFIED="1760922145309"/>
 </node>
 </map>

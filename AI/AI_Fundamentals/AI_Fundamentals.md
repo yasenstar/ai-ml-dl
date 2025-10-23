@@ -1714,6 +1714,371 @@ After completing this course, you should be able to:
 - Download a notebook in Jupyter Notebook (.ipynb) format
 
 
+## M1 Intro IBM Watson Studio
+
+### About this Module
+
+#### Describe machine learning algorithms and models
+
+#### Explain the purpose of IBM Watson Studio
+
+#### Describe the key features and benefits of IBM Watson Studio
+
+### ML Models
+ 
+Machine learning is, in the end, about making predictions using statistics and calculus; both of which are used in bits of code calledmachine learning algorithms. These bits of code, in turn, can be organized in large-scale computer programs calledmachine learning models.
+
+ 
+A machine learning algorithm is a set of program code.
+
+If you’ve ever worked with code, you might know what afunction is. A function is a set of logical operations that inputs some sort of data, analyzes or transforms it, and then outputs a result. But in a machine learning algorithm, that analysis often hasa specific goal: to recognize patterns in data sets.
+
+
+###### For example, an algorithm in an AI weather prediction system might ingest a series of sunlight measurements and water temperatures, then analyze and output a pattern describing how these factors appear to influence each other.
+ 
+A machine learning model is a group of machine learning algorithms.
+
+Operating together, they detect patterns among their algorithms’ output and use those patterns to make predictions.
+
+
+###### For example, a model whose algorithms look at patterns regarding temperature, climate, geography, and so on might predict a rainy-day next Saturday.
+
+#### How is this different from the way conventional computer programs operate?
+
+##### A machine learning model doesn’t depend only on a human to write its code or to adjust its programming if its predictions aren’t right.
+ 
+Instead,a machine learning model can reprogram itself. So if, for example, a weather model tends to get a certain type of prediction wrong, it can adjust its algorithms (weights and biases, statistical constructs) to improve the accuracy of its predictions.
+
+
+### Early Model Development Problems
+
+#### Watson Studio was born from a need
+
+### The IBM Watson Studio Solution
+
+#### IBM’s Watson Studio solution is what researchers call an integrated development environment (IDE). Named after IBM’s founder, it pulls together the most useful development and analytic tools, wrapping them in a development platform that is powerful enough to meet large-scale challenges, yet simple enough that developers can master it quickly.
+
+### Integrated Development Environment
+
+#### Watson Studio gives developers:
+
+A collaborative data science and machine learning environment
+Easy visualizations with drag-and-drop code
+An efficient workflow
+A built-in neural network modeler
+Open-source tools such as Jupyter Notebooks and RStudio
+
+### Typical Tools and Dashboards
+
+#### Automated data preparation
+
+##### IBM Watson Studio has a feature called AutoAI that prepares raw data for machine learning. It can apply various algorithms to clean and structure the data, automatically select an appropriate model, and optimize its output for the fastest, most useful output.
+
+#### Visual neural network design
+
+##### Watson Studio helps developers create machine learning flows and design neural networks visually, using a simple drag-and-drop interface and open source code libraries.
+
+#### Sophisticated analysis and prediction
+
+##### Watson Studio recommends algorithms and uses the latest neural networks to predict and build patterns. It helps programmers create visualizations simply by selecting data items, after which the system itself can choose the best way to visualize its findings.
+
+#### Unified dashboard displays
+
+##### Watson Studio dashboards not only visualize the results of complex analyses, they also gather related views on data into a single place where clients can find and understand the information they seek. These dashboards don’t require specialized coding or database skills, and researchers can easily share them across the internet.
+
+#### Watson Feature
+
+##### Learn
+
+###### Hundreds of built-in tutorials
+
+###### Detailed reference materials
+
+###### Free Notebook and Model examples
+
+##### Create
+
+###### Drag-and-drop interface
+
+###### Visual modeling tools for neural network design
+
+###### Compatibility with Open Source code
+
+##### Collaborate
+
+###### AIO Dev Environment
+
+###### Social communication features
+
+###### Easy commenting and project tracking
+
+### Putting Watson Studio models to work
+
+#### With IBM Watson Studio, a modest-size team of specialists could build a machine learning model that will, as time goes by, get better and better at spotting major trends in sneaker design. It could even follow celebrity fashions, then begin predicting new trends more and more effectively.
+
+## M2 Prepare Your ML Project
+
+### About this Module
+
+### Your AI ML Project
+
+### Simulation: Start your project and upload data
+
+## M3 Conduct Your ML Project
+
+### About this Module
+
+### Simulation: Configure and Run your project
+
+### Understand the Confusion Matrix
+
+## M4 Save your AI Model
+
+### About this Module
+
+### Simulation: Save your model as a Jupyter notebook
+
+### You've done a great job!
+
+## Summary
+
+IBM Watson Studio is an integrated development environment (IDE).
+
+
+
+It was developed to solve problems that development teams experienced in communication and project coordination.
+
+
+
+It has the capacity to construct, provision, run, and test machine learning models.
+
+
+
+It can save its results as working models or as editable notebooks.
+
+
+
+You had the opportunity to practice in simulations of IBM Watson Studio to:
+
+
+
+- Provision the Watson Studio service
+- Set up a new AI machine learning project
+- Import bank loan risk data
+- Create four machine learning models
+- Train these models
+- Run them competitively
+- Identify the model that most effectively predicted bank loan risk
+
+
+
+You considered a client’s business need, then created and tested an AI solution that could meet that need.
+
+
 # 5. AI Ethics
+
+## M1 What is AI Ethics?
+
+### About this module
+
+#### Every day people interact with AI systems, but how much do they trust them? This module briefly explains the five pillars of AI ethics and how each is important in building AI models and systems that can be trusted.
+
+### The age of AI
+
+#### Artificial intelligence is everywhere.
+
+##### AI can make life easier and safer by helping people make more informed decisions, connecting them with the right information they need at the right time, and finding patterns or efficiencies that they might not otherwise know about.
+
+#### But AI also has the potential to do harm.
+
+##### For example, AI can be used when determining who gets a loan, who gets accepted to college or selected for a job, how employees are compensated, or even the lengths of prison sentences.
+
+### Can AI be trusted?
+
+#### As AI is increasingly embedded in everyday life, it is vital that people can trust AI. Practitioners infuse trust into AI systems with AI ethics. AI ethics is a multidisciplinary field that investigates how to optimize AI’s beneficial impact while reducing unintended or adverse outcomes. There are five pillars of AI ethics: fairness, robustness, explainability, transparency, and privacy. These pillars are focus areas that help make AI trustworthy.
+
+#### AI is a part of our lives, and its influence is growing, so it is crucial that people who design, develop, deploy, procure, and use AI understand how to use AI ethics to minimize harm and optimize benefits.
+
+### AI Ethics is a multidisciplinary field that investigates how to optimize AI’s beneficial impact while reducing unintended or adverse outcomes.
+
+### In the context of AI, harm doesn’t necessarily have to do with physical harm. The harm can be less obvious, taking the form of inequity, discrimination, or exclusion. And this harm can be subtle because people may not always know when they are interacting with AI or when and how AI may be influencing decisions about them.
+
+## M2 What is Fairness?
+
+### About this module
+
+#### An AI model is systematically giving an advantage or disadvantage to a certain group.
+
+#### In AI, fairness is the equitable treatment of individuals or groups of individuals.
+
+#### Fairness is achieved when unwanted bias is mitigated. In AI, bias is a systematic error that has been designed, intentionally or not, in a way that might generate unfair decisions. Bias can be present in the AI system, in the data used to train and test the system, or even in both. Bias can emerge in an AI system because of cultural expectations, technical limitations, or unanticipated deployment contexts.
+
+#### Fairness in AI aims to minimize unwanted bias
+
+#### Unwanted bias is a systematic error in AI systems that may result in unfair outcomes.
+
+### Meet the Team
+
+### Identify the Issue
+
+### Explain the Issue
+
+#### Bias, in general, is a systematic error, but in the context of fairness, the concern is around unwanted bias. Unwanted bias places some groups or individuals at a systematic advantage and other groups or individuals at a systematic disadvantage
+ 
+Unwanted bias places
+
+privilegedgroups at a systematic advantage
+
+and
+
+unprivilegedgroups at a systematic disadvantage.
+
+
+不必要的偏见使
+
+特权群体处于系统性优势，
+
+而
+
+弱势群体则处于系统性劣势。
+
+
+#### The reason to use groups is simple: to mitigate disparity in the outcome across the groups. In other words, to have an equitable outcome across the groups.
+
+使用分组的原因很简单：为了减少不同组之间结果的差异。换句话说，就是为了在各个组之间实现公平的结果。
+
+
+##### We divide the population into groups based on one or more attributes in the data that could introduce disparity or inequity in the outcome. The attribute that separates the population into groups is called a protected attribute. Some generally used protected attributes are race, age, sex at birth, gender identity, and ethnicity. But…there isn’t a defined set of protected attributes.
+
+##### Note: For legal and other policy reasons, it is often the case that protected attributes are not maintained in the data set. In these cases, the team might impute them (which is fraught with its own biases) or might use the statistics from demographic data sets using a so-called transfer learning approach.
+
+### Address the Issue
+
+#### The team has identified the issue as one of fairness in the AI model. To achieve fairness, unwanted bias needs to be reduced. In AI, bias is a systematic error that, intentionally or not, can influence an AI system in a way that might generate unfair decisions. Bias can be present both in the AI system and in the data used to train and test it. Based on the data that was given to the AI system, bias had crept in and was affecting the system’s results.
+
+#### For question 1: Is there a step to analyze the intended and unintended consequences of the application using a design-thinking approach? Do you think that such a step is necessary?
+
+##### Yes, it is very important to understand known and hidden effects of the applications to mitigate significant harm. One way to try to better understand known and hidden effects is by considering layers of effect.  When you consider layers of effect, you think about the application’s primary effect (its intended impact), its secondary effects (known or predictable unintended impacts), and its tertiary effects (potential unpredictable or unforeseen unintended impacts). Considering layers of effect with a diverse and inclusive team helps identify a wider range of potential impacts, including potential harm.
+
+#### For question 2: Which attribute in this story’s data set has the potential to introduce unwanted bias?
+
+##### The "Employee education" attribute
+
+#### For question 3: Is there a way to mitigate bias at every stage of the AI lifecycle (from development to deployment)? How would you do it?
+
+##### Yes, there are many ways to mitigate bias throughout the AI lifecycle. Throughout the AI lifecycle, it is critical to work with a diverse and inclusive team whose collective wisdom will help better identify potential bias issues. An AI models extract key patterns by looking at training data in order to make decisions and predictions. So, selecting high-quality data that is relevant, accurate, complete, and representative is important because using high-quality data will help reduce bias issues later in the lifecycle. Once an AI model goes to production, using tools to continuously detect, measure, and mitigate bias is also very important because it enables you to identify, understand, and remediate issues proactively and on an ongoing basis.
+
+#### For question 4: What are the ways observed bias can be dealt with?
+
+##### There are many ways to mitigate observed bias. The first step is to investigate where and why the model is exhibiting unwanted bias. Then, you can review the data and data labeling and fix any observed issues. You can also check to see if model retraining is needed.
+
+## M3 What is Robustness?
+
+### About this module
+
+#### AI model withstanding intentional and unintentional interference
+
+#### AI is increasingly used to help make crucial decisions, so it is vital that AI is secure and robust. When AI is robust, it can more effectively handle exceptional conditions, like abnormalities in input or malicious attacks, without causing unintentional harm.
+
+### Meet the Team
+
+#### Adversarial robustness refers to an AI model’s ability to resist being fooled.
+
+### Identify the Issue
+
+### Explain the Issue
+
+#### Adversarial attacks are intentionally carried out on AI systems to accomplish a malicious end goal by taking advantage of AI system vulnerabilities.
+
+#### An adversarial attack aims to negatively impact the system performance, exploit data used, and corrupt the model logic. The one who takes advantage of the AI system vulnerabilities to accomplish their motive is called an adversary.
+
+对抗性攻击旨在对系统性能造成负面影响、利用所用数据并破坏模型逻辑。利用人工智能系统漏洞来实现其目的的人被称为对手。
+
+
+#### the adversary attacks the system by adding small changes called perturbations or noise to the input image. The perturbation can be minimal and imperceptible to human eyes. However, when sent to the deployed AI model, the modified image results in an undesirable or incorrect prediction
+
+#### Adversary Goals
+
+##### Get access to personal information
+
+###### Get access to patient’s personal information like age, gender, race, medical history, identification information, and finance information.
+
+##### Make system learn the data that is in favor of the adversary
+
+###### Add malicious x-ray samples to the input training data and make the system learn from the malicious data that is in favor of the adversary.
+
+##### Force consistent misclassification of the input samples
+
+###### Predict the presence of disease among significant numbers of patients who don’t have the disease or vice-versa. This also reduces the system performance.
+
+##### Make the system predict a specific outcome.
+
+###### Intentionally add noise to the data so more patients will fall under the “Disease Detected” category.
+
+##### Steal or recreate the AI model
+
+###### Learn the company’s AI model and related data. Develop a similar model and use for own purpose.
+
+##### Recreate training data used for developing the AI model
+
+###### Send malicious and corrupted x-ray images to the company’s AI application and recreate training data based on the system’s response.
+
+#### There are multiple ways for an adversary to achieve the goals mentioned above including the following:
+
+##### Getting access to the training data and learning the data distribution
+
+##### Having permission to modify the data used for training and testing the AI system
+
+##### Having access to the model code and parameters
+
+##### Corrupting the user’s data and sending the modified data to the deployed AI system
+
+#### The adversary might not necessarily experiment with only one way to enter a system. Instead, it is likely that the adversary might use a combination of different ways to attack a system. Also, the ways adversaries attack can vary from attack to attack.
+
+#### Given the goals and needs, adversarial attacks can occur either at the model training or after the model deployment
+
+### Address the Issue
+
+## M4 What is Explainability?
+
+### About this module
+
+#### AI is exemplified by anyone being able to describe how an AI system makes a prediction or recommendation
+
+### Meet the Team
+
+### Identify the Issue
+
+### Explain the Issue
+
+### Address the Issue
+
+## M5 What is Transparency?
+
+### About this module
+
+#### A trustworthy AI model should allow key facts about that model to be seen very quickly, just like the nutritional label on a box of food.
+
+### Meet the Team
+
+### Identify the Issue
+
+### Explain the Issue
+
+### Address the Issue
+
+## M6 What is Privacy?
+
+### About this module
+
+### Meet the Team
+
+### Identify the Issue
+
+### Explain the Issue
+
+### Address the Issue
+
+## Summary
 
 # 6. Your Future in AI: The Job Landscape
