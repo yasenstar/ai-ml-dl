@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="AI Fundamentals" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1760921901283"><hook NAME="MapStyle" background="#f5f5dcff">
+<node TEXT="AI Fundamentals" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1760921901283"><hook NAME="MapStyle" background="#f5f5dcff" zoom="0.82644624">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -2695,7 +2695,7 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="5. AI Ethics" POSITION="bottom_or_right" ID="ID_1894092063" CREATED="1760922128792" MODIFIED="1760922133157">
+<node TEXT="5. AI Ethics" FOLDED="true" POSITION="bottom_or_right" ID="ID_1894092063" CREATED="1760922128792" MODIFIED="1760922133157">
 <node TEXT="M1 What is AI Ethics?" ID="ID_1954185779" CREATED="1761177381446" MODIFIED="1761177390068">
 <node TEXT="About this module" ID="ID_1923917914" CREATED="1761177478774" MODIFIED="1761177483759">
 <node TEXT="Every day people interact with AI systems, but how much do they trust them? This module briefly explains the five pillars of AI ethics and how each is important in building AI models and systems that can be trusted." ID="ID_1201084048" CREATED="1761177498902" MODIFIED="1761177501121"/>
@@ -3043,7 +3043,7 @@
 <arrowlink DESTINATION="ID_769408281"/>
 <arrowlink DESTINATION="ID_509035095"/>
 </node>
-<node TEXT="AI Model Lead" ID="ID_252504166" CREATED="1761240949441" MODIFIED="1761241759804">
+<node TEXT="AI Model Lead / Model Team" ID="ID_252504166" CREATED="1761240949441" MODIFIED="1761256801900">
 <arrowlink DESTINATION="ID_1707842923"/>
 <arrowlink DESTINATION="ID_769408281"/>
 <arrowlink DESTINATION="ID_848525576"/>
@@ -3066,7 +3066,8 @@
 <node TEXT="Model" ID="ID_509035095" CREATED="1761241026615" MODIFIED="1761241029153">
 <node TEXT="Algorithms used for training, model parameters, model performance, Model Fairness Test Results, Model Explainability Functions, Model Robustness Test Results, and review compliance with policy and regulations" ID="ID_527801195" CREATED="1761241029157" MODIFIED="1761241085783"/>
 </node>
-<node TEXT="Deployment" ID="ID_1639521759" CREATED="1761240992232" MODIFIED="1761240995187">
+<node TEXT="Deployment" ID="ID_1639521759" CREATED="1761240992232" MODIFIED="1761259738783">
+<arrowlink DESTINATION="ID_1639521759"/>
 <node TEXT="Models deployed, deployment details, model metrics under monitoring and related thresholds, and review compliance with policy and regulations" ID="ID_1584945153" CREATED="1761240995192" MODIFIED="1761241025548"/>
 </node>
 </node>
@@ -3212,6 +3213,445 @@
 </node>
 </node>
 </node>
-<node TEXT="6. Your Future in AI: The Job Landscape" POSITION="bottom_or_right" ID="ID_1274911597" CREATED="1760922133327" MODIFIED="1760922145309"/>
+<node TEXT="6. Your Future in AI: The Job Landscape" FOLDED="true" POSITION="bottom_or_right" ID="ID_1274911597" CREATED="1760922133327" MODIFIED="1760922145309">
+<node TEXT="M1 The Jobe Market and Future" ID="ID_1191818379" CREATED="1761260288596" MODIFIED="1761260303101">
+<node TEXT="The Global Demand" ID="ID_562453712" CREATED="1761260373390" MODIFIED="1761260377386">
+<node TEXT="Here’s a list of some industries that need AI support" ID="ID_935568245" CREATED="1761260514249" MODIFIED="1761260516118">
+<node TEXT="Financial services" ID="ID_157125134" CREATED="1761260524345" MODIFIED="1761260524345"/>
+<node TEXT="Healthcare" ID="ID_1837580583" CREATED="1761260524345" MODIFIED="1761260524345"/>
+<node TEXT="Technology" ID="ID_947505906" CREATED="1761260524346" MODIFIED="1761260524346"/>
+<node TEXT="Media" ID="ID_624643105" CREATED="1761260524346" MODIFIED="1761260524346"/>
+<node TEXT="Marketing" ID="ID_1753777898" CREATED="1761260524346" MODIFIED="1761260524346"/>
+<node TEXT="Retail" ID="ID_184725778" CREATED="1761260524346" MODIFIED="1761260524346"/>
+<node TEXT="Government and military" ID="ID_1107893811" CREATED="1761260524346" MODIFIED="1761260524346"/>
+<node TEXT="National security" ID="ID_1810977688" CREATED="1761260524346" MODIFIED="1761260524346"/>
+<node TEXT="Internet of Things (IoT)-enabled systems" ID="ID_673385421" CREATED="1761260524346" MODIFIED="1761260524346"/>
+<node TEXT="Agriculture" ID="ID_1376941087" CREATED="1761260524346" MODIFIED="1761260524346"/>
+<node TEXT="Gaming" ID="ID_1429288656" CREATED="1761260524346" MODIFIED="1761260524346"/>
+<node TEXT="Weather" ID="ID_1956767766" CREATED="1761260524346" MODIFIED="1761260524346"/>
+</node>
+<node ID="ID_1396389274" CREATED="1761260599931" MODIFIED="1761260741696" LINK="http://www3.weforum.org/docs/WEF_Jobs_of_Tomorrow_2020.pdf"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The World Economic Forum (WEF) placed data and artificial intelligence (AI) in the seven <span style="font-weight: bold;">top-growing professions</span>&#xa0;in 2020, with a growth rate of 41%. That is the highest growth rate of all the professions mentioned in the report.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_742217274" CREATED="1761260730930" MODIFIED="1761260756127" LINK="https://www.gartner.com/en/newsroom/press-releases/2019-01-21-gartner-survey-shows-37-percent-of-organizations-have"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The AI industry, as a whole, <span style="font-weight: bold;">grew 270%</span>&#xa0;between 2015 to 2019.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="AI is fueled by the need for data scientists and mathematical science professionals. These occupations are expected to grow 33% from 2020 to 2030 in the United States." ID="ID_829482902" CREATED="1761260766040" MODIFIED="1761260776389" LINK="https://www.bls.gov/ooh/math/mathematicians-and-statisticians.htm"/>
+<node TEXT="Glassdoor compiled a list of the 50 Best Jobs in America for 2022 based on earning potential, job satisfaction, and job openings. AI-related occupations including data scientist and machine learning engineer are ranked #3 and #6." ID="ID_1943125562" CREATED="1761260785744" MODIFIED="1761260791848" LINK="https://www.glassdoor.com/List/Best-Jobs-in-America-LST_KQ0,20.htm"/>
+</node>
+<node TEXT="What is the Future of AI?" ID="ID_1270413933" CREATED="1761260377558" MODIFIED="1761260382483">
+<node TEXT="Jana Eggers, CEO of Nara Logics&#xa;&quot;Companies are now getting more serious about AI delivering results versus &apos;tests.&apos; The longer-term change in the field will be the widening of the aperture of AI—a longer depth of field into business.&quot;" ID="ID_772265230" CREATED="1761260844498" MODIFIED="1761260858886" LINK="https://builtin.com/artificial-intelligence/career-in-artificial-intelligence"/>
+<node TEXT="Satya Mallick, founder of Big Vision LLC and Interim CEO of OpenCV.org&#xa;&quot;AI is a rocket ship that is taking off. Even entry-level jobs are insanely lucrative, paying two times or more compared to regular programming jobs. The reason is a huge demand for AI talent and not enough people with the right expertise. In the long run, these salary levels may not be sustainable, but people who get on this rocket ship in the next five years or so will have amazing careers financially, as well as in terms of the quality of work.&quot;" ID="ID_1902356829" CREATED="1761260872288" MODIFIED="1761260888245" LINK="https://builtin.com/artificial-intelligence/career-in-artificial-intelligence"/>
+</node>
+</node>
+<node TEXT="M2 Working in AI" ID="ID_1959205941" CREATED="1761260303652" MODIFIED="1761260308285">
+<node TEXT="Job Roles" ID="ID_996950288" CREATED="1761260385444" MODIFIED="1761260387755">
+<node TEXT="Machines Learning Engineer" ID="ID_464015786" CREATED="1761260938233" MODIFIED="1761260947617">
+<node TEXT="Machine learning engineers are at the intersection of software engineering and data science. They use big data tools and programming frameworks to create production-ready and scalable data science models that can handle terabytes of real-time data.&#xa;&#xa;Machine learning engineer jobs are best for anyone with a background that combines data science, applied research, and software engineering. You can thrive if you have strong mathematical skills, experience in machine learning, deep learning, neural networks, and cloud applications, and programming skills in Java, Python, and Scala. It also helps to be well-versed in an integrated development environment (IDE), like IBM Watson Studio." ID="ID_1242513206" CREATED="1761260947620" MODIFIED="1761260983378" LINK="https://www.springboard.com/blog/data-science/careers-in-ai/"/>
+</node>
+<node TEXT="Data Scientist" ID="ID_1877103932" CREATED="1761260996861" MODIFIED="1761261000441">
+<node TEXT="Data scientists use machine learning and predictive analytics to gain insights from large amounts of data. To prepare, you should build your expertise in big data platforms and tools, perhaps including Hadoop, Pig, Hive, Spark, and MapReduce. It would be helpful if you are fluent in at least two programming languages, including structured query language (SQL), Python, Scala, and Perl. You should also invest some time learning descriptive and inferential statistics.&#xa;&#xa;This is a field in which most people have earned a master&apos;s or doctoral degree. You would also benefit from non-technical workplace skills, like communication, collaboration, intellectual curiosity, and business acumen." ID="ID_50419708" CREATED="1761261006784" MODIFIED="1761261022067" LINK="https://www.simplilearn.com/top-artificial-intelligence-career-choices-and-ai-key-skills-article"/>
+</node>
+<node TEXT="Business Intelligence Developer" ID="ID_476106758" CREATED="1761261037760" MODIFIED="1761261045920">
+<node TEXT="Business intelligence (BI) developers design, model, build, and maintain data sets for complex data platforms. Their primary job is to analyze complex data and look for current business and market trends to help increase the profitability and efficiency of their organization. Strong technical and analytical skills would help you break into this field, as well as collaboration and problem-solving skills.&#xa;&#xa;For this career, you should consider earning a bachelor’s degree in computer science, engineering, or a related field, or a combination of certifications and on-the-job experience. Companies usually prefer candidates with experience in data warehouse design or with data mining, and knowledge of BI technologies, SQL queries, SQL Server Reporting Services (SSRS), and SQL Server Integration Services (SSIS)." ID="ID_1074619308" CREATED="1761261045925" MODIFIED="1761261074788" LINK="https://www.simplilearn.com/top-artificial-intelligence-career-choices-and-ai-key-skills-article"/>
+</node>
+<node TEXT="Robotic Scientist" ID="ID_1891600424" CREATED="1761261078691" MODIFIED="1761261084403">
+<node TEXT="Robots can automate jobs, but they require programmers working behind the scenes to ensure they function well. Robotics engineers build and maintain AI-powered robots. Their job is to design and build mechanical devices that can perform tasks with commands from humans. To succeed in robotics, you should learn to code in various programming languages and to develop working prototypes.&#xa;&#xa;To prepare for a career in robotics, you might earn a bachelor’s degree in one of the following disciplines: robotic engineering, mechanical engineering, electro-mechanical engineering, or electrical engineering. Companies also look for professionals with specializations in advanced mathematics, physical sciences, life sciences, computer science, computer-aided design and drafting (CADD), physics, fluid dynamics and materials science, and a related AI certification." ID="ID_984079521" CREATED="1761261107952" MODIFIED="1761261119173" LINK="https://www.simplilearn.com/top-artificial-intelligence-career-choices-and-ai-key-skills-article"/>
+</node>
+<node TEXT="Software Engineer" ID="ID_903250230" CREATED="1761261085172" MODIFIED="1761261088329">
+<node TEXT="AI software engineers build software products for AI applications. AI software engineers develop and maintain the software that data scientists and architects use. They stay informed and updated about new artificial intelligence technologies.&#xa;&#xa;As an AI software engineer, you’d be skilled in software engineering and artificial intelligence. You’d have programming skills, statistical skills, and analytical skills. Companies typically look for a bachelor’s degree in computer science, engineering, physics, mathematics, or statistics." ID="ID_544746061" CREATED="1761261128550" MODIFIED="1761261138684" LINK="https://www.springboard.com/blog/data-science/careers-in-ai/"/>
+</node>
+<node TEXT="Natural Language Processing Engineer" ID="ID_261583935" CREATED="1761261088514" MODIFIED="1761261099593">
+<node TEXT="Natural language processing (NLP) engineers are AI professionals who specialize in human language, including spoken and written information. The engineers who work on voice assistants, speech recognition, document processing, and so on use NLP technology.&#xa;&#xa;For the role of an NLP engineer, organizations expect you to have a specialized degree in computational linguistics or a combination of computer science, mathematics, and statistics." ID="ID_1659281315" CREATED="1761261146406" MODIFIED="1761261155908" LINK="https://www.springboard.com/blog/data-science/careers-in-ai/"/>
+</node>
+</node>
+<node TEXT="Hear from Sasshruthi, Who Works with AI" ID="ID_648538498" CREATED="1761260387922" MODIFIED="1761260399014"/>
+<node TEXT="Hear from Rachel, Who works with AI" ID="ID_232571140" CREATED="1761260399254" MODIFIED="1761260406981"/>
+</node>
+<node TEXT="M3 What Employers are Looking For" ID="ID_1754859687" CREATED="1761260313583" MODIFIED="1761260327902">
+<node TEXT="Skills to Build" ID="ID_1890280643" CREATED="1761260364387" MODIFIED="1761261391072">
+<node TEXT="Baseline Skills" ID="ID_874062341" CREATED="1761261391077" MODIFIED="1761261394695">
+<node TEXT="Linear algebra" ID="ID_1613551075" CREATED="1761261432843" MODIFIED="1761261432843"/>
+<node TEXT="Probability" ID="ID_743892333" CREATED="1761261432843" MODIFIED="1761261432843"/>
+<node TEXT="Statistics" ID="ID_1030199029" CREATED="1761261432843" MODIFIED="1761261432843"/>
+<node TEXT="Signal processing" ID="ID_1858064510" CREATED="1761261432843" MODIFIED="1761261432843"/>
+<node TEXT="Big data" ID="ID_1152106394" CREATED="1761261432843" MODIFIED="1761261432843"/>
+</node>
+<node TEXT="Workplace Skills" ID="ID_497653202" CREATED="1761261394856" MODIFIED="1761261398478">
+<node TEXT="Communication skills" ID="ID_683406927" CREATED="1761261445279" MODIFIED="1761261445279"/>
+<node TEXT="Teamwork and collaboration" ID="ID_1070092267" CREATED="1761261445279" MODIFIED="1761261445279"/>
+<node TEXT="Problem solving" ID="ID_1025395843" CREATED="1761261445279" MODIFIED="1761261445279"/>
+<node TEXT="Decision making" ID="ID_1344476988" CREATED="1761261445279" MODIFIED="1761261445279"/>
+<node TEXT="Analytical thinking" ID="ID_950725407" CREATED="1761261445279" MODIFIED="1761261445279"/>
+<node TEXT="Time management" ID="ID_228920120" CREATED="1761261445279" MODIFIED="1761261445279"/>
+<node TEXT="Business intelligence" ID="ID_1813617084" CREATED="1761261445279" MODIFIED="1761261445279"/>
+<node TEXT="Critical thinking" ID="ID_1358358258" CREATED="1761261445279" MODIFIED="1761261445279"/>
+</node>
+<node TEXT="Advanced Technical Skills" ID="ID_627261168" CREATED="1761261398746" MODIFIED="1761261560004" LINK="https://geekflare.com/skills-required-for-ai-professionals/">
+<node TEXT="Programming languages (Python, R, Java, C++)" ID="ID_697543447" CREATED="1761261457933" MODIFIED="1761261457933">
+<node TEXT="Python is a programming language that helps you write complex algorithms and requires minimal code. It has many pre-made libraries for advanced computing and scientific computation." ID="ID_844172980" CREATED="1761261493570" MODIFIED="1761261496616"/>
+<node TEXT="R programming language helps you to collect and organize data sets, apply machine learning (ML) and statistical functions, and use matrix transformations and linear algebra for data processing." ID="ID_465450702" CREATED="1761261502351" MODIFIED="1761261504778"/>
+<node TEXT="Java is a programming language that’s used extensively in AI for implementing mappers and reducers, intelligence programming, genetic programming, search algorithms, neural networks, ML solutions, and more." ID="ID_1882336325" CREATED="1761261504996" MODIFIED="1761261513253"/>
+<node TEXT="C++ is a programming language that’s used in AI to enable procedural programming and manipulate hardware resources. Its flexibility and object-oriented functions make it highly useful in AI." ID="ID_1898034086" CREATED="1761261513444" MODIFIED="1761261519749"/>
+</node>
+<node TEXT="Frameworks and libraries (TensorFlow, SciPy, Numpy)" ID="ID_1441481311" CREATED="1761261457933" MODIFIED="1761261457933">
+<node TEXT="Tensorflow is an open-source machine learning platform with a comprehensive and flexible set of tools, community resources, and libraries to help researchers develop sophisticated ML-powered applications with ease." ID="ID_181775200" CREATED="1761261524680" MODIFIED="1761261526584"/>
+<node TEXT="SciPy is an open-source Python library used for solving scientific and mathematical issues. It helps users manipulate and visualize data using various commands." ID="ID_1595504239" CREATED="1761261526724" MODIFIED="1761261534470"/>
+<node TEXT="NumPy is a Python-based package used for scientific computing and advanced mathematical operations while handling massive data sets." ID="ID_534879619" CREATED="1761261535348" MODIFIED="1761261541082"/>
+</node>
+<node TEXT="Neural networks" ID="ID_1300535691" CREATED="1761261457933" MODIFIED="1761261457933"/>
+<node TEXT="Machine learning" ID="ID_909304631" CREATED="1761261457933" MODIFIED="1761261457933"/>
+<node TEXT="Deep learning" ID="ID_1544891193" CREATED="1761261457933" MODIFIED="1761261457933"/>
+<node TEXT="Shell scripting" ID="ID_422615513" CREATED="1761261457933" MODIFIED="1761261457933"/>
+<node TEXT="Cluster analysis" ID="ID_1234478500" CREATED="1761261457933" MODIFIED="1761261457933"/>
+<node TEXT="Tableau" ID="ID_1327888263" CREATED="1761261457933" MODIFIED="1761261457933"/>
+<node TEXT="Microsoft Power BI" ID="ID_686858130" CREATED="1761261457933" MODIFIED="1761261457933"/>
+</node>
+</node>
+<node TEXT="Good Things to Keep in Mind" ID="ID_1438352442" CREATED="1761261406348" MODIFIED="1761261414648">
+<node TEXT="Possible Job Titles" ID="ID_829883274" CREATED="1761261578401" MODIFIED="1761261582028">
+<node TEXT="Machine learning engineer" ID="ID_1982633060" CREATED="1761261590175" MODIFIED="1761261590175"/>
+<node TEXT="Machine learning scientist" ID="ID_1234862322" CREATED="1761261590175" MODIFIED="1761261590175"/>
+<node TEXT="Software engineer" ID="ID_1935973312" CREATED="1761261590175" MODIFIED="1761261590175"/>
+<node TEXT="Research engineer" ID="ID_1773550565" CREATED="1761261590175" MODIFIED="1761261590175"/>
+<node TEXT="Robotic scientist" ID="ID_1285287159" CREATED="1761261590175" MODIFIED="1761261590175"/>
+<node TEXT="Data scientist" ID="ID_552522283" CREATED="1761261590176" MODIFIED="1761261590176"/>
+<node TEXT="Business intelligence developer" ID="ID_738230585" CREATED="1761261590176" MODIFIED="1761261590176"/>
+<node TEXT="Algorithm specialist" ID="ID_307176787" CREATED="1761261590176" MODIFIED="1761261590176"/>
+<node TEXT="Natural language processing (NLP) engineer" ID="ID_1158341955" CREATED="1761261590176" MODIFIED="1761261590176"/>
+</node>
+</node>
+<node TEXT="Helpful Characteristics" ID="ID_120430789" CREATED="1761261414803" MODIFIED="1761261684101"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      It’s important to have knowledge about mathematics, statistics, and various software tools, in addition to the baseline or technical skills that you learned about in this course. Also, it’s important to possess the workplace skills you learned about, such as communicating, problem solving, critical thinking, collaborating with a team, “learning on the fly”, and being curious and flexible.
+    </p>
+  </body>
+</html></richcontent>
+<node ID="ID_770535876" CREATED="1761261609601" MODIFIED="1761261615189"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Be <span style="font-weight: bold;">curious</span>&#xa0;in your nature. Curiosity is an important driver in understanding the business problem, the data, and what you can do with the data.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1054239932" CREATED="1761261609601" MODIFIED="1761261619844"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Be <span style="font-weight: bold;">creative</span>. You will be asked how AI would handle an issue or problem. Creativity can help you consider issues from different perspectives and envision ways to address issues that others might miss.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_479088669" CREATED="1761261609602" MODIFIED="1761261625029"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Be <span style="font-weight: bold;">flexible</span>&#xa0;and <span style="font-weight: bold;">adaptable</span>. When you work on an AI project, you might not obtain the result you expect. To be successful, embrace constant change. You will have to learn from your experience and be willing to make modifications based on your findings, even if it means starting over.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1230889829" CREATED="1761261609602" MODIFIED="1761261628845"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Be comfortable <span style="font-weight: bold;">communicating</span>. Communicating with others is vital. Creating solutions or discovering information can be exciting, but you must also be able to help others understand the significance of your solutions and the opportunities they create.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="M4 Helpful Resources and Getting Started" ID="ID_1632951393" CREATED="1761260328071" MODIFIED="1761260337020">
+<node TEXT="Resources to explore" ID="ID_882889989" CREATED="1761260364387" MODIFIED="1761261690786">
+<node TEXT="Professional organizations to consider" ID="ID_602914654" CREATED="1761261807785" MODIFIED="1761261807785">
+<node ID="ID_994024104" CREATED="1761261730250" MODIFIED="1761262002863" LINK="https://www.aaai.org/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <span style="font-weight: bold;">Association for the Advancement of Artificial Intelligence (AAAI) </span>promotes research in and responsible use of artificial intelligence. AAAI also works to increase public understanding of artificial intelligence, improve the teaching and training of AI practitioners, and provide guidance for research planners and funders concerning the importance and potential of current AI developments and future directions.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1042610833" CREATED="1761261730250" MODIFIED="1761262008860" LINK="https://www.inns.org/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <span style="font-weight: bold;">International Neural Network Society (INNS)</span>&#xa0;&#xa0;is an organization for individuals interested in a theoretical and computational understanding of the brain and applying that knowledge to develop new and more effective forms of machine intelligence.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_62412266" CREATED="1761261730251" MODIFIED="1761262014175" LINK="https://www.datascienceassn.org/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <span style="font-weight: bold;">Data Science Association</span>&#xa0;seeks to improve the data science profession, eliminate bias, enhance diversity, and advance ethical data science throughout the world.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1704096893" CREATED="1761261730251" MODIFIED="1761262021744" LINK="https://codata.org/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">CODATA</span>&#xa0;is the Committee on Data of the International Science Council (ISC). CODATA’s mission is to connect data and people to advance science and improve our world.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1262449235" CREATED="1761261730252" MODIFIED="1761262041630" LINK="https://www.adasci.org/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <span style="font-weight: bold;">Association of Data Scientists (ADaSci)</span>&#xa0;is a global professional body of data science and machine learning professionals.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Publications to explore" ID="ID_1125221886" CREATED="1761261816895" MODIFIED="1761261825029">
+<node ID="ID_1759184886" CREATED="1761261831917" MODIFIED="1761262050093" LINK="https://www.jmlr.org/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <span style="font-weight: bold;">Journal of Machine Learning Research (JMLR)</span>&#xa0;&#xa0;is an international forum for the electronic and paper publication of high-quality scholarly articles in all areas of machine learning. All published papers are freely available online.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1262567408" CREATED="1761261831917" MODIFIED="1761262059167" LINK="https://www.jair.org/index.php/jair"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <span style="font-weight: bold;">Journal of Artificial Intelligence Research (JAIR)</span>&#xa0;encompasses all areas of AI, including agents and multi-agent systems, automated reasoning, constraint processing and search, knowledge representation, machine learning, natural language, planning and scheduling, robotics and vision, and uncertainty in AI.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_502592744" CREATED="1761261831917" MODIFIED="1761262068585" LINK="https://aaai.org/Magazine/magazine.php"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">AI Magazine</span>&#xa0;has been called the “journal of record for the AI community”. AI Magazine helps AAAI members stay abreast of significant new research and literature across the entire field of artificial intelligence.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="News and blogs to stay current" ID="ID_1517734960" CREATED="1761261879024" MODIFIED="1761261887335">
+<node ID="ID_1947473025" CREATED="1761261897407" MODIFIED="1761262078800" LINK="https://www.analyticsinsight.net/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Analytics Insight</span>&#xa0;offers insights, latest news, and a magazine featuring opinions and views of top industry leaders and executives who share their journeys, experiences, success stories, and knowledge to grow profitable businesses.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1142125547" CREATED="1761261897407" MODIFIED="1761262092411" LINK="https://towardsdatascience.com/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Towards Data Science</span>&#xa0;is an online publication in which independent authors who follow their rules and guidelines can publish their work, share their knowledge and expertise, and engage a wide audience on <span style="font-weight: bold;">Medium</span>.
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://medium.com/
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node ID="ID_1343705721" CREATED="1761261897408" MODIFIED="1761262088878" LINK="https://www.kdnuggets.com/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">KDnuggets</span>&#xa0;is a leading site on data science, machine learning, AI, and analytics. It contains excellent tutorial materials, courses, webinars, online events.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_726516198" CREATED="1761261897408" MODIFIED="1761262098111" LINK="https://www.datasciencecentral.com/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Data Science Central</span>&#xa0;is a leading online resource for data practitioners. From statistics and analytics to machine learning and AI, Data Science Central provides a community experience that includes a rich editorial platform, social interaction, forum-based support, and the latest information on technology, tools, trends, and careers.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1983374228" CREATED="1761261897409" MODIFIED="1761262105176" LINK="https://www.datanami.com/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Datanami</span>&#xa0;is a news portal dedicated to providing insight, analysis, and up-to-the-minute information about emerging trends and solutions in big data.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Free learning opportunities to build skills" ID="ID_848739747" CREATED="1761262108626" MODIFIED="1761262116692">
+<node TEXT="Kaggle(opens in a new tab) offers free online micro courses to help you gain the skills you need to do independent data science projects. Kaggle also allows you to grow your data science and machine learning skills by competing in Kaggle competitions. Find help in the documentation(opens in a new tab) or learn about Community Competitions(opens in a new tab)." ID="ID_1351407330" CREATED="1761262195444" MODIFIED="1761262195444"/>
+<node TEXT="Udemy offers a variety of free video-based courses on artificial intelligence, including a short, practical hands-on course on artificial intelligence, called Kickstart Artificial Intelligence(opens in a new tab). Udemy also offers a course called Artificial Intelligence: Preparing Your Career for AI(opens in a new tab), which covers what you should be doing now to prepare for the coming of AI." ID="ID_1128489517" CREATED="1761262195444" MODIFIED="1761262195444"/>
+<node TEXT="freeCodeCamp.org(opens in a new tab) offers a rundown of All the Math You Need to Know in Artificial Intelligence(opens in a new tab). Jason Dsouza gives you an overview of the core math principles you need to focus on to work in AI. You’ll find other free learning opportunities on freeCodeCamp(opens in a new tab)." ID="ID_1293895450" CREATED="1761262195445" MODIFIED="1761262195445"/>
+<node TEXT="DataCamp(opens in a new tab) offers a free, two-hour Machine Learning for Everyone(opens in a new tab) course which introduces machine learning without coding involved." ID="ID_264348291" CREATED="1761262195445" MODIFIED="1761262195445"/>
+<node TEXT="W3Schools(opens in a new tab) is the world’s largest web developer site that offers a variety of free online tutorials with hands-on practice. The site includes tutorials on some popular data science programming languages, such as Python(opens in a new tab), R(opens in a new tab), and SQL(opens in a new tab)." ID="ID_182323156" CREATED="1761262195446" MODIFIED="1761262195446"/>
+<node TEXT="Codecademy(opens in a new tab) offers free coding classes on 12 different programming languages including Python, Java, and C++." ID="ID_966592773" CREATED="1761262195446" MODIFIED="1761262195446"/>
+</node>
+</node>
+<node TEXT="Getting started in the field" ID="ID_1359619959" CREATED="1761261690985" MODIFIED="1761261699286"/>
+</node>
+<node TEXT="Summary" ID="ID_613019835" CREATED="1761260337185" MODIFIED="1761260339953"/>
+</node>
+<node TEXT="(Optional) 7. Mastering the Art of Prompting" POSITION="bottom_or_right" ID="ID_1469270736" CREATED="1761262513304" MODIFIED="1761262535533">
+<node TEXT="The rules of writing an effective prompt" ID="ID_1159393269" CREATED="1761262535539" MODIFIED="1761262551210">
+<node TEXT="Be clear and specific" ID="ID_264580105" CREATED="1761262551213" MODIFIED="1761262557147">
+<node TEXT="Clearly state what you want the AI language models to do and provide specific details about the task at hand." ID="ID_779449395" CREATED="1761262594824" MODIFIED="1761262594824"/>
+</node>
+<node TEXT="Use correct grammer and spelling" ID="ID_1531567441" CREATED="1761262557478" MODIFIED="1761262563306">
+<node TEXT="Make sure your prompt is free of errors to avoid confusion or misunderstandings. New AI language models can correct spelling errors and do not need precise language. This is a very useful capability, but good grammar and spelling reduces potential errors in the responses to your prompts." ID="ID_819840958" CREATED="1761262603181" MODIFIED="1761262603181"/>
+</node>
+<node TEXT="Keep in concise" ID="ID_1676273102" CREATED="1761262563466" MODIFIED="1761262567613">
+<node TEXT="Avoid making your prompt too long or complicated. Shorter prompts tend to work better." ID="ID_862622880" CREATED="1761262614439" MODIFIED="1761262614439"/>
+<node TEXT="Here&apos;s an example of a complex prompt that is overly long and includes multiple questions within a single sentence: &quot;Could you please tell me about the different types of software programs that are currently available for use on personal computers, including their features and functionality, as well as any advantages or disadvantages that they may have when compared to one another?&quot;" ID="ID_1459585847" CREATED="1761262614439" MODIFIED="1761262614439"/>
+</node>
+<node TEXT="Be polite and respectful" ID="ID_851455857" CREATED="1761262567774" MODIFIED="1761262573174">
+<node TEXT="AI language models don&apos;t have feelings, but it&apos;s still good to be polite and respectful when asking for help." ID="ID_1046947406" CREATED="1761262626712" MODIFIED="1761262626712"/>
+</node>
+<node TEXT="Use an appropriate format" ID="ID_446180418" CREATED="1761262573355" MODIFIED="1761262580028">
+<node TEXT="Use the correct format for the prompt depending on what you want the AI language model to do." ID="ID_1668486074" CREATED="1761262660370" MODIFIED="1761262660370"/>
+<node TEXT="For example, if you want ChatGPT to generate text, use a text generation prompt. An example of a good prompt for text generation depends on the specific task you want the model to perform. Here are a few examples:" ID="ID_430219011" CREATED="1761262660370" MODIFIED="1761262660370">
+<node TEXT="For a summarization task: &quot;Please summarize this news article in one or two sentences.&quot;" ID="ID_256386230" CREATED="1761262667006" MODIFIED="1761262667006"/>
+<node TEXT="For a creative writing task: &quot;Write a short story about a person who discovers a hidden world.&quot;" ID="ID_202203159" CREATED="1761262667006" MODIFIED="1761262667006"/>
+<node TEXT="For a dialogue generation task: &quot;Write a conversation between two people discussing their favorite hobbies.&quot;" ID="ID_1796404805" CREATED="1761262667007" MODIFIED="1761262667007"/>
+<node TEXT="For a translation task: &quot;Please translate this sentence from English to Spanish: &apos;The cat is sleeping on the couch.&apos;&quot;" ID="ID_252221649" CREATED="1761262667007" MODIFIED="1761262667007"/>
+<node TEXT="For a question-answering task: &quot;What is the capital of France?&quot;" ID="ID_579380138" CREATED="1761262667007" MODIFIED="1761262667007"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </map>
