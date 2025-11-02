@@ -2,17 +2,14 @@
 
 - [Artificial Intelligence (AI)](#artificial-intelligence-ai)
   - [Learning Notes](#learning-notes)
-  - [AI Engineer Roadmap](#ai-engineer-roadmap)
   - [Agentic AI Roadmap 2025](#agentic-ai-roadmap-2025)
+  - [AI Engineer Roadmap](#ai-engineer-roadmap)
+  - [AI Agent Learning Roadmap](#ai-agent-learning-roadmap)
 
 ## Learning Notes
 
 - [What is AI? - from IBM SkillsBuild](./WhatIsAI)
 - [AI Fundamentals - from IBM SkillsBuild](./AI_Fundamentals)
-
-## AI Engineer Roadmap
-
-![AI-Engineer-Roadmap](img/AI-engineer-roadmap.jpg)
 
 ## Agentic AI Roadmap 2025
 
@@ -31,6 +28,14 @@ Thanks [SATISH GOJARATE](https://www.linkedin.com/in/satish-gojarate-a0815519)'s
 | 7. Add Memory, RAG & Knowledge Systems | 3~4 weeks | Work with | - Vector databases: Pinecone, Weaviate, Chroma, FAISS<br>- RAG pipelines, document indexing, hybrid search | Give your agents contextual memory + external knowledge. |
 | 8. Deploy, Monitor & Govern | 3~4 weeks | Learn | - Deploy with FastAPI, Docker, Kubernetes<br>- Monitor via LangSmith, Prometheus, Grafana<br>- Apply security & compliance (RBAC, privacy, red teaming) | Ship secure, production-grade agents |
 
+## AI Engineer Roadmap
+
+![AI-Engineer-Roadmap](img/AI-engineer-roadmap.jpg)
+
+## AI Agent Learning Roadmap
+
+![AI Agent Learning Roadmap](img/AI-Agent-Learning-Roadmap_20251102.gif)
+
 ---
 
-Updated at 2025-10-19
+Updated at 11/2/2025, 5:19:28 PM 
