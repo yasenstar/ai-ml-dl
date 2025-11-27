@@ -11,3 +11,12 @@ RETURN s1, s2, s3, c, r1, r2, r3
 ```
 
 ![load result](img/Genesis-Mission-LOAD-CSV.png)
+
+Sample Query:
+
+```SQL
+MATCH (c:Content)
+WHERE toLower(c.contentEnglish) CONTAINS 'infrastructure'
+RETURN c
+```
+
