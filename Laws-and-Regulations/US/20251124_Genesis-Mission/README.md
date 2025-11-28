@@ -61,7 +61,7 @@ Result as below:
 ```cypher
 MATCH (c:Content)
 WHERE toLower(c.contentEnglish) CONTAINS 'infrastructure'
-RETURN c
+RETURN c.contentEnglish
 ```
 
 ### Know which clause talks about '人工智能'
