@@ -18,3 +18,16 @@ SET
     r.humanOversightRequirement = row.humanOversightRequirement
 RETURN r
 ```
+
+Consider there will be duplicated value in `country` property, refactor to create `GovBody` node from `country` property:
+
+```cypher
+MATCH (r:Regulations)
+MERGE (c:GovBody {name: r.country})
+MERGE (r)-[g:GOVERNED_BY]->(c)
+RETURN r,g,c
+```
+
+After this refactoring, the schema is like below:
+
+![GovBody-Regulation](img/GovBody-Regulation.png)
