@@ -7,7 +7,7 @@ LOAD CSV WITH HEADERS FROM 'file:///D://GitHub//ai-ml-dl//Laws-and-Regulations//
 MERGE (r:Regulations {name: row.name})
 SET
     r.country = row.country,
-    r.scop = row.scope,
+    r.scope = row.scope,
     r.riskClassification = row.riskClassification,
     r.penalties = row.penalties,
     r.transparencyRequirements = row.transparencyRequirements,
