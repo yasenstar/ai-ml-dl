@@ -2,6 +2,16 @@
 
 Learning repository for Artificial Intelligence (AI), Machine Learning (ML) and Deep Learning (DL)
 
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/XiaoqiZhao)](https://x.com/XiaoqiZhao)
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg)](https://www.youtube.com/@yasenzhao)
+[![Static Badge](https://img.shields.io/badge/My_LinkedIn--XiaoqiZhao-blue)](https://www.linkedin.com/in/xiaoqi-zhao)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/yasenstar/ai-ml-dl)
+![GitHub forks](https://img.shields.io/github/forks/yasenstar/ai-ml-dl)
+![GitHub License](https://img.shields.io/github/license/yasenstar/ai-ml-dl)
+![GitHub language count](https://img.shields.io/github/languages/count/yasenstar/ai-ml-dl)
+[![pages-build-deployment](https://github.com/yasenstar/ai-ml-dl/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/yasenstar/ai-ml-dl/actions/workflows/pages/pages-build-deployment)
+
 - [AI - Artificial Intelligence](AI/README.md)
 - [ML - Machine Learning](ML/README.md)
 - [DL - Deep Learning](DL/README.md)
