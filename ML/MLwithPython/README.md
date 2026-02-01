@@ -3,6 +3,7 @@
 - [Practicing "Machine Learning" with Python](#practicing-machine-learning-with-python)
   - [Content Structure](#content-structure)
   - [Overview / Foreword](#overview--foreword)
+  - [Datasets Used in the Tutorial](#datasets-used-in-the-tutorial)
 
 ## Content Structure
 
@@ -25,3 +26,7 @@ Machine Learning is not an overnight movement and the path to the present day ha
 The ideal skillset for a machine learning developer spans **coding, data management, and knowledge of statistics and mathematics**. Optional areas of expertise include **data visualization, big data management, and practical experience in distributed computing architecture**.
 
 The content of this tutorial is designed for beginners with general knowledge of machine learning, including common algorithms e.g. logistic regression and decision trees.
+
+## Datasets Used in the Tutorial
+
+Check [here](./dataset/README.md) for detail on each dataset.
