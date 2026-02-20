@@ -32,7 +32,7 @@ Thanks for source: https://www.geeksforgeeks.org/supervised-vs-reinforcement-vs-
 
 ### Python机器学习基础教程
 
-| [![PythonMLBasic](PythonMLBasic/img/PythonMLBasic-Cover.png)](PythonMLBasic/README.md) | ![PythonMLBasicTOC](PythonMLBasic/img/PythonMLBasic-TOC.png) |
+| [![PythonMLBasic](PythonMLBasic/img/PythonMLBasic-Cover.png)](PythonMLBasic/README.md) | <img src="PythonMLBasic/img/PythonMLBasic-TOC.png" alt="PythonMLBasicTOC" width="600" height="500"> |
 | --- | --- |
 
 ---
