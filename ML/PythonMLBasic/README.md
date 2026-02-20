@@ -26,8 +26,8 @@
 ## 用到的工具
 
 - Python
-- scikit-learn library
-- NumPy
+- [scikit-learn library](http://scikit-learn.org)
+- - NumPy
 - matplotlib
 
 ## 参考书籍
