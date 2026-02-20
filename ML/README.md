@@ -30,7 +30,9 @@ Thanks for source: https://www.geeksforgeeks.org/supervised-vs-reinforcement-vs-
 | ![ML-from-Zero](img/ML-from-zero-book-cover.png) | ![ML-from-Zero](img/ML-from-Zero.jpg)
 | --- | --- |
 
-### 机器学习基础
+### Python机器学习基础教程
+
+| [![PythonMLBasic](PythonMLBasic/img/PythonMLBasic-Cover.png)](PythonMLBasic/README.md) | ![PythonMLBasicTOC](PythonMLBasic/img/PythonMLBasic-TOC.png) |
 
 ---
 
