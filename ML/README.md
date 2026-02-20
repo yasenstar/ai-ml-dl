@@ -20,19 +20,17 @@ Thanks for source: https://www.geeksforgeeks.org/supervised-vs-reinforcement-vs-
 
 ### Python机器学习(第三版)
 
-| ![Python-ML-III](img/Python-ML-III-book-cover.png) | ![Python-ML-MM](img/Python-ML-III-book-mm.png)
+| <img src="img/Python-ML-III-book-cover.png" alt="Python-ML-III" width="200" height="250"> | <img src="img/Python-ML-III-book-mm.png" alt="Python-ML-MM" width="600" height="400"> |
 | --- | --- |
 
 ### 从零开始-机器学习的数学原理和算法实践
 
-- [从零开始-机器学习的数学原理和算法实践](从零开始-机器学习的数学原理和算法实践.mm)
-
-| ![ML-from-Zero](img/ML-from-zero-book-cover.png) | ![ML-from-Zero](img/ML-from-Zero.jpg)
+| [<img src="img/ML-from-zero-book-cover.png" alt="ML-from-Zero" width="200" height="250">](ML-from-Zero/README.md) | <img src="img/ML-from-Zero.jpg" alt="ML-from-Zero" width="600" height="400"> |
 | --- | --- |
 
 ### Python机器学习基础教程
 
-| [![PythonMLBasic](PythonMLBasic/img/PythonMLBasic-Cover.png)](PythonMLBasic/README.md) | <img src="PythonMLBasic/img/PythonMLBasic-TOC.png" alt="PythonMLBasicTOC" width="600" height="500"> |
+| [<img src="PythonMLBasic/img/PythonMLBasic-Cover.png" alt="PythonMLBasic" width="200" height="250">](PythonMLBasic/README.md)  | <img src="PythonMLBasic/img/PythonMLBasic-TOC.png" alt="PythonMLBasicTOC" width="600" height="400"> |
 | --- | --- |
 
 ---
