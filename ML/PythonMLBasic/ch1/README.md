@@ -9,6 +9,8 @@
   - [1.4 必要的库和工具](#14-必要的库和工具)
     - [1.4.1 Jupyter Notebook](#141-jupyter-notebook)
     - [1.4.2 NumPy](#142-numpy)
+    - [1.4.3 SciPy](#143-scipy)
+    - [1.4.4 matplotlib](#144-matplotlib)
   - [1.5 Python 2与Python 3的对比](#15-python-2与python-3的对比)
   - [1.6 本书用到的版本](#16-本书用到的版本)
   - [1.7 第一个应用：鸢尾花分类](#17-第一个应用鸢尾花分类)
@@ -86,6 +88,20 @@ Create `*.ipynb` file in VS Code.
 ### 1.4.2 NumPy
 
 [numpy.ipynb](numpy.ipynb) 显示了ndarray类的创建与输出。
+
+### 1.4.3 SciPy
+
+scikit-learn利用SciPy中的函数集合来实现算法。
+
+SciPy中最重要的是`scipy.sparse`：它可以给出**稀疏矩阵(sparse matrice)**，稀疏矩阵是scikit-learn中数据的另一种表示方法。
+
+这个例子用稀疏矩阵来保存一个大部分元素都是0的二维数组：[scipy1.ipynb](scipy1.ipynb)
+
+若直接创建稀疏表示(sparse representation)，使用COO格式：[scipy2.ipynb](scipy2.ipynb)
+
+### 1.4.4 matplotlib
+
+
 
 ## 1.5 Python 2与Python 3的对比
 
