@@ -9,13 +9,16 @@
   - [1.4 必要的库和工具](#14-必要的库和工具)
     - [1.4.1 Jupyter Notebook](#141-jupyter-notebook)
     - [1.4.2 NumPy](#142-numpy)
-    - [1.4.3 SciPy](#143-scipy)
-    - [1.4.4 matplotlib](#144-matplotlib)
-    - [1.4.5 pandas](#145-pandas)
-    - [1.4.6 mglearn](#146-mglearn)
   - [1.5 Python 2与Python 3的对比](#15-python-2与python-3的对比)
   - [1.6 本书用到的版本](#16-本书用到的版本)
   - [1.7 第一个应用：鸢尾花分类](#17-第一个应用鸢尾花分类)
+    - [1.7.1 初识数据](#171-初识数据)
+    - [1.7.2 衡量模型是否成功：训练数据与测试数据](#172-衡量模型是否成功训练数据与测试数据)
+    - [1.7.3 要事第一：观察数据](#173-要事第一观察数据)
+    - [1.7.4 构建第一个模型：k近邻算法](#174-构建第一个模型k近邻算法)
+    - [1.7.5 做出预测](#175-做出预测)
+    - [1.7.6 评估模型](#176-评估模型)
+  - [1.8 小结与展望](#18-小结与展望)
 
 机器学习(machine learning)是从数据中提取知识，是统计学、人工智能和计算机科学交叉的研究领域，也被成为预测分析(predictive analytics)或统计学习(statistical learning)。
 
@@ -67,29 +70,39 @@ Python现在是许多科学应用的通用语言。
 
 ## 1.3 scikit-learn
 
+```
+# install scikit-learn
+> pip install numpy scipy matplotlib ipython scikit-learn pandas
+```
+
 ## 1.4 必要的库和工具
 
+scikit-learn是基于NumPy和SciPy科学计算库的，还会用到pandas和matplotlib。
+
 ### 1.4.1 Jupyter Notebook
-    
+
+Create `*.ipynb` file in VS Code.
+
 ### 1.4.2 NumPy
-    
-### 1.4.3 SciPy
-    
-### 1.4.4 matplotlib
-    
-### 1.4.5 pandas
-    
-### 1.4.6 mglearn
+
+[numpy.ipynb](numpy.ipynb) 显示了ndarray类的创建与输出。
 
 ## 1.5 Python 2与Python 3的对比
 
 ## 1.6 本书用到的版本
 
 ## 1.7 第一个应用：鸢尾花分类
-    1.7.1 初识数据
-    1.7.2 衡量模型是否成功：训练数据与测试数据
-    1.7.3 要事第一：观察数据
-    1.7.4 构建第一个模型：k近邻算法
-    1.7.5 做出预测
-    1.7.6 评估模型
-1.8 小结与展望
+
+### 1.7.1 初识数据
+
+### 1.7.2 衡量模型是否成功：训练数据与测试数据
+
+### 1.7.3 要事第一：观察数据
+
+### 1.7.4 构建第一个模型：k近邻算法
+
+### 1.7.5 做出预测
+
+### 1.7.6 评估模型
+
+## 1.8 小结与展望
