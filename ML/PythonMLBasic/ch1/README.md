@@ -16,7 +16,6 @@
   - [1.5 Python 2与Python 3的对比](#15-python-2与python-3的对比)
   - [1.6 本书用到的版本](#16-本书用到的版本)
   - [1.7 第一个应用：鸢尾花(Iris)分类](#17-第一个应用鸢尾花iris分类)
-  - [1.8 小结与展望](#18-小结与展望)
 
 机器学习(machine learning)是从数据中提取知识，是统计学、人工智能和计算机科学交叉的研究领域，也被成为预测分析(predictive analytics)或统计学习(statistical learning)。
 
@@ -134,4 +133,6 @@ import mglearn
 
 问题分析可以从这个文件中参考：[iris.ipynb](iris.ipynb)
 
-## 1.8 小结与展望
+---
+
+Last updtaed at 2026-02-21
