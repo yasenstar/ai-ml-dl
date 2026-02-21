@@ -70,7 +70,7 @@ Python现在是许多科学应用的通用语言。
 
 ```
 # install scikit-learn
-> pip install numpy scipy matplotlib ipython scikit-learn pandas
+> pip install numpy scipy matplotlib ipython scikit-learn pandas mglearn
 ```
 
 ## 1.4 必要的库和工具
