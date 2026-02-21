@@ -15,7 +15,7 @@
     - [1.4.6 mglearn](#146-mglearn)
   - [1.5 Python 2与Python 3的对比](#15-python-2与python-3的对比)
   - [1.6 本书用到的版本](#16-本书用到的版本)
-  - [1.7 第一个应用：鸢尾花分类](#17-第一个应用鸢尾花分类)
+  - [1.7 第一个应用：鸢尾花(Iris)分类](#17-第一个应用鸢尾花iris分类)
     - [1.7.1 初识数据](#171-初识数据)
     - [1.7.2 衡量模型是否成功：训练数据与测试数据](#172-衡量模型是否成功训练数据与测试数据)
     - [1.7.3 要事第一：观察数据](#173-要事第一观察数据)
@@ -113,13 +113,32 @@ pandas是用于处理和分析数据的Python库，基于DataFrame数据结构�
 
 ### 1.4.6 mglearn
 
+默认需要导入如下的库：
 
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+import mglearn
+```
+
+如果不使用Jupyter Notebook，就需要调用`plt.show`来显示图像。
 
 ## 1.5 Python 2与Python 3的对比
 
+本教程使用Python 3。
+
 ## 1.6 本书用到的版本
 
-## 1.7 第一个应用：鸢尾花分类
+点击[lib-version.ipynb](lib-version.ipynb)查看各个库的版本。
+
+## 1.7 第一个应用：鸢尾花(Iris)分类
+
+典型的监督学习中的分类(classification)问题。具体为三分类问题 - setosa, versicolor, virginica。
+
+单个数据点（一朵鸢尾花）的预期输出是这朵花的品种，对于一个数据点来说，其品种叫作标签(label)。
+
+问题分析可以从这个文件中参考：
 
 ### 1.7.1 初识数据
 
