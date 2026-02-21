@@ -33,3 +33,4 @@
 ## 参考书籍
 
 - Trevor Hastie、Robert Tibshirani和Jerome Friedman合著的[《统计学习基础》](https://hastie.su.domains/ElemStatLearn/)​（Elements of Statistical Learning,Springer出版社）
+- Wes MiKinney的《Python数据处理》：pandas参考书

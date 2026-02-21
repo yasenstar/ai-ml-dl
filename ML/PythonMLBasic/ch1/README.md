@@ -11,6 +11,7 @@
     - [1.4.2 NumPy](#142-numpy)
     - [1.4.3 SciPy](#143-scipy)
     - [1.4.4 matplotlib](#144-matplotlib)
+    - [pandas](#pandas)
   - [1.5 Python 2与Python 3的对比](#15-python-2与python-3的对比)
   - [1.6 本书用到的版本](#16-本书用到的版本)
   - [1.7 第一个应用：鸢尾花分类](#17-第一个应用鸢尾花分类)
@@ -101,7 +102,13 @@ SciPy中最重要的是`scipy.sparse`：它可以给出**稀疏矩阵(sparse mat
 
 ### 1.4.4 matplotlib
 
+matplotlib是Python主要的科学绘图库。
 
+在Jupyter Notebook中，可以使用`%matplotlib notebook`（可以提供交互环境）和`%matplotlib inline`命令，将图像直接显示在浏览器中。见示例代码：[matplotlib.ipynb](matplotlib.ipynb)
+
+### pandas
+
+pandas是用于处理和分析数据的Python库，基于DataFrame数据结构，模仿了R语言中的DataFrame。这个代码使用字典数据结构创建DataFrame：[pandas.ipynb](pandas.ipynb)
 
 ## 1.5 Python 2与Python 3的对比
 
