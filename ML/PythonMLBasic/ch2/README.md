@@ -52,6 +52,9 @@ Source: https://zhuanlan.zhihu.com/p/589535856
 
 [2.3_supervised-learning-algorithm](2.3_supervised-learning-algorithm.ipynb)
 
+参考数据集：
+- [威斯康星州乳腺癌数据集 (ZIP)](ref/breast+cancer+wisconsin+diagnostic.zip): https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+
 ## 2.4 分类器的不确定度估计
 
 ---
