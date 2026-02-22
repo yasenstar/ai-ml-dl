@@ -19,6 +19,8 @@
 
 机器学习(machine learning)是从数据中提取知识，是统计学、人工智能和计算机科学交叉的研究领域，也被成为预测分析(predictive analytics)或统计学习(statistical learning)。
 
+<img src="img/pythonmlbasic_toc_ch1.png" alt="toc_ch1" width="600" height="600">
+
 ## 1.1 为何选择机器学习
 
 人为制订决策规则的两个主要缺点：
@@ -135,4 +137,4 @@ import mglearn
 
 ---
 
-Last updtaed at 2026-02-21
+Last updtaed at 2026-02-22
