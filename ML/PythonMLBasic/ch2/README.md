@@ -50,7 +50,7 @@ Source: https://zhuanlan.zhihu.com/p/589535856
 
 ## 2.3 监督学习算法
 
-
+[2.3_supervised-learning-algorithm](2.3_supervised-learning-algorithm.ipynb)
 
 ## 2.4 分类器的不确定度估计
 
