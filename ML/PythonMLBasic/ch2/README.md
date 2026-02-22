@@ -46,7 +46,11 @@ Source: https://zhuanlan.zhihu.com/p/589535856
 
 <img src="img/modelcomplexity_vs_traintestaccuracy.png" alt="odelcomplexity_vs_traintestaccuracy" width="500">
 
+上图表示了模型复杂度与训练数据集中输入的变化之间的关系：数据集中包含的数据点的变化范围越大，在不发生过拟合的前提下可以使用的模型就越复杂。
+
 ## 2.3 监督学习算法
+
+
 
 ## 2.4 分类器的不确定度估计
 
