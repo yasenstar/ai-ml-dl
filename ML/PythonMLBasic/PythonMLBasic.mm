@@ -3,7 +3,7 @@
 <node TEXT="Python机器学习基础教程" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1771564675074">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3ff">
+<hook NAME="MapStyle" background="#fdf6e3ff" zoom="0.75131476">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -114,7 +114,7 @@
 <node TEXT="1.7.6 评估模型" ID="ID_685295200" CREATED="1771568940340" MODIFIED="1771568945319"/>
 </node>
 </node>
-<node TEXT="2. 监督学习" FOLDED="true" POSITION="bottom_or_right" ID="ID_1837932767" CREATED="1771564692017" MODIFIED="1771564701587">
+<node TEXT="2. 监督学习" POSITION="bottom_or_right" ID="ID_1837932767" CREATED="1771564692017" MODIFIED="1771564701587">
 <node TEXT="2.1 分类与回归" ID="ID_1565200998" CREATED="1771666434261" MODIFIED="1771666441979"/>
 <node TEXT="2.2 泛化、过拟合与欠拟合" ID="ID_102952609" CREATED="1771666442146" MODIFIED="1771666456133"/>
 <node TEXT="2.3 监督学习算法" ID="ID_558064151" CREATED="1771666456313" MODIFIED="1771666464988">
