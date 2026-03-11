@@ -2,6 +2,7 @@
 
 - [Artificial Intelligence (AI)](#artificial-intelligence-ai)
   - [Learning Notes](#learning-notes)
+  - [Industrial Analysis on AI](#industrial-analysis-on-ai)
   - [Agentic AI Roadmap 2025](#agentic-ai-roadmap-2025)
   - [AI Engineer Roadmap](#ai-engineer-roadmap)
   - [AI Agent Learning Roadmap](#ai-agent-learning-roadmap)
@@ -10,6 +11,10 @@
 
 - [What is AI? - from IBM SkillsBuild](./WhatIsAI)
 - [AI Fundamentals - from IBM SkillsBuild](./AI_Fundamentals)
+
+## Industrial Analysis on AI
+
+- [AI让电力销售找到新出路](AI_Industrial_View/AI_enable_power_selling.md)
 
 ## Agentic AI Roadmap 2025
 
@@ -38,4 +43,4 @@ Thanks [SATISH GOJARATE](https://www.linkedin.com/in/satish-gojarate-a0815519)'s
 
 ---
 
-Updated at 11/2/2025, 5:19:28 PM 
+Updated at 2026-03-11
