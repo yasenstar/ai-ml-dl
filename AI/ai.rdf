@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai/"
+     xml:base="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#AI_Strategy_Playbooks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#AI_Strategy_Playbooks"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Accenture_The_Art_of_AI_Maturity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Accenture_The_Art_of_AI_Maturity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#AI_Strategy_Playbooks"/>
+        <rdfs:comment>The big picture—how organizations evolve from pilots to true AI-first companies.
+Maturity models, scaling AI, long-term tranformation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#BCG_Transforming_with_AI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#BCG_Transforming_with_AI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#AI_Strategy_Playbooks"/>
+        <rdfs:comment>AI is not a project. It’s a business transformation across culture, processes, and operations.
+End-to-end transformation, culture, processes, AI integration.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Bain_Winning_with_AI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Bain_Winning_with_AI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#AI_Strategy_Playbooks"/>
+        <rdfs:comment>Clear lens: If AI doesn’t create competitive advantage, it’s just noise.
+Competitive advantage, ROI focus, business-led AI</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Capgemini_GenAI_in_Organization_2025 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Capgemini_GenAI_in_Organization_2025">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#AI_Strategy_Playbooks"/>
+        <rdfs:comment>Future-focused. Workforce impact, readiness, and what’s coming next.
+Future trends, workforce impact, enterprise AI readiness</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Deloitte_AI_Transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Deloitte_AI_Transformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#AI_Strategy_Playbooks"/>
+        <rdfs:comment>Brings in the missing piece—risk, compliance, and operational efficiency at scale.
+Operational efficiency, risk management, scalable AI systems.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#ENDGAME_AI_Product_Development_Playbook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#ENDGAME_AI_Product_Development_Playbook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#AI_Strategy_Playbooks"/>
+        <rdfs:comment>For builders. Iteration, user-centricity, and actually shipping AI products that people use.
+Building AI products, iteration, user-centric innovation.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Google_AI_Adoption_Framework -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Google_AI_Adoption_Framework">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#AI_Strategy_Playbooks"/>
+        <rdfs:comment>Practical and hands-on. Focused on infrastructure, experimentation, and getting started the right way.
+Practical adoption, tools, infrastructure, experimentation mindset.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#IBM_CEO_Guided_to_GenAI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#IBM_CEO_Guided_to_GenAI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#AI_Strategy_Playbooks"/>
+        <rdfs:comment>Decision-making, governance, and responsibility—critical for long-term trust.
+Leadership decicions, governance, enterprise AI responsibility</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Microsoft_CIO_GenAI_Playbook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Microsoft_CIO_GenAI_Playbook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#AI_Strategy_Playbooks"/>
+        <rdfs:comment>Where real enterprise adoption happens. Governance, scalability, and execution—this is where ideas become systems.
+Enterprise AI adoption, governance, scalability, execution</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#McKinsey_The_Executive&apos;s_AI_Playbook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#McKinsey_The_Executive&apos;s_AI_Playbook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#AI_Strategy_Playbooks"/>
+        <rdfs:comment>Sharp focus on leadership mindset. Because AI success starts at the top, not in the tools.
+Leadership mindsets, value creation, strategic AI integration.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Accenture_The_Art_of_AI_Maturity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#BCG_Transforming_with_AI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Bain_Winning_with_AI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Capgemini_GenAI_in_Organization_2025"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Deloitte_AI_Transformation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#ENDGAME_AI_Product_Development_Playbook"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Google_AI_Adoption_Framework"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#IBM_CEO_Guided_to_GenAI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#Microsoft_CIO_GenAI_Playbook"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/ai#McKinsey_The_Executive&apos;s_AI_Playbook"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
